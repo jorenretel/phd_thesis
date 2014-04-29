@@ -1,0 +1,15 @@
+# Everything that is in the 'compiled' directory #
+# This is where the pdf and pdf that are generated from the markdown are stored #
+
+compiled/
+
+# compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyo
+*.pyc
+

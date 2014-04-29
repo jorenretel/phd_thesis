@@ -1,0 +1,21 @@
+Chapter 1
+=======
+
+some markdown here.
+
+
+* list
+* list 2
+
+a figure:
+
+![NCOCX experiment \label{ncocx}](figures/NCOCX.png)
+
+and a citation. [@higman2009assigning]
+
+
+Some thing in between
+=====================
+
+blabla2
+
