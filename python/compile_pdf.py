@@ -18,10 +18,10 @@ markdownFiles = getMarkDownFilePaths(pathToChapters)
 with open(preParsedMarkdownPath, 'w') as preParsedMarkdown:
 
     for markdownFile in markdownFiles:
-        
+
         parse(markdownFile, preParsedMarkdown)
-    
-        
+
+
 from subprocess import call
 
 
