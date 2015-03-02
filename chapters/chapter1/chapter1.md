@@ -38,7 +38,15 @@ and a citation. [@higman2009assigning]
 
 
 
-
 ![All amino acid selective labeling schemes used for the sequential assignment of OmpG on the sequence. Highlighted rectangles indicate in which labeling schemes the residue is labeled. Colored (green, orange and purple) clusters of rectangles indicate that a sequential walk is possible without using the more congested spectra of non-residue specific labeling schemes. A sequential walk is possible when two sequential residues are co-labeled in at least one labeling scheme. Grey rectangles indicate that the residue is not co-labeled with any of its two neighboring residues. The average cluster length is 3.0 and on average a given residue is part of a cluster of length 5.5.  \label{labeling_schemes_on_ompg_sequence}](figures/labelling_schemes_on_ompg_sequence.png)
+
+
+
+![Overlay of HN correlations in solid state NMR (red), and solution NMR (black). The solid state spectrum is recorded using the cross-polarization based pulse sequence as described ..... The solution spectrum is a modified copy of the second figure in the paper of Lukas K. Tamm and coworkers describing the solution structure of OmpG. [@liang2007structure] The solution spectrum was recorded using a TROSY-HSQC sequence. Besides the obvious difference in line-width between the two spectra, there are also peaks present in the solution spectrum that are absent in the solid state spectrum. These peaks correspond mostly to the flexible loops on the extra-cellular side of OmpG and some to the shorter turns on the intra-cellular side.](figures/HN_solid_solution.png)
+
+
+
+![Electron micocraph of the OmpG 2D crystals. In this specific case it is OmpG and E. Coli lipids in a 2:1 mass ratio in MES buffer at pH 6.3. The lipid-OmpG mix seems to make tubular shapes.](figures/OmpG_MES_pH63_70procentH_30procentD_30042014_B.png)
+
 
 
