@@ -57,3 +57,7 @@ and a citation. [@higman2009assigning]
 ![The samples using for proton detected at 60 kHz MAS were expressed DCN labeled, afterwards protons were reintroduced on exchangeable sites by doing the refolding in normal water.](figures/deuteration.png)
 
 
+
+![Sampling schedule used for the recording of the 4D HNhhNH spectrum for distance restaints. 14% of the points in the indirect dimension were recorded.](figures/nus_cube.png)
+
+
