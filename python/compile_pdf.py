@@ -3,17 +3,25 @@
 import os
 import re
 from mdparser import parse, getMarkDownFilePaths
+from convert_svg import convert_all_svg_to_pdf
 
 
 #location of files:
 
-pathToChapters = os.path.abspath('../chapters')         #path were the directory with all chapters is located
+#path were the directory with all chapters is located:
+pathToChapters = os.path.abspath('../chapters')
 bibtex_file = '../references/test.bib'
 csl_file = '../references/plos.csl'
 outfile = '../compiled/thesis.pdf'
 preParsedMarkdownPath = '../compiled/thesis.md'
 
-markdownFiles = getMarkDownFilePaths(pathToChapters)
+chapterDirs = sorted([os.path.join(pathToChapters, directory) for directory in os.listdir(pathToChapters) if directory.startswith('chapter')])
+figureDirs = [os.path.join(chapterDir, 'figures/') for chapterDir in chapterDirs]
+
+markdownFiles = getMarkDownFilePaths(chapterDirs)
+
+convert_all_svg_to_pdf(figureDirs)
+
 
 with open(preParsedMarkdownPath, 'w') as preParsedMarkdown:
 

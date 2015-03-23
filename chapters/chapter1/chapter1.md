@@ -34,6 +34,10 @@ and a citation. [@higman2009assigning]
 
 
 
+![Labeling patterns in 20 amino acids when 1,3-glycerol (blue) or 2-glycerol are used as feedstock. \label{glycerol_labeling}](figures/glycerol_labeling.svg)
+
+
+
 ![Venn-diagram illustrating the overlap between the different labeling schemes that were produced of OmpG. Every amino acid in the OmpG sequence is at least labeled in one labeling scheme. Some of these labeling schemes are produced by forward labeling, others by reverse labeling. \label{labelling_venn}](figures/labelling_venn.png)
 
 
