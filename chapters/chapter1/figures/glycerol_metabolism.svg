@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="1026.3mm" width="538.33mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 1907.4727 3636.6632">
+ <defs id="defs4">
+  <marker id="marker96243" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-0" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-9" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-1" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-5" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-9" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-8" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2-6" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4-3" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2-9" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4-2" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2-9-9" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4-2-0" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2-9-2" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4-2-7" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-8" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-85" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-1-4" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-5-9" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-1-2" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-5-0" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-9-9" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-8-7" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-4" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-7" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2-93" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4-5" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2-93-0" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4-5-8" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2-93-0-4" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4-5-8-2" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2-93-0-4-4" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4-5-8-2-34" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-8" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-5" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-8-7" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-5-2" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-8-7-2" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-5-2-2" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-9-9-0" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-8-7-0" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-9-9-0-4" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-8-7-0-9" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-8-7-1" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-5-2-5" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-23" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-54" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-23-7" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-54-5" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-23-8" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-54-7" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2-93-0-4-6" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4-5-8-2-6" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-2-93-0-4-4-7" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-4-5-8-2-34-0" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker114693" refY="0" refX="0" overflow="visible" orient="auto">
+   <path id="path114695" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-0" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-32" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-29" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-8" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-1" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-4" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker96243-5-88-06" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path96245-3-0-0" d="m5.77 0-8.65 5v-10l8.65 5z" fill-rule="evenodd" transform="scale(.8)" stroke="#000" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(785.16 1574.5)">
+  <g id="g122296" transform="translate(-7554.1 4482.6)">
+   <g id="g83176" transform="translate(-2776.1 -5316.3)">
+    <g id="g72898" transform="translate(-165.77 -1947.3)">
+     <g id="g6268-5-8" transform="translate(8646.7 4060.8)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-848-7" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-58-9" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+     <g id="g6302-28-3" transform="translate(8710.8 3995.1)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-7-6-8-71-3" cx="1148.6" cy="-2129.1" r="22.143" fill="#fc8d62"/>
+      <path id="path5479-7-5-91-6-3" d="m1187.3-2129.1h-15.577" fill="none"/>
+     </g>
+     <circle id="path5473-0-4-1-75-5-3-6" stroke-width="2.5" stroke="#000" cy="1866.1" cx="9920.3" r="22.143" fill="#8da0cb"/>
+     <g stroke="#000" stroke-width="2.5" fill="none">
+      <path id="path5479-7-5-97-6" d="m9774.3 1866.1h-15.577"/>
+      <path id="path5479-7-5-34-1" d="m9859.3 1827.5v15.577"/>
+      <path id="path5479-7-5-7-3" d="m9957.4 1866.1h-15.577"/>
+     </g>
+     <g font-size="35.485px" font-family="sans-serif" fill="#000000">
+      <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-4-7-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(9962.7 1856.8)" line-height="125%"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-5-3-9"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-4-4-6" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-4-6-8" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-4-8-8" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(9849.8 1805)" line-height="125%"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-5-7-9"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-4-0-5" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-4-2-5" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-4-3-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(9710.7 1856.8)" line-height="125%"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-5-4-0"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-4-9-0" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-4-0-7" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">HO</flowPara></flowRoot>
+     </g>
+    </g>
+    <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-4-8-8-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(9581.5 -224.48)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-5-7-9-9"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-4-0-5-7" y="-8.0342" width="266.47" x="-.45266" height="74.501"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-4-2-5-2" font-size="60px" font-family="&apos;TeX Gyre Pagella&apos;">Glycerol</flowPara></flowRoot>
+   </g>
+   <text id="text73083" style="word-spacing:0px;letter-spacing:0px" line-height="125%" font-size="40px" y="-6013.6079" x="7627.4053" font-family="sans-serif" xml:space="preserve" fill="#000000"><tspan id="tspan73085" font-size="60px" y="-6013.6079" x="7627.4053" font-family="&apos;TeX Gyre Pagella&apos;">Glucose</tspan></text>
+   <g id="g97125" transform="matrix(.60562 0 0 .60562 1393.4 -5256)" stroke="#000" fill="none">
+    <path id="path89867" marker-end="url(#marker96243)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123" d="m10484-1206.9v175" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0" transform="matrix(.60562 0 0 .60562 1393.4 -5016)" stroke="#000" fill="none">
+    <path id="path89867-8" marker-end="url(#marker96243-5)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-2" d="m10484-1206.9v175" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-3" transform="matrix(.60562 0 0 .60562 1393.4 -4776)" stroke="#000" fill="none">
+    <path id="path89867-0" marker-end="url(#marker96243-0)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-3" d="m10484-1206.9v175" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-06" transform="matrix(.60562 0 0 .60562 1393.4 -4536)" stroke="#000" fill="none">
+    <path id="path89867-9" marker-end="url(#marker96243-2)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-8" d="m10484-1206.9v175" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-6" transform="matrix(.60562 0 0 .60562 1393.4 -4296)" stroke="#000" fill="none">
+    <path id="path89867-3" marker-end="url(#marker96243-1)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-4" d="m10484-1206.9v175" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-0" transform="matrix(.11105 -.59535 .59535 .11105 6797.2 1017.9)" stroke="#000" fill="none">
+    <path id="path89867-8-0" marker-end="url(#marker96243-5-9)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-2-6" d="m10500-1444.4-15.69 412.48" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-06-2" transform="matrix(0 .60562 -.60562 0 6577.2 -11439)" stroke="#000" fill="none">
+    <path id="path89867-9-9" marker-end="url(#marker96243-2-6)" d="m10484-1025.8v38.109" stroke-width="6.6049"/>
+    <path id="path97123-8-7" d="m10484-1327.3v325.12" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-06-8" transform="matrix(.60562 0 0 .60562 932.82 -3506.1)" stroke="#000" fill="none">
+    <path id="path89867-9-0" marker-end="url(#marker96243-2-9)" d="m10488-1098.3h-38.109" stroke-width="6.6049"/>
+    <g stroke-width="16.512">
+     <path id="path97123-8-4" d="m10294-2471.2c351.61 255.98 813.95 1279.7 153.45 1379.3"/>
+     <path id="path97123-8-4-8" d="m10304-2462.5c351.61 255.98 473.7 940.81 163.46 962.29"/>
+     <path id="path97123-8-4-8-1" d="m10302-2465.2c310.26 285.51 211.18 542.05 106.75 555.3"/>
+    </g>
+    <path id="path89867-9-0-4" marker-end="url(#marker96243-2-9-9)" d="m10518-1504.5h-38.109" stroke-width="6.6049"/>
+    <path id="path89867-9-0-5" marker-end="url(#marker96243-2-9-2)" d="m10435-1914.6h-38.109" stroke-width="6.6049"/>
+   </g>
+   <g id="g97125-0-9" transform="matrix(-.16718 -.58208 .58208 -.16718 10681 521.79)" stroke="#000" fill="none">
+    <path id="path89867-8-5" marker-end="url(#marker96243-5-8)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-2-1" d="m10473-1484.9 10.955 453.02" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-6-2" transform="matrix(0 -.60562 .60562 0 9000.6 1506.2)" stroke="#000" fill="none">
+    <path id="path89867-3-2" marker-end="url(#marker96243-1-4)" d="m10484-1075.4v38.109" stroke-width="6.6049"/>
+    <path id="path97123-4-0" d="m10484-1799.5v747.79" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-6-8" transform="matrix(.60562 0 0 .60562 1393.4 -3338)" stroke="#000" fill="none">
+    <path id="path89867-3-7" marker-end="url(#marker96243-1-2)" d="m10484-1210.8v38.109" stroke-width="6.6049"/>
+    <path id="path97123-4-4" d="m10484-2315.1v1128" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-0-4" transform="matrix(.11105 -.59535 .59535 .11105 7554.3 1605)" stroke="#000" fill="none">
+    <path id="path89867-8-0-3" marker-end="url(#marker96243-5-9-9)" d="m10317-742.76-37.541 6.5543" stroke-width="6.6049"/>
+    <path id="path97123-2-6-5" d="m10569-1368.5c31.483 274.14-62.835 587.59-279.91 629.74" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-5" transform="matrix(0 .60562 -.60562 0 6538.2 -12143)" stroke="#000" fill="none">
+    <path id="path89867-8-59" marker-end="url(#marker96243-5-4)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-2-8" d="m10484-1450.4v418.52" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-06-6" transform="matrix(.60562 0 0 .60562 1777 -3791.3)" stroke="#000" fill="none">
+    <path id="path89867-9-3" marker-end="url(#marker96243-2-93)" d="m10538-972.31-37.833 4.5792" stroke-width="6.6049"/>
+    <path id="path97123-8-5" d="m10718-1175.2c-2.999 84.843-85.56 183.92-200.16 205.02" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-06-6-2" transform="matrix(-.60562 0 0 .60562 14764 -3791.3)" stroke="#000" fill="none">
+    <path id="path89867-9-3-2" marker-end="url(#marker96243-2-93-0)" d="m10538-972.31-37.833 4.5792" stroke-width="6.6049"/>
+    <path id="path97123-8-5-2" d="m10718-1175.2c-2.999 84.843-85.56 183.92-200.16 205.02" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-06-6-2-0" transform="matrix(-.45810 -.39613 -.39613 .45810 12791 -616.61)" stroke="#000" fill="none">
+    <path id="path89867-9-3-2-9" marker-end="url(#marker96243-2-93-0-4)" d="m10440-973.27-32.251-20.302" stroke-width="6.6049"/>
+    <path id="path97123-8-5-2-1" d="m10692-1167c29.867 158.74-112.8 312.91-291.59 166.5" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-06-6-2-0-5" transform="matrix(-.45810 .39613 -.39613 -.45810 12791 -10215)" stroke="#000" fill="none">
+    <path id="path89867-9-3-2-9-1" marker-end="url(#marker96243-2-93-0-4-4)" d="m10440-973.27-32.251-20.302" stroke-width="6.6049"/>
+    <path id="path97123-8-5-2-1-3" d="m10692-1167c29.867 158.74-112.8 312.91-291.59 166.5" stroke-width="16.512"/>
+   </g>
+   <path id="path89867-8-4" marker-end="url(#marker96243-5-88)" d="m7199-3508.9h-23.079" stroke="#000" stroke-width="4" fill="none"/>
+   <path id="path97123-2-4" d="m7243.2-3508.9h-58.505" stroke="#000" stroke-width="10" fill="none"/>
+   <g font-size="60px" font-family="sans-serif" fill="#000000">
+    <text id="text73083-1" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-5777.1646" x="7453.0884" xml:space="preserve"><tspan id="tspan73085-3" font-size="60px" y="-5777.1646" x="7453.0884" font-family="&apos;TeX Gyre Pagella&apos;">Glucose-6-phosphate</tspan></text>
+    <text id="text73083-1-5" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-5540.7212" x="7352.1313" xml:space="preserve"><tspan id="tspan73085-3-6" font-size="60px" y="-5540.7212" x="7352.1313" font-family="&apos;TeX Gyre Pagella&apos;">Glyceraldehyde-3-phosphate</tspan></text>
+    <text id="text73083-1-5-6" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-5304.2778" x="7435.2173" xml:space="preserve"><tspan id="tspan73085-3-6-8" font-size="60px" y="-5304.2778" x="7435.2173" font-family="&apos;TeX Gyre Pagella&apos;">Glycerate-3-phosphate</tspan></text>
+    <text id="text73083-1-5-6-1" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-5067.835" x="7431.3501" xml:space="preserve"><tspan id="tspan73085-3-6-8-3" font-size="60px" y="-5067.835" x="7431.3501" font-family="&apos;TeX Gyre Pagella&apos;">Phosphoenol-pyruvate</tspan></text>
+    <text id="text73083-1-5-6-1-2" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-4831.3916" x="7613.6938" xml:space="preserve"><tspan id="tspan73085-3-6-8-3-3" font-size="60px" y="-4831.3916" x="7613.6938" font-family="&apos;TeX Gyre Pagella&apos;">Pyruvate</tspan></text>
+    <text id="text73083-1-5-6-1-0" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-3914.1514" x="7580.9922" xml:space="preserve"><tspan id="tspan73085-3-6-8-3-7" font-size="60px" y="-3914.1514" x="7580.9922" font-family="&apos;TeX Gyre Pagella&apos;">Acetyl CoA</tspan></text>
+    <text id="text73083-1-5-6-1-2-6" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-4522.5342" x="8039.4517" xml:space="preserve"><tspan id="tspan73238" font-size="60px" y="-4522.5342" x="8039.4517" font-family="&apos;TeX Gyre Pagella&apos;">α-ketoisovalerate</tspan></text>
+   </g>
+   <g id="g83207" transform="translate(-2751.1 -5341.7)">
+    <flowRoot id="flowRoot5030-88-2" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(9694.6 3660.1)" line-height="125%" font-size="40px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-6-2"><rect id="rect5034-88-9" y="-4301.4" width="250.96" x="-36.365" height="145.67"/></flowRegion><flowPara id="flowPara5036-3-0" font-size="60px" font-family="&apos;TeX Gyre Pagella&apos;">His</flowPara></flowRoot>
+    <g id="g24966-5" transform="translate(8161.6 3162.1)">
+     <circle id="path5473-0-4-1-75-5-4-80-7-4" stroke-width="2.5" transform="rotate(90)" stroke="#000" cy="-1381.8" cx="-3691.9" r="22.143" fill="#fc8d62"/>
+     <g stroke="#000" stroke-width="2.5" fill="none">
+      <path id="path5479-7-5-9-3-26-3" d="m1377.8-3651v-18.434"/>
+      <path id="path5479-7-5-9-3-7-22-8" d="m1385.8-3652.1v-18.97"/>
+      <path id="path5479-7-5-913-1-0-9-7-8-1-6-0-4-0" d="m1400.6-3702.4 20.099-9.8947"/>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-6-9-8-4-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1428.5 -3728.1)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-4-0-2-2-1"><rect id="rect5034-3-5-4-6-5-6-3-0-4-7-9-5-6-0" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-2-6-2-9-8" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">N</flowPara></flowRoot>
+     <g stroke="#000" stroke-width="2.5" fill="none">
+      <path id="path5479-7-5-913-1-0-9-7-8-1-6-0-0-5-8" d="m1403.8-3625.1 25.24 5.7294"/>
+      <path id="path5479-7-5-913-1-0-9-7-8-1-6-0-9-2-3" d="m1461.1-3636.5 9.9358-21.939"/>
+      <path id="path5479-7-5-9-8-1-1" d="m1454.2-3706.6 10.618 11.397"/>
+     </g>
+     <g stroke="#000">
+      <path id="path6133-3-24-2-4" d="m1451-3638.9a22.143 22.143 0 0 0 -22.143 22.143 22.143 22.143 0 0 0 22.143 22.143v-44.285z" stroke-width="1.9" fill="#fc8d62"/>
+      <path id="path5473-0-3-78-1-87-4-9" d="m1451-3638.9v44.285a22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143z" stroke-width="1.9" fill="#8da0cb"/>
+      <circle id="path5473-0-4-1-75-5-4-57-5-5" stroke-width="2.5" transform="rotate(222.44)" cy="3648.1" cx="1308.6" r="22.143" fill="#8da0cb"/>
+     </g>
+     <path id="path5479-7-5-9-628-8-7" d="m1467-3601.7 5.5618 5.9813 6.5127 6.15" stroke="#000" stroke-width="2.5" fill="none"/>
+     <path id="path5479-7-5-91-96-7-1" d="m1519.3-3573h15.577" stroke="#000" stroke-width="2.5" fill="none"/>
+     <g id="g8340-6-0-4-3-4-1-7" transform="translate(344.67 -2240.2)">
+      <path id="path5479-7-5-913-1-0-9-7-8-8-4-0" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <g id="g8285-2-3-1-8-4-4-0">
+       <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-0-4-1" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-8-1-8"><rect id="rect5034-3-5-4-6-5-6-3-0-4-8-3-4" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-1-1-4" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+       <path id="path5479-7-5-913-1-6-5-3-5-1-3-2-8" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      </g>
+     </g>
+     <g id="g7865-9-3-3-51-2-9-8" transform="translate(344.84 -2241.8)">
+      <path id="path5479-7-5-913-1-6-8-74-9-6-9-8-4-5" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-8-8-2" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-50-6-9"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-4-0-4" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-3-1-5" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-8-6-6-9-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(283.23 -2239.9)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-1-46-8-8"><rect id="rect5034-3-5-4-6-7-7-2-9-0" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-15-24-6-5" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-9-0-2-9" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+     <g stroke="#000">
+      <path id="path5479-7-5-913-60-3-4-1-2" d="m1556.3-3528.1v-22.403" stroke-width="2.2905" fill="none"/>
+      <g stroke-width="2.5">
+       <circle id="path5473-0-4-1-7-6-8-7-1-5-8" cy="-3573.5" cx="1557.5" r="22.143" fill="#fc8d62"/>
+       <path id="path5479-7-5-91-2-9-7-1" d="m1596.2-3573.5h-15.577" fill="none"/>
+       <circle id="path5473-0-4-1-75-5-6-4-7-1" cy="-3573.5" cx="1618.2" r="22.143" fill="#8da0cb"/>
+      </g>
+     </g>
+     <g id="g6135-5-2-7" transform="translate(789.25 216.8)" stroke="#000" stroke-width="1.9">
+      <path id="path6133-3-5-4" d="m690.01-3917.9a22.143 22.143 0 0 0 -22.143 22.143 22.143 22.143 0 0 0 22.143 22.143v-44.285z" fill="#fc8d62"/>
+      <path id="path5473-0-3-78-1-2-2" d="m690.01-3917.9v44.285a22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143z" fill="#8da0cb"/>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-6-9-8-4-9-1" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1374.6 -3642.1)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-4-0-2-2-4-5"><rect id="rect5034-3-5-4-6-5-6-3-0-4-7-9-5-6-6-9" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-2-6-2-9-2-8" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">N</flowPara></flowRoot>
+    </g>
+   </g>
+   <g id="g88864" transform="translate(110.25 24.765)">
+    <g id="g83572" transform="translate(5846.3 -2739.4)">
+     <g id="g22942-8-03-5" transform="translate(453.23 22.708)">
+      <g id="g8340-6-0-4-3-1-1-7" transform="translate(910.19 -1373.6)">
+       <path id="path5479-7-5-913-1-0-9-7-8-5-3-9" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-2-3-1-8-2-5-4">
+        <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-4-3-3" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-2-2-3"><rect id="rect5034-3-5-4-6-5-6-3-0-4-1-0-5" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-8-8-8" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path5479-7-5-913-1-6-5-3-5-1-7-8-6" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-9-3-3-51-1-7-7" transform="translate(910.35 -1375.2)">
+       <path id="path5479-7-5-913-1-6-8-74-9-6-9-1-5-1" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-7-6-8" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-9-6-9"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-5-5-9" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-4-7-3" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      </g>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-8-6-8-7-2" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1302 -1350.6)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-1-4-2-4"><rect id="rect5034-3-5-4-6-7-7-4-7-6" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-15-2-86-1" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-9-2-6-2" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+     <g stroke="#000">
+      <path id="path5479-7-5-913-60-3-5-5-3" d="m2575.1-2638.7v-22.403" stroke-width="2.5" fill="none"/>
+      <path id="path5479-7-5-913-60-3-5-6-6-6" d="m2495.4-2684.2h-22.403" stroke-width="2.29" fill="none"/>
+      <g stroke-width="2.5">
+       <circle id="path5473-0-4-1-7-6-8-7-2-6-4" cy="-2684.2" cx="2576.2" r="22.143" fill="#fc8d62"/>
+       <path id="path5479-7-5-91-2-4-9-9" d="m2614.9-2684.2h-15.577" fill="none"/>
+       <circle id="path5473-0-4-1-75-5-6-8-38-7" cy="-2684.2" cx="2636.9" r="22.143" fill="#8da0cb"/>
+      </g>
+     </g>
+     <g id="g6268-2-4-7" transform="matrix(.96787 0 0 .96787 1403.1 -559.95)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-01-6-7" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-26-3-4" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-4-3-9-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(2429.2 -2693.1)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-5-4-0-0"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-4-9-0-3" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-4-0-7-9" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">HO</flowPara></flowRoot>
+    </g>
+    <text id="text73083-1-5-6-1-2-6-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-5483.3452" x="8377.2617" font-family="sans-serif" line-height="125%" fill="#000000"><tspan id="tspan73238-8" font-size="60px" y="-5483.3452" x="8377.2617" font-family="&apos;TeX Gyre Pagella&apos;">Ser</tspan></text>
+   </g>
+   <g id="g88833" transform="translate(170.05)">
+    <g id="g23048-4-9" transform="translate(6386.5 -2992.5)">
+     <g id="g22942-82-0" transform="translate(-146.77 22.708)">
+      <g id="g8340-6-0-4-3-47-2" transform="translate(910.19 -1373.6)">
+       <path id="path5479-7-5-913-1-0-9-7-8-0-6" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-2-3-1-8-26-0">
+        <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-2-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-3-5"><rect id="rect5034-3-5-4-6-5-6-3-0-4-12-2" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-7-8" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path5479-7-5-913-1-6-5-3-5-1-33-5" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-9-3-3-51-4-1" transform="translate(910.35 -1375.2)">
+       <path id="path5479-7-5-913-1-6-8-74-9-6-9-77-1" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-86-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-8-7"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-9-0" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-9-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      </g>
+     </g>
+     <g id="g6897-0-4-7-9" transform="translate(702.9 -1348.3)">
+      <flowRoot id="flowRoot5030-40-2-0-2-8-6-00-5" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-.92857 -2.3571)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-1-2-4"><rect id="rect5034-3-5-4-6-7-7-6-7" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-15-7-1" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-9-8-9" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+      <path id="path5479-7-5-913-60-3-3-5" d="m1272.2-1290.5v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+     </g>
+     <g id="g6302-2-1-8" transform="translate(827.63 -555.15)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-7-6-8-7-6-0" cx="1148.6" cy="-2129.1" r="22.143" fill="#fc8d62"/>
+      <path id="path5479-7-5-91-2-58-2" d="m1187.3-2129.1h-15.577" fill="none"/>
+     </g>
+     <circle id="path5473-0-4-1-75-5-6-5-7" stroke-width="2.5" stroke="#000" cy="-2684.2" cx="2036.9" r="22.143" fill="#8da0cb"/>
+    </g>
+    <text id="text73083-1-5-6-1-2-6-4-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-5746.8091" x="8346.3525" font-family="sans-serif" line-height="125%" fill="#000000"><tspan id="tspan73238-8-9" font-size="60px" y="-5746.8091" x="8346.3525" font-family="&apos;TeX Gyre Pagella&apos;">Gly</tspan></text>
+   </g>
+   <g id="g88901" transform="translate(95.659 38.039)">
+    <g id="g83572-6" transform="translate(5860.9 -2474.9)">
+     <g id="g22942-8-03-5-6" transform="translate(453.23 22.708)">
+      <g id="g8340-6-0-4-3-1-1-7-9" transform="translate(910.19 -1373.6)">
+       <path id="path5479-7-5-913-1-0-9-7-8-5-3-9-2" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-2-3-1-8-2-5-4-8">
+        <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-4-3-3-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-2-2-3-9"><rect id="rect5034-3-5-4-6-5-6-3-0-4-1-0-5-1" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-8-8-8-1" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path5479-7-5-913-1-6-5-3-5-1-7-8-6-8" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-9-3-3-51-1-7-7-8" transform="translate(910.35 -1375.2)">
+       <path id="path5479-7-5-913-1-6-8-74-9-6-9-1-5-1-3" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-7-6-8-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-9-6-9-9"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-5-5-9-9" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-4-7-3-4" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      </g>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-8-6-8-7-2-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1302 -1350.6)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-1-4-2-4-2"><rect id="rect5034-3-5-4-6-7-7-4-7-6-3" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-15-2-86-1-2" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-9-2-6-2-2" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+     <g stroke="#000">
+      <path id="path5479-7-5-913-60-3-5-5-3-3" d="m2575.1-2638.7v-22.403" stroke-width="2.5" fill="none"/>
+      <path id="path5479-7-5-913-60-3-5-6-6-6-7" d="m2495.4-2684.2h-22.403" stroke-width="2.29" fill="none"/>
+      <g stroke-width="2.5">
+       <circle id="path5473-0-4-1-7-6-8-7-2-6-4-9" cy="-2684.2" cx="2576.2" r="22.143" fill="#fc8d62"/>
+       <path id="path5479-7-5-91-2-4-9-9-2" d="m2614.9-2684.2h-15.577" fill="none"/>
+       <circle id="path5473-0-4-1-75-5-6-8-38-7-8" cy="-2684.2" cx="2636.9" r="22.143" fill="#8da0cb"/>
+      </g>
+     </g>
+     <g id="g6268-2-4-7-3" transform="matrix(.96787 0 0 .96787 1403.1 -559.95)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-01-6-7-0" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-26-3-4-8" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-4-3-9-7-8" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(2429.2 -2693.1)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-5-4-0-0-1"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-4-9-0-3-6" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-4-0-7-9-4" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">HS</flowPara></flowRoot>
+    </g>
+    <text id="text73083-1-5-6-1-2-6-4-1" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-5219.1167" x="8386.3447" font-family="sans-serif" line-height="125%" fill="#000000"><tspan id="tspan73238-8-0" font-size="60px" y="-5219.1167" x="8386.3447" font-family="&apos;TeX Gyre Pagella&apos;">Cys</tspan></text>
+   </g>
+   <g id="g88938" transform="translate(-28.571 582.86)">
+    <g id="g25396-8-4" transform="translate(5455.7 -1615.7)">
+     <g id="g22942-8-0-8-1-3" transform="translate(528.23 -542.29)">
+      <g id="g8340-6-0-4-3-1-8-4-3-9" transform="translate(910.19 -1373.6)">
+       <path id="path5479-7-5-913-1-0-9-7-8-5-1-3-3-5" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-2-3-1-8-2-6-9-1-6">
+        <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-4-9-8-1-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-2-6-5-4-5"><rect id="rect5034-3-5-4-6-5-6-3-0-4-1-5-0-8-0" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-8-5-8-4-2" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path5479-7-5-913-1-6-5-3-5-1-7-4-2-1-5" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-9-3-3-51-1-4-3-8-1" transform="translate(910.35 -1375.2)">
+       <path id="path5479-7-5-913-1-6-8-74-9-6-9-1-6-7-8-6" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-7-7-1-7-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-9-9-9-9-3"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-5-7-9-6-2" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-4-5-1-0-8" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      </g>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-8-6-8-8-1-6-6" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1377 -1915.6)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-1-4-40-8-7-7"><rect id="rect5034-3-5-4-6-7-7-4-1-6-7-7" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-15-2-8-5-8-7" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-9-2-5-8-8-2" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+     <g stroke="#000">
+      <path id="path5479-7-5-913-60-3-5-0-0-2-5" d="m2575.1-2638.7v-22.403" transform="translate(75,-565)" stroke-width="2.5" fill="none"/>
+      <path id="path5479-7-5-913-60-3-5-6-0-0-8-2" d="m2495.4-2684.2h-22.403" transform="translate(75,-565)" stroke-width="2.29" fill="none"/>
+      <g stroke-width="2.5">
+       <circle id="path5473-0-4-1-7-6-8-7-2-2-4-0-2" cx="2576.2" transform="translate(75,-565)" cy="-2684.2" r="22.143" fill="#8da0cb"/>
+       <path id="path5479-7-5-91-2-4-7-3-9-3" d="m2614.9-2684.2h-15.577" transform="translate(75,-565)" fill="none"/>
+       <circle id="path5473-0-4-1-75-5-6-8-3-4-0-1" cx="2636.9" transform="translate(75,-565)" cy="-2684.2" r="22.143" fill="#fc8d62"/>
+      </g>
+     </g>
+     <g id="g6268-2-2-0-1-3" transform="matrix(.96787 0 0 .96787 1478.1 -1124.9)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-01-0-1-0-0" cy="-2194.8" cx="1150.7" r="22.143" fill="#fc8d62"/>
+      <path id="path5479-7-5-9-26-1-4-6-7" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+     <circle id="path5473-0-4-1-75-5-63-7-1-6" stroke-width="2.5" stroke="#000" cy="-3249.9" cx="2527.7" r="22.143" fill="#fc8d62"/>
+     <g id="g6268-72-9-0" transform="translate(1315.8 -1054.2)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-19-6-4" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-23-4-9" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+     <g id="g6268-29-2-2" transform="matrix(0 -1 1 0 4721.8 -2038.4)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-6-0-1" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-30-6-6" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+    </g>
+    <flowRoot id="flowRoot5030-6-8-4-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(8044.9 -684.8)" line-height="125%" font-size="40px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-1-6-6-9"><rect id="rect5034-0-9-4-2" y="-4301.4" width="262.31" x="-36.365" height="116.22"/></flowRegion><flowPara id="flowPara5036-7-6-8-8" font-size="60px" font-family="&apos;TeX Gyre Pagella&apos;">Leu</flowPara></flowRoot>
+   </g>
+   <g id="g88980" transform="translate(60.07 582.86)">
+    <g id="g25278-8-4" transform="translate(5776.4 -1780.7)">
+     <g id="g23291-8-8-6" transform="translate(120,-400)">
+      <g id="g22942-8-0-0-8" transform="translate(453.23 22.708)">
+       <g id="g8340-6-0-4-3-1-8-0-0" transform="translate(910.19 -1373.6)">
+        <path id="path5479-7-5-913-1-0-9-7-8-5-1-1-3" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+        <g id="g8285-2-3-1-8-2-6-1-6">
+         <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-4-9-4-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-2-6-59-7"><rect id="rect5034-3-5-4-6-5-6-3-0-4-1-5-2-1" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-8-5-2-2" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+         <path id="path5479-7-5-913-1-6-5-3-5-1-7-4-1-9" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+        </g>
+       </g>
+       <g id="g7865-9-3-3-51-1-4-38-5" transform="translate(910.35 -1375.2)">
+        <path id="path5479-7-5-913-1-6-8-74-9-6-9-1-6-8-5" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+        <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-7-7-0-5" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-9-9-7-7"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-5-7-1-3" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-4-5-5-3" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+       </g>
+      </g>
+      <flowRoot id="flowRoot5030-40-2-0-2-8-6-8-8-8-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1302 -1350.6)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-1-4-40-3-7"><rect id="rect5034-3-5-4-6-7-7-4-1-4-3" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-15-2-8-1-9" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-9-2-5-6-8" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+      <g stroke="#000">
+       <path id="path5479-7-5-913-60-3-5-0-1-1" d="m2575.1-2638.7v-22.403" stroke-width="2.5" fill="none"/>
+       <path id="path5479-7-5-913-60-3-5-6-0-5-3" d="m2495.4-2684.2h-22.403" stroke-width="2.29" fill="none"/>
+       <g stroke-width="2.5">
+        <circle id="path5473-0-4-1-7-6-8-7-2-2-0-7" cx="2576.2" cy="-2684.2" r="22.143" fill="#fc8d62"/>
+        <path id="path5479-7-5-91-2-4-7-4-1" d="m2614.9-2684.2h-15.577" fill="none"/>
+        <circle id="path5473-0-4-1-75-5-6-8-3-2-8" cx="2636.9" cy="-2684.2" r="22.143" fill="#8da0cb"/>
+       </g>
+      </g>
+      <g id="g6268-2-2-1-1" transform="matrix(.96787 0 0 .96787 1403.1 -559.95)" stroke="#000" stroke-width="2.5">
+       <circle id="path5473-0-4-1-75-5-4-01-0-5-0" cy="-2194.8" cx="1150.7" r="22.143" fill="#fc8d62"/>
+       <path id="path5479-7-5-9-26-1-0-0" d="m1189.6-2194.8h-15.577" fill="none"/>
+      </g>
+     </g>
+     <circle id="path5473-0-4-1-75-5-63-9-1" stroke-width="2.5" stroke="#000" cy="-3084.9" cx="2572.7" r="22.143" fill="#8da0cb"/>
+     <g id="g6268-13-7-4" transform="matrix(0 -1 1 0 4831.2 -1873.9)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-88-0-6" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-74-1-0" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+    </g>
+    <flowRoot id="flowRoot5030-55-8-8-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(8436.8 -684.8)" line-height="125%" font-size="40px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-21-18-6-2"><rect id="rect5034-26-4-8-8" y="-4301.4" width="261.75" x="-36.365" height="115.65"/></flowRegion><flowPara id="flowPara5036-8-6-9-7" font-size="60px" font-family="&apos;TeX Gyre Pagella&apos;">Val</flowPara></flowRoot>
+   </g>
+   <g id="g89020" transform="translate(336.88 -605.71)">
+    <g id="g23291-7-9" transform="translate(5619.6 -1553.3)">
+     <g id="g84224">
+      <g id="g22942-8-03-9" transform="translate(453.23 22.708)">
+       <g id="g8340-6-0-4-3-1-1-9" transform="translate(910.19 -1373.6)">
+        <path id="path5479-7-5-913-1-0-9-7-8-5-3-1" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+        <g id="g8285-2-3-1-8-2-5-6">
+         <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-4-3-5" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-2-2-8"><rect id="rect5034-3-5-4-6-5-6-3-0-4-1-0-3" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-8-8-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+         <path id="path5479-7-5-913-1-6-5-3-5-1-7-8-1" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+        </g>
+       </g>
+       <g id="g7865-9-3-3-51-1-7-3" transform="translate(910.35 -1375.2)">
+        <path id="path5479-7-5-913-1-6-8-74-9-6-9-1-5-9" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+        <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-7-6-6" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-9-6-4"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-5-5-99" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-4-7-9" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+       </g>
+      </g>
+      <flowRoot id="flowRoot5030-40-2-0-2-8-6-8-7-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1302 -1350.6)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-1-4-2-0"><rect id="rect5034-3-5-4-6-7-7-4-7-8" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-15-2-86-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-9-2-6-0" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+      <g stroke="#000" stroke-width="2.5">
+       <path id="path5479-7-5-913-60-3-5-5-8" d="m2575.1-2638.7v-22.403" fill="none"/>
+       <circle id="path5473-0-4-1-7-6-8-7-2-6-43" cx="2576.2" cy="-2684.2" r="22.143" fill="#fc8d62"/>
+       <path id="path5479-7-5-91-2-4-9-2" d="m2614.9-2684.2h-15.577" fill="none"/>
+       <circle id="path5473-0-4-1-75-5-6-8-38-3" cx="2636.9" cy="-2684.2" r="22.143" fill="#8da0cb"/>
+      </g>
+      <g id="g6268-2-4-4" transform="matrix(.96787 0 0 .96787 1403.1 -559.95)" stroke="#000" stroke-width="2.5">
+       <circle id="path5473-0-4-1-75-5-4-01-6-5" cy="-2194.8" cx="1150.7" r="22.143" fill="#8da0cb"/>
+       <path id="path5479-7-5-9-26-3-2" d="m1189.6-2194.8h-15.577" fill="none"/>
+      </g>
+     </g>
+    </g>
+    <text id="text73083-1-5-6-1-2-1" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-4299.7207" x="8161.8472" font-family="sans-serif" line-height="125%" fill="#000000"><tspan id="tspan73085-3-6-8-3-3-3" font-size="60px" y="-4299.7207" x="8161.8472" font-family="&apos;TeX Gyre Pagella&apos;">Ala</tspan></text>
+   </g>
+   <text id="text73083-1-5-6-1-2-7" style="word-spacing:0px;letter-spacing:0px" line-height="125%" font-size="60px" y="-5075.0249" x="6801.959" font-family="sans-serif" xml:space="preserve" fill="#000000"><tspan id="tspan73085-3-6-8-3-3-1" font-size="60px" y="-5075.0249" x="6801.959" font-family="&apos;TeX Gyre Pagella&apos;">Chorismate</tspan></text>
+   <g id="g89356">
+    <g id="g24065-7-9" transform="translate(5469.4 -1599.9)">
+     <g id="g23610-3-2">
+      <g id="g6268-24-9-4" transform="matrix(.94819 -.31771 .31771 .94819 978.21 -752.97)">
+       <g id="g23427-40-9" transform="matrix(.58779 .80902 -.80902 .58779 -1298.1 -1841.9)" stroke="#000" stroke-width="2.5">
+        <circle id="path5473-0-4-1-75-5-4-84-7-6" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+        <path id="path5479-7-5-9-7-2-7" d="m1189.6-2194.8h-15.577" fill="none"/>
+       </g>
+      </g>
+      <circle id="path5473-0-4-1-75-5-4-80-9-9" cx="-3171.6" transform="rotate(90)" stroke="#000" cy="-1423.1" r="22.143" stroke-width="2.5" fill="#8da0cb"/>
+      <circle id="path5473-0-4-1-7-6-4-4-3" stroke-width="2.5" stroke="#000" cy="-3109.8" cx="1423.6" r="22.143" fill="#fc8d62"/>
+      <g id="g23579-6-5" stroke="#000" stroke-width="2.5" fill="none">
+       <path id="path5479-7-5-9-3-72-4" d="m1419.1-3130.8v-18.434"/>
+       <path id="path5479-7-5-9-3-7-33-7" d="m1427.1-3131.9v-18.97"/>
+      </g>
+      <path id="path5479-7-5-9-3-5-9-1" d="m1419.1-3128.8v-24.153" transform="matrix(.58779 .80902 -.80902 .58779 -2032.9 -2494.2)" stroke="#000" stroke-width="2.5" fill="none"/>
+      <path id="path5479-7-5-9-3-7-2-8-3" d="m1427.1-3131.9v-18.97" transform="matrix(.58779 .80902 -.80902 .58779 -2032.9 -2494.2)" stroke="#000" stroke-width="2.5" fill="none"/>
+      <g id="g6268-24-6-4-6" transform="matrix(0 -1 1 0 3576.2 -1918.5)">
+       <g id="g23427-4-8-5" transform="matrix(.58779 .80902 -.80902 .58779 -1298.1 -1841.9)" stroke="#000" stroke-width="2.5">
+        <circle id="path5473-0-4-1-75-5-4-84-2-1-4" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+        <path id="path5479-7-5-9-7-3-0-4" d="m1189.6-2194.8h-15.577" fill="none"/>
+       </g>
+      </g>
+      <g id="g23508-8-6-9" transform="matrix(-.58779 .80902 -.80902 -.58779 -356.1 -6085.4)" stroke="#000" stroke-width="2.5">
+       <circle id="path5473-0-4-1-7-6-4-7-25-5" cy="-3109.8" cx="1423.6" r="22.143" fill="#fc8d62"/>
+       <path id="path5479-7-5-9-3-2-5-4" d="m1419.1-3130.8v-18.434" fill="none"/>
+       <path id="path5479-7-5-9-3-7-7-7-5" d="m1427.1-3131.9v-18.97" fill="none"/>
+      </g>
+      <g id="g6268-3-3-6" transform="matrix(0 1 -1 0 -871.87 -4316.8)" stroke="#000" stroke-width="2.5">
+       <circle id="path5473-0-4-1-75-5-4-10-8-3" cy="-2194.8" cx="1150.7" r="22.143" fill="#8da0cb"/>
+       <path id="path5479-7-5-9-32-0-5" d="m1189.6-2194.8h-15.577" fill="none"/>
+      </g>
+     </g>
+     <g id="g8340-6-0-4-3-9-3-3-2-6" transform="translate(213.41 -2192.9)">
+      <path id="path5479-7-5-913-1-0-9-7-8-1-6-0-42-2" d="m1228.4-989.25 20.099-9.8947" stroke="#000" stroke-width="2.5" fill="none"/>
+      <g id="g8285-2-3-1-8-8-9-5-1-6" transform="translate(6.7143 12.643)">
+       <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-6-9-8-9-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1249.7 -1023.6)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-4-0-2-3-2"><rect id="rect5034-3-5-4-6-5-6-3-0-4-7-9-5-5-4" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-2-6-2-1-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">N</flowPara></flowRoot>
+      </g>
+      <path id="path5479-7-5-913-1-0-9-7-8-1-6-0-0-0-1" d="m1231.6-912.02 25.24 5.7294" stroke="#000" stroke-width="2.5" fill="none"/>
+      <path id="path5479-7-5-913-1-0-9-7-8-1-6-0-9-7-6" d="m1289-923.39 9.9358-21.939" stroke="#000" stroke-width="2.5" fill="none"/>
+     </g>
+     <g id="g6268-85-1-6" transform="matrix(-.68168 -.73165 .73165 -.68168 3912.1 -3812.2)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-58-6-3" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-8-4-3" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+     <g id="g6135-5-0-0-3" transform="translate(802.21 799.31)" stroke="#000" stroke-width="1.9">
+      <path id="path6133-3-24-9-4" d="m690.01-3917.9a22.143 22.143 0 0 0 -22.143 22.143 22.143 22.143 0 0 0 22.143 22.143v-44.285z" fill="#fc8d62"/>
+      <path id="path5473-0-3-78-1-87-9-8" d="m690.01-3917.9v44.285a22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143z" fill="#8da0cb"/>
+     </g>
+     <g id="g6268-76-3-1" transform="matrix(-.73799 -.67481 .67481 -.73799 3867.6 -3898.3)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-57-0-1" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-628-7-5" d="m1189.9-2195-8.1408-0.661-8.9564-0.1437" fill="none"/>
+     </g>
+     <g id="g6302-1-9-2" transform="matrix(-1 0 0 -1 2799.8 -5183.8)">
+      <path id="path5479-7-5-91-96-8-6" d="m1239.3-2131.1h-15.577" stroke="#000" stroke-width="2.5" fill="none"/>
+     </g>
+     <g id="g23048-1-0-1" transform="translate(-377.48 -369.06)">
+      <g id="g22942-9-1-7" transform="translate(-146.77 22.708)">
+       <g id="g8340-6-0-4-3-4-7-0" transform="translate(910.19 -1373.6)">
+        <path id="path5479-7-5-913-1-0-9-7-8-8-5-8" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+        <g id="g8285-2-3-1-8-4-8-8">
+         <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-0-2-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-8-4-4"><rect id="rect5034-3-5-4-6-5-6-3-0-4-8-1-5" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-1-2-3" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+         <path id="path5479-7-5-913-1-6-5-3-5-1-3-4-9" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+        </g>
+       </g>
+       <g id="g7865-9-3-3-51-2-3-0" transform="translate(910.35 -1375.2)">
+        <path id="path5479-7-5-913-1-6-8-74-9-6-9-8-8-1" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+        <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-8-6-2" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-50-68-7"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-4-9-1" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-3-19-6" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+       </g>
+      </g>
+      <g id="g6897-0-4-9-1-3" transform="translate(702.9 -1348.3)">
+       <flowRoot id="flowRoot5030-40-2-0-2-8-6-6-1-1" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-.92857 -2.3571)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-1-46-2-9"><rect id="rect5034-3-5-4-6-7-7-2-8-9" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-15-24-7-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-9-0-29-4" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+       <path id="path5479-7-5-913-60-3-4-8-4" d="m1272.2-1290.5v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+      </g>
+      <g id="g6302-2-4-7-3" transform="translate(827.63 -555.15)" stroke="#000" stroke-width="2.5">
+       <circle id="path5473-0-4-1-7-6-8-7-1-9-1" cy="-2129.1" cx="1148.6" r="22.143" fill="#fc8d62"/>
+       <path id="path5479-7-5-91-2-9-5-2" d="m1187.3-2129.1h-15.577" fill="none"/>
+      </g>
+      <circle id="path5473-0-4-1-75-5-6-4-6-6" cx="2036.9" stroke="#000" cy="-2684.2" r="22.143" stroke-width="2.5" fill="#8da0cb"/>
+     </g>
+    </g>
+    <text id="text73083-1-5-6-1-2-1-2" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-4853.8389" x="6937.0249" font-family="sans-serif" line-height="125%" fill="#000000"><tspan id="tspan73085-3-6-8-3-3-3-9" font-size="60px" y="-4853.8389" x="6937.0249" font-family="&apos;TeX Gyre Pagella&apos;">Trp</tspan></text>
+   </g>
+   <g id="g89431" transform="translate(31.559 -28)">
+    <g id="g24462-0-5" transform="translate(5518.3 -994.68)">
+     <g id="g23610-4-7-2" transform="matrix(0 -1 1 0 4517 -2010.5)">
+      <g id="g24137-9-1">
+       <g id="g6268-24-4-6-8" transform="matrix(.94819 -.31771 .31771 .94819 978.21 -752.97)">
+        <g id="g23427-0-8-1" transform="matrix(.58779 .80902 -.80902 .58779 -1298.1 -1841.9)" stroke="#000" stroke-width="2.5">
+         <circle id="path5473-0-4-1-75-5-4-84-0-3-1" cy="-2195.9" cx="1152.3" r="22.143" fill="#8da0cb"/>
+         <path id="path5479-7-5-9-7-4-3-6" d="m1193.3-2193.9-20.1-2.0393" fill="none"/>
+        </g>
+       </g>
+       <circle id="path5473-0-4-1-75-5-4-80-1-3-3" stroke-width="2.5" transform="rotate(90)" stroke="#000" cy="-1423.1" cx="-3167.6" r="22.143" fill="#8da0cb"/>
+       <circle id="path5473-0-4-1-7-6-4-5-2-4" cx="1423.6" stroke="#000" cy="-3109.5" r="22.143" stroke-width="2.5" fill="#8da0cb"/>
+       <g id="g23579-1-9-7" stroke="#000" stroke-width="2.5" fill="none">
+        <path id="path5479-7-5-9-3-9-92-7" d="m1419.1-3130.8v-14.862"/>
+        <path id="path5479-7-5-9-3-7-3-1-3" d="m1427.1-3131.9v-13.97"/>
+       </g>
+       <path id="path5479-7-5-9-3-5-6-3-6" d="m1332.5-3185.3 20.537-14.921" stroke="#000" stroke-width="2.5" fill="none"/>
+       <path id="path5479-7-5-9-3-7-2-9-3-5" d="m1339.7-3180.6 17.011-12.359" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g6268-24-6-6-26-9" transform="matrix(0 -1 1 0 3576.2 -1918.5)">
+        <g id="g23427-4-6-62-9" transform="matrix(.58779 .80902 -.80902 .58779 -1298.1 -1841.9)" stroke="#000" stroke-width="2.5">
+         <circle id="path5473-0-4-1-75-5-4-84-2-5-5-9" cy="-2194.9" cx="1150.6" r="22.143" fill="#fc8d62"/>
+         <path id="path5479-7-5-9-7-3-6-0-4" d="m1189.6-2194.8h-15.577" fill="none"/>
+        </g>
+       </g>
+       <g id="g23508-8-8-1-1" transform="matrix(-.58779 .80902 -.80902 -.58779 -356.1 -6089.4)" stroke="#000" stroke-width="2.5">
+        <circle id="path5473-0-4-1-7-6-4-7-2-3-3" cx="1423.8" cy="-3110" r="22.143" fill="#8da0cb"/>
+        <path id="path5479-7-5-9-3-2-9-8-8" d="m1423-3132.3v-20.482" fill="none"/>
+        <path id="path5479-7-5-9-3-7-7-2-1-7" d="m1431-3130.5v-23.113" fill="none"/>
+       </g>
+       <g id="g6268-3-4-0-5" transform="matrix(0 1 -1 0 -871.87 -4316.8)" stroke="#000" stroke-width="2.5">
+        <circle id="path5473-0-4-1-75-5-4-10-4-6-0" cx="1149.2" cy="-2194.8" r="22.143" fill="#fc8d62"/>
+        <path id="path5479-7-5-9-32-5-3-0" d="m1185.6-2194.8h-15.577" fill="none"/>
+       </g>
+      </g>
+     </g>
+     <g id="g24379-7-4" transform="translate(.75761 -2.7576)">
+      <g id="g23048-9-6-3" transform="translate(-408.83 -699.55)">
+       <g id="g22942-86-0-7" transform="translate(-146.77 22.708)">
+        <g id="g8340-6-0-4-3-3-2-7" transform="translate(910.19 -1373.6)">
+         <path id="path5479-7-5-913-1-0-9-7-8-15-5-8" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+         <g id="g8285-2-3-1-8-7-1-1">
+          <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-1-0-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-6-6-0"><rect id="rect5034-3-5-4-6-5-6-3-0-4-2-4-2" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-6-3-4" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+          <path id="path5479-7-5-913-1-6-5-3-5-1-8-9-3" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+         </g>
+        </g>
+        <g id="g7865-9-3-3-51-12-8-5" transform="translate(910.35 -1375.2)">
+         <path id="path5479-7-5-913-1-6-8-74-9-6-9-7-5-1" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+         <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-0-1-8" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-4-0-1"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-12-6-0" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-1-6-8" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+        </g>
+       </g>
+       <g id="g6897-0-4-3-4-6" transform="translate(702.9 -1348.3)">
+        <flowRoot id="flowRoot5030-40-2-0-2-8-6-0-0-6" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-.92857 -2.3571)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-1-1-2-3"><rect id="rect5034-3-5-4-6-7-7-22-2-5" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-15-9-3-5" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-9-7-7-3" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+        <path id="path5479-7-5-913-60-3-1-2-9" d="m1272.2-1290.5v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+       </g>
+       <g id="g6302-2-46-6-8" transform="translate(827.63 -555.15)" stroke="#000" stroke-width="2.5">
+        <circle id="path5473-0-4-1-7-6-8-7-3-2-8" cx="1148.6" cy="-2129.1" r="22.143" fill="#fc8d62"/>
+        <path id="path5479-7-5-91-2-5-2-0" d="m1187.3-2129.1h-15.577" fill="none"/>
+       </g>
+       <circle id="path5473-0-4-1-75-5-6-40-9-7" stroke-width="2.5" stroke="#000" cy="-2684.2" cx="2036.9" r="22.143" fill="#8da0cb"/>
+      </g>
+      <g id="g6268-985-2-5" transform="translate(383.84 -1325.7)">
+       <g id="g24374-9-2" transform="translate(-29.286 137.14)" stroke="#000" stroke-width="2.5">
+        <circle id="path5473-0-4-1-75-5-4-81-2-8" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+        <path id="path5479-7-5-9-33-1-9" d="m1189.6-2194.8h-15.577" fill="none"/>
+        <path id="path5479-7-5-9-33-7-7-7" d="m1127.6-2194.8h-15.577" fill="none"/>
+       </g>
+      </g>
+     </g>
+     <path id="path5479-7-5-913-60-3-8-2-2-7" d="m1265.3-3385h22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+    </g>
+    <g id="g22942-4-0" transform="translate(4521.7 -1912.7)">
+     <g id="g7865-9-3-3-51-8-6" transform="translate(910.35 -1375.2)">
+      <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1305.2 -1101.7)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-6"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-5" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-1" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">HO</flowPara></flowRoot>
+     </g>
+    </g>
+    <text id="text73083-1-5-6-1-2-1-2-6" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-4479.4136" x="6979.9111" font-family="sans-serif" line-height="125%" fill="#000000"><tspan id="tspan73085-3-6-8-3-3-3-9-7" font-size="60px" y="-4479.4136" x="6979.9111" font-family="&apos;TeX Gyre Pagella&apos;">Tyr</tspan></text>
+   </g>
+   <g id="g89503" transform="translate(-36.374)">
+    <g id="g24462-0-6" transform="translate(5518.3 -754.68)">
+     <g id="g23610-4-7-7" transform="matrix(0 -1 1 0 4517 -2010.5)">
+      <g id="g24137-9-0">
+       <g id="g6268-24-4-6-80" transform="matrix(.94819 -.31771 .31771 .94819 978.21 -752.97)">
+        <g id="g23427-0-8-9" transform="matrix(.58779 .80902 -.80902 .58779 -1298.1 -1841.9)" stroke="#000" stroke-width="2.5">
+         <circle id="path5473-0-4-1-75-5-4-84-0-3-10" cy="-2195.9" cx="1152.3" r="22.143" fill="#8da0cb"/>
+         <path id="path5479-7-5-9-7-4-3-7" d="m1193.3-2193.9-20.1-2.0393" fill="none"/>
+        </g>
+       </g>
+       <circle id="path5473-0-4-1-75-5-4-80-1-3-8" stroke-width="2.5" transform="rotate(90)" stroke="#000" cy="-1423.1" cx="-3167.6" r="22.143" fill="#8da0cb"/>
+       <circle id="path5473-0-4-1-7-6-4-5-2-8" cx="1423.6" stroke="#000" cy="-3109.5" r="22.143" stroke-width="2.5" fill="#8da0cb"/>
+       <g id="g23579-1-9-2" stroke="#000" stroke-width="2.5" fill="none">
+        <path id="path5479-7-5-9-3-9-92-5" d="m1419.1-3130.8v-14.862"/>
+        <path id="path5479-7-5-9-3-7-3-1-35" d="m1427.1-3131.9v-13.97"/>
+       </g>
+       <path id="path5479-7-5-9-3-5-6-3-7" d="m1332.5-3185.3 20.537-14.921" stroke="#000" stroke-width="2.5" fill="none"/>
+       <path id="path5479-7-5-9-3-7-2-9-3-3" d="m1339.7-3180.6 17.011-12.359" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g6268-24-6-6-26-3" transform="matrix(0 -1 1 0 3576.2 -1918.5)">
+        <g id="g23427-4-6-62-7" transform="matrix(.58779 .80902 -.80902 .58779 -1298.1 -1841.9)" stroke="#000" stroke-width="2.5">
+         <circle id="path5473-0-4-1-75-5-4-84-2-5-5-1" cy="-2194.9" cx="1150.6" r="22.143" fill="#fc8d62"/>
+         <path id="path5479-7-5-9-7-3-6-0-8" d="m1189.6-2194.8h-15.577" fill="none"/>
+        </g>
+       </g>
+       <g id="g23508-8-8-1-11" transform="matrix(-.58779 .80902 -.80902 -.58779 -356.1 -6089.4)" stroke="#000" stroke-width="2.5">
+        <circle id="path5473-0-4-1-7-6-4-7-2-3-0" cx="1423.8" cy="-3110" r="22.143" fill="#8da0cb"/>
+        <path id="path5479-7-5-9-3-2-9-8-88" d="m1423-3132.3v-20.482" fill="none"/>
+        <path id="path5479-7-5-9-3-7-7-2-1-6" d="m1431-3130.5v-23.113" fill="none"/>
+       </g>
+       <g id="g6268-3-4-0-4" transform="matrix(0 1 -1 0 -871.87 -4316.8)" stroke="#000" stroke-width="2.5">
+        <circle id="path5473-0-4-1-75-5-4-10-4-6-7" cx="1149.2" cy="-2194.8" r="22.143" fill="#fc8d62"/>
+        <path id="path5479-7-5-9-32-5-3-1" d="m1185.6-2194.8h-15.577" fill="none"/>
+       </g>
+      </g>
+     </g>
+     <g id="g24379-7-1" transform="translate(.75761 -2.7576)">
+      <g id="g23048-9-6-9" transform="translate(-408.83 -699.55)">
+       <g id="g22942-86-0-8" transform="translate(-146.77 22.708)">
+        <g id="g8340-6-0-4-3-3-2-4" transform="translate(910.19 -1373.6)">
+         <path id="path5479-7-5-913-1-0-9-7-8-15-5-9" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+         <g id="g8285-2-3-1-8-7-1-0">
+          <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-1-0-5" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-6-6-3"><rect id="rect5034-3-5-4-6-5-6-3-0-4-2-4-0" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-6-3-41" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+          <path id="path5479-7-5-913-1-6-5-3-5-1-8-9-8" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+         </g>
+        </g>
+        <g id="g7865-9-3-3-51-12-8-6" transform="translate(910.35 -1375.2)">
+         <path id="path5479-7-5-913-1-6-8-74-9-6-9-7-5-6" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+         <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-0-1-3" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-4-0-2"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-12-6-3" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-1-6-87" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+        </g>
+       </g>
+       <g id="g6897-0-4-3-4-2" transform="translate(702.9 -1348.3)">
+        <flowRoot id="flowRoot5030-40-2-0-2-8-6-0-0-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-.92857 -2.3571)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-1-1-2-8"><rect id="rect5034-3-5-4-6-7-7-22-2-3" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-15-9-3-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-9-7-7-8" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+        <path id="path5479-7-5-913-60-3-1-2-4" d="m1272.2-1290.5v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+       </g>
+       <g id="g6302-2-46-6-1" transform="translate(827.63 -555.15)" stroke="#000" stroke-width="2.5">
+        <circle id="path5473-0-4-1-7-6-8-7-3-2-6" cx="1148.6" cy="-2129.1" r="22.143" fill="#fc8d62"/>
+        <path id="path5479-7-5-91-2-5-2-8" d="m1187.3-2129.1h-15.577" fill="none"/>
+       </g>
+       <circle id="path5473-0-4-1-75-5-6-40-9-0" stroke-width="2.5" stroke="#000" cy="-2684.2" cx="2036.9" r="22.143" fill="#8da0cb"/>
+      </g>
+      <g id="g6268-985-2-9" transform="translate(383.84 -1325.7)">
+       <g id="g24374-9-1" transform="translate(-29.286 137.14)" stroke="#000" stroke-width="2.5">
+        <circle id="path5473-0-4-1-75-5-4-81-2-9" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+        <path id="path5479-7-5-9-33-1-7" d="m1189.6-2194.8h-15.577" fill="none"/>
+        <path id="path5479-7-5-9-33-7-7-5" d="m1127.6-2194.8h-15.577" fill="none"/>
+       </g>
+      </g>
+     </g>
+    </g>
+    <text id="text73083-1-5-6-1-2-1-2-6-8" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-4227.9854" x="6977.0532" font-family="sans-serif" line-height="125%" fill="#000000"><tspan id="tspan73085-3-6-8-3-3-3-9-7-9" font-size="60px" y="-4227.9854" x="6977.0532" font-family="&apos;TeX Gyre Pagella&apos;">Phe</tspan></text>
+   </g>
+   <g id="g89178" transform="translate(.06364)">
+    <g id="g85454" transform="translate(-2830.2 -4425)">
+     <g id="g29771-4-8" transform="translate(9230.7 3518.3)">
+      <g id="g6302-8-6-0" transform="translate(801.49 -139.32)" stroke="#000" stroke-width="2.5">
+       <circle id="path5473-0-4-1-7-6-8-8-8-9" cy="-2129.1" cx="1148.6" r="22.143" fill="#fc8d62"/>
+       <path id="path5479-7-5-91-0-0-3" d="m1187.3-2129.1h-15.577" fill="none"/>
+      </g>
+      <g id="g6268-0-1-6" transform="translate(859.27 -73.608)" stroke="#000" stroke-width="2.5">
+       <circle id="path5473-0-4-1-75-5-4-0-6-5" cy="-2194.8" cx="1150.7" r="22.143" fill="#8da0cb"/>
+       <path id="path5479-7-5-9-9-3-6" d="m1189.6-2194.8h-15.577" fill="none"/>
+      </g>
+      <g id="g6426-0-2-9" transform="translate(828.89 -6.44)" stroke="#000" stroke-width="2.5">
+       <g id="g5849-5-0-3-2-3" transform="translate(1364.9 1890)">
+        <path id="path5825-2-2-5-5-8" d="m-123.53-4174.1a22.143 22.143 0 0 0 -22.018 22.139 22.143 22.143 0 0 0 9.0976 17.863l12.92-17.783v-22.219z" fill="#fc8d62"/>
+        <path id="path5473-0-4-2-0-3-2-5-0" d="m-123.53-4174.1v22.219l-12.92 17.783a22.143 22.143 0 0 0 13.045 4.2793 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143 22.143 22.143 0 0 0 -0.125 0z" fill="#8da0cb"/>
+       </g>
+       <path id="path5479-7-5-51-4-9-4" d="m1279.6-2261.9h-15.577" fill="none"/>
+      </g>
+      <g id="g6384-2-8-8" transform="translate(886.79 -135.04)" stroke="#000" stroke-width="2.5">
+       <g id="g5845-5-1-1-3-3" transform="translate(1599.6 2109.5)">
+        <path id="path5734-7-2-8-0-1-4" d="m-355.7-4265a22.143 22.143 0 0 0 -21.053 16.672l21.053 6.8399v-23.512z" fill="#fc8d62"/>
+        <path id="path5473-0-4-4-5-4-9-1-5-0" d="m-355.7-4265v23.512l-21.053-6.8399a22.143 22.143 0 0 0 -0.71289 5.4571 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.143 -22.143 22.143 22.143 0 0 0 -0.3789 0.014z" fill="#8da0cb"/>
+       </g>
+       <path id="path5479-7-5-5-6-1-6" d="m1282.4-2133.4h-15.577" fill="none"/>
+      </g>
+      <g id="g5853-4-8-4-4" transform="translate(2407 1711)" stroke="#000" stroke-width="2.5">
+       <path id="path5825-3-0-1-6-8" d="m-216.05-4001.9a22.143 22.143 0 0 1 22.018 22.139 22.143 22.143 0 0 1 -9.0976 17.863l-12.92-17.783v-22.219z" fill="#8da0cb"/>
+       <path id="path5473-0-4-2-8-3-5-2-4" d="m-216.05-4001.9v22.219l12.92 17.783a22.143 22.143 0 0 1 -13.045 4.2793 22.143 22.143 0 0 1 -22.143 -22.143 22.143 22.143 0 0 1 22.143 -22.143 22.143 22.143 0 0 1 0.125 0z" fill="#fc8d62"/>
+      </g>
+      <flowRoot id="flowRoot5030-40-2-0-2-3-0" style="word-spacing:0px;letter-spacing:0px" line-height="125%" transform="translate(861.02 -936)" font-size="35.485px" font-family="sans-serif" xml:space="preserve" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-4-2"><rect id="rect5034-3-5-4-6-85-3" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-4-9" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-4-9" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+      <path id="path5479-7-5-913-4-4" d="m2134.1-2224.1v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+      <g id="g8340-9-4" transform="translate(917.72 -936)">
+       <path id="path5479-7-5-913-1-2-7" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-4-3">
+        <flowRoot id="flowRoot5030-40-2-0-2-2-0-3" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-7-8"><rect id="rect5034-3-5-4-6-5-0-1" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-1-5" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path5479-7-5-913-1-6-93-8" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-92-6" transform="translate(919.5 -938)">
+       <path id="path5479-7-5-913-1-6-8-5-1" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-18-5" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-2-4"><rect id="rect5034-3-5-4-6-5-2-26-2" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-84-8" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      </g>
+     </g>
+     <g id="g22942-4-7" transform="translate(8903.4 3956)">
+      <g id="g8340-6-0-4-3-9-2" transform="matrix(-1 0 0 1 3550.6 -1373.6)">
+       <path id="path5479-7-5-913-1-0-9-7-8-1-4" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-2-3-1-8-8-6">
+        <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-6-6" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-4-1"><rect id="rect5034-3-5-4-6-5-6-3-0-4-7-3" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-2-1" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path5479-7-5-913-1-6-5-3-5-1-0-4" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-9-3-3-51-8-2" transform="translate(910.35 -1375.2)">
+       <path id="path5479-7-5-913-1-6-8-74-9-6-9-0-4" d="m1347.2-1320.7-17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(79.286 .71429)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-2"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-1" transform="scale(-1,1)" height="75.276" width="131.04" y="-1316.3" x="-1330.3"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-2" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">HO</flowPara></flowRoot>
+      </g>
+     </g>
+    </g>
+    <flowRoot id="flowRoot5030-6-8-4-4-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(8456.3 995.15)" line-height="125%" font-size="40px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-1-6-6-9-1"><rect id="rect5034-0-9-4-2-0" y="-4301.4" width="262.31" x="-36.365" height="116.22"/></flowRegion><flowPara id="flowPara5036-7-6-8-8-8" font-size="60px" font-family="&apos;TeX Gyre Pagella&apos;">Glu</flowPara></flowRoot>
+   </g>
+   <g id="g89241" transform="translate(-16.831 -40)">
+    <g id="g87464" transform="translate(-2811.2 -4485.2)">
+     <g id="g6302-8-6-0-9" transform="translate(10030 3752.9)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-7-6-8-8-8-9-0" cx="1148.6" cy="-2129.1" r="22.143" fill="#fc8d62"/>
+      <path id="path5479-7-5-91-0-0-3-8" d="m1187.3-2129.1h-15.577" fill="none"/>
+     </g>
+     <g id="g6268-0-1-6-4" transform="translate(10088 3818.6)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-0-6-5-4" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-9-3-6-6" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+     <g id="g6426-0-2-9-4" transform="translate(10058 3885.8)" stroke="#000" stroke-width="2.5">
+      <g id="g5849-5-0-3-2-3-9" transform="translate(1364.9 1890)">
+       <path id="path5825-2-2-5-5-8-1" d="m-123.53-4174.1a22.143 22.143 0 0 0 -22.018 22.139 22.143 22.143 0 0 0 9.0976 17.863l12.92-17.783v-22.219z" fill="#fc8d62"/>
+       <path id="path5473-0-4-2-0-3-2-5-0-9" d="m-123.53-4174.1v22.219l-12.92 17.783a22.143 22.143 0 0 0 13.045 4.2793 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143 22.143 22.143 0 0 0 -0.125 0z" fill="#8da0cb"/>
+      </g>
+      <path id="path5479-7-5-51-4-9-4-3" d="m1279.6-2261.9h-15.577" fill="none"/>
+     </g>
+     <g id="g6384-2-8-8-0" transform="translate(10115 3757.2)" stroke="#000" stroke-width="2.5">
+      <g id="g5845-5-1-1-3-3-7" transform="translate(1599.6 2109.5)">
+       <path id="path5734-7-2-8-0-1-4-0" d="m-355.7-4265a22.143 22.143 0 0 0 -21.053 16.672l21.053 6.8399v-23.512z" fill="#fc8d62"/>
+       <path id="path5473-0-4-4-5-4-9-1-5-0-4" d="m-355.7-4265v23.512l-21.053-6.8399a22.143 22.143 0 0 0 -0.71289 5.4571 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.143 -22.143 22.143 22.143 0 0 0 -0.3789 0.014z" fill="#8da0cb"/>
+      </g>
+      <path id="path5479-7-5-5-6-1-6-3" d="m1282.4-2133.4h-15.577" fill="none"/>
+     </g>
+     <g id="g5853-4-8-4-4-9" transform="translate(11636 5603.2)" stroke="#000" stroke-width="2.5">
+      <path id="path5825-3-0-1-6-8-2" d="m-216.05-4001.9a22.143 22.143 0 0 1 22.018 22.139 22.143 22.143 0 0 1 -9.0976 17.863l-12.92-17.783v-22.219z" fill="#8da0cb"/>
+      <path id="path5473-0-4-2-8-3-5-2-4-4" d="m-216.05-4001.9v22.219l12.92 17.783a22.143 22.143 0 0 1 -13.045 4.2793 22.143 22.143 0 0 1 -22.143 -22.143 22.143 22.143 0 0 1 22.143 -22.143 22.143 22.143 0 0 1 0.125 0z" fill="#fc8d62"/>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-3-0-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(10090 2956.2)" font-size="35.485px" font-family="sans-serif" line-height="125%" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-4-2-3"><rect id="rect5034-3-5-4-6-85-3-0" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-4-9-6" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-4-9-0" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+     <path id="path5479-7-5-913-4-4-1" d="m11363 1668.1v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+     <g id="g8340-9-4-0" transform="translate(10146 2956.2)">
+      <path id="path5479-7-5-913-1-2-7-1" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <g id="g8285-4-3-4">
+       <flowRoot id="flowRoot5030-40-2-0-2-2-0-3-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-7-8-8"><rect id="rect5034-3-5-4-6-5-0-1-9" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-1-5-1" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+       <path id="path5479-7-5-913-1-6-93-8-0" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      </g>
+     </g>
+     <g id="g7865-92-6-9" transform="translate(10148 2954.2)">
+      <path id="path5479-7-5-913-1-6-8-5-1-5" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <flowRoot id="flowRoot5030-40-2-0-2-2-1-18-5-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-2-4-5"><rect id="rect5034-3-5-4-6-5-2-26-2-1" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-84-8-6" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+     </g>
+     <g id="g22942-4-7-6" transform="translate(8901.4 4330)">
+      <g id="g8340-6-0-4-3-9-2-3" transform="matrix(-1 0 0 1 3550.6 -1373.6)">
+       <path id="path5479-7-5-913-1-0-9-7-8-1-4-5" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-2-3-1-8-8-6-8">
+        <flowRoot id="flowRoot5030-40-2-0-2-2-8-8-7-7-6-6-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-5-8-3-4-1-9"><rect id="rect5034-3-5-4-6-5-6-3-0-4-7-3-4" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-8-6-1-2-1-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path5479-7-5-913-1-6-5-3-5-1-0-4-6" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-9-3-3-51-8-2-4" transform="translate(910.35 -1375.2)">
+       <path id="path5479-7-5-913-1-6-8-74-9-6-9-0-4-2" d="m1347.2-1320.7-17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-9-8" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(73.286 .71429)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-2-7"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-1-8" transform="scale(-1,1)" height="75.276" width="131.04" y="-1316.3" x="-1330.3"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-2-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">H<flowSpan id="flowSpan85719" style="baseline-shift:sub" font-size="65%">2</flowSpan>N</flowPara></flowRoot>
+      </g>
+     </g>
+    </g>
+    <flowRoot id="flowRoot5030-6-8-4-4-8" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(8472.7 1320.6)" line-height="125%" font-size="40px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-1-6-6-9-7"><rect id="rect5034-0-9-4-2-3" y="-4301.4" width="262.31" x="-36.365" height="116.22"/></flowRegion><flowPara id="flowPara5036-7-6-8-8-9" font-size="60px" font-family="&apos;TeX Gyre Pagella&apos;">Gln</flowPara></flowRoot>
+   </g>
+   <g id="g89131">
+    <g id="g86140" transform="translate(-2750.1 -5477.7)">
+     <g id="g6302-8-6-0-9-5" transform="matrix(-.77997 -.62581 .62581 -.77997 13473 1062.3)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-7-6-8-8-8-9-0-2" cx="1148.6" cy="-2129.1" r="22.143" fill="#fc8d62"/>
+      <path id="path5479-7-5-91-0-0-3-8-2" d="m1187.3-2129.1h-15.577" fill="none"/>
+      <path id="path5479-7-5-91-0-0-3-8-2-4" d="m1144.6-2108.2-1.6092 15.494" fill="none"/>
+     </g>
+     <g id="g6268-0-1-6-4-9" transform="matrix(.44227 -.89688 .89688 .44227 12657 3969.4)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-0-6-5-4-2" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-9-3-6-6-2" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+     <g id="g6426-0-2-9-4-5" transform="translate(9979.6 4171.9)" stroke="#000" stroke-width="2.5">
+      <g id="g5849-5-0-3-2-3-9-8" transform="translate(1364.9 1890)">
+       <path id="path5825-2-2-5-5-8-1-6" d="m-123.53-4174.1a22.143 22.143 0 0 0 -22.018 22.139 22.143 22.143 0 0 0 9.0976 17.863l12.92-17.783v-22.219z" fill="#fc8d62"/>
+       <path id="path5473-0-4-2-0-3-2-5-0-9-0" d="m-123.53-4174.1v22.219l-12.92 17.783a22.143 22.143 0 0 0 13.045 4.2793 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143 22.143 22.143 0 0 0 -0.125 0z" fill="#8da0cb"/>
+      </g>
+      <path id="path5479-7-5-51-4-9-4-3-8" d="m1279.6-2261.9h-15.577" fill="none"/>
+     </g>
+     <g id="g6384-2-8-8-0-6" transform="translate(10037 4043.3)" stroke="#000" stroke-width="2.5">
+      <g id="g5845-5-1-1-3-3-7-9" transform="translate(1599.6 2109.5)">
+       <path id="path5734-7-2-8-0-1-4-0-4" d="m-355.7-4265a22.143 22.143 0 0 0 -21.053 16.672l21.053 6.8399v-23.512z" fill="#fc8d62"/>
+       <path id="path5473-0-4-4-5-4-9-1-5-0-4-8" d="m-355.7-4265v23.512l-21.053-6.8399a22.143 22.143 0 0 0 -0.71289 5.4571 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.143 -22.143 22.143 22.143 0 0 0 -0.3789 0.014z" fill="#8da0cb"/>
+      </g>
+      <path id="path5479-7-5-5-6-1-6-3-7" d="m1282.4-2133.4h-15.577" fill="none"/>
+     </g>
+     <g id="g5853-4-8-4-4-9-8" transform="translate(11558 5889.3)" stroke="#000" stroke-width="2.5">
+      <path id="path5825-3-0-1-6-8-2-2" d="m-216.05-4001.9a22.143 22.143 0 0 1 22.018 22.139 22.143 22.143 0 0 1 -9.0976 17.863l-12.92-17.783v-22.219z" fill="#8da0cb"/>
+      <path id="path5473-0-4-2-8-3-5-2-4-4-6" d="m-216.05-4001.9v22.219l12.92 17.783a22.143 22.143 0 0 1 -13.045 4.2793 22.143 22.143 0 0 1 -22.143 -22.143 22.143 22.143 0 0 1 22.143 -22.143 22.143 22.143 0 0 1 0.125 0z" fill="#fc8d62"/>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-3-0-4-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(10011 3244.8)" font-size="35.485px" font-family="sans-serif" line-height="125%" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-4-2-3-0"><rect id="rect5034-3-5-4-6-85-3-0-8" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-4-9-6-5" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-4-9-0-1" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+     <path id="path5479-7-5-913-4-4-1-1" d="m11285 1954.2v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+     <g id="g8340-9-4-0-5" transform="translate(10068 3242.3)">
+      <path id="path5479-7-5-913-1-2-7-1-9" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <g id="g8285-4-3-4-9">
+       <flowRoot id="flowRoot5030-40-2-0-2-2-0-3-9-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-7-8-8-3"><rect id="rect5034-3-5-4-6-5-0-1-9-0" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-1-5-1-1" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+       <path id="path5479-7-5-913-1-6-93-8-0-7" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      </g>
+     </g>
+     <g id="g7865-92-6-9-5" transform="translate(10070 3240.3)">
+      <path id="path5479-7-5-913-1-6-8-5-1-5-0" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <flowRoot id="flowRoot5030-40-2-0-2-2-1-18-5-7-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-2-4-5-7"><rect id="rect5034-3-5-4-6-5-2-26-2-1-5" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-84-8-6-9" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+     </g>
+    </g>
+    <flowRoot id="flowRoot5030-6-8-4-4-8-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(8522.7 604.7)" line-height="125%" font-size="40px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-1-6-6-9-7-2"><rect id="rect5034-0-9-4-2-3-8" y="-4301.4" width="262.31" x="-36.365" height="116.22"/></flowRegion><flowPara id="flowPara5036-7-6-8-8-9-5" font-size="60px" font-family="&apos;TeX Gyre Pagella&apos;">Pro</flowPara></flowRoot>
+   </g>
+   <g id="g89053" transform="translate(48.448)">
+    <flowRoot id="flowRoot5030-6-8-4-4-8-8" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(8340.8 340.7)" line-height="125%" font-size="40px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-1-6-6-9-7-8"><rect id="rect5034-0-9-4-2-3-6" y="-4301.4" width="262.31" x="-36.365" height="116.22"/></flowRegion><flowPara id="flowPara5036-7-6-8-8-9-6" font-size="60px" font-family="&apos;TeX Gyre Pagella&apos;">Arg</flowPara></flowRoot>
+    <g id="g86782" transform="translate(-2756.5 -6137)">
+     <g id="g22942-4-7-6-3" transform="translate(8521.4 4850)">
+      <g id="g8340-6-0-4-3-9-2-3-2" transform="matrix(-1 0 0 1 3698.1 -1211.9)">
+       <path id="path5479-7-5-913-1-0-9-7-8-1-4-5-4" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-2-3-1-8-8-6-8-3">
+        <path id="path5479-7-5-913-1-6-5-3-5-1-0-4-6-0" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-9-3-3-51-8-2-4-8" transform="translate(1057.8 -1213.6)">
+       <path id="path5479-7-5-913-1-6-8-74-9-6-9-0-4-2-7" d="m1347.2-1320.7-17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-9-8-6" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(73.286 .71429)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-2-7-3"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-1-8-5" transform="scale(-1,1)" height="75.276" width="131.04" y="-1316.3" x="-1330.3"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-2-0-4" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">H<flowSpan id="flowSpan85719-3" style="baseline-shift:sub" font-size="65%">2</flowSpan>N</flowPara></flowRoot>
+      </g>
+      <g id="g7865-9-3-3-51-8-2-4-8-2" transform="translate(880.35 -1455.2)">
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-9-8-6-1" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(257.13 168.4)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-2-7-3-0"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-1-8-5-7" transform="scale(-1,1)" height="75.276" width="131.04" y="-1316.3" x="-1330.3"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-2-0-4-9" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">HN</flowPara></flowRoot>
+      </g>
+     </g>
+     <g id="g6302-8-6-0-9-2" transform="translate(9910.1 4432.9)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-7-6-8-8-8-9-0-20" cx="1148.6" cy="-2129.1" r="22.143" fill="#fc8d62"/>
+      <path id="path5479-7-5-91-0-0-3-8-24" d="m1187.3-2129.1h-15.577" fill="none"/>
+     </g>
+     <g id="g6268-0-1-6-4-7" transform="translate(9967.9 4498.6)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-0-6-5-4-0" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-9-3-6-6-3" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+     <g id="g6426-0-2-9-4-3" transform="translate(9937.5 4565.8)" stroke="#000" stroke-width="2.5">
+      <g id="g5849-5-0-3-2-3-9-7" transform="translate(1364.9 1890)">
+       <path id="path5825-2-2-5-5-8-1-5" d="m-123.53-4174.1a22.143 22.143 0 0 0 -22.018 22.139 22.143 22.143 0 0 0 9.0976 17.863l12.92-17.783v-22.219z" fill="#fc8d62"/>
+       <path id="path5473-0-4-2-0-3-2-5-0-9-8" d="m-123.53-4174.1v22.219l-12.92 17.783a22.143 22.143 0 0 0 13.045 4.2793 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143 22.143 22.143 0 0 0 -0.125 0z" fill="#8da0cb"/>
+      </g>
+      <path id="path5479-7-5-51-4-9-4-3-4" d="m1279.6-2261.9h-15.577" fill="none"/>
+     </g>
+     <g id="g6384-2-8-8-0-0" transform="translate(9995.4 4437.2)" stroke="#000" stroke-width="2.5">
+      <g id="g5845-5-1-1-3-3-7-0" transform="translate(1599.6 2109.5)">
+       <path id="path5734-7-2-8-0-1-4-0-9" d="m-355.7-4265a22.143 22.143 0 0 0 -21.053 16.672l21.053 6.8399v-23.512z" fill="#fc8d62"/>
+       <path id="path5473-0-4-4-5-4-9-1-5-0-4-5" d="m-355.7-4265v23.512l-21.053-6.8399a22.143 22.143 0 0 0 -0.71289 5.4571 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.143 -22.143 22.143 22.143 0 0 0 -0.3789 0.014z" fill="#8da0cb"/>
+      </g>
+      <path id="path5479-7-5-5-6-1-6-3-9" d="m1282.4-2133.4h-15.577" fill="none"/>
+     </g>
+     <g id="g5853-4-8-4-4-9-1" transform="translate(11516 6283.2)" stroke="#000" stroke-width="2.5">
+      <path id="path5825-3-0-1-6-8-2-7" d="m-216.05-4001.9a22.143 22.143 0 0 1 22.018 22.139 22.143 22.143 0 0 1 -9.0976 17.863l-12.92-17.783v-22.219z" fill="#8da0cb"/>
+      <path id="path5473-0-4-2-8-3-5-2-4-4-8" d="m-216.05-4001.9v22.219l12.92 17.783a22.143 22.143 0 0 1 -13.045 4.2793 22.143 22.143 0 0 1 -22.143 -22.143 22.143 22.143 0 0 1 22.143 -22.143 22.143 22.143 0 0 1 0.125 0z" fill="#fc8d62"/>
+     </g>
+     <flowRoot id="flowRoot5030-40-2-0-2-3-0-4-2" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(9969.7 3636.2)" font-size="35.485px" font-family="sans-serif" line-height="125%" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-4-2-3-5"><rect id="rect5034-3-5-4-6-85-3-0-83" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-4-9-6-1" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-4-9-0-0" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+     <path id="path5479-7-5-913-4-4-1-8" d="m11243 2348.1v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+     <g id="g8340-9-4-0-2" transform="translate(10026 3636.2)">
+      <path id="path5479-7-5-913-1-2-7-1-7" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <g id="g8285-4-3-4-3">
+       <flowRoot id="flowRoot5030-40-2-0-2-2-0-3-9-40" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-7-8-8-38"><rect id="rect5034-3-5-4-6-5-0-1-9-4" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-1-5-1-2" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+       <path id="path5479-7-5-913-1-6-93-8-0-8" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      </g>
+     </g>
+     <g id="g7865-92-6-9-9" transform="translate(10028 3634.2)">
+      <path id="path5479-7-5-913-1-6-8-5-1-5-7" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <flowRoot id="flowRoot5030-40-2-0-2-2-1-18-5-7-6" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-2-4-5-76"><rect id="rect5034-3-5-4-6-5-2-26-2-1-0" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-84-8-6-7" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+     </g>
+     <g id="g22942-4-7-6-6" transform="translate(8781.4 5010)">
+      <g id="g7865-9-3-3-51-8-2-4-6" transform="translate(910.35 -1375.2)">
+       <path id="path5479-7-5-913-1-6-8-74-9-6-9-0-4-2-0" d="m1345.3-1331.1-22.402 0.097" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-2-0-4-4-9-8-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(98.643 -29.464)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-9-1-3-5-2-7-8"><rect id="rect5034-3-5-4-6-5-2-6-7-6-5-1-1-8-8" transform="scale(-1,1)" height="75.276" width="131.04" y="-1316.3" x="-1330.3"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-3-5-71-7-2-0-2" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">N</flowPara><flowPara id="flowPara86515" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">H</flowPara></flowRoot>
+      </g>
+     </g>
+     <g id="g6630-4" transform="translate(9595 4395.7)" stroke="#000" stroke-width="2.5">
+      <g id="g6135-5-7-9" transform="translate(660.7 1803.9)">
+       <path id="path6133-3-4-5" d="m690.01-3917.9a22.143 22.143 0 0 0 -22.143 22.143 22.143 22.143 0 0 0 22.143 22.143v-44.285z" fill="#fc8d62"/>
+       <path id="path5473-0-3-78-1-5-5" d="m690.01-3917.9v44.285a22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143z" fill="#8da0cb"/>
+      </g>
+      <path id="path5479-7-5-40-8" d="m1389.2-2091.9h-15.577" fill="none"/>
+     </g>
+    </g>
+   </g>
+   <g id="g89565" transform="translate(6.8976 -38)">
+    <g id="g87542" transform="translate(-2388.1 -5133.5)">
+     <g id="g87357" transform="translate(6966.7 4075)">
+      <g id="g87359" transform="matrix(-1 0 0 1 3550.6 -1373.6)">
+       <path id="path87361" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g87363">
+        <flowRoot id="flowRoot87365" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion87367"><rect id="rect87369" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara87371" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path87373" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g87375" transform="translate(910.35 -1375.2)">
+       <path id="path87377" d="m1347.2-1320.7-17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot87379" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(73.286 .71429)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion87381"><rect id="rect87383" transform="scale(-1,1)" height="75.276" width="131.04" y="-1316.3" x="-1330.3"/></flowRegion><flowPara id="flowPara87385" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">H<flowSpan id="flowSpan87387" style="baseline-shift:sub" font-size="65%">2</flowSpan>N</flowPara></flowRoot>
+      </g>
+     </g>
+     <g id="g21505-5-4" transform="translate(6702.6 3659.7)">
+      <g id="g6623-4-5-6-6" stroke-width="2.5" transform="translate(1193.1 -147.77)">
+       <g id="g6080-3-6-7-7-3-5-2" transform="matrix(-1 0 0 1 1778.6 1949.6)">
+        <g id="g6128-4-5-3-7-8-5" transform="translate(31.315 -12.122)" stroke="#000" stroke-width="2.5">
+         <path id="path6078-1-7-8-8-4-2-3" d="m400.15-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#8da0cb"/>
+         <path id="path5473-0-3-8-3-4-0-0-0-5-8" d="m400.16-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#fc8d62"/>
+        </g>
+       </g>
+       <path id="path5479-7-5-0-8-4-6-3" d="m1384.6-2145.5h-15.577" stroke="#000" fill="none"/>
+      </g>
+      <g id="g6617-0-2-8-6" transform="translate(1251.7 -93.064)" stroke="#000" stroke-width="2.5">
+       <g id="g6103-8-7-4-1-5-0" transform="translate(959.99 1700.3)">
+        <path id="path6086-5-6-4-2-8-0" d="m369.66-3912.9a22.143 22.143 0 0 0 -3.2168 11.438 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.129 -22.143v21.641l-18.941-10.936z" fill="#8da0cb"/>
+        <path id="path5473-0-3-2-8-4-5-2-0-9" d="m369.66-3912.9 18.941 10.936v-21.641a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -18.928 10.705z" fill="#fc8d62"/>
+       </g>
+       <path id="path5479-7-5-4-5-6-16-2" d="m1387.2-2201.2h-15.577" fill="none"/>
+      </g>
+      <g id="g6611-9-6-5-3" transform="translate(1314.1 -36.237)" stroke="#000" stroke-width="2.5">
+       <g id="g6080-6-8-1-2-2-6" transform="translate(946.41 1823.9)">
+        <path id="path6078-8-9-0-2-4-7" d="m400.03-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#fc8d62"/>
+        <path id="path5473-0-3-8-1-9-3-5-3-3" d="m400.03-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#8da0cb"/>
+       </g>
+       <path id="path5479-7-5-6-7-7-4-4" d="m1383.7-2259.1h-15.577" fill="none"/>
+      </g>
+      <g id="g6135-5-3-0-8-4" transform="translate(2030 1600.5)" stroke="#000" stroke-width="1.9">
+       <path id="path6133-3-2-1-7-1" d="m690.01-3917.9a22.143 22.143 0 0 0 -22.143 22.143 22.143 22.143 0 0 0 22.143 22.143v-44.285z" fill="#fc8d62"/>
+       <path id="path5473-0-3-78-1-8-4-8-7" d="m690.01-3917.9v44.285a22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143z" fill="#8da0cb"/>
+      </g>
+      <g id="g6897-0-59-2" transform="translate(1389.8 -961.1)">
+       <flowRoot id="flowRoot5030-40-2-0-2-8-87-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-.92857 -2.3571)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-3-1"><rect id="rect5034-3-5-4-6-7-16-9" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-95-2" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-36-5" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+       <path id="path5479-7-5-913-60-18-1" d="m1272.2-1290.5v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+      </g>
+      <g id="g8340-6-6-2" transform="translate(1445.9 -962.4)">
+       <path id="path5479-7-5-913-1-0-5-4" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-2-32-0">
+        <flowRoot id="flowRoot5030-40-2-0-2-2-8-3-3" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-1-0"><rect id="rect5034-3-5-4-6-5-6-2-8" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-5-5" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path5479-7-5-913-1-6-5-2-7" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-9-80-1" transform="translate(1447.7 -964.4)">
+       <path id="path5479-7-5-913-1-6-8-74-4-5" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-4-3" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-68-7"><rect id="rect5034-3-5-4-6-5-2-6-43-8" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-9-3" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      </g>
+     </g>
+    </g>
+    <text id="text73083-1-5-6-1-0-8-85-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-3830.293" x="6896.0054" font-family="&apos;TeX Gyre Pagella&apos;" line-height="125%" fill="#000000"><tspan id="tspan73085-3-6-8-3-7-8-7-9" y="-3830.293" x="6896.0054">Asn</tspan><tspan id="tspan87540" y="-3755.293" x="6896.0054"/></text>
+   </g>
+   <g id="g89629" transform="translate(15.958)">
+    <g id="g87602" transform="translate(-2411.2 -4879)">
+     <g id="g87604" transform="translate(6966.7 4075)">
+      <g id="g87606" transform="matrix(-1 0 0 1 3550.6 -1373.6)">
+       <path id="path87608" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g87610">
+        <flowRoot id="flowRoot87612" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion87614"><rect id="rect87616" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara87618" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path87620" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g87622" transform="translate(910.35 -1375.2)">
+       <path id="path87624" d="m1347.2-1320.7-17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot87626" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(87.286 .71429)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion87628"><rect id="rect87630" transform="scale(-1,1)" height="75.276" width="131.04" y="-1316.3" x="-1330.3"/></flowRegion><flowPara id="flowPara87632" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">HO<flowSpan id="flowSpan87634" style="baseline-shift:sub" font-size="65%"/></flowPara></flowRoot>
+      </g>
+     </g>
+     <g id="g87638" transform="translate(6702.6 3659.7)">
+      <g id="g87640" stroke-width="2.5" transform="translate(1193.1 -147.77)">
+       <g id="g87642" transform="matrix(-1 0 0 1 1778.6 1949.6)">
+        <g id="g87644" transform="translate(31.315 -12.122)" stroke="#000" stroke-width="2.5">
+         <path id="path87646" d="m400.15-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#8da0cb"/>
+         <path id="path87648" d="m400.16-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#fc8d62"/>
+        </g>
+       </g>
+       <path id="path87650" d="m1384.6-2145.5h-15.577" stroke="#000" fill="none"/>
+      </g>
+      <g id="g87652" transform="translate(1251.7 -93.064)" stroke="#000" stroke-width="2.5">
+       <g id="g87654" transform="translate(959.99 1700.3)">
+        <path id="path87656" d="m369.66-3912.9a22.143 22.143 0 0 0 -3.2168 11.438 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.129 -22.143v21.641l-18.941-10.936z" fill="#8da0cb"/>
+        <path id="path87658" d="m369.66-3912.9 18.941 10.936v-21.641a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -18.928 10.705z" fill="#fc8d62"/>
+       </g>
+       <path id="path87660" d="m1387.2-2201.2h-15.577" fill="none"/>
+      </g>
+      <g id="g87662" transform="translate(1314.1 -36.237)" stroke="#000" stroke-width="2.5">
+       <g id="g87664" transform="translate(946.41 1823.9)">
+        <path id="path87666" d="m400.03-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#fc8d62"/>
+        <path id="path87668" d="m400.03-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#8da0cb"/>
+       </g>
+       <path id="path87670" d="m1383.7-2259.1h-15.577" fill="none"/>
+      </g>
+      <g id="g87672" transform="translate(2030 1600.5)" stroke="#000" stroke-width="1.9">
+       <path id="path87674" d="m690.01-3917.9a22.143 22.143 0 0 0 -22.143 22.143 22.143 22.143 0 0 0 22.143 22.143v-44.285z" fill="#fc8d62"/>
+       <path id="path87676" d="m690.01-3917.9v44.285a22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143z" fill="#8da0cb"/>
+      </g>
+      <g id="g87678" transform="translate(1389.8 -961.1)">
+       <flowRoot id="flowRoot87680" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-.92857 -2.3571)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion87682"><rect id="rect87684" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara87686" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan87688" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+       <path id="path87690" d="m1272.2-1290.5v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+      </g>
+      <g id="g87692" transform="translate(1445.9 -962.4)">
+       <path id="path87694" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g87696">
+        <flowRoot id="flowRoot87698" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion87700"><rect id="rect87702" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara87704" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path87706" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g87708" transform="translate(1447.7 -964.4)">
+       <path id="path87710" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot87712" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion87714"><rect id="rect87716" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara87718" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      </g>
+     </g>
+    </g>
+    <text id="text73083-1-5-6-1-0-8-85-0-2" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-3579.9392" x="6877.0874" font-family="&apos;TeX Gyre Pagella&apos;" line-height="125%" fill="#000000"><tspan id="tspan73085-3-6-8-3-7-8-7-9-7" y="-3579.9392" x="6877.0874">Asp</tspan><tspan id="tspan87540-2" y="-3504.9392" x="6877.0874"/></text>
+   </g>
+   <text id="text73083-1-5-6-1-0-8-8-5" style="word-spacing:0px;letter-spacing:0px" line-height="125%" font-size="60px" y="-3236.0474" x="6955.0522" font-family="&apos;TeX Gyre Pagella&apos;" xml:space="preserve" fill="#000000"><tspan id="tspan73085-3-6-8-3-7-8-9-2" style="text-anchor:middle;text-align:center" y="-3236.0474" x="6955.0522">Aspartate</tspan><tspan id="tspan89501" style="text-anchor:middle;text-align:center" y="-3161.0474" x="6955.0522">Semialdehyde</tspan></text>
+   <g id="g89693" transform="translate(213.59)">
+    <g id="g18271-0" transform="translate(2722.3 -593.81)">
+     <g id="g6897-0-0-4" transform="translate(2893.5 -952.62)">
+      <flowRoot id="flowRoot5030-40-2-0-2-8-52-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-.92857 -2.3571)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-5-2"><rect id="rect5034-3-5-4-6-7-2-7" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-98-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-7-9" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+      <path id="path5479-7-5-913-60-6-9" d="m1272.2-1290.5v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+     </g>
+     <g id="g6897-0-2-9" transform="translate(2556.9 -986.76)">
+      <flowRoot id="flowRoot5030-40-2-0-2-8-1-75" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(12.749 -23.57)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-75-47"><rect id="rect5034-3-5-4-6-7-6-1" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-0-8" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">H<flowSpan id="flowSpan15483-5" style="baseline-shift:sub" font-size="65%">2</flowSpan>N</flowPara></flowRoot>
+      <path id="path5479-7-5-913-60-1-8" d="m1328.2-1302.2h22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+     </g>
+     <g id="g16036-8" transform="translate(2586 449.34)">
+      <g id="g8340-3-5" transform="translate(361.72 -1404)">
+       <path id="path5479-7-5-913-1-3-3" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-0-9">
+        <flowRoot id="flowRoot5030-40-2-0-2-2-47-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-0-7"><rect id="rect5034-3-5-4-6-5-9-6" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-2-3" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path5479-7-5-913-1-6-1-0" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-2-2" transform="translate(363.5 -1406)">
+       <path id="path5479-7-5-913-1-6-8-6-0" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-1-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-91-8"><rect id="rect5034-3-5-4-6-5-2-2-0" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-8-2" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      </g>
+      <g id="g6623-0-3" stroke-width="2.5" transform="translate(-4.1472 -592.38)">
+       <g id="g6080-3-6-7-0-04" transform="matrix(-1 0 0 1 1778.6 1949.6)">
+        <g id="g6128-4-5-6-2" transform="translate(31.315 -12.122)" stroke="#000" stroke-width="2.5">
+         <path id="path6078-1-7-8-7-2" d="m400.15-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#8da0cb"/>
+         <path id="path5473-0-3-8-3-4-0-1-5" d="m400.16-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#fc8d62"/>
+        </g>
+       </g>
+       <path id="path5479-7-5-0-3-3" d="m1384.6-2145.5h-15.577" stroke="#000" fill="none"/>
+      </g>
+      <g id="g6617-9-2" transform="translate(52.806 -536.66)" stroke="#000" stroke-width="2.5">
+       <g id="g6103-8-7-3-3" transform="translate(959.99 1700.3)">
+        <path id="path6086-5-6-3-9" d="m369.66-3912.9a22.143 22.143 0 0 0 -3.2168 11.438 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.129 -22.143v21.641l-18.941-10.936z" fill="#8da0cb"/>
+        <path id="path5473-0-3-2-8-4-9-6" d="m369.66-3912.9 18.941 10.936v-21.641a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -18.928 10.705z" fill="#fc8d62"/>
+       </g>
+       <path id="path5479-7-5-4-3-2" d="m1387.2-2201.2h-15.577" fill="none"/>
+      </g>
+      <g id="g6623-0-2-0" stroke-width="2.5" transform="translate(113.74 -592.38)">
+       <g id="g6080-3-6-7-0-0-6" transform="matrix(-1 0 0 1 1778.6 1949.6)">
+        <g id="g6128-4-5-6-7-8" transform="translate(31.315 -12.122)" stroke="#000" stroke-width="2.5">
+         <path id="path6078-1-7-8-7-4-0" d="m400.15-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#8da0cb"/>
+         <path id="path5473-0-3-8-3-4-0-1-9-6" d="m400.16-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#fc8d62"/>
+        </g>
+       </g>
+       <path id="path5479-7-5-0-3-9-3" d="m1384.6-2145.5h-15.577" stroke="#000" fill="none"/>
+      </g>
+      <g id="g6617-9-9-3" transform="translate(170.69 -536.66)" stroke="#000" stroke-width="2.5">
+       <g id="g6103-8-7-3-1-7" transform="translate(959.99 1700.3)">
+        <path id="path6086-5-6-3-2-7" d="m369.66-3912.9a22.143 22.143 0 0 0 -3.2168 11.438 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.129 -22.143v21.641l-18.941-10.936z" fill="#8da0cb"/>
+        <path id="path5473-0-3-2-8-4-9-3-3" d="m369.66-3912.9 18.941 10.936v-21.641a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -18.928 10.705z" fill="#fc8d62"/>
+       </g>
+       <path id="path5479-7-5-4-3-7-5" d="m1387.2-2201.2h-15.577" fill="none"/>
+      </g>
+      <g id="g6623-6-0" stroke-width="2.5" transform="translate(231.62 -592.38)">
+       <g id="g6080-3-6-7-2-3" transform="matrix(-1 0 0 1 1778.6 1949.6)">
+        <g id="g6128-4-5-2-7" transform="translate(31.315 -12.122)" stroke="#000" stroke-width="2.5">
+         <path id="path6078-1-7-8-5-2" d="m400.15-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#8da0cb"/>
+         <path id="path5473-0-3-8-3-4-0-2-3" d="m400.16-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#fc8d62"/>
+        </g>
+       </g>
+       <path id="path5479-7-5-0-2-6" d="m1384.6-2145.5h-15.577" stroke="#000" fill="none"/>
+      </g>
+      <g id="g15157-9-3" transform="translate(139.47 -151.31)" stroke="#000" stroke-width="2.5">
+       <path id="path15155-1-7" d="m1497.5-2607.8a22.143 22.143 0 0 0 -0.1679 -0.01 22.143 22.143 0 0 0 -22.143 22.143 22.143 22.143 0 0 0 0.01 0.2031h22.303v-22.338z" fill="#fc8d62"/>
+       <path id="path5473-0-4-1-75-5-2-51-1" d="m1497.5-2607.8v22.338h-22.303a22.143 22.143 0 0 0 22.135 21.941 22.143 22.143 0 0 0 22.142 -22.144 22.143 22.143 0 0 0 -21.975 -22.135z" fill="#8da0cb"/>
+      </g>
+     </g>
+    </g>
+    <text id="text73083-1-5-6-1-0-8-85-0-2-5" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-2952.2119" x="6682.5415" font-family="&apos;TeX Gyre Pagella&apos;" line-height="125%" fill="#000000"><tspan id="tspan73085-3-6-8-3-7-8-7-9-7-8" y="-2952.2119" x="6682.5415">Lys</tspan><tspan id="tspan87540-2-2" y="-2877.2119" x="6682.5415"/></text>
+   </g>
+   <g id="g89759" transform="translate(158.19 18.872)">
+    <g id="g12250-5" transform="translate(3829.3 -214.52)">
+     <g id="g10411-6-0" transform="translate(486.24 1.1674)">
+      <g id="g6623-4-5-4-9" stroke-width="2.5" transform="translate(1074.4 -147.77)">
+       <g id="g6080-3-6-7-7-3-9-1" transform="matrix(-1 0 0 1 1778.6 1949.6)">
+        <g id="g6128-4-5-3-7-9-3" transform="translate(31.315 -12.122)" stroke="#000" stroke-width="2.5">
+         <path id="path6078-1-7-8-8-4-7-7" d="m400.15-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#8da0cb"/>
+         <path id="path5473-0-3-8-3-4-0-0-0-0-9" d="m400.16-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#fc8d62"/>
+        </g>
+       </g>
+       <path id="path5479-7-5-0-8-4-8-9" d="m1384.6-2145.5h-15.577" stroke="#000" fill="none"/>
+      </g>
+      <g id="g6617-0-2-5-2" transform="translate(1133 -93.064)" stroke="#000" stroke-width="2.5">
+       <g id="g6103-8-7-4-1-4-1" transform="translate(959.99 1700.3)">
+        <path id="path6086-5-6-4-2-9-8" d="m369.66-3912.9a22.143 22.143 0 0 0 -3.2168 11.438 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.129 -22.143v21.641l-18.941-10.936z" fill="#8da0cb"/>
+        <path id="path5473-0-3-2-8-4-5-2-3-2" d="m369.66-3912.9 18.941 10.936v-21.641a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -18.928 10.705z" fill="#fc8d62"/>
+       </g>
+       <path id="path5479-7-5-4-5-6-4-6" d="m1387.2-2201.2h-15.577" fill="none"/>
+      </g>
+      <g id="g6611-9-6-3-8" transform="translate(1195.4 -36.237)" stroke="#000" stroke-width="2.5">
+       <g id="g6080-6-8-1-2-1-6" transform="translate(946.41 1823.9)">
+        <path id="path6078-8-9-0-2-0-9" d="m400.03-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#fc8d62"/>
+        <path id="path5473-0-3-8-1-9-3-5-9-4" d="m400.03-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#8da0cb"/>
+       </g>
+       <path id="path5479-7-5-6-7-7-7-0" d="m1383.7-2259.1h-15.577" fill="none"/>
+      </g>
+      <g id="g6135-5-3-0-4-8" transform="translate(1911.3 1600.5)" stroke="#000" stroke-width="1.9">
+       <path id="path6133-3-2-1-4-9" d="m690.01-3917.9a22.143 22.143 0 0 0 -22.143 22.143 22.143 22.143 0 0 0 22.143 22.143v-44.285z" fill="#fc8d62"/>
+       <path id="path5473-0-3-78-1-8-4-9-8" d="m690.01-3917.9v44.285a22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143z" fill="#8da0cb"/>
+      </g>
+      <g id="g6897-0-1-5" transform="translate(1271.1 -961.1)">
+       <flowRoot id="flowRoot5030-40-2-0-2-8-5-3" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-.92857 -2.3571)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-6-5"><rect id="rect5034-3-5-4-6-7-0-3" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-9-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-4-0" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+       <path id="path5479-7-5-913-60-4-3" d="m1272.2-1290.5v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+      </g>
+      <g id="g8340-6-9-5" transform="translate(1327.2 -962.4)">
+       <path id="path5479-7-5-913-1-0-6-1" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <g id="g8285-2-6-9">
+        <flowRoot id="flowRoot5030-40-2-0-2-2-8-1-2" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-4-1"><rect id="rect5034-3-5-4-6-5-6-1-0" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-2-4" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+        <path id="path5479-7-5-913-1-6-5-5-6" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       </g>
+      </g>
+      <g id="g7865-9-8-9" transform="translate(1329 -964.4)">
+       <path id="path5479-7-5-913-1-6-8-74-2-5" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+       <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-3-6" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-6-1"><rect id="rect5034-3-5-4-6-5-2-6-6-6" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-2-4" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+      </g>
+      <g id="g9530-5-4-2-5" transform="translate(534.18 -.71428)">
+       <flowRoot id="flowRoot5030-40-2-0-2-81-1-2-9-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(566.47 -1015.1)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-5-9-2-1-4"><rect id="rect5034-3-5-4-6-8-4-8-1-2" y="-1294.4" x="1262.8" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-60-17-5-0-4" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">S</flowPara></flowRoot>
+       <path id="path5479-7-5-1-6-0-8-1" d="m1866.5-2292.5h-15.577" stroke="#000" stroke-width="2.5" fill="none"/>
+      </g>
+     </g>
+     <g id="g6268-4-44" transform="translate(1654.2 -97.48)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-14-0" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-6-21" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+    </g>
+    <text id="text73083-1-5-6-1-0-8-85-0-2-5-3" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-2571.4175" x="6754.395" font-family="&apos;TeX Gyre Pagella&apos;" line-height="125%" fill="#000000"><tspan id="tspan73085-3-6-8-3-7-8-7-9-7-8-5" y="-2571.4175" x="6754.395">Met</tspan><tspan id="tspan87540-2-2-2" y="-2496.4175" x="6754.395"/></text>
+   </g>
+   <text id="text73083-1-5-6-1-0-8-85-0-2-5-7" style="word-spacing:0px;letter-spacing:0px" line-height="125%" font-size="60px" y="-2723.2866" x="7326.2139" font-family="&apos;TeX Gyre Pagella&apos;" xml:space="preserve" fill="#000000"><tspan id="tspan73085-3-6-8-3-7-8-7-9-7-8-1" y="-2723.2866" x="7326.2139">Homoserine</tspan><tspan id="tspan87540-2-2-5" y="-2648.2866" x="7326.2139"/></text>
+   <g id="g89815" transform="translate(-6.0609 51.27)">
+    <g id="g21505-5" transform="translate(4900.7 -247.34)">
+     <g id="g6623-4-5-6" stroke-width="2.5" transform="translate(1193.1 -147.77)">
+      <g id="g6080-3-6-7-7-3-5" transform="matrix(-1 0 0 1 1778.6 1949.6)">
+       <g id="g6128-4-5-3-7-8" transform="translate(31.315 -12.122)" stroke="#000" stroke-width="2.5">
+        <path id="path6078-1-7-8-8-4-2" d="m400.15-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#8da0cb"/>
+        <path id="path5473-0-3-8-3-4-0-0-0-5" d="m400.16-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#fc8d62"/>
+       </g>
+      </g>
+      <path id="path5479-7-5-0-8-4-6" d="m1384.6-2145.5h-15.577" stroke="#000" fill="none"/>
+     </g>
+     <g id="g6617-0-2-8" transform="translate(1251.7 -93.064)" stroke="#000" stroke-width="2.5">
+      <g id="g6103-8-7-4-1-5" transform="translate(959.99 1700.3)">
+       <path id="path6086-5-6-4-2-8" d="m369.66-3912.9a22.143 22.143 0 0 0 -3.2168 11.438 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.129 -22.143v21.641l-18.941-10.936z" fill="#8da0cb"/>
+       <path id="path5473-0-3-2-8-4-5-2-0" d="m369.66-3912.9 18.941 10.936v-21.641a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -18.928 10.705z" fill="#fc8d62"/>
+      </g>
+      <path id="path5479-7-5-4-5-6-16" d="m1387.2-2201.2h-15.577" fill="none"/>
+     </g>
+     <g id="g6611-9-6-5" transform="translate(1314.1 -36.237)" stroke="#000" stroke-width="2.5">
+      <g id="g6080-6-8-1-2-2" transform="translate(946.41 1823.9)">
+       <path id="path6078-8-9-0-2-4" d="m400.03-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#fc8d62"/>
+       <path id="path5473-0-3-8-1-9-3-5-3" d="m400.03-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#8da0cb"/>
+      </g>
+      <path id="path5479-7-5-6-7-7-4" d="m1383.7-2259.1h-15.577" fill="none"/>
+     </g>
+     <g id="g6135-5-3-0-8" transform="translate(2030 1600.5)" stroke="#000" stroke-width="1.9">
+      <path id="path6133-3-2-1-7" d="m690.01-3917.9a22.143 22.143 0 0 0 -22.143 22.143 22.143 22.143 0 0 0 22.143 22.143v-44.285z" fill="#fc8d62"/>
+      <path id="path5473-0-3-78-1-8-4-8" d="m690.01-3917.9v44.285a22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143z" fill="#8da0cb"/>
+     </g>
+     <g id="g6897-0-59" transform="translate(1389.8 -961.1)">
+      <flowRoot id="flowRoot5030-40-2-0-2-8-87" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-.92857 -2.3571)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-3"><rect id="rect5034-3-5-4-6-7-16" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-95" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-36" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+      <path id="path5479-7-5-913-60-18" d="m1272.2-1290.5v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+     </g>
+     <g id="g8340-6-6" transform="translate(1445.9 -962.4)">
+      <path id="path5479-7-5-913-1-0-5" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <g id="g8285-2-32">
+       <flowRoot id="flowRoot5030-40-2-0-2-2-8-3" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-1"><rect id="rect5034-3-5-4-6-5-6-2" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-5" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+       <path id="path5479-7-5-913-1-6-5-2" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      </g>
+     </g>
+     <g id="g7865-9-80" transform="translate(1447.7 -964.4)">
+      <path id="path5479-7-5-913-1-6-8-74-4" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-68"><rect id="rect5034-3-5-4-6-5-2-6-43" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-9" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+     </g>
+     <g id="g9970-9" transform="translate(1391.5 -1164)">
+      <flowRoot id="flowRoot5030-40-2-0-2-8-2-1-3" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-84.5 206.93)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-3-2-9"><rect id="rect5034-3-5-4-6-7-6-5-88" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-8-2-0" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">HO</flowPara></flowRoot>
+      <path id="path5479-7-5-913-60-4-6-5" d="m1210-1087.6v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+     </g>
+    </g>
+    <text id="text73083-1-5-6-1-0-8-85-0-2-5-3-6" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-2608.2585" x="7489.6304" font-family="&apos;TeX Gyre Pagella&apos;" line-height="125%" fill="#000000"><tspan id="tspan73085-3-6-8-3-7-8-7-9-7-8-5-1" y="-2608.2585" x="7489.6304">Thr</tspan><tspan id="tspan87540-2-2-2-8" y="-2533.2585" x="7489.6304"/></text>
+   </g>
+   <text id="text73083-1-5-6-1-2-6-5" style="word-spacing:0px;letter-spacing:0px" line-height="125%" font-size="60px" y="-2487.4849" x="7817.9365" font-family="sans-serif" xml:space="preserve" fill="#000000"><tspan id="tspan73238-3" font-size="60px" y="-2487.4849" x="7817.9365" font-family="&apos;TeX Gyre Pagella&apos;">α-ketobutyrate</tspan></text>
+   <g id="g89304" transform="translate(55.257 27.672)">
+    <g id="g14748-1" transform="translate(4516 -230.92)">
+     <g id="g6623-4-5-43-9" stroke-width="2.5" transform="translate(2436.2 -153.65)">
+      <g id="g6080-3-6-7-7-3-92-5" transform="matrix(-1 0 0 1 1778.6 1949.6)">
+       <g id="g6128-4-5-3-7-1-7" transform="translate(31.315 -12.122)" stroke="#000" stroke-width="2.5">
+        <path id="path6078-1-7-8-8-4-78-1" d="m400.15-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#8da0cb"/>
+        <path id="path5473-0-3-8-3-4-0-0-0-4-7" d="m400.16-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#fc8d62"/>
+       </g>
+      </g>
+      <path id="path5479-7-5-0-8-4-3-5" d="m1384.6-2145.5h-15.577" stroke="#000" fill="none"/>
+     </g>
+     <g id="g6617-0-2-59-4" transform="translate(2494.8 -98.947)" stroke="#000" stroke-width="2.5">
+      <g id="g6103-8-7-4-1-2-6" transform="translate(959.99 1700.3)">
+       <path id="path6086-5-6-4-2-0-1" d="m369.66-3912.9a22.143 22.143 0 0 0 -3.2168 11.438 22.143 22.143 0 0 0 22.145 22.144 22.143 22.143 0 0 0 22.143 -22.144 22.143 22.143 0 0 0 -22.129 -22.143v21.641l-18.941-10.936z" fill="#8da0cb"/>
+       <path id="path5473-0-3-2-8-4-5-2-30-1" d="m369.66-3912.9 18.941 10.936v-21.641a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -18.928 10.705z" fill="#fc8d62"/>
+      </g>
+      <path id="path5479-7-5-4-5-6-1-7" d="m1387.2-2201.2h-15.577" fill="none"/>
+     </g>
+     <g id="g6611-9-6-4-7" transform="translate(2619.3 -42.12)" stroke="#000" stroke-width="2.5">
+      <g id="g6080-6-8-1-2-6-6" transform="translate(946.41 1823.9)">
+       <path id="path6078-8-9-0-2-6-8" d="m400.03-4105.1a22.143 22.143 0 0 0 -0.0137 0 22.143 22.143 0 0 0 -22.143 22.142 22.143 22.143 0 0 0 2.7832 10.695l19.373-11.186v-21.652z" fill="#fc8d62"/>
+       <path id="path5473-0-3-8-1-9-3-5-8-5" d="m400.03-4105.1v21.652l-19.373 11.186a22.143 22.143 0 0 0 19.359 11.447 22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.129 -22.142z" fill="#8da0cb"/>
+      </g>
+      <path id="path5479-7-5-6-7-7-1-9" d="m1383.7-2259.1h-15.577" fill="none"/>
+     </g>
+     <g id="g6135-5-3-0-2-6" transform="translate(3335.1 1594.6)" stroke="#000" stroke-width="1.9">
+      <path id="path6133-3-2-1-8-8" d="m690.01-3917.9a22.143 22.143 0 0 0 -22.143 22.143 22.143 22.143 0 0 0 22.143 22.143v-44.285z" fill="#fc8d62"/>
+      <path id="path5473-0-3-78-1-8-4-7-4" d="m690.01-3917.9v44.285a22.143 22.143 0 0 0 22.143 -22.143 22.143 22.143 0 0 0 -22.143 -22.143z" fill="#8da0cb"/>
+     </g>
+     <g id="g6897-0-16-0" transform="translate(2694.9 -966.99)">
+      <flowRoot id="flowRoot5030-40-2-0-2-8-8-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(-.92857 -2.3571)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-7-9-0"><rect id="rect5034-3-5-4-6-7-1-4" y="-1294.4" width="131.04" x="1262.8" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-5-4-1" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">NH<flowSpan id="flowSpan7824-8-0-9" style="baseline-shift:sub" font-size="65%">2</flowSpan></flowPara></flowRoot>
+      <path id="path5479-7-5-913-60-8-1" d="m1272.2-1290.5v-22.403" stroke="#000" stroke-width="2.2905" fill="none"/>
+     </g>
+     <g id="g8340-6-01-2" transform="translate(2751.1 -968.28)">
+      <path id="path5479-7-5-913-1-0-0-9" d="m1288.8-1348.9 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <g id="g8285-2-1-6">
+       <flowRoot id="flowRoot5030-40-2-0-2-2-8-80-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1308.6 -1376.5)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-1-7-0"><rect id="rect5034-3-5-4-6-5-6-35-5" y="-8.0342" x="-.45266" width="131.04" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-02-87-6" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">O</flowPara></flowRoot>
+       <path id="path5479-7-5-913-1-6-5-7-0" d="m1293.2-1344.4 17.208-14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      </g>
+     </g>
+     <g id="g7865-9-1-8" transform="translate(2752.8 -970.28)">
+      <path id="path5479-7-5-913-1-6-8-74-8-5" d="m1292.9-1320.7 17.208 14.344" stroke="#000" stroke-width="2.5" fill="none"/>
+      <flowRoot id="flowRoot5030-40-2-0-2-2-1-6-9-5" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" transform="translate(1310.3 -1308.3)" line-height="125%" font-size="35.485px" font-family="sans-serif" fill="#000000"><flowRegion id="flowRegion5032-07-2-1-8-8-8-7-7-5"><rect id="rect5034-3-5-4-6-5-2-6-4-2" y="-8.0342" width="131.04" x="-.45266" height="75.276"/></flowRegion><flowPara id="flowPara5036-115-3-0-7-2-9-0-7-8" font-size="26.614px" font-family="&apos;TeX Gyre Pagella&apos;">OH</flowPara></flowRoot>
+     </g>
+     <g id="g6302-6-6" transform="translate(2755.6 -172.37)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-7-6-8-6-1" cx="1148.6" cy="-2129.1" r="22.143" fill="#fc8d62"/>
+      <path id="path5479-7-5-91-8-5" d="m1187.3-2129.1h-15.577" fill="none"/>
+     </g>
+     <g id="g6268-17-7-4" transform="matrix(0 -1 1 0 6099.1 -1089.9)" stroke="#000" stroke-width="2.5">
+      <circle id="path5473-0-4-1-75-5-4-5-5-0" cx="1150.7" cy="-2194.8" r="22.143" fill="#8da0cb"/>
+      <path id="path5479-7-5-9-92-5-2" d="m1189.6-2194.8h-15.577" fill="none"/>
+     </g>
+    </g>
+    <text id="text73083-1-5-6-1-0-8-85-0-2-5-3-6-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="60px" y="-2596.0706" x="8397.5029" font-family="&apos;TeX Gyre Pagella&apos;" line-height="125%" fill="#000000"><tspan id="tspan73085-3-6-8-3-7-8-7-9-7-8-5-1-1" y="-2596.0706" x="8397.5029">Ile</tspan><tspan id="tspan87540-2-2-2-8-2" y="-2521.0706" x="8397.5029"/></text>
+   </g>
+   <g id="g97125-0-1-9" transform="matrix(-.60562 0 0 -.60562 13296 -4327.6)" stroke="#000" fill="none">
+    <path id="path89867-8-4-8" marker-end="url(#marker96243-5-88-8)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-2-4-7" d="m10484-1128.5v96.605" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-1-9-0" transform="matrix(-.60562 0 0 .60562 13296 -2715.3)" stroke="#000" fill="none">
+    <path id="path89867-8-4-8-0" marker-end="url(#marker96243-5-88-8-7)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-2-4-7-6" d="m10484-1128.5v96.605" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-1-9-0-5" transform="matrix(-.60562 0 0 .60562 13296 -2426.3)" stroke="#000" fill="none">
+    <path id="path89867-8-4-8-0-6" marker-end="url(#marker96243-5-88-8-7-2)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-2-4-7-6-1" d="m10484-1128.5v96.605" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-0-4-7" transform="matrix(.11105 -.59535 .59535 .11105 6791.4 3407.9)" stroke="#000" fill="none">
+    <path id="path89867-8-0-3-9" marker-end="url(#marker96243-5-9-9-0)" d="m10316-751.53-34.232 16.747" stroke-width="6.6049"/>
+    <path id="path97123-2-6-5-6" d="m10634-1615.7c31.483 274.14-55.888 731.95-344.19 876.89" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-0-4-7-3" transform="matrix(-.11105 -.59535 -.59535 .11105 7695.5 3570.5)" stroke="#000" fill="none">
+    <path id="path89867-8-0-3-9-8" marker-end="url(#marker96243-5-9-9-0-4)" d="m10165-894.95 5.66 37.686" stroke-width="6.6049"/>
+    <path id="path97123-2-6-5-6-3" d="m10233-1563.9c-182.07 142.22-104.19 458.3-62.209 697.98" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-1-9-0-4" transform="matrix(-.60562 0 0 .60562 13884 -2016.3)" stroke="#000" fill="none">
+    <path id="path89867-8-4-8-0-1" marker-end="url(#marker96243-5-88-8-7-1)" d="m10484-1043.1v25.599" stroke-width="6.6049"/>
+    <path id="path97123-2-4-7-6-3" d="m10557-1126.1c-1.851 81.965-69.079 44.223-73.125 94.246" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-1-0" transform="matrix(0 .60562 .60562 0 8391.3 -8850.2)" stroke="#000" fill="none">
+    <path id="path89867-8-4-7" marker-end="url(#marker96243-5-88-23)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-2-4-8" d="m10484-1128.5v96.605" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-1-0-9" transform="matrix(0 .60562 .60562 0 8911.3 -8850.2)" stroke="#000" fill="none">
+    <path id="path89867-8-4-7-8" marker-end="url(#marker96243-5-88-23-7)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-2-4-8-8" d="m10484-1128.5v96.605" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-0-1-0-4" transform="matrix(0 .60562 .60562 0 8805.3 -9530.2)" stroke="#000" fill="none">
+    <path id="path89867-8-4-7-0" marker-end="url(#marker96243-5-88-23-8)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path97123-2-4-8-1" d="m10484-1128.5v96.605" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-06-6-2-0-0" transform="matrix(-.45810 -.39613 -.39613 .45810 12671 1629.1)" stroke="#000" fill="none">
+    <path id="path89867-9-3-2-9-7" marker-end="url(#marker96243-2-93-0-4-6)" d="m10463-872.49-31.321-21.71" stroke-width="6.6049"/>
+    <path id="path97123-8-5-2-1-1" d="m10692-1167c64.964 215.7-67.758 426.71-246.54 280.3" stroke-width="16.512"/>
+   </g>
+   <g id="g97125-06-6-2-0-5-7" transform="matrix(-.45810 .39613 -.39613 -.45810 12713 -8041.9)" stroke="#000" fill="none">
+    <path id="path89867-9-3-2-9-1-0" marker-end="url(#marker96243-2-93-0-4-4-7)" d="m10313-890.61-29.52-24.102" stroke-width="6.6049"/>
+    <path id="path97123-8-5-2-1-3-4" d="m10796-1200.6c29.867 158.74-326.11 437.18-504.89 290.77" stroke-width="16.512"/>
+   </g>
+   <g id="g114687" transform="matrix(-.45810 .39613 -.39613 -.45810 12687 -8101.9)" stroke="#000" fill="none">
+    <path id="path114689" marker-end="url(#marker114693)" d="m10391-643.28-34.238 16.735" stroke-width="6.6049"/>
+    <path id="path114691" d="m10831-1303.2c-16.277 310.53-164.1 531.97-468.13 675.39" stroke-width="16.512"/>
+   </g>
+   <g id="g122269">
+    <path id="path89867-8-4-85" marker-end="url(#marker96243-5-88-0)" d="m7903.6-3587.7 19.361 12.563" stroke="#000" stroke-width="4" fill="none"/>
+    <path id="path89867-8-4-4" marker-end="url(#marker96243-5-88-29)" d="m7863.4-2986.9-21.82 7.5203" stroke="#000" stroke-width="4" fill="none"/>
+    <g font-size="60px" font-family="sans-serif" fill="#000000">
+     <text id="text73083-1-5-6-1-0-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="-3282.6228" x="7602.8867" line-height="125%"><tspan id="tspan73085-3-6-8-3-7-2" font-size="60px" y="-3282.6228" x="7602.8867" font-family="&apos;TeX Gyre Pagella&apos;">TCA Cycle</tspan></text>
+     <text id="text73083-1-5-6-1-0-8" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="-3511.5391" x="7839.377" line-height="125%"><tspan id="tspan73085-3-6-8-3-7-8" font-size="60px" y="-3511.5391" x="7839.377" font-family="&apos;TeX Gyre Pagella&apos;">isocitrate</tspan></text>
+     <text id="text73083-1-5-6-1-2-6-3" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="-3168.8665" x="7689.1626" line-height="125%"><tspan id="tspan73238-5" font-size="60px" y="-3168.8665" x="7689.1626" font-family="&apos;TeX Gyre Pagella&apos;">α-ketoglutarate</tspan></text>
+     <text id="text73083-1-5-6-1-0-8-8" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="-2917.7278" x="7608.9634" line-height="125%"><tspan id="tspan73085-3-6-8-3-7-8-9" font-size="60px" y="-2917.7278" x="7608.9634" font-family="&apos;TeX Gyre Pagella&apos;">Succinate</tspan></text>
+     <text id="text73083-1-5-6-1-0-8-85" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="-3168.8665" x="7352.6797" line-height="125%"><tspan id="tspan73085-3-6-8-3-7-8-7" font-size="60px" y="-3168.8665" x="7352.6797" font-family="&apos;TeX Gyre Pagella&apos;">Malate</tspan></text>
+     <text id="text73083-1-5-6-1-0-8-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="-3511.5391" x="7330.9385" line-height="125%"><tspan id="tspan73085-3-6-8-3-7-8-1" font-size="60px" y="-3511.5391" x="7330.9385" font-family="&apos;TeX Gyre Pagella&apos;">Oxaloacetate</tspan></text>
+    </g>
+    <path id="path112028" style="color-rendering:auto;text-decoration-color:#000000;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;block-progression:tb;text-decoration-line:none;text-decoration-style:solid;image-rendering:auto;white-space:normal;text-indent:0;text-transform:none" d="m7743.4-3633c-68.275 0-131.78 20.383-184.86 55.336h8.5977c1.861 0.2409 3.8701-0.3323 5.7148 0 1.3904 0.2506 2.3327 0.4703 3.2051 0.7129 48.94-29.235 106.16-46.049 167.34-46.049 61.674 0 119.33 17.092 168.53 46.766h8.1875 10.354c-53.517-35.839-117.86-56.766-187.07-56.766zm-200.01 76.766c0.6734 0.01 1.3465 0.019 2.0196 0.023 0.01-0.01 0.021-0.016 0.031-0.023h-2.0508zm-58.613 44.5c-0.2795 0.3356-0.5634 0.6673-0.8417 1.0039 0.5454-0.2214 1.0865-0.4554 1.6308-0.6797-0.2655-0.1136-0.5257-0.215-0.7891-0.3242zm-11.432 23.723c-2.2962 0.4034-4.6346 0.4537-6.9707 0.4258-37.635 54.341-59.723 120.25-59.723 191.33 0 22.497 2.229 44.472 6.4454 65.734h6.3632 3.834c-4.3424-21.234-6.6425-43.213-6.6426-65.734 0-71.389 22.917-137.37 61.746-191.1-1.68-0.3576-3.3618-0.6729-5.0527-0.6582zm535.89 1.7773c38.326 53.526 60.91 119.09 60.91 189.98 0 22.521-2.2945 44.501-6.6367 65.734h10.191c4.2186-21.261 6.4453-43.237 6.4453-65.734 0-70.453-21.691-135.84-58.717-189.9-0.9089 0.066-1.8186 0.1556-2.7266 0.2871-2.4005-0.038-3.9353 0.059-5.9219-0.3633h-2.0996-1.4453zm-590.39 280c0.013 0.046 0.026 0.091 0.039 0.1367 0.1124-0.044 0.2279-0.085 0.3496-0.1328h-0.3886zm15.07 42.859c0.0008 0 0 0 0 0.01 2.1271 0 4.2538-0.01 6.3809 0 0.5769 0 1.1536-0.01 1.7304-0.01h-5.8671-2.2461zm8.7129 18.57c39.326 77.915 108.02 138.49 191.53 167.14h2.1719c0.3243-0.8052 0.8959-1.6359 1.1836-2.1269 0.4254-0.4241 0.9052-0.8021 1.2774-1.2735 0.061-0.078-0.3115 0.1293-0.2969 0.031 0.052-0.3478 0.266-0.6528 0.4355-0.961 0.7909-1.4389 1.7844-2.4564 3.0215-3.5078 0.01-0.01 0.058-0.047 0.07-0.057-81.537-26.584-148.95-84.354-188.19-159.25-0.4433 0.0001-0.8867 0.0001-1.3301 0-2.7429-0.0007-5.4875 0-8.2304 0-0.547 0-1.0937-0.0003-1.6406 0zm588.87 2.8574c-38.845 72.403-104.19 128.44-183.07 155.18 0.019 0.044 0.036 0.089 0.055 0.1328 0.4513 1.0347 1.7404 3.8058 2.0957 4.8711 0.3521 1.0555 0.5321 2.1628 0.8457 3.2304 0.048 0.03 0.1252 0.034 0.1426 0.088 0.083 0.255 0.1406 0.518 0.2031 0.7793h0.9121c82.482-28.306 150.52-87.746 190.07-164.29h-1.4141-9.8418z"/>
+    <g>
+     <g id="g97125-0-1-0-4-8" transform="matrix(0 .60562 .60562 0 10063 -10278)" stroke-width="16.512">
+      <path id="path97123-2-4-8-1-4" d="m10589-3830.6h384.39" stroke="#000" stroke-width="16.512" fill="none"/>
+     </g>
+     <path id="path89867-8-4-0" marker-end="url(#marker96243-5-88-1)" d="m7462.7-3113.9-9.707-20.939" stroke="#000" stroke-width="4" fill="none"/>
+     <path id="path89867-8-4-01" marker-end="url(#marker96243-5-88-06)" d="m7456.8-3457.2 10.686-20.457" stroke="#000" stroke-width="4" fill="none"/>
+    </g>
+   </g>
+   <g id="g122290" transform="matrix(.60562 0 0 -.60562 1393.4 -5872.6)" stroke="#000" fill="none">
+    <path id="path122292" marker-end="url(#marker96243-2)" d="m10484-1055.6v38.109" stroke-width="6.6049"/>
+    <path id="path122294" d="m10484-1206.9v175" stroke-width="16.512"/>
+   </g>
+  </g>
+ </g>
+</svg>

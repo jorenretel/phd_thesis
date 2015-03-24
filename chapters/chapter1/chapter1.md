@@ -34,6 +34,10 @@ and a citation. [@higman2009assigning]
 
 
 
+![Amino acid metabolism. \label{glycerol_metabolism}](figures/glycerol_metabolism.svg)
+
+
+
 ![Labeling patterns in 20 amino acids when 1,3-glycerol (blue) or 2-glycerol are used as feedstock. \label{glycerol_labeling}](figures/glycerol_labeling.svg)
 
 
