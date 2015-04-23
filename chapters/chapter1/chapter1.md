@@ -13,12 +13,6 @@ The energy difference used in NMR is only very small compared to the thermal ene
 In both liquid and solid samples, every molecule in the sample has a different spacial orientation in respect to direction of the static field of the magnet.
 The first structure of a protein,... was solved in 19.. by x-ray crystallography.
 
-
-
-![NCOCX experiment \label{ncocx}](figures/NCOCX.png)
-
-
-
 and a citation. [@higman2009assigning]
 
 > *This* is a quotation block: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
