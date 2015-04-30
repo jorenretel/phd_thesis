@@ -63,3 +63,8 @@ and a citation. [@higman2009assigning]
 ![Sampling schedule used for the recording of the 4D HNhhNH spectrum for distance restaints. 14% of the points in the indirect dimension were recorded.](figures/nus_cube.svg)
 
 
+
+![Graphical User Interface of the CCPN Analysis plug-in that helps comparing spin systems to each other. In the tables at the top, the two spin systems that should be compared are selected. The tables at the bottom show the resonances unique to the first spin system, the resonances that are assigned to the same type of nuclei and the resonances unique to the second spin system. In this case a spin system created based on the proton detected data is compared to one that was created using carbon detected data.](figures/compare_spin_systems_gui.png)
+
+
+
