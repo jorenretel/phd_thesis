@@ -7,7 +7,7 @@ another figure:
 
 ![some gui \label{gui}](../chapter2/figures/assignmentTransferTab.png)
 
-and another citation. [@palatnik_sequence_2007]
+and another citation.
 
 Some tabe with chemical shifts:
 
@@ -33,3 +33,6 @@ Some tabe with chemical shifts:
 | 50  | Y   | 9.0742 | 118.342  | 172.0701 | 60.0655 | 42.1528 |
 | 51  | Y   | 6.126  | 128.1575 |          | 55.4226 | 43.3702 |
 | 73  | E   | 9.6753 | 121.9648 |          | 55.363  | 34.731  |
+
+
+

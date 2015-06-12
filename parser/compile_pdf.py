@@ -16,7 +16,8 @@ outfile = '../compiled/thesis.pdf'
 preParsedMarkdownPath = '../compiled/thesis.md'
 
 chapterDirs = sorted([os.path.join(pathToChapters, directory) for directory in os.listdir(pathToChapters) if directory.startswith('chapter')])
-figureDirs = [os.path.join(chapterDir, 'figures/') for chapterDir in chapterDirs]
+chapterDirs.extend([os.path.join(pathToChapters, 'references')])
+figureDirs = [os.path.join(chapterDir, 'figures/') for chapterDir in chapterDirs if os.path.exists(os.path.join(chapterDir, 'figures/'))]
 
 markdownFiles = getMarkDownFilePaths(chapterDirs)
 
