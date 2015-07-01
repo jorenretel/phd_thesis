@@ -20,7 +20,31 @@ and a citation. [@Higman2009]
 
 
 
+Membrane Proteins
+=================
+
+The lipids in a biological membrane are very diverse and differ between organisms and cell types. The membrane is very crowded with membrane proteins, often the amount of protein (in terms of weight) is larger than the amount of lipids. In E. coli membranes 75 weight percent can be attributed to proteins (Lehninger). The lipids in the two leaflets that compose the lipid bilayer are often distinct. This is also the case in the outer membrane of E. coli. The outer leaflet is composed of lipopolysaccharides (LPS), and the inner leaflet of the more usual phospholipids. This influences the membrane thickness, which is with 24 Å a little thinner than would be expected....
+
+
+In general membrane proteins can be divided in several classes, 7 transmembrane, beta-barrel....
+
+The topology of membrane proteins can often be predicted based on the residue sequence. For instance, 20 or more hydrofobic residues is a row is quite likely to form a transmembrane helix. Also other types of residues give a hint to the topology of a membrane protein. For instance tryptophan residues are often found at the interface between the transmembrane and the non-transmembrane part of the protein since they have a large flat aromatic ring system....
+
+
+
 ![Distribution of sequence lengths of all proteins in the uniProt database tagged as membrane protein. The amount of proteins with sequence lengths similar to OmpG, 281 residues, is very large, making OmpG a relevant model system. \label{sequence_lengths}](figures/membrane_protein_sequence_lenth_distribution.svg)
+
+
+
+
+
+Sequential Assignment of solid state NMR spectra
+================================================
+
+In most NMR studies very little can be done before the chemical shifts of the nuclei that are interesting in the context of the biological question. Sometimes those are only a few. However if the goal is to calculate the structure and study the overall dynamics of the protein a fairly complete mapping between resonance frequencies and nuclei in the molecule has to be present. This mapping process is referred to as sequential assignment and often is the most time consuming part of an NMR studies. The general idea behind sequential assignment methodologies is always the same: the graph that arises from a set of correlation spectra is mapped on the molecular topology. In case of proteins this process is aided by the fact that different amino acids have different combinations of chemical shifts. Therefor the residue type of a set of signals that belongs to one residue can be narrowed down to a few or sometimes even one type of amino acid. First a signal pattern that belongs to a set of sequentially connected amino acids is found. Then, mostly, this pattern can be mapped to a subsequence in the protein.
+
+From now on I will call the collection of resonances that belongs to one residue a spin system. The words spin system is often used in NMR in a somewhat less confined sense, meaning a set of resonances that are in some way influenced by one another. However, since this thesis will deal with sequential assignment for a large extent, I will use the term in the more strict sense, as it is also used in the CCPNMR Analysis software package that is used to analyze NMR spectra.
+
 
 
 
