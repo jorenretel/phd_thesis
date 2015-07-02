@@ -47,7 +47,6 @@ From now on I will call the collection of resonances that belongs to one residue
 
 
 
-
 ![Percentage of subsequences that is only present in the sequence once. Purple, orange and green correspond to subsequences of length 1,2 and 3 respectively. This plot is made using 1000 membrane protein sequences from the uniProt database. Every point represents one protein. As expected, the amount of single amino acids that only appear in the sequence once very quickly drops of with increasing sequence length. At the other side, even for the largest proteins still more than half of all triplets (subsequences of length 3) is completely unique in the sequence. Of course, the fact that the subsequence is unique does not necessarily mean that the subsequence can be distinguished from all other subsequences based on the chemical shifts of these residues. That also heavily depends on how many 13C chemical shifts of the spin systems are known, which is directly dependent on the type of spectra recorded.  \label{unique_subsequences}](figures/amount_of_unique_subsequences.svg)
 
 
@@ -87,6 +86,21 @@ From now on I will call the collection of resonances that belongs to one residue
 ![Sampling schedule used for the recording of the 4D HNhhNH spectrum for distance restaints. 14% of the points in the indirect dimension were recorded.](figures/nus_cube.svg)
 
 
+
+
+
+
+## Connecting Carbon and Proton Detected Assignments and Isotope Shift
+
+A simple approach to sequential assignment would be to first finish the backbone and Cβ chemical shift assignment using the ^1^H detected strip matching approach described earlier, and afterwards find the ^13^C side-chain chemical shifts using ^13^C-detected spectra. However, it is very handy to already connect spin systems that are made in the proton and carbon detected data during the sequential assignment process, if possible. The ^13^C chemical shifts found in the ^1^H detected spectra can easily be used to find the Cα-Cβ cross peak 2D ^13^C-^13^C correlation spectra. If there is enough dispersion in the ^13^C-^13^C spectrum the peak can be easily found and from there the rest of the ^13^C chemical shifts of the side-chain. Having found side chain chemical shifts makes residue typing a lot easier. Thereby mapping a series of otherwise ambiguous strips to a stretch in the sequence becomes possible. Also, sequential crosspeaks in the ^13^C-^13^C correlation can reinforce the certainty that two strips really fit together sequentially.
+
+A very similar approach is taken in solution NMR when TOCSY spectra are used to find the side-chain ^1^H chemical shifts. Often this happens after the entire back-bone has already been assigned, it can however also aid the assignment process by facilitating residue typing.
+
+Because ^13^C detected and ^1^H detected spectra are typically recorded using different samples (fully protonated and deuterated/back-exchanged respectively) the ^13^C chemical shifts are slightly different. Therefor a correction for this deuterium isotope shift has to be performed. This deuterium shift has been described before and quantified by solution NMR spectroscopists [@Hansen1988][@Venters1996][@Maltsev2012]. The magnitude of the shift can be approximated by considering the amount of deuterons one, two and three bonds away from the carbon nucleus:
+
+(@isotope_shift_equation) $$\Delta C(D) =  ^{1}\Delta C(D)d _{1} + ^{2}\Delta C(D)d _{2} + ^{3}\Delta C(D)d _{3}$$
+
+However, this is just a estimate, as the real values also heavily rely on the secondary structure.
 
 ![Graphical User Interface of the CCPN Analysis plug-in that helps comparing spin systems to each other. In the tables at the top, the two spin systems that should be compared are selected. The tables at the bottom show the resonances unique to the first spin system, the resonances that are assigned to the same type of nuclei and the resonances unique to the second spin system. In this case a spin system created based on the proton detected data is compared to one that was created using carbon detected data.](figures/compare_spin_systems_gui.png)
 
