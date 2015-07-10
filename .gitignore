@@ -14,3 +14,8 @@ compiled/
 *.pyo
 *.pyc
 
+#Figures produces by python scripts change to often to version control
+/python_plots/**/*.png
+/python_plots/**/*.pdf
+/python_plots/**/*.html
+/python_plots/**/*.svg
