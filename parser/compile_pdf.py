@@ -36,7 +36,7 @@ with open(preParsedMarkdownPath, 'w') as preParsedMarkdown:
 from subprocess import call
 
 
-call(['pandoc', '-s', '--toc', '--chapters', preParsedMarkdownPath, '-o', outfile, '--filter', 'pandoc-eqnos', '--bibliography=' + bibtex_file, '--csl', csl_file, '--latex-engine=xelatex', '--template=../template/simple_template.latex'])
+call(['pandoc', '-s', '--toc', '--chapters', preParsedMarkdownPath, '-o', outfile, '--filter', 'pandoc-eqnos', '--filter','pandoc-fignos', '--bibliography=' + bibtex_file, '--csl', csl_file, '--latex-engine=xelatex', '--template=../template/simple_template.latex'])
 
 #call(['pandoc', '-s', '--toc', '--chapters', preParsedMarkdownPath, '-o', outfile, '--bibliography=' + bibtex_file, '--csl', csl_file])
 
