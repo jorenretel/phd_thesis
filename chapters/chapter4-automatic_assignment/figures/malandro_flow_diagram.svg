@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="614.73029mm"
+   height="714.12152mm"
+   viewBox="0 0 2178.1782 2530.3518"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="malandro_flow_diagram.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="1082.0458"
+     inkscape:cy="1292.3113"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(971.94623,867.09949)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="147.23538"
+       y="257.1947"
+       id="text23191"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="147.23538"
+         y="257.1947"
+         id="tspan23199"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle">Match and score expected peaks with real peaks in peakslists using</tspan><tspan
+         sodipodi:role="line"
+         x="147.23538"
+         y="332.1947"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan23293">chemical shifts from all combinations of spin systems A' and B'</tspan><tspan
+         sodipodi:role="line"
+         x="147.23538"
+         y="407.1947"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan23307">that can be assigned to eachsequential pair A,B.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="75.827187"
+       y="-600.05237"
+       id="text23191-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="75.827187"
+         y="-600.05237"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan24311">Pull data from CCPN project and parameters from GUI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="78.26078"
+       y="-404.29211"
+       id="text23191-5-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="78.26078"
+         y="-404.29211"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan23242">Evaluate possible mapping between spin systems and residues,</tspan><tspan
+         sodipodi:role="line"
+         x="78.26078"
+         y="-329.29211"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan23347">based on assignment level of spin systems. Optional residue typing.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="77.180702"
+       y="-167.89977"
+       id="text23191-5-2-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="77.180702"
+         y="-167.89977"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan23242-8">Predict expected peak pattern based on:</tspan><tspan
+         sodipodi:role="line"
+         x="77.180702"
+         y="-92.899765"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan23267">- molecular topology</tspan><tspan
+         sodipodi:role="line"
+         x="77.180702"
+         y="-17.899765"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan23275">-isotope labeling</tspan><tspan
+         sodipodi:role="line"
+         x="77.180702"
+         y="57.100235"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan23271">-experiment graph</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="77.331093"
+       y="1164.2977"
+       id="text23191-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="77.331093"
+         y="1164.2977"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan23307-8">Make a random assignment.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="76.067421"
+       y="1358.1722"
+       id="text23191-2-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="76.067421"
+         y="1358.1722"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan23307-8-8">Simulated Annealing / Monte Carlo to</tspan><tspan
+         sodipodi:role="line"
+         x="76.067421"
+         y="1433.1722"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan24555">find best assignment</tspan></text>
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect23385"
+       width="2059.4485"
+       height="190.03494"
+       x="-932.84955"
+       y="-706.03821" />
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect23385-5-7-9"
+       width="2173.0356"
+       height="1470.7797"
+       x="-969.94623"
+       y="-865.09949" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="75.561562"
+       y="912.61462"
+       id="text23191-2-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="75.561562"
+         y="912.61462"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan24331">Temporarely remove fraction of peaks (optional)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-878.00287"
+       y="-630.54749"
+       id="text23191-5-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-878.00287"
+         y="-630.54749"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan24311-7">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-881.00287"
+       y="-412.38977"
+       id="text23191-5-7-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-881.00287"
+         y="-412.38977"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan24311-7-6">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-880.64349"
+       y="-165.88292"
+       id="text23191-5-7-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-880.64349"
+         y="-165.88292"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan24311-7-3">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-881.2431"
+       y="225.13222"
+       id="text23191-5-7-31"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-881.2431"
+         y="225.13222"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan24311-7-2">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="75.441444"
+       y="750.37048"
+       id="text23191-2-6-5-9-2-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="75.441444"
+         y="750.37048"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="tspan24355-11-6">Optimization</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="75.441444"
+       y="-760.88879"
+       id="text23191-2-6-5-9-2-7-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="75.441444"
+         y="-760.88879"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="tspan24355-11-6-2">Preparation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="876.41803"
+       y="1567.3778"
+       id="text23191-2-6-5-9-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="876.41803"
+         y="1567.3778"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="tspan24351-5">Repeat N times with</tspan><tspan
+         sodipodi:role="line"
+         x="876.41803"
+         y="1642.3778"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="tspan24355-11">different random seed</tspan></text>
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect23385-9"
+       width="2059.4485"
+       height="190.03494"
+       x="-932.84955"
+       y="-478.36023" />
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect23385-9-6"
+       width="2059.4485"
+       height="375.65048"
+       x="-932.84955"
+       y="-252.97008" />
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect23385-9-6-2"
+       width="2059.4485"
+       height="362.39221"
+       x="-932.84955"
+       y="158.03603" />
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:3.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect23385-5-7-9-0"
+       width="2173.0356"
+       height="989.06311"
+       x="-968.80365"
+       y="672.18933" />
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect23385-9-6-2-7"
+       width="2059.4485"
+       height="203.29318"
+       x="-932.84955"
+       y="804.63367" />
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect23385-9-6-2-7-2"
+       width="2059.4485"
+       height="203.29318"
+       x="-932.84955"
+       y="1035.2899" />
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect23385-9-6-2-7-2-0"
+       width="2059.4485"
+       height="203.29318"
+       x="-932.84955"
+       y="1269.5194" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-880.46283"
+       y="865.55017"
+       id="text23191-5-7-31-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-880.46283"
+         y="865.55017"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan24311-7-2-1">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-881.00287"
+       y="1097.5853"
+       id="text23191-5-7-31-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-881.00287"
+         y="1097.5853"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan24311-7-2-4">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-882.7431"
+       y="1327.3949"
+       id="text23191-5-7-31-12"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-882.7431"
+         y="1327.3949"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
+         id="tspan24311-7-2-13">7</tspan></text>
+  </g>
+</svg>
