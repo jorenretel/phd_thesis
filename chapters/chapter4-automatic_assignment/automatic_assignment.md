@@ -6,10 +6,21 @@ Over the years a lot of different sequential assignment algorithms have been wri
 
 Also the type of data these stand-alone applications output is somewhat problematic. Often this is one possible sequential assignment that is the true one according to the program. In other words, there is little space for human interference. It would be great however to be able to compare the alternative assignments that the algorithm had to consider and cherry-pick the results for those assignments you actually believe are correct. Many of these problems can be easily overcome when the (semi-) automatic assignment algorithm is integrated within the analysis program. CCPN Analysis databases a lot of information that is relevant to an automatic assignment routine, that would often be lost in a export-import routine. The program has a great Application Programming Interface (API) that gives access to all information stored in the project by the user.
 
-It was not the initial goal to write an assignment algorithm, but more to create a tool that would help compare alternative assignment possibilities in a fast way. Because of the extensive use of different labeling schemes used in the assignment of OmpG the peaks that sequentially connect spin systems are often spread over a large amount of spectra. Therefor I needed a tool that would show me which peaks are expected in all differently labeled experiments for two sequential residues A and B. Furthermore the tool should then use the resonance information from all combinations of spin systems A' and B' with a residue type assignment that matches the types of residues A and B to cross check whether there are indeed peaks in the peak lists at the expected positions. The general idea is that the more peaks present, the higher the likelihood that these two spin systems are indeed sequentially connected. The only method I could use before, was to plot rulers on the spectra at the resonance frequencies of the nuclei within a pair of spin systems A' and B'. Then the intersections of those rulers could be used to check whether there were the expected crosspeaks in different spectra. Of course this was too slow to systematically try out all combinations of spin systems over the whole sequence. Also, when this does not immediately result in a sequential assignment it is hard to remember or write down which combinations of spin systems fit together sequentially and to which extend. Therefor information can basically be lost and work has to be redone.
+It was not the initial goal to write an assignment algorithm, but to create a tool that would help compare alternative assignment possibilities in a fast way. Because of the extensive use of different labeling schemes used in the assignment of OmpG the peaks that sequentially connect spin systems are often spread over a large amount of spectra. Therefor I needed a tool that would show me which peaks are expected in all differently labeled experiments for two sequential residues A and B. Furthermore the tool should then use the resonance information from all combinations of spin systems A' and B' with a residue type assignment that matches the types of residues A and B to cross check whether there are indeed peaks in the peak lists at the expected positions. The general idea is that the more peaks present, the higher the likelihood that these two spin systems are indeed sequentially connected. The only method I could use before, was to plot rulers on the spectra at the resonance frequencies of the nuclei within a pair of spin systems A' and B'. Then the intersections of those rulers could be used to check whether there were the expected crosspeaks in different spectra. Of course this was too slow to systematically try out all combinations of spin systems over the whole sequence. Also, when this does not immediately result in a sequential assignment it is hard to remember or write down which combinations of spin systems fit together sequentially and to which extend. Therefor information can easily be lost and work has to be redone.
 
-Of course, an application that compares different assignment possibilities for two sequential residues can easily be abstracted to the whole sequence.
+Of course, an application that compares different assignment possibilities for two sequential residues can easily be abstracted to the whole sequence. Then a optimization procedure can be used to find out the optimal mapping between spin systems and residues.
 
+A overview of what the algorithm does is illustrated in figure {@fig:malandro_flow_diagram}. In the first step the input to the algorithm is gathered. The user can choose which spectra should be used and defines the parameters for the optimization procedure.
+
+
+
+
+
+
+
+
+
+![Flow diagram of the (semi-) automatic assignment algorithm.](figures/malandro_flow_diagram.svg){#fig:malandro_flow_diagram}
 
 
 
@@ -18,4 +29,6 @@ Of course, an application that compares different assignment possibilities for t
 
 
 
-![Flow diagram of the (semi-) automatic assignment algorithm.](figures/malandro_flow_diagram.svg){#fig:malandro_flow_diagram}
+![Graphical User Interface of the (semi-)automatic assignment algorithm. A: a subset of spectra can be selected to be used by the routine. B: a number of settings can be configured controlling which information in the CCPN project is used by the algorithm. Also parameters controlling the annealing process are set here. The graph at the bottom shows the progress of the annealing procedure. C: The results are shown in 5 tables, representing 5 consecutive residues in the sequence. In each table all spin systems that can be assigned to that particular residue are listed. When selecting two spin systems for two sequential residues, all peaks that connect these spin systems are listed in the table at the bottom. Assignments can be inspected here and individually transferred to the project. D: Assignments can also be transferred in bulk to the project. In order to do so, the user should indicate which assignments exactly as multiple annealings were performed. One of the possibilities is to only assign those spin systems that are assigned in a threshold fraction of all annealing runs.](figures/malandro_gui.png){#fig:malandro_gui}
+
+
