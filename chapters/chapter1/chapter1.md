@@ -178,10 +178,8 @@ During the assignment process you will very likely end up with two sets of spin 
 ![Graphical User Interface of the CCPN Analysis plug-in that helps comparing spin systems to each other. In the tables at the top, the two spin systems that should be compared are selected. The three tables at the bottom show the resonances unique to the first spin system, the resonances that are assigned to the same type of nuclei and the resonances unique to the second spin system respectively. In this case a spin system created based on the proton detected data (left side) is compared to one that was created using carbon detected data (right side).](figures/compare_spin_systems_gui.png) {#fig:compare_spin_systems_gui}
 
 
-![Prediction of the secondary structure of OmpG by TALOS+ and PRED-TMBB. TALOS+ uses the secondary chemical shifts to predict the secondary structure of each residue. PRED-TMBB is a algorithm that solely relies on the sequence and predicts which parts of the sequence are intra-cellular, extra-cellular and transmembrane given the molecule is a transmembrane beta-barrel.](figures/secondary_structure_and_topology_prediction.svg)
 
 
-![Strips in the hNhhNH and NNH corresponding to the cross-strand inaction between the backbone amide groups of Tyrosine 76 and Leucine 88.](figures/through_space_proton_detected_strips_Tyr76_Leu88.svg)
 
 
 
