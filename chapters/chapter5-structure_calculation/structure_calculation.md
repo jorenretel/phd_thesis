@@ -29,12 +29,9 @@ Which assignments are possible for each peak is determined by a set of chemical 
 ![For the directly bonded ^1^H and ^15^N dimensions of the hNHH and hNhhNH spectra, the distance between the actual peak position (orange circle) and the combinations of ^15^N-^1^H chemical shifts of one amide group is calculated. These distances are normalized by the shift tolerances. Within the turquoise circle, corresponding to half of the distance between the peak position and the corners of the square, all possible assignments (A and B) are accepted. Outside of this circle assignment possibilities are only accepted in the absence of an assignment possibility twice closer to the peak position. For instance option C would only be accepted if A would not be present.](figures/round_tolerance.svg){#fig:round_tolerance}
 
 
-
-
 As said, there are in principle four cross-peaks that correlate the same two amide groups. This redundancy can easily be used to decrease the ambiguity of automatically generated ADRs even further, already before the structure calculation. A ccpnmr macro script was used to determine for which items of each ADR all 4 peaks were present (giving rise to three other ADRs that also have the correlation between these amide hydrogens as one of their items). For restraints that had one or more of such items, all other items that had a 'symmetry' of 2 or less (instead of 4) were removed. When applying this operation and plotting the generated restraints on a residue interaction matrix the pattern expected for β-sheets, lines of interaction perpendicular to the diagonal, can already be seen by eye. In principle an assignment of the crosspeaks could be made by hand, we decided however to directly feed the ambiguous restraints to ARIA and let it further disambiguate the restraints during the structure calculation.
 
-TODO: histograms of ambiguity before and after application of symmetry rule. 
-
+![Ambiguity of restraints based on the hNhhNH and hNHH spectra. Blue bars correspond to restraints that are automatically created by matching chemical shifts to peak dimensions. Red bars represent the same restraint set, but after applying a filter that selects restraints items for which all four expected peaks are present in the two spectra. This operation effectively decreases the amount of restraints with very high ambiguity and in both spectra about a third of the restraints becomes unambiguous (1 item per restraint). Light and dark color represent the hNhhNH and hNhhNH spectra respectively.](figures/ambiguity_hitograms_h_restraints.svg){#fig:ambiguity_histograms_h_restraints}
 
 
 ## Restraints based on ^13^C-detected through-space correlation experiments
