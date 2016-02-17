@@ -53,20 +53,45 @@ $$ E_{peak} = max(-1, \sum_{n=1}^{N_{d}} (\frac{\Delta\delta _{n}}{t_{n}}^2 - 1)
 Where N~d~ is the number of dimensions, ∆δ~n~ is the difference between the shift of the peak and the shift from the shiftlist in the n-th dimension, t~n~ is the tolerance in the n-th dimension and k is the fraction of the tolerance window that has a flat bottom. This last value is set by default on 0.4.
 The flat bottom was introduced to prevent over-interpreting small differences between the peak and the expected position. The energy then goes up gradually and becomes 0 for peaks that are all the way in the corner of the tolerance window, see figure {@fig:malandro_peak_matching} B.
 
-As dicussed before chemical shifts can differ between spectra depending on the sample and experimental conditions such as temperature and isotope shifts. If these kind of differences are present it is important that spectra are connected to different shift lists. The correct shift list is then used by this algorithm to perform this matching step.
+As discussed before chemical shifts can differ between spectra depending on the sample and experimental conditions such as temperature and isotope shifts. If these kind of differences are present it is important that spectra are connected to different shift lists. The correct shift list is then used by this algorithm to perform this matching step.
 
-Besides from sequential cross-peaks, also intra-residual cross-peaks are matched. They do not play a role during the optimization of the sequential assignment as they carry no sequential information. However, it is useful to collect these peaks aswell, since they can be used for a quick assignment of peaks in new spectra to already known spin systems.
+Besides from sequential cross-peaks, also intra-residual cross-peaks are matched. They do not play a role during the optimization of the sequential assignment as they carry no sequential information. However, it is useful to collect these peaks as well, since they can be used for a quick assignment of peaks in new spectra to already known spin systems.
+
+
+![The expected peaks can be matched to picked peaks in the spectra. Therefor the chemical shifts of all combinations of spin systems A', B' that can be assigned to sequential residues A and B can be used to predict the location of the peaks (A). How well the real fits the predicted peak location is scored by a flat bottom scoring function (B).](figures/malandro_peak_matching.svg){#fig:malandro_peak_matching}
+
+
+#### 5 Temporarily remove a fraction of the cross peaks
+
+The optimization procedure that follows can be repeated multiple times to create an ensemble of possible sequential assignment, that can be later on compared to one another. If the assignment of a spin system to a residue in the sequence stays the same with different subsets of the data, this might be a good indication that this assignment is correct. In each run a new randomly selected part of the data will be removed before the optimization starts. This is optional as the fraction can be set to 0. Also without removing cross-peaks the result of the optimization will likely be a little different every time depending on how well defined the energy minimum is.
+
+
+#### 6 Generate a random starting assignment
+
+An random assignment is generated that is consistent with the possible mapping between spin systems and residues determined in step 2. 
+
+
+#### 7 Optimization of the sequential assignment using a simulated annealing / Monte Carlo procedure
+
+For each step in the Monte Carlo procedure two spin systems are selected to exchange residue assignments. In practice this is done by first randomly choosing one spin system, independent on whether it is assigned to a residue or not. Then from th more selective list of spin systems this spin system could ever exchange with, as determined in step 2, randomly one other spin system is chosen. Before the change is attempted, a check is performed to assure that the change would not produce an assignment that is inconsistent with the possible mapping between spin systems and residues. Now the change in energy can be calculated corresponding to the attempt. Therefor the energy of the individual links between the two spin systems and the current neighboring spin systems in the sequence has to be calculated. If both spin systems were assigned to residues this would be 4 links both in the old and new situation. The energy of one link can be defined as:
+
+$$ E_{link} = \sum_{n=1}^{N_{p}} \frac{E_{peak,n}}{degeneracy_{n}} N_{resonances, total}  $$
+
+where N~p~ is the number of peaks. E~peak, n~ is the peak score of the n-th peak determined in step 4. The degeneracy is the amount of different assignments the peak has at the current point of the minimization. The peak energies are normalized by this value, because if a peak already has a lot of assignments it is not very relevant in proving this link between two spin systems is correct. N~resonances total~ is the total amount of unique resonances playing a role in the assignments of all peaks. The difference in energy is now simply:
+
+$$  \Delta E = E_{links, new} - E_{links, old}  $$
+
+The change will be accepted when the Monte Carlo criterium is fulfilled:
+
+$$  e^\frac{-\Delta E}{kT} \geq random(0 \rightarrow 1)   $$
+
+During the procedure the temperature is lowered in steps, making it harder for assignment changes that increase the energy to be accepted.
 
 
 ![Flow diagram of the (semi-) automatic assignment algorithm.](figures/malandro_flow_diagram.svg){#fig:malandro_flow_diagram}
 
 
 
-![The expected peaks can be matched to picked peaks in the spectra. Therefor the chemical shifts of all combinations of spin systems A', B' that can be assigned to sequential residues A and B can be used to predict the location of the peaks (A). How well the real fits the predicted peak location is scored by a flat bottom scoring function (B).](figures/malandro_peak_matching.svg){#fig:malandro_peak_matching}
-
-
-
-
-![Graphical User Interface of the (semi-)automatic assignment algorithm. A: a subset of spectra can be selected to be used by the routine. B: a number of settings can be configured controlling which information in the CCPN project is used by the algorithm. Also parameters controlling the annealing process are set here. The graph at the bottom shows the progress of the annealing procedure. C: The results are shown in 5 tables, representing 5 consecutive residues in the sequence. In each table all spin systems that can be assigned to that particular residue are listed. When selecting two spin systems for two sequential residues, all peaks that connect these spin systems are listed in the table at the bottom. Assignments can be inspected here and individually transferred to the project. D: Assignments can also be transferred in bulk to the project. In order to do so, the user should indicate which assignments exactly as multiple annealings were performed. One of the possibilities is to only assign those spin systems that are assigned in a threshold fraction of all annealing runs.](figures/malandro_gui.png){#fig:malandro_gui}
+![Graphical User Interface of the (semi-)automatic assignment algorithm. A: a subset of spectra can be selected to be used by the routine. B: a number of settings can be configured controlling which information in the CCPN project is used by the algorithm. Also parameters controlling the annealing process are set here. The graph at the bottom shows the progress of the annealing procedure. C: The results are shown in 5 tables, representing 5 consecutive residues in the sequence. In each table all spin systems that can be assigned to that particular residue are listed. When selecting two spin systems for two sequential residues, all peaks that connect these spin systems are listed in the table at the bottom. Assignments can be inspected here and individually transferred to the project. D: Assignments can also be transferred in bulk to the project. In order to do so, the user should indicate which assignments exactly as multiple annealing runs were performed. One of the possibilities is to only assign those spin systems that are assigned in a threshold fraction of all annealing runs.](figures/malandro_gui.png){#fig:malandro_gui}
 
 
