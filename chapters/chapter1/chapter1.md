@@ -142,6 +142,10 @@ Recently the use of higher MAS rates of around 60 kHz, and even higher have beco
 
 
 
+![Proton detected pulse sequences for assignment .](figures/assignment_experiments_proton_detected.svg)
+
+
+
 ![Sampling schedule used for the recording of the 4D HNhhNH spectrum for distance restaints. 14% of the points in the indirect dimension were recorded.](figures/nus_cube.svg)
 
 
