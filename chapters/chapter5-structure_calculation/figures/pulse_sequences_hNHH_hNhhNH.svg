@@ -82,10 +82,10 @@
     <filter
        style="color-interpolation-filters:sRGB"
        inkscape:label="Greyscale"
-       id="filter78707">
+       id="filter28811">
       <feColorMatrix
          values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
-         id="feColorMatrix78709" />
+         id="feColorMatrix28813" />
     </filter>
     <marker
        inkscape:isstock="true"
@@ -166,8 +166,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.12374369"
-     inkscape:cx="4315.6999"
-     inkscape:cy="-895.29549"
+     inkscape:cx="4313.9922"
+     inkscape:cy="974.16031"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -176,9 +176,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1600"
-     inkscape:window-height="1134"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1161"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -196,9 +196,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(4154.4883,670.10305)">
+     transform="translate(4048.7743,635.81735)">
     <g
-       transform="translate(34301.357,-2009.3374)"
+       transform="translate(34407.071,-1975.0517)"
        id="g76432-6">
       <text
          sodipodi:linespacing="125%"
@@ -539,7 +539,7 @@
              id="tspan24316-3-6-8-35"
              x="-38198.805"
              y="2379.9292"
-             style="font-size:100px;fill:#333333">Φ1</tspan></text>
+             style="font-size:100px;fill:#333333">φ1</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -551,7 +551,7 @@
              id="tspan24316-3-13-1-93-6-7-9-0-1"
              x="-36837.215"
              y="2379.9292"
-             style="font-size:100px;fill:#333333">Φ11</tspan></text>
+             style="font-size:100px;fill:#333333">φ11</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -563,7 +563,7 @@
              id="tspan24316-3-13-1-93-6-7-81-4-4-5-4"
              x="-36809.355"
              y="2870.2239"
-             style="font-size:100px;fill:#333333">Φ7</tspan></text>
+             style="font-size:100px;fill:#333333">φ7</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -575,7 +575,7 @@
              id="tspan24316-3-13-1-93-6-7-81-4-87-4-2-5"
              x="-36950.562"
              y="2868.5239"
-             style="font-size:100px;fill:#333333">Φ6</tspan></text>
+             style="font-size:100px;fill:#333333">φ6</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -635,7 +635,7 @@
              id="tspan24316-3-6-8-3-2"
              x="-38055.816"
              y="2870.2239"
-             style="font-size:100px;fill:#333333">Φ2</tspan></text>
+             style="font-size:100px;fill:#333333">φ2</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -647,7 +647,7 @@
              id="tspan24316-3-13-1-93-6-7-81-4-4-5-6-55"
              x="-36220.152"
              y="2378.2292"
-             style="font-size:100px;fill:#333333">Φ8</tspan></text>
+             style="font-size:100px;fill:#333333">φ8</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -659,7 +659,7 @@
              id="tspan24316-3-13-1-93-6-7-81-4-4-5-6-5-1"
              x="-35620.418"
              y="2378.2292"
-             style="font-size:100px;fill:#333333">Φ9</tspan></text>
+             style="font-size:100px;fill:#333333">φ9</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -671,7 +671,7 @@
              id="tspan24316-3-13-1-93-6-7-81-4-87-4-2-9-4-1"
              x="-35938.406"
              y="2372.7375"
-             style="font-size:100px;fill:#333333">Φ16</tspan></text>
+             style="font-size:100px;fill:#333333">φ16</tspan></text>
         <g
            id="g30056-7">
           <g
@@ -1053,7 +1053,7 @@
              id="tspan24316-3-6-8-9-5"
              x="-33962.242"
              y="2378.0964"
-             style="font-size:100px;fill:#333333">Φ1</tspan></text>
+             style="font-size:100px;fill:#333333">φ1</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1065,7 +1065,7 @@
              id="tspan24316-3-13-1-93-6-7-9-0-5-9"
              x="-33064.652"
              y="2376.3965"
-             style="font-size:100px;fill:#333333">Φ3</tspan></text>
+             style="font-size:100px;fill:#333333">φ3</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1077,7 +1077,7 @@
              id="tspan24316-3-13-1-93-6-7-81-4-8-0-9-9-1"
              x="-31569.135"
              y="2840.8411"
-             style="font-size:100px;fill:#333333">Φ15</tspan></text>
+             style="font-size:100px;fill:#333333">φ15</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1089,7 +1089,7 @@
              id="tspan24316-3-13-1-93-6-7-81-4-87-4-2-9-7"
              x="-31202.141"
              y="2840.8411"
-             style="font-size:100px;fill:#333333">Φ16</tspan></text>
+             style="font-size:100px;fill:#333333">φ16</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1264,7 +1264,7 @@
              id="tspan24316-3-13-1-93-6-7-9-0-5-78-7-3"
              x="-32646.012"
              y="2376.3965"
-             style="font-size:100px;fill:#333333">Φ18</tspan></text>
+             style="font-size:100px;fill:#333333">φ18</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1276,7 +1276,7 @@
              id="tspan24316-3-13-1-93-6-7-9-0-5-78-8-0"
              x="-32338.725"
              y="2376.3965"
-             style="font-size:100px;fill:#333333">Φ6</tspan></text>
+             style="font-size:100px;fill:#333333">φ6</tspan></text>
         <g
            transform="translate(3286.4277,-6.4276566)"
            id="g30056-0-9">
@@ -1476,7 +1476,7 @@
              sodipodi:linespacing="125%"><tspan
                sodipodi:role="line"
                x="253.995"
-               y="inf"
+               y="65.560524"
                id="tspan28929-2-1-0"><tspan
                  x="227.995"
                  y="507.09488"
