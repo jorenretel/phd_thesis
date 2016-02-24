@@ -20,7 +20,7 @@ To get a good set of restraints, through space correlations where acquired on th
 
 
 
-![Pulse sequences of the hNHH (a) and hNhhNH (b) experiments. Phase cycle: (a) φ1 = 1 3, φ2 = 1, φ6 = 0 0 2 2, φ12 = 1, φ7 =  1, φ8= 2, φ9 =  0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3, φ16 = 0 1 0 1 1 0 1 0, φ11 = 1, φrec = 0 2 2 0 1 3 3 1 2 0 0 2 3 1 1 3; (b) φ1  = 1 3, φ3  = 1 1 3 3, φ6  = 1 1 1 1 3 3 3 3, φ16 = 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3, φ15 = 1, φ18 = 0 1 0 1 1 0 1 0, φrec = 0 2 2 0 2 0 0 2 2 0 0 2 0 2 2 0. All other pulses have phase 0.](figures/pulse_sequences_hNHH_hNhhNH.svg){#fig:pulse_sequences_hNHH_hNhhNH}
+![Pulse sequences of the hNHH (a) and hNhhNH (b) experiments. Phase cycle: (a) φ1 = 1 3, φ2 = 1, φ6 = 0 0 2 2, φ12 = 1, φ7 =  1, φ8 = 2, φ9 =  0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3, φ16 = 0 1 0 1 1 0 1 0, φ11 = 1, φrec = 0 2 2 0 1 3 3 1 2 0 0 2 3 1 1 3; (b) φ1  = 1 3, φ3  = 1 1 3 3, φ6  = 1 1 1 1 3 3 3 3, φ16 = 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3, φ15 = 1, φ18 = 0 1 0 1 1 0 1 0, φrec = 0 2 2 0 2 0 0 2 2 0 0 2 0 2 2 0. All other pulses have phase 0.](figures/pulse_sequences_hNHH_hNhhNH.svg){#fig:pulse_sequences_hNHH_hNhhNH}
 
 
 
