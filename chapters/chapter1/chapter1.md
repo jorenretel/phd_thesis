@@ -200,5 +200,5 @@ During the assignment process you will very likely end up with two sets of spin 
 | CB                |        131/156 (84%)  |   131/254 (52%)   |
 | CO                |        133/204 (65%)  |   133/360 (37%)   |
 
-Table: Extend of the assignment in the shift lists based on the carbon and proton detected spectra.
+Table: Extend of the assignment in the shift lists based on the carbon and proton detected spectra.{#tbl:extend_of_assignment_table}
 
