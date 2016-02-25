@@ -137,7 +137,8 @@ $endif$
 $if(subtitle)$
 \subtitle{$subtitle$}
 $endif$
-\author{$for(author)$$author$$sep$ \and $endfor$}
+%\author{$for(author)$$author$$sep$ \and $endfor$}
+\author{$author$}
 \date{$date$}
 $for(header-includes)$
 $header-includes$
