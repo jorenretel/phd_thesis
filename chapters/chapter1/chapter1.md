@@ -182,15 +182,23 @@ During the assignment process you will very likely end up with two sets of spin 
 
 
 
+|                   | of assigned residues  | of all residues   |
+|-----------------  |---------------------: |----------------:  |
+| Carbon Detected   |                       |                   |
+| Residues          |        165/170 (97%)  |   165/281 (59%)   |
+| N backbone        |        124/170 (73%)  |   124/281 (44%)   |
+| C aliphatic       |        443/485 (91%)  |   443/781 (57%)   |
+| C aromatic        |         58/227 (26%)  |    58/341 (17%)   |
+| CA                |        163/170 (96%)  |   163/281 (58%)   |
+| CB                |        145/156 (93%)  |   145/254 (57%)   |
+| CO                |        127/204 (62%)  |   127/360 (35%)   |
+| Proton Detected   |                       |                   |
+| Residues          |        167/170 (98%)  |   167/281 (59%)   |
+| H backbone        |        151/164 (92%)  |   151/272 (56%)   |
+| N backbone        |        151/170 (89%)  |   151/281 (54%)   |
+| CA                |        167/170 (98%)  |   167/281 (59%)   |
+| CB                |        131/156 (84%)  |   131/254 (52%)   |
+| CO                |        133/204 (65%)  |   133/360 (37%)   |
 
-
-
-
-
-
-
-
-
-
-
+Table: Extend of the assignment in the shift lists based on the carbon and proton detected spectra.
 
