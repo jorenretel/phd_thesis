@@ -77,4 +77,7 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 
 
 
+![The 15 lowest energy structures at the end of every second ARIA iteration.](figures/structures_per_aria_iteration.svg){#fig:structures_per_aria_iteration}
+
+
 TODO: residue interaction matrix of H and C restraints separately.
