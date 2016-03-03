@@ -125,6 +125,10 @@ Apart from decreasing the amount of signals in the spectra, these labeling schem
 
 
 
+![CCPNMR plug-in that helps visualizing expected subpatterns in ^13^C-^13^C correlation spectra of labeled samples. If chemical shifts are assigned, corresponding peaks will be at the correct position. Otherwise reference chemical shifts from the refDB are used. Dark and light colors repectively show whether the peak is assigned or not.](figures/labeling_patterns_plugin.png){#fig:labeling_patterns_plugin}
+
+
+
 ## Assignment Using ^1^H-detected Spectra
 
 Recently the use of higher MAS rates of around 60 kHz, and even higher have become technically achievable. In combination with samples that are expressed in fully deuterated medium and where the exchangeable sides are subsequently back-exchanged with a chosen percentage of protons, this allows protons to be detected. This opens up the possibility to do NMR experiments that are conceptually very comparable to solution NMR experiments.
