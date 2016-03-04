@@ -131,6 +131,8 @@ $if(lang)$
 \fi
 $endif$
 
+\linespread{1.25}
+
 $if(title)$
 \title{$title$}
 $endif$
