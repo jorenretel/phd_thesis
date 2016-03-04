@@ -1,10 +1,10 @@
-\part{Appendix}
 
 \appendix
-
+\addcontentsline{toc}{part}{Appendices}
 
 Chemical Shifts
 ===============
+
 
 
 | #   | aa  | H      | N      | C      | C(D)   | CA    | CA(D) | CB    | CB(D)              | other                                                                |
@@ -184,6 +184,8 @@ Chemical Shifts
 
 
 
+Publications
+============
 
 
 

@@ -1,3 +1,5 @@
+\mainmatter
+
 \part{Introduction}
 
 Structural Biology
