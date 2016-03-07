@@ -127,7 +127,7 @@ Apart from decreasing the amount of signals in the spectra, these labeling schem
 
 
 
-![CCPNMR plug-in that helps visualizing expected subpatterns in ^13^C-^13^C correlation spectra of labeled samples. If chemical shifts are assigned, corresponding peaks will be at the correct position. Otherwise reference chemical shifts from the refDB are used. Dark and light colors repectively show whether the peak is assigned or not.](figures/labeling_patterns_plugin.png){#fig:labeling_patterns_plugin}
+![CCPNMR plug-in that helps visualizing expected subpatterns in ^13^C-^13^C correlation spectra of labeled samples. If chemical shifts are assigned, corresponding peaks will be at the correct position. Otherwise reference chemical shifts from the refDB are used. Dark and light colors repectively show whether the peak is assigned or not.](figures/labeling_patterns_plugin.svg){#fig:labeling_patterns_plugin}
 
 
 
