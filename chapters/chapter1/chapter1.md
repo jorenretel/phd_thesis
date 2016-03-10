@@ -152,6 +152,14 @@ Recently the use of higher MAS rates of around 60 kHz, and even higher have beco
 
 
 
+![Strip plots showing the backbone walk from phenyl-alanine 37 to Glutamine 52. Residue 42 is a proline, and therefor this strip is not present.](figures/strip_plots_37_52_B.svg)
+
+
+
+![Assignment shown on the CN projection of the hCANH spectrum.](figures/CAN_projection.svg)
+
+
+
 ![Sampling schedule used for the recording of the 4D HNhhNH spectrum for distance restaints. 14% of the points in the indirect dimension were recorded.](figures/nus_cube.svg)
 
 
