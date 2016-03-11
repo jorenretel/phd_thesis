@@ -19,7 +19,7 @@ When performing a backbone walk using NCACX and NCOCX spectra, the ^15^N chemica
 Both 2- and 3-dimensional ^13^C-detected spectra of uniformly ^13^C-^15^N labeled OmpG are very crowded, and therefor very hard to assign. Therefor a set of sparsely labeled samples was produced. Two main techniques were used to produce these samples: forward labeling and reverse labeling. When forward labeling a sample, a set of labeled amino acids are added to a otherwise unlabeled feedstock. As the name suggests, reverse labeling is exactly the other way around: E. Coli is grown on a isotopically labeled feedstock and all amino acids that should not be labeled are added in unlabeled, to suppress the metabolism producing these amino acids from the feedstock. Also samples have been produced from a feedstock of 1,3- and 2-labeled glycerol giving a very specific labeled and unlabeled nuclei of the different amino acids. This last strategy can be combined with the reverse labeling strategy to produce samples that only have a subset of the residues labeled in this specific patterns, while leaving the rest of the residues completely unlabeled.
 The combinations of amino acids that can be labeled together is restricted by the amino acid metabolism. Since it is not possible to suppress the metabolic routes to and from a amino acid completely just by feeding them unlabeled to the organism, some isotope leakage will always appear. This effect is minimized by choosing sets of amino acids that are relatively closely related in the metabolism or were the production/use of this amino acid is easily suppressed. This is especially apparent in the reverse labeling strategy, when amino acids that were supposed to be unlabeled are produced from the labeled feedstock anyway. The exact same effect in the forward labeling strategy would however just cause the amino acids that should be labeled to be labeled slightly less, which only affects the signal to noise ratio, but is not directly visible in the spectra.
 
-To choose a set of amino acid selective labeling schemes a concession has to be made between two major conflicting interests. At the one hand the crowding in the resulting spectra should be reduced as much as possible. But at the other hand, as many as possible neighboring residues should be co-labeled in at least one of the labeling schemes. For example, as can be seen in figure {@fig:labelling_venn} Alanine is co-labeled with every other amino acid (except for Lysine) in at least one of the labeling schemes. That means that there will almost always be one or more spectra were the cross peaks between a sequential stretch involving an Alanine can be observed, thereby enabling the assignment of this stretch. At the other hand, for instance Proline and Tyrosine are not co-labeled in any of the residue specific labeling schemes, so therefor whenever there is a Proline-Tyrosine pair in the sequence, the more crowded spectra have to be used to find the crosspeaks connecting them. As discussed earlier, it is preferable to be able to connect at least three spin systems to unambiguously assign them to a subsequence of the protein. By having a set of labeling schemes with a certain overlap as is indicated in the venn diagram of figure {@fig:labelling_venn} it is possible to jump between spectra to find the connectivities to produce such longer stretches of connected spin systems. In figure {@fig:labeling_schemes_on_ompg_sequence} the OmpG sequence were such stretches are hight-lighted. Whenever the color changes there is a 'dead end', where there is no residue specific labeling scheme to connect two neighboring residues. Any given residue in the sequence is on average part of a sequential stretch of 5.5 residues, which allows an unambiguous assignment in many cases.
+To choose a set of amino acid selective labeling schemes a concession has to be made between two major conflicting interests. At the one hand the crowding in the resulting spectra should be reduced as much as possible. But at the other hand, as many as possible neighboring residues should be co-labeled in at least one of the labeling schemes. For example, as can be seen in figure {@fig:labelling_venn} alanine is co-labeled with every other amino acid (except for Lysine) in at least one of the labeling schemes. That means that there will almost always be one or more spectra were the cross peaks between a sequential stretch involving an alanine can be observed, thereby enabling the assignment of this stretch. At the other hand, for instance proline and tyrosine are not co-labeled in any of the residue specific labeling schemes, so therefor whenever there is a proline-tyrosine pair in the sequence, the more crowded non-residue specific labeled spectra have to be used to find the crosspeaks connecting them. As discussed earlier, it is preferable to be able to connect at least three spin systems to unambiguously assign them to a subsequence of the protein. By having a set of labeling schemes with a certain overlap as is indicated in the venn diagram of figure {@fig:labelling_venn} it is possible to jump between spectra to find the connectivities to produce such longer stretches of connected spin systems. In figure {@fig:labeling_schemes_on_ompg_sequence} the OmpG sequence were such stretches are hight-lighted. Whenever the color changes there is a 'dead end', where there is no residue specific labeling scheme to connect two neighboring residues. Any given residue in the sequence is on average part of a sequential stretch of 5.5 residues, which allows an unambiguous assignment in many cases.
 
 TODO: figure of uniform labeled PDSD
 
@@ -31,18 +31,34 @@ TODO: figure of uniform labeled PDSD
 
 
 
-![All amino acid selective labeling schemes used for the sequential assignment of OmpG on the sequence. Highlighted rectangles indicate in which labeling schemes the residue is labeled. Colored (green, orange and purple) clusters of rectangles indicate that a sequential walk is possible without using the more crowded spectra of non-residue specific labeling schemes. A sequential walk is possible when two sequential residues are co-labeled in at least one labeling scheme. Grey rectangles indicate that the residue is not co-labeled with any of its two neighboring residues. The average cluster length is 3.0 and on average a given residue is part of a cluster of length 5.5.  \label{labeling_schemes_on_ompg_sequence}](figures/labelling_schemes_on_ompg_sequence.png){#fig:labeling_schemes_on_ompg_sequence}
+![All amino acid selective labeling schemes used for the sequential assignment of OmpG on the sequence. Highlighted rectangles indicate in which labeling schemes the residue is labeled. Colored (green, orange and purple) clusters of rectangles indicate that a sequential walk is possible without using the more crowded spectra of non-residue specific labeling schemes. A sequential walk is possible when two sequential residues are co-labeled in at least one labeling scheme. Grey rectangles indicate that the residue is not co-labeled with any of its two neighboring residues. The average cluster length is 3.0 and on average a given residue is part of a cluster of length 5.5.](figures/labelling_schemes_on_ompg_sequence.png){#fig:labeling_schemes_on_ompg_sequence}
 
 
-#### RIGA
-RIGA forward labeled
 
-#### GAFY
+
+
+### Forward labeled schemes
+
+Both the forward labeling schemes, where mostly only a few amino acids are labeled and the 1,3- and 2-glycerol labeling schemes have pro's and cons. The big pro of the forward labeled samples is that the amino acids that are labeled are uniformly labeled. Or in the case of GAF~2,3~Y~2,3~(S) at least the nuclei giving rise to peaks in the aliphatic part of the spectra are. It is extremely useful for grouping resonances into spinsystems. This is especially true for the amino acids in group I in figure {@glycerol_labeling}. Because there is only one isotopomer for both the samples based on 1,3- and 2-glycerol, the nuclei from both these worlds never 'meet' and is would not be possible to connect them into one spin system representing one residue in the sequence. Therefor it is necessary, in the case of large proteins, to have these residue specific but uniformly ^13^C labeled samples with as little as possible overlap of the intra-residual peaks of different amino acids. As will be discussed later, these spectra are really helpful when connecting data from ^1^H- and ^13^C-detected spectra as there is for most amino acids at least one spectrum where the Cα-Cβ crosspeaks are clearly separated.
+
+
+#### RIGA(S)
+
+#### GAF~2,3~Y~2,3~(S)
+In this labeling scheme the phenylalanine and tyrosine where ^13^C-labeled only on the Cα and Cβ nuclei. This was done because their fast relaxing aromatic rings can act as a magnetization sinc. Serine was not added labeled to the feedstock, but as it is metabolically closely related to glycine, it was labeled as well. This labeling strategy has been described in Hiller et al. 2008 [@hiller_2313clabeling_2008].
 
 #### GAVLS
+Contains tryptophan as well.
+
+#### GANDSH
+
+#### GAF~2,3~Y~2,3~SHVL
+The nice feature of this labeling scheme is that because the aromatic rings of phenylalanine and tyrosine are not labeled, the only signals in the aromatic part of the spectrum are from histidines.
+
+#### GENDQPASR
 
 
-#### 1,3- and 2-Glycerol Labeling
+### 1,3- and 2-Glycerol Labeling
 
 Apart from decreasing the amount of signals in the spectra, these labeling schemes also produce narrower linewidths because the in most cases directly bound carbon nuclei are not both labeled in the same isotopomer. This reduces the ^13^C-^13^C homonuclear dipolar coupling, which in turn causes lines to be narrow.
 
@@ -50,13 +66,13 @@ Apart from decreasing the amount of signals in the spectra, these labeling schem
 
 
 
-![Labeling patterns in 20 amino acids when 1,3-glycerol (blue) or 2-glycerol are used as feedstock. \label{glycerol_labeling}](figures/glycerol_labeling.svg)
+![Labeling patterns in 20 amino acids when 1,3-glycerol (blue) or 2-glycerol are used as feedstock. \label{glycerol_labeling}](figures/glycerol_labeling.svg){#glycerol_labeling}
 
 
 
 ## A CCPNMR Plug-in for the visualization of crosspeak patterns
 
-When using a lot of labeling schemes it can be very useful to visualize the cross-peak patterns that are expected, especially for the case of the glycerol based labeling schemes. Although it is not impossible to infer these patterns directly from the diagrams of the isotopomer schemes it is easier to directly look at the expected peak patterns. The supporting material of the Higman 2009 paper contains such figures for the 1,3- and 2-glycerol labeling schemes [@higman_assigning_2009]. Inspired on these type of diagrams I wrote a plug-in for CCPNMR Analysis to automatically generate the expected cross-peak pattern in 2D ^13^C-^13^C correlations for any labeling scheme, see figure {@fig:labeling_patterns_plugin}. Integrating these kind of diagrams within the Analysis software has some advantages:
+When using a lot of labeling schemes it can be very useful to visualize the cross-peak patterns that are expected, especially for the case of the glycerol based labeling schemes. Although it is not impossible to infer these patterns directly from the diagrams of the isotopomer schemes it is easier to directly look at the expected peak patterns. The supporting material of the paper of Higman et al. 2009 contains such figures for the 1,3- and 2-glycerol labeling schemes [@higman_assigning_2009]. Inspired on these type of diagrams I wrote a plug-in for CCPNMR Analysis to automatically generate the expected cross-peak pattern in 2D ^13^C-^13^C correlations for any labeling scheme, see figure {@fig:labeling_patterns_plugin}. Integrating these kind of diagrams within the Analysis software has some advantages:
 
 1. Not only intra-residual, but also expected inter-residual crosspeak patterns can be shown for any combination of two residues. This would be hard on paper since it would involve a lot of figures.
 2. The location of expected peaks can be based on assigned chemical shifts, if present, instead of average values from the bmrb. Hovering the mouse over the diagram will make the cross-hairs move in the spectra, so the actualy peaks can be found. It will also show which peak dimensions are based on assigned chemical shifts.
@@ -66,7 +82,7 @@ Especially the last feature is really helpful as it gives a quick overview of wh
 
 CCPNMR Analysis has great support for configuring custom labeling schemes. All necessary information about the labeling scheme is directly taken from the project and therefor basically any scheme can be visualized in this way. All other information, like residue sequences and assigned chemical shifts are also pulled directly from the project.
 
-The plug-in can be downloaded from https://github.com/jorenretel/ccpnmr-cc-patterns and is easy to install.
+The plug-in can be downloaded from <https://github.com/jorenretel/ccpnmr-cc-patterns> and is easy to install.
 
 
 
