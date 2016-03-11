@@ -70,6 +70,11 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 ![Average distances between carbon nuclei (top), and the amide protons in the backbone (bottom) in anti-parallel β-sheets. The residues i and j are two residues that are facing one another in the opposing strands of the β-sheet and are linked with two hydrogen bonds.](figures/distances_in_antiparallel_betasheet.svg){#fig:distances_in_antiparallel_betasheet}
 
 
+![Peaks picked in the 400 ms 1,3-glycerol labeled OmpG spectrum. The 50 ms spectrum is superimposed.](figures/picked_peaks_13glycerol.svg){#fig:picked_peaks_13glycerol}
+
+
+
+![Peaks picked in the 400 ms 2-glycerol labeled OmpG spectrum. The 125 ms spectrum is superimposed.](figures/picked_peaks_2glycerol.svg){#fig:picked_peaks_2glycerol}
 
 
 
@@ -78,6 +83,10 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 
 
 ![The 15 lowest energy structures at the end of every second ARIA iteration.](figures/structures_per_aria_iteration.svg){#fig:structures_per_aria_iteration}
+
+
+![Crystal structure of OmpG with surrounding unit cells. One unit cell contains four OmpG molecules. On of the unit cells is depicted in red.](figures/crystal_structure_with_surrounding_unit_cells.png){#fig:crystal_structure_with_surrounding_unit_cells}
+
 
 
 TODO: residue interaction matrix of H and C restraints separately.
