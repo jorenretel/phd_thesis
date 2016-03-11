@@ -72,147 +72,14 @@ To combat the problem of spectral crowding and assignment ambiguity of crosspeak
 Over the last few years, solid state NMR has made an enormous amount of progress and also the methods we used in this project changed during this process. The NMR methods used have a large influences on the way sequential assignments are made. I start of with a section explaining the efforts we did to assign OmpG using ^13^C-detected NMR, because that is how this was generally done back in the old days, 5 years ago, and how the project started off. Afterwards I will go on showing the progress we made in this project using ^1^H-detected experiments. Although it might seem that the use of the latter method is more important, the results from the ^13^C-detected experiments are not just included for chronological completeness. As will be clear, a lot of information obtained from the ^13^C-detected spectra is still very valuable and there is until now not a method in ^1^H-detected solid state NMR that can fully obtain the situation. I have always used the spectra from both methods at the same time and in a complementary fashion. Therefor in the last section of this chapter I will discuss the combination of both types of spectra.
 
 
-## Assignment Using ^13^C-detected Spectra
-
-At moderate spinning rates and fully protonated samples it is not possible to detect protons in a useful manner in the solid state since the linewidths are very large due to the strong dipolar coupling network between protons. Therefor until very recently assignments where done almost exclusively using ^15^N and ^13^C chemical shifts. This was the method used when I started.
-
-### Types of Experiments
-
-The three main types of spectra recorded were 2D trough-space ^13^C-^13^C and 2 and 3D NCACX and NCOCX spectra using the pulse sequence shown in figure {@fig:carbon_detected_pulse_sequences_and_magnetization_transfers}. Depending on the mixing time correlations between spins at different distance can be observed. To create spin-systems, mostly 2D ^13^C-^13^C and NCACX spectra with a short DARR mixing time of about 20 to 50 ms were used. When a longer mixing time is used, around 150 to 200 ms short range crosspeaks can be observed that help connecting spin systems sequentially. Also NCOCX spectra are used for this since they directly correlate a spin system i with its sequential i-1 neighbor through the backbone. The 13^C^-^13^C and through backbone ^15^N-resolved spectra are always used in combination since they both have their positive sites. The nice feature of the though-backbone experiments is that there is a sense of directionality. If two spin-systems are connected one always knows which one is the first in the sequence. Whereas when a connection between to spin systems is established in the purely through-space experiments, this is not a given fact. Of course even whether they are truly sequential should always be doubted. At the other side, very specific crosspeaks between the less degenerate side chain chemical shifts can be found.
-
-There are other experiments possible that complement the NCACX and NCOCX and help making the backbone walk, such as CONCA and NcoCACX. However these experiments are lower in signal to noise, because of a added NC cross polarization step in the former and a homenuclear transfer step using for instance spc7 in the latter. Because of this, we were never able to get satisfying spectra of from these experiments.
-
-
-![Pulse sequences and magnetization transfers in carbon detected experiments. A) Pulse sequence of 2D CC correlation using DARR. Phases are Φ0 = 0, Φ1 = 13, Φ2 = {0}*8 {2}*8, Φ3 = 1133, Φ4 = 1122 3300, Φaq = 2013 0231 0231 2013. B) Pulse sequence of NCACX and NCOCX. The sequences are identical. Only the specific CP condition is different between both experiments. Phases are Φ0 = 0, Φ1 = 1111  1111 3333 3333, Φ2 = {0}*16 {2}*16, Φ3 = 0202, Φ4 = 0022, Φ5 = 3333 1111, Φ6 = 1122, Φaq = 0231 2013 2013 0231 2013 0231 0231 2013. Both sequences are part of Trent Franks' pulse sequence repository at github.com/TrentFranks/ssNMR_pp_TopSpin2 as fmp.hCC_DARR and fmp.hNCC_DARR respectively. C) Magnetization transfers of 2D CC correlations. In spectra with a short mixing time (50 ms) only cross-peaks will arise that correlate two nuclei in the same residue. Using longer mixing times (200 ms)allows magnetization transfer to neighboring residues. If the mixing time is even increased (400 ms)long range correlations can be observed. D) Magnetization transfers demonstrating how a sequential walk can be performed using NCACX and NCOCX spectra.](figures/carbon_detected_pulse_sequences_and_magnetization_transfers.svg){#fig:carbon_detected_pulse_sequences_and_magnetization_transfers}
-
-
-
-### Isotope Labeling Schemes
-Both 2- and 3-dimensional ^13^C-detected spectra of uniformly ^13^C-^15^N labeled OmpG are very crowded, and therefor impossible to assign. Therefor a set of sparsely labeled samples was produced. Two main techniques were used to produce these samples: forward labeling and reverse labeling. When forward labeling a sample, a set of labeled amino acids are added to a otherwise unlabeled feedstock. As the name suggests, reverse labeling is exactly the other way around: E. Coli is grown on a isotopically labeled feedstock and all amino acids that should not be labeled are added in unlabeled, to suppress the metabolism producing these amino acids from the feedstock. Also samples have been produced from a feedstock of 1,3- and 2-labeled glycerol giving a very specific labeled and unlabeled nuclei of the different amino acids. This last strategy can be combined with the reverse labeling strategy to produce samples that only have a subset of the residues labeled in this specific patterns, while leaving the rest of the residues completely unlabeled.
-The combinations of amino acids that can be labeled together is restricted by the amino acid metabolism. Since it is not possible to suppress the metabolic routes to and from a amino acid completely just by feeding them unlabeled to the organism, some isotope leakage will always appear. This effect is minimized by choosing sets of amino acids that are relatively close in the metabolism or were the production/use of this amino acid is easily suppressed. This is especially apparent in the reverse labeling strategy, as when amino acids are produced from the feedstock anyway that were supposed to be unlabeled this will appear in the spectra. The exact same effect in the forward labeling strategy would however just cause the amino acids that should be labeled to be labeled slightly less, which only affects the signal to noise ratio, but is not directly visible in the spectra.
-
-To choose a set of amino acid selective labeling schemes a concession has to be made between two major conflicting interests. At the one hand the crowding in the resulting spectra should be reduced as much as possible. But at the other hand, as many as possible neighboring residues should be co-labeled in at least one of the labeling schemes. For example, as can be seen in figure {@fig:labelling_venn} Alanine is co-labeled with every other amino acid in at least one of the labeling schemes, except for Lysine. That means that there will almost always be spectra were the cross peaks between a sequential stretch involving an Alanine can be observed, thereby enabling the assignment of this stretch. At the other hand, for instance Proline and Tyrosine are not co-labeled in any of the residue specific labeling schemes, so therefor whenever there is a Proline-Tyrosine pair in the sequence, the more crowded spectra have to be used to find the crosspeaks connecting them. As discussed earlier, it is preferable to be able to connect at least three spin systems to unambiguously assign them to a subsequence of the protein. By having a set of labeling schemes with a certain overlap as is indicated in the venn diagram of figure {@fig:labelling_venn} it is possible to jump between spectra to find the connectivities to produce such longer stretches of connected spin systems. In figure {@fig:labeling_schemes_on_ompg_sequence} the OmpG sequence were such stretches are hight-lighted. Whenever the color changes there is a 'dead end', where there is no residue specific labeling scheme to connect two neighboring residues. Any given residue in the sequence is on average part of a sequential stretch of 5.5 residues, which allows an unambiguous assignment in many cases.
-
-TODO: figure of uniform labeled PDSD
-
-
-
-
-![Venn-diagram illustrating the overlap between the different labeling schemes that were produced of OmpG. Every amino acid in the OmpG sequence is at least labeled in one labeling scheme. Some of these labeling schemes are produced by forward labeling, others by reverse labeling. \label{labelling_venn}](figures/labelling_venn.png){#fig:labelling_venn}
-
-
-
-
-![All amino acid selective labeling schemes used for the sequential assignment of OmpG on the sequence. Highlighted rectangles indicate in which labeling schemes the residue is labeled. Colored (green, orange and purple) clusters of rectangles indicate that a sequential walk is possible without using the more crowded spectra of non-residue specific labeling schemes. A sequential walk is possible when two sequential residues are co-labeled in at least one labeling scheme. Grey rectangles indicate that the residue is not co-labeled with any of its two neighboring residues. The average cluster length is 3.0 and on average a given residue is part of a cluster of length 5.5.  \label{labeling_schemes_on_ompg_sequence}](figures/labelling_schemes_on_ompg_sequence.png){#fig:labeling_schemes_on_ompg_sequence}
-
-
-#### RIGA
-RIGA forward labeled
-
-#### GAFY
-
-#### GAVLS
-
-
-#### 1,3- and 2-Glycerol Labeling
-
-Apart from decreasing the amount of signals in the spectra, these labeling schemes also produce narrower linewidths because the in most cases directly bound carbon nuclei are not both labeled in the same scheme. This reduces the carbon homonuclear dippolar coupling, which in turn causes lines to be narrow.
-
-![Amino acid metabolism. \label{glycerol_metabolism}](figures/glycerol_metabolism.svg)
-
-
-
-![Labeling patterns in 20 amino acids when 1,3-glycerol (blue) or 2-glycerol are used as feedstock. \label{glycerol_labeling}](figures/glycerol_labeling.svg)
-
-
-
-
-![CCPNMR plug-in that helps visualizing expected subpatterns in ^13^C-^13^C correlation spectra of labeled samples. If chemical shifts are assigned, corresponding peaks will be at the correct position. Otherwise reference chemical shifts from the refDB are used. Dark and light colors repectively show whether the peak is assigned or not.](figures/labeling_patterns_plugin.svg){#fig:labeling_patterns_plugin}
-
-
-
-## Assignment Using ^1^H-detected Spectra
-
-Recently the use of higher MAS rates of around 60 kHz, and even higher have become technically achievable. In combination with samples that are expressed in fully deuterated medium and where the exchangeable sides are subsequently back-exchanged with a chosen percentage of protons, this allows protons to be detected. This opens up the possibility to do NMR experiments that are conceptually very comparable to solution NMR experiments.
-
-
-![Overlay of HN correlations in solid state NMR (red), and solution NMR (black). The solid state spectrum is recorded using the cross-polarization based pulse sequence as described ..... The solution spectrum is a modified copy of the second figure in the paper of Lukas K. Tamm and coworkers describing the solution structure of OmpG. [@liang_structure_2007] The solution spectrum was recorded using a TROSY-HSQC sequence. Besides the obvious difference in line-width between the two spectra, there are also peaks present in the solution spectrum that are absent in the solid state spectrum. These peaks correspond mostly to the flexible loops on the extra-cellular side of OmpG and some to the shorter turns on the intra-cellular side.](figures/HN_solid_solution.png)
-
 
 
 ![Electron micrograph of the OmpG 2D crystals. In this specific case it is OmpG and E. Coli lipids in a 2:1 mass ratio in MES buffer at pH 6.3. The lipid-OmpG mix seems to make tubular shapes.](figures/OmpG_MES_pH63_70procentH_30procentD_30042014_B.png)
 
 
 
-![The samples using for proton detected at 60 kHz MAS were expressed DCN labeled, afterwards protons were reintroduced on exchangeable sites by doing the refolding in normal water.](figures/deuteration.svg)
-
-
-
-![Proton detected pulse sequences for assignment. Phase cycle: (a and d) ph0 = 0, φ1 = 0 2, φ2 = 1, φ5 = 0, φ6 = 0 0 2 2, φ7 = 1, φ11 = 1 1 1 1 3 3 3 3, φ10 = 0, φ15 = 0, φ17 = 0, φ19 = 0, φ20 = 1, φrec = 1 3 3 1 3 1 1 3; (b and e) φ0 = 0, φ1 = 1 3, φ2 = 1 1 3 3, φ3 = 0, φ4 = 1, φ5 = 1, φ6 = 0, φ7 = {1}*4 {3}*4, φ8 = {0}*8 {2}*8, φ9 = 3, φ10= 1, φ11= 0, φ12= 0, φ20= 0, φrec= 0 2 2 0 2 0 0 2 2 0 0 2 0 2 2 0; (c) φ0 = 0, φ1  = 0 2, φ20 = 1, φ15 = 0, φ10 = 0, φ2 =  1, φ5 =  0, φ6 =  0 0 2 2, φ14 = {0}*4 {1}*4, φ16 = 0, φ17 = {0}*8 {1}*8, φ19 = 0, φ7 = 1, φ11 = 1 1 1 1, φ31 =  3 1 1 3 1 3 3 1 1 3 3 1 3 1 1 3; (f) φ0 = 0, φ1 = 1 3, φ2 = 1 1 3 3, φ3 = 0, φ4 = 1, φ5 = 1, φ6 = 0, φ8 = {0}*16 {2}*16, φ9 = 3, φ10= 1, φ11= 0, φ12= 0, φ20= 0, φ16 = 3, φ18=0, φ17= {0}*4 {1}*4, φ19 = 0, φ14= {0}*8 {1}*8, φ27 = 0, φrec= 0 2 2 0 2 0 0 2 2 0 0 2 0 2 2 0 2 0 0 2 0 2 2 0 0 2 2 0 2 0 0 2.](figures/assignment_experiments_proton_detected.svg)
-
-
-
-![Strip plots showing the backbone walk from phenyl-alanine 37 to Glutamine 52. Residue 42 is a proline, and therefor this strip is not present.](figures/strip_plots_37_52_B.svg)
-
-
-
-![Assignment shown on the CN projection of the hCANH spectrum.](figures/CAN_projection.svg)
-
-
-
-![Sampling schedule used for the recording of the 4D HNhhNH spectrum for distance restaints. 14% of the points in the indirect dimension were recorded.](figures/nus_cube.svg)
 
 
 
 
-
-
-## Connecting Carbon and Proton Detected Assignments and Isotope Shift
-
-The most straight-forward approach to sequential assignment would be to first finish the backbone and Cβ chemical shift assignment using the ^1^H detected strip matching approach described earlier, and afterwards find the ^13^C side-chain chemical shifts using ^13^C-detected spectra. However, it is very handy to already connect spin systems that are made in the proton and carbon detected data during the sequential assignment process, if possible. The ^13^C chemical shifts found in the ^1^H detected spectra can easily be used to find the Cα-Cβ cross peak 2D ^13^C-^13^C correlation spectra. If there is enough dispersion in the ^13^C-^13^C spectrum the peak can be easily found and from there the rest of the ^13^C chemical shifts of the side-chain. Having found side chain chemical shifts makes residue typing a lot more exclusive. Thereby mapping a series of otherwise ambiguous strips to a stretch in the sequence becomes possible. Also, sequential crosspeaks in the ^13^C-^13^C correlation can reinforce the certainty that two strips really fit together sequentially.
-
-A very similar approach is taken in solution NMR when TOCSY spectra are used to find the side-chain ^1^H chemical shifts. Often this happens after the entire back-bone has already been assigned, it can however also aid the assignment process itself by facilitating residue typing.
-
-Because ^13^C detected and ^1^H detected spectra are typically recorded using different samples (fully protonated and deuterated/back-exchanged respectively) the ^13^C chemical shifts can be shifted by up to a full ppm. Therefor a correction for this deuterium isotope shift has to be performed. This deuterium shift has been described before and quantified by solution NMR spectroscopists [@hansen_isotope_1988][@venters_characterizing_1996][@maltsev_deuterium_2012]. The magnitude of the shift can be approximated by the following equation:
-
-$$\Delta C(D) =  ^{1}\Delta C(D)d _{1} + ^{2}\Delta C(D)d _{2} + ^{3}\Delta C(D)d _{3}$$ {#eq:isotope_shift}
-
-Here *d~1~*, *d~2~* and *d~3~* are the amount of deuterons one, two and three bonds away from the carbon nucleus of interest. For all amino acid types, except Glycine, more deuterons are surrounding the Cβ than the Cα and therefor the Cβ shifts are more affected. Both *Venters et al.* and *Maltsev et al* determined the factors ^i^ΔC(D) experimentally, but got different values [@venters_characterizing_1996][@maltsev_deuterium_2012]. As argued by *Maltsev et al.* this is just a estimate, as the real values also heavily depend on the local structure. Indeed the study of *Maltsev et al.* used α-synuclein, which is an intrinsically disordered protein where *Venters et al.* used human carbonic anhydrase I, which is mostly β-sheet with some small α-helices.
-
-Anyway, the values found by these studies can be used to be in the right ball park and will in most cases be good enough to connect the resonances in proton and carbon detected spectra. A more exact calculation of the isotope shift does not seem possible for now and if possible in the future it will most probably involve at least secondary structure information like φ and χ angles, which are most likely not known at the stage of sequential assignment.
-
-Whether it is easier to first sequentially assign a strip in the ^1^H detected data to a residue and then find its ^13^C detected counterpart completely depends on the situation. If the Cα-Cβ combination is very unique, i.e. corresponding to an uncrowded part of the 2D ^13^C-^13^C correlation, it is of course easier to find the correct ^13^C detected spin system first since the improved residue typing helps sequential assignment.
-
-However, if the Cα-Cβ combination corresponds to a very crowded area of the 2D ^13^C-^13^C correlation, it can often be easier to first do the sequential assignment of the spin system purely based on matching strips in the ^1^H-detected spectra and looking at the remaining possibilities. Of course finding the i+1 strip is also harder for very degenerate Cα-Cβ combinations, but at least the peak positions in the ^13^C dimensions of the matching strips should fit a lot better because of the lack of   isotope shift between different spectra recorded using the same sample. Also, if you are not too unlucky, the N-H combination will not be degenerate, in which case the CAcoNH and CBcacoNH peaks can help you find the i-1 strip or at least give you a good idea about the possible residue types of the i-1 spin system.
-
-After the sequential assignment is done, it is a lot easier to find the corresponding ^13^C-detected spin systems since now the residue type is known, which limits the choice between possible spin systems. Because now often also a neighboring spin system is known the exact Cα and Cβ chemical shift in the ^13^C detected data can be determined if the intra-residual Cα-Cβ crosspeak is part of a blob. This is possible by looking for the sequential Cβ-Cβ, Cα-Cβ... etc. crosspeaks. Also cross-peaks to the rest of the side-chain ^13^C shifts can be used at that point to find the correct spin system.
-
-Especially for this last order of events (first assigning the spin system sequentiall and finding the side-chain ^13^C shifts later) having residue specifically labeled samples will help enormously. If the sequential assignment is known, it is clear which labelled samples can be used to find the side-chain shifts for a particular spin system.In practice, it will not be so clear which strategy you will be using sing you will be using both at the same.
-
-During the assignment process you will very likely end up with two sets of spin systems, one from the ^1^H detected data and one from the ^13^C detected data. Also, in CCPN Analysis ^1^H- and ^13^C-detected spectra should be connected to separate shift lists to prevent internally averaging the two shifts into one main shift. This would be very unhandy for all parts of the program that rely on shift matching in some way. To make the process of matching up and merging the two sets of spin systems I wrote a simple CCPN analysis plug-in, see figure {@fig:compare_spin_systems_gui}. Any two spin systems can be compared to one another. As a measure of how comparable the two spin systems are, the euclidean distance between the corresponding shifts is calculated. If the shifts from protonated and deuterated samples are indeed divided into two different shift lists, a correction based on the values reported by *Maltsev et al.* can be performed. This tool can be useful in other cases where spin systems have to be compared. It can be downloaded at <https://github.com/jorenretel/compare_spinsystems>.
-
-
-![Graphical User Interface of the CCPN Analysis plug-in that helps comparing spin systems to each other. In the tables at the top, the two spin systems that should be compared are selected. The three tables at the bottom show the resonances unique to the first spin system, the resonances that are assigned to the same type of nuclei and the resonances unique to the second spin system respectively. In this case a spin system created based on the proton detected data (left side) is compared to one that was created using carbon detected data (right side).](figures/compare_spin_systems_gui.png) {#fig:compare_spin_systems_gui}
-
-
-
-|                   | of assigned residues  | of all residues   |
-|-----------------  |---------------------: |----------------:  |
-| Carbon Detected   |                       |                   |
-| Residues          |        165/170 (97%)  |   165/281 (59%)   |
-| N backbone        |        124/170 (73%)  |   124/281 (44%)   |
-| C aliphatic       |        443/485 (91%)  |   443/781 (57%)   |
-| C aromatic        |         58/227 (26%)  |    58/341 (17%)   |
-| CA                |        163/170 (96%)  |   163/281 (58%)   |
-| CB                |        145/156 (93%)  |   145/254 (57%)   |
-| CO                |        127/204 (62%)  |   127/360 (35%)   |
-| Proton Detected   |                       |                   |
-| Residues          |        167/170 (98%)  |   167/281 (59%)   |
-| H backbone        |        151/164 (92%)  |   151/272 (56%)   |
-| N backbone        |        151/170 (89%)  |   151/281 (54%)   |
-| CA                |        167/170 (98%)  |   167/281 (59%)   |
-| CB                |        131/156 (84%)  |   131/254 (52%)   |
-| CO                |        133/204 (65%)  |   133/360 (37%)   |
-
-Table: Extend of the assignment in the shift lists based on the carbon and proton detected spectra.{#tbl:extend_of_assignment_table}
 
