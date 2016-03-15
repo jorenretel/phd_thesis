@@ -79,7 +79,7 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 | 2-TEMPQANDSG      |         135   |           4   |          3    |        122    |           102     |         22    |       13  |           |
 | 1,3-TEMPQANDSG    |         232   |          14   |          9    |        183    |           124     |         21    |       49  |           |
 | 2-SHLYGWAFV       |         218   |           4   |          4    |        178    |           101     |         37    |       40  |           |
-| total             |               |               |               |       1346    |           841     |        278    |      155  |    468    |
+| total             |        1501   |         105   |         92    |       1346    |           841     |        278    |      155  |    468    |
 
 
 
