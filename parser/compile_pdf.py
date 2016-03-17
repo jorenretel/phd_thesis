@@ -36,7 +36,9 @@ with open(preParsedMarkdownPath, 'w') as preParsedMarkdown:
 from subprocess import call
 
 
-call(['pandoc', '-s', '--toc', '--chapters', preParsedMarkdownPath, '../metadata.yaml', '-o', outfile, '--filter', 'pandoc-eqnos', '--filter','pandoc-fignos', '--filter', 'pandoc-tablenos', '--bibliography=' + bibtex_file, '--csl', csl_file, '--latex-engine=xelatex', '--template=../template/simple_template.latex'])
+#call(['pandoc', '-s', '--toc', '--chapters', preParsedMarkdownPath, '../metadata.yaml', '-o', outfile, '--filter', 'pandoc-eqnos', '--filter','pandoc-fignos', '--filter', 'pandoc-tablenos', '--bibliography=' + bibtex_file, '--csl', csl_file, '--latex-engine=xelatex', '--template=../template/simple_template.latex'])
+
+call(['pandoc', '-s', '--toc', '--chapters', preParsedMarkdownPath, '../metadata.yaml', '-o', outfile, '--filter', 'pandoc-eqnos', '--filter','pandoc-fignos', '--filter', 'pandoc-tablenos', '--bibliography=' + bibtex_file, '--csl', csl_file, '--latex-engine=xelatex', '--template=/home/joren/Templates/latex_template_pandoc116_modified.latex'])
 
 #call(['pandoc', '-s', '--toc', '--chapters', preParsedMarkdownPath, '-o', outfile, '--bibliography=' + bibtex_file, '--csl', csl_file])
 

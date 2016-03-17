@@ -66,23 +66,23 @@ Network anchoring was used on the ^13^C-detected restraints in iterations 0 to 6
 
 The structure of OmpG was first calculated as described before. No hydrogen bond restraints were added in these initial calculations. This was done because no experiments were performed to directly observe the hydrogen bonds. However, after an initial structure is calculated, the hydrogen bonding pattern in the β-sheet is clear and these type of restraints can be added. Co-linear hydrogen bond restraints were created between every two residues were the predicted dihedral angles indicated beta-sheet and good cross-peaks appear in the spectra. Co-linear hydrogen bond restraints are basically distance restraints, one between the H and O and one between the N and the O. This makes these restraints very powerful, as they effectively constraint the HN bond vector. Every two residues facing each other from opposite strands interact in two hydrogen bonds. For both of these bonds such a co-linear hydrogen bond restraint is introduced. These restraints can be produced in CCPN Analysis. The default values were used.
 
+\footnotesize 
 
-|                   | shift match   |               |               | iteration8    |                   |               |           |           |
-|-----------------  |------------:  |------------:  |-----------:   |-----------:   |--------------:    |-----------:   |---------: |-------:   |
-| spectrum          |       total   | unambiguous   | long range    |      total    | unambigiguous     | long range    | rejected  | unique    |
-| proton-detected   |               |               |               |               |                   |               |           |     94    |
-| hNHH              |         122   |          41   |         37    |        117    |           106     |         73    |        5  |           |
-| hNhhNH            |         127   |          42   |         39    |        124    |           118     |         90    |        3  |           |
-| carbon-detected   |               |               |               |               |                   |               |           |    374    |
-| 2-glycerol        |         355   |           0   |          0    |        340    |           165     |         16    |       15  |           |
-| 1,3-glycerol      |         312   |           0   |          0    |        282    |           125     |         19    |       30  |           |
-| 2-TEMPQANDSG      |         135   |           4   |          3    |        122    |           102     |         22    |       13  |           |
-| 1,3-TEMPQANDSG    |         232   |          14   |          9    |        183    |           124     |         21    |       49  |           |
-| 2-SHLYGWAFV       |         218   |           4   |          4    |        178    |           101     |         37    |       40  |           |
-| total             |        1501   |         105   |         92    |       1346    |           841     |        278    |      155  |    468    |
+|                   | shift match |               |               | iteration8    |                   |               |           |           |
+|-------------------|      ------:|------:  |------:   |------:   |------:    |------:   |------: |------:   |
+| spectrum          |       total | unambiguous   | long range    |      total    | unambigiguous     | long range    | rejected  | unique    |
+| proton-detected   |             |               |               |               |                   |               |           |     94    |
+| hNHH              |         122 |          41   |         37    |        117    |           106     |         73    |        5  |           |
+| hNhhNH            |         127 |          42   |         39    |        124    |           118     |         90    |        3  |           |
+| carbon-detected   |             |               |               |               |                   |               |           |    374    |
+| 2-glycerol        |         355 |           0   |          0    |        340    |           165     |         16    |       15  |           |
+| 1,3-glycerol      |         312 |           0   |          0    |        282    |           125     |         19    |       30  |           |
+| 2-TEMPQANDSG      |         135 |           4   |          3    |        122    |           102     |         22    |       13  |           |
+| 1,3-TEMPQANDSG    |         232 |          14   |          9    |        183    |           124     |         21    |       49  |           |
+| 2-SHLYGWAFV       |         218 |           4   |          4    |        178    |           101     |         37    |       40  |           |
+| total             |        1501 |         105   |         92    |       1346    |           841     |        278    |      155  |    468    |
 
-
-
+\normalsize
 
 ![Average distances between carbon nuclei (top), and the amide protons in the backbone (bottom) in anti-parallel β-sheets. The residues i and j are two residues that are facing one another in the opposing strands of the β-sheet and are linked with two hydrogen bonds.](figures/distances_in_antiparallel_betasheet.svg){#fig:distances_in_antiparallel_betasheet}
 
