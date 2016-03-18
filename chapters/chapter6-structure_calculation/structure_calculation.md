@@ -101,6 +101,9 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 ![The 15 lowest energy structures at the end of every second ARIA iteration.](figures/structures_per_aria_iteration.svg){#fig:structures_per_aria_iteration}
 
 
+![The 15 lowest energy structures in iteration 8 of the ARIA procedure when adding hydrogen bond restraints and using the ramachandran potential.](figures/ompg_structure_hbonds_ramachandran_potential.svg){#fig:ompg_structure_hbonds_ramachandran_potential}
+
+
 ![Crystal structure of OmpG with surrounding unit cells. One unit cell contains four OmpG molecules. On of the unit cells is depicted in red.](figures/crystal_structure_with_surrounding_unit_cells.png){#fig:crystal_structure_with_surrounding_unit_cells}
 
 
