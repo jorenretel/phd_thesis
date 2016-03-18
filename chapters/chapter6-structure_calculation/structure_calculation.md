@@ -81,7 +81,7 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 | 2-SHLYGWAFV           |   218 |           4 |          4 |  178  |     101     |      37    |       40 |        |
 | total                 |  1501 |         105 |         92 | 1346  |     841     |     278    |      155 |    468 |
 
-\no rmalsize
+\normalsize
 
 ![Average distances between carbon nuclei (top), and the amide protons in the backbone (bottom) in anti-parallel β-sheets. The residues i and j are two residues that are facing one another in the opposing strands of the β-sheet and are linked with two hydrogen bonds.](figures/distances_in_antiparallel_betasheet.svg){#fig:distances_in_antiparallel_betasheet}
 
