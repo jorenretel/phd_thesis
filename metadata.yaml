@@ -3,5 +3,6 @@ title:  'Sequential assignment of solid-state NMR specta of large proteins.'
 author: 'Joren Sebastian Retel'
 tags: ['solid-state', 'nuclear magnetic resonance spectroscopy', 'structural biology']
 papersize: 'a4'
+geometry: 'pass'
 
 ...
