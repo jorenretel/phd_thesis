@@ -21,12 +21,13 @@ The combinations of amino acids that can be labeled together is restricted by th
 
 To choose a set of amino acid selective labeling schemes a concession has to be made between two major conflicting interests. At the one hand the crowding in the resulting spectra should be reduced as much as possible. But at the other hand, as many as possible neighboring residues should be co-labeled in at least one of the labeling schemes. For example, as can be seen in figure {@fig:labelling_venn} alanine is co-labeled with every other amino acid (except for Lysine) in at least one of the labeling schemes. That means that there will almost always be one or more spectra were the cross peaks between a sequential stretch involving an alanine can be observed, thereby enabling the assignment of this stretch. At the other hand, for instance proline and tyrosine are not co-labeled in any of the residue specific labeling schemes, so therefor whenever there is a proline-tyrosine pair in the sequence, the more crowded non-residue specific labeled spectra have to be used to find the crosspeaks connecting them. As discussed earlier, it is preferable to be able to connect at least three spin systems to unambiguously assign them to a subsequence of the protein. By having a set of labeling schemes with a certain overlap as is indicated in the venn diagram of figure {@fig:labelling_venn} it is possible to jump between spectra to find the connectivities to produce such longer stretches of connected spin systems. In figure {@fig:labeling_schemes_on_ompg_sequence} the OmpG sequence were such stretches are hight-lighted. Whenever the color changes there is a 'dead end', where there is no residue specific labeling scheme to connect two neighboring residues. Any given residue in the sequence is on average part of a sequential stretch of 5.5 residues, which allows an unambiguous assignment in many cases.
 
-TODO: figure of uniform labeled PDSD
+
+
+![2D ^13^C-^13^C DARR spectrum with 25 ms mixing of uniformly labeled OmpG at 400 MHz.](figures/uniform_cc_25ms.svg){#fig:uniform_cc_25ms}
 
 
 
-
-![Venn-diagram illustrating the overlap between the different labeling schemes that were produced of OmpG. Every amino acid in the OmpG sequence is at least labeled in one labeling scheme. Some of these labeling schemes are produced by forward labeling, others by reverse labeling. \label{labelling_venn}](figures/labelling_venn.png){#fig:labelling_venn}
+![Venn-diagram illustrating the overlap between the different labeling schemes that were produced of OmpG. Every amino acid in the OmpG sequence is at least labeled in one labeling scheme. Some of these labeling schemes are produced by forward labeling, others by reverse labeling.](figures/labelling_venn.png){#fig:labelling_venn}
 
 
 
