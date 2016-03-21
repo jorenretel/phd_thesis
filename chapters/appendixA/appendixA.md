@@ -190,7 +190,13 @@ Chemical Shifts
 Publications
 ============
 
+Lalli D, Schanda P, Chowdhury A, **Retel J**, Hiller M, Higman VA, Handel L, Agarwal V, Reif B, van Rossum B, Akbey Ü, Oschkinat H (2011) Three-dimensional deuterium-carbon correlation experiments for high-resolution solid-state MAS NMR spectroscopy of large proteins. Journal of Biomolecular NMR 51: 477–485. doi: <http://dx.doi.org/10.1007/s10858-011-9578-1>.
 
+Barbet-Massin E, Pell AJ, Jaudzems K, Franks WT, **Retel JS**, Kotelovica S, Akopjana I, Tars K, Emsley L, Oschkinat H, Lesage A, Pintacuda G (2013) Out-and-back 13C13C scalar transfers in protein resonance assignment by proton-detected solid-state NMR under ultra-fast MAS. Journal of Biomolecular NMR 56: 379–386. doi: <http://dx.doi.org/10.1007/s10858-013-9757-3>.
+
+Barbet-Massin E, Pell AJ, **Retel JS**, Andreas LB, Jaudzems K, Franks WT, Nieuwkoop AJ, Hiller M, Higman V, Guerry P, Bertarello A, Knight MJ, Felletti M, Le Marchand T, Kotelovica S, Akopjana I, Tars K,Stoppini M, Bellotti V, Bolognesi M, Ricagno S, Chou JJ, Griffin RG, Oschkinat H, Lesage A, Emsley L, Herrmann T, Pintacuda G (2014) Rapid Proton-Detected NMR Assignment for Proteins with Fast Magic Angle Spinning. Journal of the American Chemical Society 136: 12489–12497. doi: <http://dx.doi.org/10.1021/ja507382j>.
+
+Muench F, **Retel J**, Jeuthe S, O h-Ici D, van Rossum B, Wassilew K, Schmerler P,Kuehne T, Berger F, Oschkinat H, Messroghli DR (2015) Alterations in creatine metabolism observed in experimental autoimmune myocarditis using ex vivo proton magic angle spinning MRS. NMR in Biomedicine 28: 1625–1633. doi: <http://dx.doi.org/10.1002/nbm.3415>.
 
 
 
