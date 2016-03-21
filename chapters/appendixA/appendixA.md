@@ -1,7 +1,8 @@
 
 \appendix
+\cleardoublepage
+\phantomsection
 \addcontentsline{toc}{part}{Appendices}
-
 \newgeometry{left=1cm, right=1cm}
 
 Chemical Shifts
