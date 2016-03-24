@@ -82,6 +82,9 @@ Apart from decreasing the amount of signals in the spectra, these labeling schem
 
 #### 2-TEMPQANDSG
 
+![2D ^13^C-^13^C correlation of 2-TEMPQANDSG labeled OmpG with 400 ms DARR mixing.](figures/2TEMPQANDSG_assigned.svg){#fig:2TEMPQANDSG_assigned}
+
+
 #### 1,3-TEMPQANDSG
 
 
