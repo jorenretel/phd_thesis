@@ -91,6 +91,7 @@ As said before this labeling pattern is similar to the pattern described by Hong
 #### 1,3-SHLYGWAFV
 This sample did not turn out very well and therefor no good judgment can be made about its added value.
 
+#### 1,3-MKINDT
 
 ![Amino acid metabolism.](figures/glycerol_metabolism.svg){#fig:glycerol_metabolism}
 
