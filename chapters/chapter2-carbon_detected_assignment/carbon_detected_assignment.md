@@ -89,7 +89,7 @@ Apart from decreasing the amount of signals in the spectra, these labeling schem
 
 
 #### 2-SHLYGWAFV
-As said before this labeling pattern is similar to the pattern described by Hong and Jakes as TEASE (**te**n **a**mino acid **s**alective and **e**xtensive labeling), where the tenth amino acid is cyteine, which is not present in OmpG. The labeled amino acids are those that are not produced in the citric acid cycle, see figure {@fig:glycerol_metabolism}. All the amino acids in this labeling scheme belong to group I in figure {#fig:glycerol_labeling} for which there is only one isotopomer per residue. In theory the only intra-residual peaks are the leucine Cβ-Cγ and valine Cα-Cβ cross-peaks. It is however clear that there is labeled threonine, glutamine and glutamic acid present in this sample as well.
+As said before this labeling pattern is similar to the pattern described by Hong and Jakes as TEASE (**te**n **a**mino acid **s**alective and **e**xtensive labeling), where the tenth amino acid is cyteine, which is not present in OmpG. The labeled amino acids are those that are not produced in the citric acid cycle, see figure {@fig:glycerol_metabolism}. All the amino acids in this labeling scheme belong to group I in figure {@fig:glycerol_labeling} for which there is only one isotopomer per residue. In theory the only intra-residual peaks are the leucine Cβ-Cγ and valine Cα-Cβ cross-peaks. It is however clear that there is labeled threonine, glutamine and glutamic acid present in this sample as well.
 
 #### 1,3-SHLYGWAFV
 This sample did not turn out very well and therefor no good judgment can be made about its added value.
