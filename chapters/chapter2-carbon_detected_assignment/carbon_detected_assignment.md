@@ -81,6 +81,10 @@ Apart from decreasing the amount of signals in the spectra, these labeling schem
 #### Uniform 2-glycerol labeling
 
 #### 2-TEMPQANDSG
+The most remarkable feature of this labeling scheme in comparison to the uniform 2-glycerol labeling scheme is that in the region between 42 and 49 ppm there are basically no other chemical shifts than the glycine Cα shifts, see figure {@fig:2TEMPQANDSG_assigned}. In the uniform 2-glycerol labeled spectra this shift is overlapped by the shift of the leucine Cβ's and partially by the lysine Cε and arginine Cδ. Only the Cβ shifts of aspartic acid and asparagine is present in this region, which are only labeled in one third of the isotopomers. Therefor at least all large cross peaks in this region correlate glycine with one of the other labeled residues. This is a great feature since there are 27 glycines in OmpG. Knowing which spin systems potentially neighbor a glycine is very useful information. In general glycine is the most frequently occurring amino acid in membrane integrated β-barrels and the third most frequently occurring amino acid in membrane spanning α-helices [@ulmschneider_amino_2001]. This could make this labeling scheme very appropriate for the assignment of other large membrane proteins.
+
+There are only four clusters of intra-residual peaks in this spectrum belonging to proline Cα-Cδ, proline Cβ-Cδ, methionine Cα-Cγ and Threonine Cα-Cγ2, leaving a lot of space for inter-residual cross peaks. Removing a lot of the Cα resonances compared to the uniformly 2-glycerol labeled sample renders the Cα-Cα region of the spectrum a lot less crowded and easier to interpret.
+
 
 ![2D ^13^C-^13^C correlation of 2-TEMPQANDSG labeled OmpG with 400 ms DARR mixing.](figures/2TEMPQANDSG_assigned.svg){#fig:2TEMPQANDSG_assigned}
 
@@ -89,7 +93,7 @@ Apart from decreasing the amount of signals in the spectra, these labeling schem
 
 
 #### 2-SHLYGWAFV
-As said before this labeling pattern is similar to the pattern described by Hong and Jakes as TEASE (**te**n **a**mino acid **s**alective and **e**xtensive labeling), where the tenth amino acid is cyteine, which is not present in OmpG. The labeled amino acids are those that are not produced in the citric acid cycle, see figure {@fig:glycerol_metabolism}. All the amino acids in this labeling scheme belong to group I in figure {@fig:glycerol_labeling} for which there is only one isotopomer per residue. In theory the only intra-residual peaks are the leucine Cβ-Cγ and valine Cα-Cβ cross-peaks. It is however clear that there is labeled threonine, glutamine and glutamic acid present in this sample as well.
+As said before this labeling pattern is similar to the pattern described by Hong and Jakes as TEASE (**te**n **a**mino acid **s**elective and **e**xtensive labeling), where the tenth amino acid is cyteine, which is not present in OmpG. The labeled amino acids are those that are not produced in the citric acid cycle, see figure {@fig:glycerol_metabolism}. All the amino acids in this labeling scheme belong to group I in figure {@fig:glycerol_labeling} for which there is only one isotopomer per residue. In theory the only intra-residual peaks are the leucine Cβ-Cγ and valine Cα-Cβ cross-peaks. It is however clear that there is labeled threonine, glutamine and glutamic acid present in this sample as well.
 
 #### 1,3-SHLYGWAFV
 This sample did not turn out very well and therefor no good judgment can be made about its added value.
