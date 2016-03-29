@@ -1,6 +1,8 @@
 
 
 \backmatter
+\fancyhead[RE]{}
+\fancyhead[LO]{ACKNOWLEDGEMENTS}
 
 
 Acknowledgements

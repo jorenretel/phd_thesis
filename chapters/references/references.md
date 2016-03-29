@@ -1,3 +1,5 @@
 
+\fancyhead[LO]{REFERENCES}
+
 References
 ==========

@@ -11,7 +11,18 @@ $endif$
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
+%Joren: some of my stuff
 \usepackage{emptypage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{}
+\fancyhead[LO]{\leftmark}
+
+
+
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
   \usepackage[utf8]{inputenc}
@@ -238,7 +249,6 @@ $if(lof)$
 \listoffigures
 $endif$
 $body$
-
 $if(natbib)$
 $if(bibliography)$
 $if(biblio-title)$

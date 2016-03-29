@@ -109,3 +109,4 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 
 
 TODO: residue interaction matrix of H and C restraints separately.
+

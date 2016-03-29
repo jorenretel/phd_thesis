@@ -1,9 +1,10 @@
 
-\appendix
 \cleardoublepage
+\appendix
 \phantomsection
 \addcontentsline{toc}{part}{Appendices}
 \newgeometry{left=1cm, right=1cm}
+\fancyhead[RE]{APPENDIX \thechapter}
 
 Chemical Shifts
 ===============

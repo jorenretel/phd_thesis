@@ -1,6 +1,6 @@
 \mainmatter
-
 \part{Introduction}
+\fancyhead[RE]{CHAPTER \thechapter}
 
 Structural Biology
 ==================
