@@ -91,6 +91,17 @@ There are only four clusters of intra-residual peaks in this spectrum belonging 
 
 #### 1,3-TEMPQANDSG
 
+Like the 2-TEMPQANDSG labeling scheme, 1,3-TEMPQANDSG does not reduce the crowding of intra-residual peaks much. However, the inter-residual peaks are a lot easier to interpret because of the reduced chemical shift degeneracy in the spectrum. For instance in the methyl region around 20 ppm a lot of well dispersed cross peaks are present.  {@tbl:removed_shifts_13TEMPQANDSG}
+
+| region               | removed                                   | left                                                      |
+|----------------------|-------------------------------------------|-----------------------------------------------------------|
+| +/- 20 ppm           | LeuCδ, ValCγ, IleCγ/Cδ                    | AlaCβ, ThrCγ2, MetCε                                      |
+| 25 - 35 ppm          | LysCβ/Cγ, ArgCβ/Cγ, TrpCβ, IleCγ1, HisCβ  | ProCβ/Cγ, MetCβ/Cγ, GluCβ/Cγ, GlnCβ/Cγ                    |
+| 35 - 45 ppm          | PheCβ, TyrCβ, LysCε                       | AsnCβ, AspCβ                                              |
+| > 50 ppm             | LysCα, LeuCα, IleCα, ArgCα                | ThrCα/Cβ, MetCα, GluCα, GlnCα, AspCα, AsnCα, ProCα, SerCβ |
+
+Table: Shifts being removed in the 1,3-TEMPQANDSG labeling scheme compared to a uniformly 1,3-glycerol labeled sample for different regions of the spectrum.{#tbl:removed_shifts_13TEMPQANDSG}
+
 
 #### 2-SHLYGWAFV
 As said before this labeling pattern is similar to the pattern described by Hong and Jakes as TEASE (**te**n **a**mino acid **s**elective and **e**xtensive labeling), where the tenth amino acid is cyteine, which is not present in OmpG. The labeled amino acids are those that are not produced in the citric acid cycle, see figure {@fig:glycerol_metabolism}. All the amino acids in this labeling scheme belong to group I in figure {@fig:glycerol_labeling} for which there is only one isotopomer per residue. In theory the only intra-residual peaks are the leucine Cβ-Cγ and valine Cα-Cβ cross-peaks. It is however clear that there is labeled threonine, glutamine and glutamic acid present in this sample as well.
