@@ -40,7 +40,6 @@ $endif$
 $if(euro)$
   \newcommand{\euro}{€}
 $endif$
-\setromanfont{TeX Gyre Pagella}
 $if(mainfont)$
     \setmainfont[$for(mainfontoptions)$$mainfontoptions$$sep$,$endfor$]{$mainfont$}
 $endif$
