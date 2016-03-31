@@ -8,7 +8,7 @@
 Acknowledgements
 ================
 
-I wan to thank...
+I want to thank...
 
 
 
