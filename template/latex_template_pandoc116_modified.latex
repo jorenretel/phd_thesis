@@ -12,6 +12,7 @@ $endif$
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
 %Joren: some of my stuff
+\usepackage[font={normalsize,it}]{caption}
 \usepackage{emptypage}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
