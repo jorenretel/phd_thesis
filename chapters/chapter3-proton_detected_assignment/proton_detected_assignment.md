@@ -4,6 +4,13 @@ Assignment Using ^1^H-detected Spectra
 
 ## Introduction
 
+Unlike solution NMR the main methods in solid state NMR have been based on detection of hetero-nulei. The reson for this is that at moderate spinning rates and fully protonated samples proton linewidth are very broad due to the strong dipolar coupling network in solids. There is good reasons to use proton detection though. Since the gyromagnetic ratio of protons is 8 and 31 times higher as those of ^13^C and ^15^N respectively, the signal to noise in proton detection is higher. Also adding an observable nucleus adds dispersion in multi-dimensional spectra. That proton detection was badly needed was clear since applications of solid state on biological samples became into reach and early proton-detected experiments were performed on dipeptides and small model proteins [@reif_1h1h_2001] [@reif_1h_2003] [@chevelkov_1h_2003] [@paulson_sensitive_2003]. There are two main strategies that can be employed to reduce the ^1^H linewidths:
+
+1. Reduce the amount of ^1^H in the sample by perdeuterating the sample and subsequently reintroduce protons at the exchangable sites by a chosen fraction.
+2. Spin faster.
+
+ 
+
 Recently the use of higher MAS rates of around 60 kHz, and even higher have become technically achievable. In combination with samples that are expressed in fully deuterated medium and where the exchangeable sides are subsequently back-exchanged with a chosen percentage of protons (see figure {@fig:deuteration}), this allows protons to be detected. This opens up the possibility to do NMR experiments that are conceptually very comparable to solution NMR experiments. [@barbet-massin_outandback_2013] [@barbet-massin_rapid_2014]
 
 
