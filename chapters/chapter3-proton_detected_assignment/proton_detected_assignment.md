@@ -9,7 +9,8 @@ Unlike solution NMR the main methods in solid state NMR have been based on detec
 1. Reduce the amount of ^1^H in the sample by perdeuterating the sample and subsequently reintroduce protons at the exchangable sites by a chosen fraction.
 2. Spin faster.
 
- 
+Both strategies and a combination of the two have been studied
+
 
 Recently the use of higher MAS rates of around 60 kHz, and even higher have become technically achievable. In combination with samples that are expressed in fully deuterated medium and where the exchangeable sides are subsequently back-exchanged with a chosen percentage of protons (see figure {@fig:deuteration}), this allows protons to be detected. This opens up the possibility to do NMR experiments that are conceptually very comparable to solution NMR experiments. [@barbet-massin_outandback_2013] [@barbet-massin_rapid_2014]
 
@@ -42,6 +43,6 @@ Almost all observed strips present in the spectra were sequentially assigned. Th
 ![Assignment shown on the CN projection of the hCANH spectrum.](figures/CAN_projection.svg){#fig:CAN_projection}
 
 
+![Signal intensities vs sequence.](figures/peak_intensities_on_sequence.svg){#fig:peak_intensities_on_sequence.svg}
 
 TODO: table with T2 times
-TODO: figure of signal intensities over sequence.
