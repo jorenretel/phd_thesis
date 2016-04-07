@@ -45,4 +45,15 @@ Almost all observed strips present in the spectra were sequentially assigned. Th
 
 ![Signal intensities vs sequence.](figures/peak_intensities_on_sequence.svg){#fig:peak_intensities_on_sequence.svg}
 
-TODO: table with T2 times
+
+| experiment  | ^13^C aq (ms) | ^15^N aq (ms) | scans | duration |
+|-------------|---------------|---------------|-------|----------|
+| hCANH       | 8.6           | 14.4          | 12    | 1d15h    |
+| hcoCAcoNH   | 6.6           | 14.4          | 36    | 3d18h    |
+| hcaCBcaNH   | 3.0           | 5.4           | 64    | 2d20h    |
+| hcaCBcacoNH | 3.0           | 5.4           | 128   | 5d23h    |
+| hCONH       | 10.0          | 14.0          | 8     | 16h      |
+| hCOcaNH     | 10.0          | 9.8           | 64    | 3d15h    |
+
+Table: Aquisition parameters for the six ^1^H-detected experiments used for the assignment of OmpG.{#tbl:proton_detected_aquisition_times}
+
