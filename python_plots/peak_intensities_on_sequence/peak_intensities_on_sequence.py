@@ -7,14 +7,20 @@ import math
 import random
 
 #sns.set(style="white")
-sns.set_style("ticks")
+#sns.set_style("ticks")
+sns.set(font='sans-serif')
+
+#from matplotlib.font_manager import findfont, FontProperties
+
+#print FontProperties()
+#print findfont(FontProperties(family=['serif']))
 
 def make_intensity_histogram(argServer):
     project = argServer.getProject()
     nmrProject = project.findFirstNmrProject()
 
     residues = project.findFirstMolSystem(name='MS1').findFirstChain().sortedResidues()
-    print residues
+
 
     #nmrConstraintStore = project.newNmrConstraintStore(nmrProject=nmrProject)
 
@@ -61,21 +67,21 @@ def make_intensity_histogram(argServer):
                                         peakListSerial=peakListSerial,
                                         measurement='height')
         intensities.append(xys)
-        for axe, res_range in zip(axese, res_ranges):
+        # for axe, res_range in zip(axese, res_ranges):
 
-            xs = []
-            ys = []
-            for i in res_range:
-                if i in xys:
-                    ys.append(xys[i] * norm)
-                    xs.append(i)
-                else:
-                  ys.append(None)
-                  xs.append(i)
+        #     xs = []
+        #     ys = []
+        #     for i in res_range:
+        #         if i in xys:
+        #             ys.append(xys[i] * norm)
+        #             xs.append(i)
+        #         else:
+        #           ys.append(None)
+        #           xs.append(i)
 
-            axe.scatter(xs, ys, color=color)
-            #axe.plot(xs, ys, color=color)
-            axe.set_xlim([res_range[0],res_range[-1]])
+        #     axe.scatter(xs, ys, color=color)
+        #     #axe.plot(xs, ys, color=color)
+        #     axe.set_xlim([res_range[0],res_range[-1]])
 
 
 
@@ -103,9 +109,26 @@ def make_intensity_histogram(argServer):
                 ys.append(None)
                 xs.append(i)
 
-        axe.plot(xs, ys, color='grey')
+        axe.plot(xs, ys, color='grey', zorder=1)
         #axe.plot([res_range[0], res_range[-1]], [4,4], color='black')
         axe.set_xticks([i for i in res_range if i%2==0])
+        axe.set_xlabel('residues')
+        axe.set_ylabel('S/N')
+
+        for res_dict, color in zip(intensities, colors):
+            xs = []
+            ys = []
+            for i in res_range:
+                if i in res_dict:
+                    ys.append(res_dict[i])
+                    xs.append(i)
+                else:
+                  ys.append(None)
+                  xs.append(i)
+
+            axe.scatter(xs, ys, color=color, zorder=2)
+            #axe.plot(xs, ys, color=color)
+        axe.set_xlim([res_range[0],res_range[-1]])
 
         current = axe.get_ylim()[1]
         print current
