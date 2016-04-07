@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="1153.3463"
-     inkscape:cy="1033.5128"
+     inkscape:cx="712.0929"
+     inkscape:cy="1159.6452"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,8 +35,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="704"
+     inkscape:window-width="1600"
+     inkscape:window-height="1134"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1102,6 +1102,17 @@
          y="1127.1509"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
          id="tspan12539-0">G</tspan></text>
+    <rect
+       style="opacity:1;fill:#a6cee3;fill-opacity:1;stroke:none;stroke-width:1.0629921;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect12927-9-5-1-8-0-9-1-53-8-0"
+       width="86.705498"
+       height="61.596004"
+       x="91.312859"
+       y="107.95191"
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/homes/retel/overlays_all/hartmut_10072015/assigned_topology_2.png"
+       inkscape:export-xdpi="299.70001"
+       inkscape:export-ydpi="299.70001" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2074,6 +2085,17 @@
          x="-368.01151"
          y="1189.8374"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'">E P</tspan></text>
+    <rect
+       style="opacity:1;fill:#a6cee3;fill-opacity:1;stroke:none;stroke-width:1.0629921;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect12927-9-5-1-8-0-9-1-53-8-3"
+       width="86.705498"
+       height="73.717834"
+       x="157.03021"
+       y="168.96255"
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/homes/retel/overlays_all/hartmut_10072015/assigned_topology_2.png"
+       inkscape:export-xdpi="299.70001"
+       inkscape:export-ydpi="299.70001" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
