@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import math
 import random
+import matplotlib.gridspec as gridspec
 
 #sns.set(style="white")
 #sns.set_style("ticks")
@@ -27,20 +28,33 @@ def make_intensity_histogram(argServer):
     #f, (ax1) = plt.subplots(1, 1, figsize=(8, 6), sharex=True)
 
 
-    f, axes = plt.subplots(8, 1, figsize=(10, 12))#, sharey=True)
+    f, axes = plt.subplots(8, 1,figsize=(10, 12))#, sharey=True)
 
     #axese = [item for sublist in axes for item in sublist]
 
+    gs = gridspec.GridSpec(7, 2,
+                           width_ratios=[1,1],
+                           height_ratios=[4,4,4,4,7,4,4])
+
     axese = []
 
-    axese.append(plt.subplot2grid((7,2), (0,0), colspan=1))
-    axese.append(plt.subplot2grid((7,2), (1,0), colspan=2))
-    axese.append(plt.subplot2grid((7,2), (2,0), colspan=2))
-    axese.append(plt.subplot2grid((7,2), (3,0), colspan=2))
-    axese.append(plt.subplot2grid((7,2), (4,0), colspan=2))
-    axese.append(plt.subplot2grid((7,2), (5,0), colspan=2))
-    axese.append(plt.subplot2grid((7,2), (6,0), colspan=2))
-    axese.append(plt.subplot2grid((7,2), (0,1), colspan=1))
+    axese.append(plt.subplot(gs[0, 0]))
+    axese.append(plt.subplot(gs[1, :]))
+    axese.append(plt.subplot(gs[2, :]))
+    axese.append(plt.subplot(gs[3, :]))
+    axese.append(plt.subplot(gs[4, :]))
+    axese.append(plt.subplot(gs[5, :]))
+    axese.append(plt.subplot(gs[6, :]))
+    axese.append(plt.subplot(gs[0, 1]))
+
+    #axese.append(plt.subplot2grid((7,2), (0,0), colspan=1))
+    #axese.append(plt.subplot2grid((7,2), (1,0), colspan=2))
+    #axese.append(plt.subplot2grid((7,2), (2,0), colspan=2))
+    #axese.append(plt.subplot2grid((7,2), (3,0), colspan=2))
+    #axese.append(plt.subplot2grid((7,2), (4,0), colspan=2))
+    #axese.append(plt.subplot2grid((7,2), (5,0), colspan=2))
+    #axese.append(plt.subplot2grid((7,2), (6,0), colspan=2))
+    #axese.append(plt.subplot2grid((7,2), (0,1), colspan=1))
 
 
 
@@ -115,7 +129,10 @@ def make_intensity_histogram(argServer):
         axe.set_xlabel('residues')
         axe.set_ylabel('S/N')
 
+        max_point = 30
+
         for res_dict, color in zip(intensities, colors):
+
             xs = []
             ys = []
             for i in res_range:
@@ -126,15 +143,26 @@ def make_intensity_histogram(argServer):
                   ys.append(None)
                   xs.append(i)
 
+            max_point = max(ys + [max_point])
+
             axe.scatter(xs, ys, color=color, zorder=2)
             #axe.plot(xs, ys, color=color)
         axe.set_xlim([res_range[0],res_range[-1]])
 
-        current = axe.get_ylim()[1]
-        print current
-        axe.set_ylim(0, max([current, 50]))
+        #current = axe.get_ylim()[1]
+        #print current
+        #axe.set_ylim(0, max([current, 40]))
+
+        print max_point
+
+        max_point = (int(max_point+1)/10)*10 +10
+
+        axe.set_ylim(0, max_point)
+        axe.yaxis.set_ticks(range(0, max_point+1, 10))
 
     plt.tight_layout()
+    axese[4].set_ylim()
+    axese[4].yaxis.set_ticks(range(0, 71, 10))
     plt.savefig('/home/joren/peak_intensities_on_sequence.svg')
 
 
