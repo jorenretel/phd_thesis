@@ -1,15 +1,14 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+
 def make_figure():
 
-    f, axes = plt.subplots(4, 1, figsize=(8, 12), sharey=True)
-    #axes = [item for sublist in axes for item in sublist]
+    f, axes = plt.subplots(5, 1, figsize=(12, 8), sharey=True)
 
-    file_names = ['sh3_carbon.txt', 'sh3_proton.txt', 'yada.txt']
-    titles = ['SH3 carbon detected', 'SH3 proton detected', 'yadA carbon detected']
-
-    #colors = ['#a6cee3', '#1f78b4', '#fb9a99', '#e31a1c']
+    file_names = ['sh3_carbon.txt', 'sh3_proton.txt', 'yada.txt', 'ompg.txt', 'ompg_proton.txt']
+    titles = ['SH3 carbon detected', 'SH3 proton detected',
+              'yadA carbon detected', 'OmpG proton and carbon detected', 'OmpG proton detected']
     colors = ['#1f78b4', '#e31a1c', '#a6cee3', '#fb9a99']
 
     for file_name, ax, title in zip(file_names, axes, titles):
@@ -23,12 +22,13 @@ def make_figure():
                     zero_free.append(point)
             ax.scatter(range(1, len(stat)+1), zero_free, color=color)
         ax.set_title(title)
-        ax.set_xlim([1, len(stat)+1])
-        ax.set_ylim([0, 102])
+        ax.set_xlim([0, len(stat)+1])
+        ax.xaxis.set_ticks(range(0, len(stat)+1, 10))
+        ax.set_ylim([0, 105])
         ax.set_xlabel('residues')
         ax.set_ylabel(r'% agreeing / disagreeing')
     plt.tight_layout()
-    plt.show()
+    plt.savefig('malandro_statistics.svg')
 
 
 def parse_stats_file(file_name):
