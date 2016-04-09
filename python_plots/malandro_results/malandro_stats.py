@@ -13,13 +13,18 @@ def make_figure():
 
     for file_name, ax, title in zip(file_names, axes, titles):
         stats = parse_stats_file(file_name)
+        print title
         for stat, color in zip(stats, colors):
+            first_picks = 0
             zero_free = []
             for point in stat:
                 if point == 0:
                     zero_free.append(None)
                 else:
                     zero_free.append(point)
+                if point > 50.0:
+                    first_picks += 1
+            print first_picks        
             ax.scatter(range(1, len(stat)+1), zero_free, color=color)
         ax.set_title(title)
         ax.set_xlim([0, len(stat)+1])
