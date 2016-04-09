@@ -107,3 +107,9 @@ If the user agrees with a certain assignments, they can be transferred to the CC
 ![Graphical User Interface of the (semi-)automatic assignment algorithm. A: a subset of spectra can be selected to be used by the routine. B: a number of settings can be configured controlling which information in the CCPN project is used by the algorithm. Also parameters controlling the annealing process are set here. The graph at the bottom shows the progress of the annealing procedure. C: The results are shown in 5 tables, representing 5 consecutive residues in the sequence. In each table all spin systems that can be assigned to that particular residue are listed. When selecting two spin systems for two sequential residues, all peaks that connect these spin systems are listed in the table at the bottom. Assignments can be inspected here and individually transferred to the project. D: Assignments can also be transferred in bulk to the project. In order to do so, the user should indicate which assignments exactly as multiple annealing runs were performed. One of the possibilities is to only assign those spin systems that are assigned in a threshold fraction of all annealing runs.](figures/malandro_gui.png){#fig:malandro_gui}
 
 
+![Correctness of proposed sequential assignment of residues in three different proteins.](figures/malandro_statistics.svg){#fig:malandro_statistics}
+
+
+![Amount of correct assignments and false positives as a function of the amount of deleted peaks in ^13^C detected SH3. A (false) positive is defined here as any spin system being assigned to a residue in over 70% of the runs.](figures/malandro_deleting_peaks.svg){#fig:malandro_deleting_peaks}
+
+
