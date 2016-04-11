@@ -1,6 +1,6 @@
 
-Connecting Carbon and Proton Detected Assignments
-=================================================
+Connecting Assignments in ^13^C- and ^1^H-detected Spectra
+==========================================================
 
 For the assignment of OmpG a combination of ^13^C- and ^1^H-detected experiments has been used. Both type of experiments give complementary information. Although the assignment routine using ^1^H-detection at fast MAS frequencies is more straight-forward, there is still information that can for the moment not be accessed using this technique. Up to now there is no good mixing scheme and detection method available to assign side chain chemical shifts in perdeuterated proteins at fast spinning rates. However, the ^13^C-detected experiments give access to the ^13^C side-chain chemical shift information. Assignment of side-chain chemical shifts aids residues typing, which in turn facilitates sequential assignment. Furthermore knowledge of side-chain chemical shifts is essential for structure calculation of most proteins.
 
