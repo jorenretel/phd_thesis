@@ -2,8 +2,8 @@
 \part{Introduction}
 \fancyhead[RE]{CHAPTER \thechapter}
 
-Structural Biology
-==================
+Structural Biology of Membrane Proteins
+=======================================
 
 This thesis is about 'assignment methods for large proteins in solid state nuclear magnetic resonance spectroscopy ...'. Before bombarding you with details I would like to give a short introduction into the context of this research.
 
@@ -20,8 +20,7 @@ The first structure of a protein,... was solved in 19.. by x-ray crystallography
 
 
 
-Membrane Proteins
-=================
+## Membrane Proteins
 
 The lipids in a biological membrane are very diverse and differ between organisms and cell types. The membrane is very crowded with membrane proteins, often the amount of protein (in terms of weight) is larger than the amount of lipids. In E. coli membranes 75 weight percent can be attributed to proteins (Lehninger). The lipids in the two leaflets that compose the lipid bilayer are often distinct. This is also the case in the outer membrane of E. coli. The outer leaflet is composed of lipopolysaccharides (LPS), and the inner leaflet of the more usual phospholipids. This influences the membrane thickness, which is with 24 Å a little thinner than would be expected....
 
@@ -35,32 +34,36 @@ The topology of membrane proteins can often be predicted based on the residue se
 ![Distribution of sequence lengths of all proteins in the uniProt database tagged as membrane protein. The amount of proteins with sequence lengths similar to OmpG, 281 residues, is very large, making OmpG a relevant model system.](figures/membrane_protein_sequence_lenth_distribution.svg){#fig:membrane_protein_sequence_lenth_distribution}
 
 
+Solid-State NMR
+===============
 
+## Magic Angle Spinning
 
+## Cross-polarization
 
-Sequential Assignment of solid state NMR spectra
-================================================
+## Relaxation
 
-In most NMR studies very little can be done before the chemical shifts of the nuclei that are interesting in the context of the biological question are known. Sometimes those are only a few. However if the goal is to calculate the structure and study the overall dynamics of the protein a fairly complete mapping between resonance frequencies and nuclei in the molecule has to be present. This mapping process is referred to as sequential assignment and often is the most time consuming part of a NMR study. The general idea behind sequential assignment methodologies is always the same: the graph that arises from a set of correlation spectra is mapped on the molecular topology. In most (but not all) methodologies to find this mapping, first parts of the total signal pattern are identified that correspond to individual residues. By finding connectivities between these signal patterns a larger signal pattern that belongs to a set of sequentially connected residues is created. Because the nuclei in different amino acids give rise to a different combination of chemical shifts, the sets of signals can be classified down to a few or sometimes even one type of amino acid. Then this pattern is mapped to a subsequence in the protein that matches these possible residue type assignments.
+## Sequential Assignment of solid state NMR spectra
+
+In most NMR studies very little can be done before the chemical shifts of the nuclei that are interesting in the context of the biological question are known. Sometimes those are only a few. However if the goal is to calculate the structure and study the overall dynamics of the protein a fairly complete mapping between resonance frequencies and nuclei in the molecule has to be present. This mapping process is referred to as sequential assignment and often is the most time consuming part of a NMR study. The general idea behind sequential assignment methodologies is always the same: the graph that arises from a set of correlation spectra is mapped on the molecular topology. In most (but not all) methodologies to find this mapping, the process is divided into two steps. In the first step parts of the total signal pattern are identified that correspond to individual residues. In a second step connectivities are found between these signal patterns and a larger signal pattern that belongs to a set of sequentially connected residues is created. Because the nuclei in different amino acids give rise to a different combination of chemical shifts, the sets of signals can be classified down to a few or sometimes even one type of amino acid. When this is done, the larger pattern can be mapped to a subsequence in the protein that matches these possible residue type assignments.
 
 From now on I will call the collection of resonance frequencies that belong to one residue a spin system. The term **spin system** is often used in NMR in a somewhat less confined sense, meaning a set of resonances that are in some way influenced by one another. However, since this thesis will deal with sequential assignment for a large extent, it is good to have quick way to describe this object. Also the CCPNMR Analysis software, that is used to analyze NMR spectra, uses the term as I just defined it.
 
-In order to get a unique match between the potential residue types of a sequential stretch of spin systems and a subsequence in the protein, the stretches should in general be long enough. I.e. the longer a connected stretch is, the higher the chance there is only one possible location along the protein sequence were this stretch fits. Of course it highly depends on the length of the protein sequence how long it takes before this is the case. In figure {@fig:amount_of_unique_subsequences} the fraction of unique subsequences of lenght 1, 2 and 3 are plotted vs. the lenght of the protein. As can be seen, even for very large proteins, connected stretches of 3 spin systems can in theory be uniquely matches to a subsequence in the majority of cases. This is of course under the assumption that each spin system can be unique typed to one amino acid type, which is not the case in practice since some amino acids give rise to very similar signal sets.
+In order to get a unique match between the potential residue types of a sequential stretch of spin systems and a subsequence in the protein, the stretches should in general be long enough. I.e. the longer a connected stretch is, the higher the chance there is only one possible location along the protein sequence were this stretch fits. Of course it highly depends on the length of the protein sequence how long it takes before this is the case. In figure {@fig:amount_of_unique_subsequences} the fraction of unique subsequences of lenght 1, 2 and 3 are plotted vs. the lenght of the protein. As can be seen, even for very large proteins, connected stretches of 3 spin systems can in theory be uniquely matched to a subsequence of the protein in the majority of cases. This is of course under the assumption that each spin system can be uniquely typed to one amino acid type, which is not the case in practice since some amino acids give rise to very similar signal sets. Therefor in practice often somewhat longer stretches need to be generated before a unique match to a subsequence in the protein can be found. 
 
 
 
 ![Percentage of subsequences that is only present in the sequence once. Purple, orange and green correspond to subsequences of length 1,2 and 3 respectively. This plot is made using 1000 membrane protein sequences from the uniProt database. Every point represents one protein. As expected, the amount of single amino acids that only appear in the sequence once very quickly drops off with increasing sequence length. At the other side, even for the largest proteins still more than half of all triplets (subsequences of length 3) is completely unique in the sequence. Of course, the fact that the subsequence is unique does not necessarily mean that the subsequence can be distinguished from all other subsequences based on the chemical shifts of these residues. That also heavily depends on how many ^13^C chemical shifts of the spin systems are known, which is directly dependent on the type of spectra recorded.](figures/amount_of_unique_subsequences.svg){#fig:amount_of_unique_subsequences}
 
 
-
-The real bottleneck in assigning larger proteins is chemical shift degeneracy. The larger the amount of NMR active nuclei in a protein, the smaller the average spacing between the resonance frequences will be. This causes two problems that are very closely related, but should be considered both distinctly:
+For the assignment of larger proteins both steps in the assignment process become more diffeicult. The real bottleneck in here is chemical shift degeneracy. The larger the amount of NMR active nuclei in a protein, the smaller the average spacing between the resonance frequences will be. This causes two problems that are very closely related, but should be considered both distinctly:
 
 1. Spectral crowding, the overlap of signals in spectra.
 2. Degeneracy of assignment of peaks.
 
 The first problem is very simple, spectra get very hard to interpret if signals are piled on top of each other. The second problem maybe needs a little more explanation. In order to connect spin systems to form a sequential stretch, cross peaks between them in correlation spectra are needed. However, if a crosspeak can be explained by multiple different resonance frequencies from multiple spin systems on each dimension, it gets a lot harder to build these stretches. It is not so much that this type of peak is necessarily really overlapping with another peak, it is the apparent overlap of peaks.
 
-Of course in the end these problems barrel down to linewidth. If linewidths were infinitely narrow, none of these problems would exist. There would be no signal overlap and every cross-peak could be explained by the correlation of spins of exactly the same number as its dimensions. If this were the case, there would be a very clear one to one mapping between the signal set and the molecular topology.
+Of course in the end both these problems barrel down to linewidth. If linewidths were infinitely narrow, none of these problems would exist. There would be no signal overlap and every cross-peak could be explained by the correlation of spins of exactly the same number as its dimensions. If this were the case, there would be a very clear one to one mapping between the signal set and the molecular topology.
 
 To combat the problem of spectral crowding and assignment ambiguity of crosspeaks, in general three approaches can be taken:
 
@@ -70,7 +73,7 @@ To combat the problem of spectral crowding and assignment ambiguity of crosspeak
 
 Over the last few years, solid state NMR has made an enormous amount of progress and also the methods we used in this project changed during this process. The NMR methods used have a large influences on the way sequential assignments are made. A first chapter will explain the efforts we did to assign OmpG using ^13^C-detected NMR, because that is how this was generally done at the time this project started off. Afterwards the progress that was made in this project using ^1^H-detected experiments will be shown. Although it might seem that the use of the latter method is more important, the results from the ^13^C-detected experiments are not just included for chronological completeness. As will be clear, a lot of information obtained from the ^13^C-detected spectra is still very valuable and there is until now not a method in ^1^H-detected solid state NMR that can fully obtain all information provided by the ^13^C-detected experiments. Spectra from both methods have been used in conjunction and in a complementary fashion. Therefor in a third chapter the combination of both types of spectra will be discussed.
 
-
+## Recent Progress
 
 
 ![Electron micrograph of the OmpG 2D crystals. In this specific case it is OmpG and E. Coli lipids in a 2:1 mass ratio in MES buffer at pH 6.3. The lipid-OmpG mix seems to make tubular shapes.](figures/OmpG_MES_pH63_70procentH_30procentD_30042014_B.png)

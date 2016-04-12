@@ -37,7 +37,7 @@ In practice, there is no sharp distinction between the two strategies, since the
 | amino acid                 | sample         | comment            |
 |----------------------------|----------------|--------------------|
 | alanine                    | RIGA(S)        |                    |
-| asparagine / aspartic acid | GANDSH         |                    |
+| asparagine / aspartic acid | 1,3 MKINDT     |                    |
 | glutamine /glutamic acid   | 1,3-TEMPQANDSG |                    |
 | phenylalanine / tyrosine   | GAFY           |                    |
 | glycine                    | RIGA(S)        | Cα-CO peak is used |
@@ -53,7 +53,7 @@ In practice, there is no sharp distinction between the two strategies, since the
 | valine                     | GAVLS(W)       |                    |
 | tryptophan                 | GAVLS(W)       |                    |
 
-Table: For every amino acid there is a labeled sample where the intra-residual peaks are best resolved. For some residue types, multiple spectra could be used as a reference spectrum in which case the one specifically used in this study is listed. For methionine there is no labeling scheme in which the Cα-Cβ is separated wel from other peaks. Therefor the Cα-Cγ peak is used. The Cγ chemical shift can not be observed in ^1^H-detected spectra. Therefor only the Cα shift can be used directly, further support for the assignment is given by sequential cross peaks.{#tbl:preferred_samples}
+Table: For every amino acid there is a labeled sample where the intra-residual peaks are best resolved. For some residue types, multiple spectra could be used as a reference spectrum in which case the one specifically used in this study is listed. For methionine there is no labeling scheme in which the Cα-Cβ is separated well from other peaks. Therefor the Cα-Cγ peak is used. The Cγ chemical shift can not be observed in ^1^H-detected spectra. Therefor only the Cα shift can be used directly, further support for the assignment is given by sequential cross peaks.{#tbl:preferred_samples}
 
 
 ## A CCPNMR Analysis plug-in for comparing spin systems
