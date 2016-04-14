@@ -11,7 +11,7 @@ $endif$
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
-%Joren: some of my stuff
+%Joren: some modifications begin
 \usepackage[font={normalsize,it}]{caption}
 \usepackage{emptypage}
 \usepackage{fancyhdr}
@@ -21,6 +21,8 @@ $endif$
 \fancyhead[LE,RO]{\thepage}
 \fancyhead[RE]{}
 \fancyhead[LO]{\leftmark}
+\usepackage{placeins}
+%Joren modifications end
 
 
 
@@ -110,7 +112,14 @@ $if(natbib)$
 \bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
 $endif$
 $if(biblatex)$
-\usepackage$if(biblio-style)$[style=$biblio-style$]$endif${biblatex}
+%Joren modifications begin
+%\usepackage$if(biblio-style)$[style=$biblio-style$]$endif${biblatex}
+\usepackage[backend=biber, refsection=chapter, maxnames=99, isbn=false, sorting=none]{biblatex}
+\AtBeginBibliography{\small}
+\renewbibmacro{in:}{}
+\AtEveryBibitem{\clearlist{language} \clearfield{urlyear}}
+%Joren modifications end
+
 $if(biblatexoptions)$\ExecuteBibliographyOptions{$for(biblatexoptions)$$biblatexoptions$$sep$,$endfor$}$endif$
 $for(bibliography)$
 \addbibresource{$bibliography$}

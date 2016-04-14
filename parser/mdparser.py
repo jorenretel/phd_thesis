@@ -16,7 +16,7 @@ def getMarkDownFilePaths(chapterDirs):
     return markdownFiles
 
 
-def parse(markdownPath, writeFile):
+def parse(markdownPath, writeFile, svg_to_pdf=True):
 
     parentDirectory = os.path.dirname(markdownPath)
 
@@ -24,12 +24,12 @@ def parse(markdownPath, writeFile):
 
         for line in markdownSource:
 
-            newLine = manipulate_image_paths(line, parentDirectory)
+            newLine = manipulate_image_paths(line, parentDirectory, svg_to_pdf=svg_to_pdf)
             writeFile.write(newLine)
-            print newLine
 
 
-def manipulate_image_paths(line, parentDirectory):
+
+def manipulate_image_paths(line, parentDirectory, svg_to_pdf=True):
 
     newLine = line
     match = re.match(imageLinePattern, line)
@@ -44,7 +44,7 @@ def manipulate_image_paths(line, parentDirectory):
         fileName, fileExtension = os.path.splitext(fileName)
 
         # All svg files are already pre-converted to pdf, so these are used.
-        if fileExtension == '.svg':
+        if fileExtension == '.svg' and svg_to_pdf:
             absImagePath = os.path.join(filePath, 'convertedPDF', fileName + '.pdf')
 
         newLine = ''.join([match.group(1), absImagePath, match.group(3)])
