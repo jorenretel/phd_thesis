@@ -11,18 +11,7 @@ $endif$
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
-%Joren: some modifications begin
-\usepackage[font={normalsize,it}]{caption}
-\usepackage{emptypage}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[RE]{}
-\fancyhead[LO]{\leftmark}
-\usepackage{placeins}
-%Joren modifications end
+
 
 
 
@@ -69,6 +58,21 @@ $endif$
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $endif$
+
+%Joren: some modifications begin
+\usepackage[font={normalsize,it}]{caption}
+\usepackage{emptypage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{}
+\fancyhead[LO]{\leftmark}
+\usepackage{placeins}
+%Joren modifications end
+
+
 \usepackage{hyperref}
 $if(colorlinks)$
 \PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
