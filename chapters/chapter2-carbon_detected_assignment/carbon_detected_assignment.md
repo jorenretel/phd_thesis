@@ -164,7 +164,7 @@ This sample was of very bad quality, which is most likely unrelated to the label
 
 #### 1,3-MKINDT
 
-### Assignment
+### Conclusion
 
 TODO: too negative
 A starting assignment could be made using these labeling schemes. However, it proved very hard to assign a large enough part of the residues only using ^13^C-detected spectra. to be able to do a structure calculation. One of the main problems was the poor quality of ^15^N resolved spectra due to the fast T2 relaxation at moderate spinning rates (~13kHz). Therefor the relative importance of the ^13^C-^13^C correlation spectra was relatively high. The labeling schemes with a small amount of residues labeled could be used to assign stretches of residues corresponding to these schemes. These stretches mostly contained glycine, alanine, valine, proline, threonine, leucine, tyrosine and phenylalanine corresponding roughly to the residue types in the middle of the venn diagram in figure [labelling_venn] and residues that have less degenerate resonances. However, whenever stretches with more asparagine, aspartic acid, glutamine and glutamic acid were encountered it was very hard to connect more than two spin systems with certainty. A stretch of two residues hardly ever has a unique match to a subsequence of the protein of the length of OmpG, especially not when it is not known in which order the residues map to the sequence, which is the case in a purely through-space experiment.  To extend the assignment, ^1^H-detected spectra were crucial. The usage of ^1^H-detected spectra will be the topic of the next chapter.
