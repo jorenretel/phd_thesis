@@ -36,7 +36,7 @@ Having residue specifically labeled samples will ease the process of matching C�
 The most straight-forward approach to sequential assignment might seem to first finish the backbone and Cβ chemical shift assignment using the ^1^H detected strip matching approach described earlier, and afterwards find the ^13^C side-chain chemical shifts using ^13^C-detected spectra. However, whether it is easier to first sequentially assign a strip in the ^1^H-detected data to a residue and then find its ^13^C detected counterpart or the other way around completely depends on the situation. If the Cα-Cβ combination in the deuterated sample is corresponding to an uncrowded part of the uniformly labeled 2D ^13^C-^13^C correlation, it is of course favorable to find the corresponding spin system in the ^13^C-detected data first since the improved residue typing decreases the amount of options for the sequential assignment. Also, from that point on inter-residual cross peaks in the ^13^C-^13^C correlation can reinforce the certainty that two strips really fit together sequentially.
 
 
-![Mapping Cα-Cβ combinations from the experiments on deuterated samples on 2D ^13^C-^13^C DARR spectra. For the leucine mapping the GAVLS(W) spectrum (20 ms DARR) is used; for the threonine the 1,3-TEMPQANDSG (50 ms DARR). Positions of Cα-Cβ chemical shifts in deuterated and protonated samples are depicted by stars and circles respectively. Blue colors indicate assigned residues, red colors indicate unassigned spin systems. Light color indicates that no strip in the hCANH, hcaCBcaNH or hCOcaNH could be found corresponding to this residue and therefor the ^1^H shift is unknown.](figures/thr_and_leu_dotplots.svg){#fig:thr_and_leu_dotplots}
+![Mapping Cα-Cβ combinations from the experiments on deuterated samples on 2D ^13^C-^13^C DARR spectra. For leucine the GAVLS(W) spectrum (20 ms DARR) is used; for the threonine the 1,3-TEMPQANDSG (50 ms DARR). Positions of Cα-Cβ chemical shifts in deuterated and protonated samples are depicted by stars and circles respectively. Blue colors indicate assigned residues. Light blue indicates that no strip in the hCANH, hcaCBcaNH or hCOcaNH could be found and therefor the ^1^H shift is unknown. Pink peaks are unassigned and no strip could be found in the ^1^H-detected data.](figures/thr_and_leu_dotplots.svg){#fig:thr_and_leu_dotplots}
 
 
 
@@ -48,6 +48,7 @@ However, if the Cα-Cβ combination in a strip of the deuterated sample correspo
 Of course finding the i+1 strip is also harder for very degenerate Cα-Cβ combinations, but at least the peak positions in the ^13^C-dimensions of the matching strips should fit almost perfectly because of the lack of isotope shift within spectra recorded using the same sample. Also, when the hcaCBcacoNH and hcoCAcoNH peaks in the strip correspond to a less degenerate Cα-Cβ combination the assignment can be easily extended in the N-terminal direction. After the sequential assignment of a particular spin system is done, it is a lot easier to find the corresponding ^13^C-detected spin system since now the residue type is known, which limits the choice between possible spin systems and it is clear which of the residue specific labeled ^13^C-^13^C correlations to use to find the matching Cα-Cβ peak. If it is still not clear which Cα-Cβ peak should be chosen, the exact resonance frequencies in the protonated samples can be found by looking at sequential cross-peaks instead of just at the Cα-Cβ peaks. When the strip has already been sequentially assigned, this becomes a lot more trivial since often the correct ^13^C chemical shifts of the neighboring spin system in the protonated sample are already known.
 In practice, there is no sharp distinction between the two strategies, since they can basically be used at the same time. In solution NMR the situation is similar. Often the entire back-bone is assigned first before the TOCSY spectra are used to find the side-chain chemical shifts. However in many cases they are consulted already during the sequential assignment process to aid residue typing.
 
+\footnotesize
 
 
 | amino acid                 | sample         | comment            |
@@ -71,19 +72,18 @@ In practice, there is no sharp distinction between the two strategies, since the
 
 Table: For every amino acid there is a labeled sample where the intra-residual peaks are best resolved. For some residue types, multiple spectra could be used as a reference spectrum in which case the one specifically used in this study is listed. For methionine there is no labeling scheme in which the Cα-Cβ is separated well from other peaks. Therefor the Cα-Cγ peak is used. The Cγ chemical shift can not be observed in ^1^H-detected spectra. Therefor only the Cα shift can be used directly, further support for the assignment is given by sequential cross peaks.{#tbl:prefered_samples}
 
+\normalsize
+
 
 ## Final extend of the assignment
 
-By combining data from the ^1^H- and ^13^C-detected spectra, a coherent assignment could be found for a bit less than 60% of the residues, see table {@tbl:extend_of_assignment_table}. As can be seen in this table, there are some assigned residues for which the ^1^H and ^15^N is not known. Often these residues are the first residue in an assigned stretch of strips and therefor the ^13^C chemical shifts are known from the hcaCBcacoNH and hcoCAcoNH in the first strip, see figure {@fig:assignment_on_topology}. This obviously the case for all prolines and for instance leucines 149 and 123 shown in figure {@fig:thr_and_leu_dotplots}. Also there are a few residues that only have assignments in the ^1^H-detected data. In this case it was very hard to determine exactly where the corresponding shifts in the ^13^C-detected spectra were. This was the case for a few glutamic acid and glutamine residues and residues where only the Cα-peak was found in the ^1^H detected data and not the Cβ-peak, which makes finding the corresponding spin system in the ^13^C-detected data harder.
-
-As can bee seen figures {@fig:thr_and_leu_dotplots} and {@fig:trp_and_pro_dotplots} all spin systems for which no strip could be found in the ^1^H-detected data (colored light blue and pink) have very low
-
-The topology plot shown in figure {@fig:assignment_on_topology} is based on the structure. The crystal structure, the solution NMR structure and the structure calculated during this structure all share this same basic topology. Such a topology can also be predicted for beta-barrels with programs such as PRED-TMBB, see figure {@fig:secondary_structure_and_topology_prediction} [@bagos_predtmbb_2004]. As can be seen in figure {@fig:assignment_on_topology} almost all missing assignments cluster near the extra-cellular part of the protein and partially in the intra-cellular turns. The parts on the extra-cellular side that could not be assigned here fit very well to where there are flexible loops in the solution structure of *Tamm et al.* [@liang_structure_2007]. Although more residues could be assigned in the solution state, hardly any distance restraints could be found in these extra-cellular loops.
-
-In Appendix A the full chemical shift is printed, where the Cα and Cβ shifts given for both the protonated and deuterated samples.
+By combining data from the ^1^H- and ^13^C-detected spectra, a coherent assignment could be found for a bit less than 60% of the residues, see table {@tbl:extend_of_assignment_table}. As can be seen in this table, there are some assigned residues for which the ^1^H and ^15^N is not known. Often these residues are the first residue in an assigned stretch of strips and therefor the ^13^C chemical shifts are known from the hcaCBcacoNH and hcoCAcoNH in the first strip of the stretch. This obviously the case for all prolines and for instance leucines 149 and 123 shown in figure {@fig:thr_and_leu_dotplots}. Also there are a few residues that only have assignments in the ^1^H-detected data. In this case it was very hard to determine exactly where the corresponding shifts in the ^13^C-detected spectra were. This was the case for some of the glutamic acid and glutamine residues and residues where only the Cα-peak was found in the ^1^H detected data and not the Cβ-peak, which makes finding the corresponding spin system in the ^13^C-detected data harder. In Appendix A the full chemical shift list is printed, where the Cα and Cβ shifts given for both the protonated and deuterated samples.
 
 
 
+As can bee seen by comparing figures {@fig:thr_and_leu_dotplots} and {@fig:trp_and_pro_dotplots} to figure {@fig:assignment_on_topology} peaks are present in the ^13^C-^13^C correlations for nearly all leucine, threonine tryptophan and proline residues in the sequence. However all peaks in the ^13^C-^13^C correlation for which no strip could be found in the ^1^H-detected data (colored light blue and pink), with exception of the prolines, have comparatively low signal intensity and often unregular lineshapes. Only the tryptophan peak at position 36/58 ppm (x-dimension/y-dimension) is larger but could not be assigned anyway. Since inter-residual cross peaks in the DARR spectra with longer mixing times are about ten times weaker than the intra-residual peaks, no sequential cross peak pattern could be found to allow the assignment of the left-over unassigned spin systems. At the one side is unfortunate that these peaks are not present preventing a complete assignment. However, under the condition that these residues are not assigned it is an advantage that no inter-residual peaks are present. As is discussed [later](#structure-calculation) these type of peaks could lead to wrong distance restraints which is one of the largest problems during structure calculation.
+
+\footnotesize
 
 |                   | of assigned residues  | of all residues   |
 |-----------------  |---------------------: |----------------:  |
@@ -105,12 +105,23 @@ In Appendix A the full chemical shift is printed, where the Cα and Cβ shifts g
 
 Table: Extend of the assignment in the shift lists based on the carbon and proton detected spectra.{#tbl:extend_of_assignment_table}
 
+\normalsize
+
+
+As can be seen in figure {@fig:assignment_on_topology} almost all missing assignments cluster near the extra-cellular part of the protein and partially in the intra-cellular turns. The crystal structure, the solution NMR structure and the structure calculated during this studies all share this same basic topology. Such a topology can also be predicted for beta-barrels with programs such as PRED-TMBB, see figure {@fig:secondary_structure_and_topology_prediction} [@bagos_predtmbb_2004]. The parts on the extra-cellular side that could not be assigned here fit very well to where there are flexible loops in the solution structure of *Liang and Tamm* [@liang_structure_2007]. This clearly explains the heavy broadening of both the peaks in the ^1^H- and ^13^C-detected data shown here. Although more residues could be assigned in the solution state, hardly any distance restraints could be found in these extra-cellular loops. The crystal structure this part the beta-barrel is more extended into the extra-cellular space, but this is most likely due to crystal artifacts.
+
+
+
+
+
+
+
+
 
 ![Assigned status of residues on the topology of OmpG. Colors correspond to the colors used in figure 5.1 and 5.2: blue labeled residues are assigned. Light blue indicates that the ^1^H chemical shift of this residue is not known. Often these residues are the first in a connected stretch and their ^13^C chemical shifts are known from the hcaCBcacoNH, hcoCAcoNH and hCONH peaks in the strip the next residue in the sequence. Residues in red highlight the unassigned residues corresponding to the unassigned spin systems in figure 5.1 and 5.2: three leucines, two threonines, six tryptophans and two prolines. There is only one unassigned proline spin system in figure 5.2, the chemical shifts corresponding to a remaining proline spin system could not be easily determined because of signal overlap.](figures/assignment_on_topology_thr_leu_pro_trp.svg){#fig:assignment_on_topology}
 
 
-
-
+\FloatBarrier
 
 ## A CCPNMR Analysis plug-in for comparing spin systems
 

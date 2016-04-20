@@ -241,7 +241,7 @@ $if(title)$
               \LARGE\bf{$title$} %
           \end{center}%
           \vfil%
-          \begin{center}\Large %
+          \begin{center}\large %
               Inaugural-Dissertation\\%
               to obtain the academic degree \\%
               Doctor rerum naturalium (Dr. rer. nat.) \\%
@@ -252,8 +252,8 @@ $if(title)$
           \begin{center}\Large%
               by%
           \end{center}%
-          \begin{center}\Large $author$ \end{center}%
-          \begin{center}\Large %
+          \begin{center}\large $author$ \end{center}%
+          \begin{center}\large %
           from Drimmelen (The Netherlands)%
           \end{center}%
 

@@ -2,12 +2,12 @@
 Structure Calculation
 =====================
 
-The restraints used in the structure calculation of OmpG can exist of two types: torsion angle restraints that are based on chemical shifts of the residues and distances restraints based on crosspeaks in through-space correlation spectra. This second group of restraints can in turn be subdivided into a group of distance restraints obtained from ^1^H-detected experiments and another group that is based on ^13^-detected experiments. To automatically produce lists of distance restraints, peak positions are matched with chemical shifts. As described earlier, all ^1^H-detected experiments were performed on perdeuterated and back-exchanged samples, whereas all ^13^C-detected experiments were performed on fully protonated samples. Because of the large isotope shift between these two different samples, it is very important to use two different shift lists to produce distance restraints. Also, when any spectra of poor quality are present in the Analysis project and peaks are assigned to resonances in these spectra, it might be beneficial to exclude these spectra from the shift averaging.
+The restraints used in the structure calculation of OmpG exist of two types: torsion angle restraints that are predicted based on chemical shifts and distances restraints based on crosspeaks in through-space correlation spectra. This second group of restraints can in turn be subdivided into a group of distance restraints obtained from ^1^H-detected experiments and another group that is based on ^13^C-detected experiments. To automatically produce lists of distance restraints, peak positions are matched with chemical shifts. As described earlier, all ^1^H-detected experiments were performed on perdeuterated and back-exchanged samples, whereas all ^13^C-detected experiments were performed on fully protonated samples. Because of the large isotope shift between these two different samples, two different shift lists were used to produce the distance restraints. Also spectra of poor quality that were present in the CCPNMR Analysis project were excluded from shift averaging.
 
 
 ## Torsion Angle Restraints
 
-Torsion angles where predicted using the program TALOS+ [@cornilescu_protein_1999][@shen_talos_2009]. In figure {@fig:secondary_structure_and_topology_prediction} the secondary structure that correponds to these torsion angles by TALOS+ is shown along the OmpG sequence. Of course a prediction based on chemical shifts is only possible for assigned residues. As expected the largest part of the assigned residues are predicted to be in a β-sheet conformation. These results can also be compared to a prediction of the topology done purely on the basis of the amino acid sequence by the program called PRED-TMBB [@bagos_predtmbb_2004]. This tool is specifically designed for β-barrel and predicts which part of the molecule is part of the transmembrane β-sheet, intra-cellular turn and extra-cellular loop. Because the algorithm is based on machine learning, we send the author of the program an email to verify that previously calculated OmpG structures were not part of the training data, which was not the case. It can be observed that the to prediction align fairly well. Where PRED-TMBB predicts a turn, the chemical shifts are more coil-like. In these turns also a lower RCI-S2 value can be observed, indicating a less ordered part of the molecule. The missing assignments cluster largely in the extra-cellular loops.
+Torsion angles where predicted using the program TALOS+ [@cornilescu_protein_1999][@shen_talos_2009]. In figure {@fig:secondary_structure_and_topology_prediction} the secondary structure that correponds to these torsion angles is shown along the OmpG sequence. Only torsion angles of assigned residues were predicted. As expected the largest part of these residues are predicted to be in a β-sheet conformation. These results can also be compared to a prediction of the topology done purely on the basis of the amino acid sequence by a program called PRED-TMBB [@bagos_predtmbb_2004]. This tool is specifically designed for β-barrels and predicts which part of the molecule is part of the transmembrane β-sheet, intra-cellular turn and extra-cellular loop. Because the algorithm is based on machine learning, we send the author of the program an email to verify that previously calculated OmpG structures were not part of the training data, which was not the case. It can be observed that the two predictions align fairly well. Where PRED-TMBB predicts a turn, the chemical shifts are more coil-like. In these turns also a lower RCI-S2 value can be observed, indicating a less ordered part of the molecule. As discussed before the missing assignments cluster largely in the extra-cellular loops.
 
 
 ![Prediction of the secondary structure of OmpG by TALOS+ and PRED-TMBB. TALOS+ uses the secondary chemical shifts to predict the secondary structure of each residue. PRED-TMBB is a algorithm that solely relies on the sequence and predicts which parts of the sequence are intra-cellular, extra-cellular and transmembrane given the molecule is a transmembrane β-barrel.](figures/secondary_structure_and_topology_prediction.svg){#fig:secondary_structure_and_topology_prediction}
@@ -16,7 +16,7 @@ Torsion angles where predicted using the program TALOS+ [@cornilescu_protein_199
 
 ## Restraints based on ^1^H-detected through-space correlation experiments
 
-To get a good set of restraints, through space correlations where acquired on the perdeuterated samples, where the exchangeable sites where 100% back-exchanged for protons. The same type of sample that was used to acquire part of the proton-detected experiments needed for sequential assignment discussed earlier. Two spectra where recorded for obtaining distance restraints: an hNHH and an hNhhNH, both using cross-polarization for transfers between proton and nitrogen and a 2 ms radio frequency driven recoupling (rfdr) sequence for the transfer between the protons. Also an extra hCANH was recorded exclusively to get a chemical shift list that corresponds well to the through-space spectra.
+To get a good set of restraints, through space correlations where acquired on the perdeuterated samples, where the exchangeable sites were 100% back-exchanged for protons. The same type of sample that was used to acquire part of the proton-detected experiments needed for sequential assignment discussed earlier. Two spectra where recorded for obtaining distance restraints: an hNHH and an hNhhNH, both using cross-polarization for transfers between proton and nitrogen and a 2 ms radio frequency driven recoupling (rfdr) sequence for the transfer between the protons. Also an extra hCANH was recorded in the same measurement block exclusively to obtain a chemical shift list that corresponds well to the through-space spectra.
 
 
 
@@ -25,6 +25,11 @@ To get a good set of restraints, through space correlations where acquired on th
 
 
 Since most of the proton sites in the molecule are deuterated, most peaks present in these spectra are peaks correlating one amide group to another. In both spectra strips can be drawn at the ^15^N and ^1^H chemical shifts of one amide group. In general such strips contain, besides a diagonal peak, one big and often one or two smaller crosspeaks. In the hNHH these peaks correlate a given amide group to a close-by proton and in the hNhhNH the amide group is correlated to a nitrogen of a close NH-group. Since the correlation pathway of the latter experiment makes sure that both intacting protons are part of an NH-group this spectrum is a little bit cleaner. If both spectra are considered together there are four peaks indicating the proximity of two NH groups. An example of such a group of four peaks correlating two amide groups is shown in figure {@fig:through_space_proton_detected_strips_Tyr76_Leu88}. In the case of an anti-parallel β-sheet, the biggest off-diagonal peak is almost always correlating two amide groups facing each other from neighboring strands in the sheet. These two residues are involved in two hydrogen bonds between each other's carbonyl-oxygens and amide protons. On average the two amide protons are only 3.1 Å separated from one another, see figure {@fig:distances_in_antiparallel_betasheet}B. The smaller peaks are often correlations to the amide groups of the neighboring residues in the same strand or to the amide group of the residue after the directly hydrogen bonded residue. As can be seen in {@fig:distances_in_antiparallel_betasheet}, a very specific alternating pattern of cross-peaks is expected connecting two strands in the β-sheet, skipping the residues in between which in turn are pointing towards the neighboring strand on the other side. The mixing time of 2 ms is relatively short, so that it was possible to distinguish between the short over-the-strand correlations and the ones a little bit further. The optimal mixing time was determined by taking several 2D hNhH with different mixing times. Some peaks that are well separated in the NH correlation, like the 113 tryptophan and 155 glutamic acid peaks, could be used to monitor the relative sizes of the main cross-peak and the smaller ones. At longer mixing times the smaller cross-peaks would increase in size, while the main cross-peak would get smaller. Since the smaller cross-peaks are often sequential, and therefor of little structural value, we chose to run the 3D experiments with a mixing time that gave maximum intensity for the main cross-peaks.
+
+
+![Strips in the hNhhNH and NNH corresponding to the cross-strand inaction between the backbone amide groups of Tyrosine 76 and Leucine 88.](figures/through_space_proton_detected_strips_Tyr76_Leu88.svg){#fig:through_space_proton_detected_strips_Tyr76_Leu88}
+
+
 
 Because of chemical shift degeneracy, most cross-peaks can not be assigned unambiguously. Therefor ambiguous distance restraints (ADRs) were generated that will be disambiguated during the course of the structure calculation with ARIA. Each ADR basically consists of a list of possible assignments of a cross-peak in the spectrum. These assignment options are referred to as restraint items.
 
@@ -38,6 +43,11 @@ Which assignments are possible for each peak is determined by a set of chemical 
 As said, there are in principle four cross-peaks that correlate the same two amide groups. This redundancy can easily be used to decrease the ambiguity of automatically generated ADRs even further, already before the structure calculation. A ccpnmr macro script was used to determine for which items of each ADR all 4 peaks were present (giving rise to three other ADRs that also have the correlation between these amide hydrogens as one of their items). For restraints that had one or more of such items, all other items that had a 'symmetry' of 2 or less (instead of 4) were removed. When applying this operation and plotting the generated restraints on a residue interaction matrix the pattern expected for β-sheets, lines of interaction perpendicular to the diagonal, can already be seen by eye. In principle an assignment of the crosspeaks could be made by hand, we decided however to directly feed the ambiguous restraints to ARIA and let it further disambiguate the restraints during the structure calculation.
 
 ![Ambiguity of restraints based on the hNhhNH and hNHH spectra. Blue bars correspond to restraints that are automatically created by matching chemical shifts to peak dimensions. Red bars represent the same restraint set, but after applying a filter that selects restraints items for which all four expected peaks are present in the two spectra. This operation effectively decreases the amount of restraints with very high ambiguity and in both spectra about a third of the restraints becomes unambiguous (1 item per restraint). Light and dark color represent the hNhhNH and hNhhNH spectra respectively.](figures/ambiguity_histograms_h_restraints.svg){#fig:ambiguity_histograms_h_restraints}
+
+
+
+![Average distances between carbon nuclei (top), and the amide protons in the backbone (bottom) in anti-parallel β-sheets. The residues i and j are two residues that are facing one another in the opposing strands of the β-sheet and are linked with two hydrogen bonds.](figures/distances_in_antiparallel_betasheet.svg){#fig:distances_in_antiparallel_betasheet}
+
 
 
 ## Restraints based on ^13^C-detected through-space correlation experiments
@@ -83,7 +93,7 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 
 \normalsize
 
-![Average distances between carbon nuclei (top), and the amide protons in the backbone (bottom) in anti-parallel β-sheets. The residues i and j are two residues that are facing one another in the opposing strands of the β-sheet and are linked with two hydrogen bonds.](figures/distances_in_antiparallel_betasheet.svg){#fig:distances_in_antiparallel_betasheet}
+
 
 
 ![Peaks picked in the 400 ms 1,3-glycerol labeled OmpG spectrum. The 50 ms spectrum is superimposed.](figures/picked_peaks_13glycerol.svg){#fig:picked_peaks_13glycerol}
@@ -92,9 +102,6 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 
 ![Peaks picked in the 400 ms 2-glycerol labeled OmpG spectrum. The 125 ms spectrum is superimposed.](figures/picked_peaks_2glycerol.svg){#fig:picked_peaks_2glycerol}
 
-
-
-![Strips in the hNhhNH and NNH corresponding to the cross-strand inaction between the backbone amide groups of Tyrosine 76 and Leucine 88.](figures/through_space_proton_detected_strips_Tyr76_Leu88.svg){#fig:through_space_proton_detected_strips_Tyr76_Leu88}
 
 
 
@@ -119,5 +126,4 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 
 
 
-TODO: residue interaction matrix of H and C restraints separately.
 

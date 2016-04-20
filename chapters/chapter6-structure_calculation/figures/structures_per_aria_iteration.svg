@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="351.55145mm"
-   height="395.1427mm"
-   viewBox="0 0 1245.6548 1400.1119"
+   width="365.25928mm"
+   height="405.43237mm"
+   viewBox="0 0 1294.2258 1436.5714"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="517.94286"
-     inkscape:cy="674.56466"
+     inkscape:zoom="0.35"
+     inkscape:cx="287.79721"
+     inkscape:cy="737.13051"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="1134"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -57,7 +57,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(241.20807,110.91723)">
+     transform="translate(272.63663,147.37672)">
     <g
        id="g4321">
       <image
@@ -181,13 +181,6 @@
            id="tspan4204-27"
            sodipodi:role="line">refined in DMSO</tspan></text>
     </g>
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4152"
-       width="1349.5638"
-       height="90.913727"
-       x="-295.75632"
-       y="-181.38434" />
     <text
        sodipodi:linespacing="125%"
        id="text4202-8-6-5"
@@ -260,5 +253,12 @@
          x="550.30518"
          y="904.90552"
          style="font-size:25px">bb rmsd = 2.26 ± 0.40 Å</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:1.25;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4167"
+       width="1294.2258"
+       height="68.459724"
+       x="-272.63663"
+       y="-147.37672" />
   </g>
 </svg>
