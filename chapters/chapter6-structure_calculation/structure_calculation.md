@@ -47,7 +47,7 @@ Another set of distance restraints comes from a set of ^13^C-detected experiment
 
 ## Structure calculation protocol
 
-The structure of OmpG was calculated by ARIA (Ambiguous Restraints for Iterative Assignment) [@linge_aria_2003][@rieping_aria2_2007]. This program disambiguates ADRs in several iterations of structure calculation using a simulated annealing protocol with the program CNS (Crystallography NMR system). After each round of structure calculation, the lowest energy structures are selected. For each ADR all items can be ranked according to the average distance in this ensemble. 
+The structure of OmpG was calculated by ARIA (Ambiguous Restraints for Iterative Assignment) [@linge_aria_2003][@rieping_aria2_2007]. This program disambiguates ADRs in several iterations of structure calculation using a simulated annealing protocol with the program CNS (Crystallography NMR system). After each round of structure calculation, the lowest energy structures are selected. For each ADR all items can be ranked according to the average distance in this ensemble.
 
 The most challenging part of this structure calculation was dealing with ADRs where a correct item is not present. These type of restraints can be generated if noise or artifacts are present in the peak lists the ADRs are based on. In our case, the most likely source of these restraints is the incompleteness of the assignment. For instance, when a cross-peak is present to a nucleus that is not assigned but at that same frequency there are one or more other, incorrect, assignment possibilities, an ADR will be generated with several items except for the correct one. One such a distance restraint can cause the calculation to converge to a completely wrong structure. This was not a large problem in the ^1^H detected spectra, since the assignment of the backbone protons and nitrogens is relatively complete in the structured part of the protein. There are some unassigned sidechain protons left at exchangeable sides. However, their chemical shifts are often distinct and not overlapped by other chemical shifts. Therefor crosspeaks to these nuclei could be easily recognized and removed, or in some cases the resonance could be assigned. Also because the amount of peaks in the proton detected spectra is not enormous this is a manageable problem.
 
@@ -66,9 +66,9 @@ Network anchoring was used on the ^13^C-detected restraints in iterations 0 to 6
 
 The structure of OmpG was first calculated as described before. No hydrogen bond restraints were added in these initial calculations. This was done because no experiments were performed to directly observe the hydrogen bonds. However, after an initial structure is calculated, the hydrogen bonding pattern in the β-sheet is clear and these type of restraints can be added. Co-linear hydrogen bond restraints were created between every two residues were the predicted dihedral angles indicated beta-sheet and good cross-peaks appear in the spectra. Co-linear hydrogen bond restraints are basically distance restraints, one between the H and O and one between the N and the O. This makes these restraints very powerful, as they effectively constraint the HN bond vector. Every two residues facing each other from opposite strands interact in two hydrogen bonds. For both of these bonds such a co-linear hydrogen bond restraint is introduced. These restraints can be produced in CCPN Analysis. The default values were used.
 
-\footnotesize 
+\footnotesize
 
-|                       | total | unambiguous | long range | total | unambiguous | long range | rejected | unique |
+|                       | total | unambig | long | total | unambig | long | rejected | unique |
 |-----------------------|------:|------------:|  ------:   |------:|------:      |  ------:   |------:   |------: |
 | **proton-detected**   |       |             |            |       |             |            |          |     94 |
 | hNHH                  |   122 |          41 |         37 |  117  |     106     |      73    |        5 |        |
@@ -102,6 +102,17 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 
 
 ![The 15 lowest energy structures in iteration 8 of the ARIA procedure when adding hydrogen bond restraints and using the ramachandran potential.](figures/ompg_structure_hbonds_ramachandran_potential.svg){#fig:ompg_structure_hbonds_ramachandran_potential}
+
+
+
+
+![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8H.pdf){#fig:ambiguity_it8H}
+
+
+![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8C.pdf){#fig:ambiguity_it8C}
+
+
+
 
 
 ![Crystal structure of OmpG with surrounding unit cells. One unit cell contains four OmpG molecules. On of the unit cells is depicted in red.](figures/crystal_structure_with_surrounding_unit_cells.png){#fig:crystal_structure_with_surrounding_unit_cells}
