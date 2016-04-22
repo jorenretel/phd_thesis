@@ -70,6 +70,7 @@ $endif$
 \fancyhead[RE]{}
 \fancyhead[LO]{\leftmark}
 \usepackage{placeins}
+\usepackage{csquotes}
 %Joren modifications end
 
 

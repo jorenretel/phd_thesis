@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="358.56332mm"
-   height="285.32837mm"
-   viewBox="0 0 1270.5 1011.006"
+   height="360.15759mm"
+   viewBox="0 0 1270.5 1276.1489"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -197,16 +197,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="598.00893"
-     inkscape:cy="387.5061"
+     inkscape:zoom="0.175"
+     inkscape:cx="1492.1285"
+     inkscape:cy="504.26815"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="QuadMesh_1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="1134"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -216,7 +216,7 @@
        type="xygrid"
        id="grid10550"
        originx="550.5"
-       originy="2.9404112" />
+       originy="2.9404084" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -235,7 +235,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="stroke-linecap:butt;stroke-linejoin:round"
-     transform="translate(544.78571,516.77481)">
+     transform="translate(544.78571,781.91773)">
     <g
        id="g8247"
        transform="translate(-550.5,436.42856)"
@@ -13747,1140 +13747,408 @@
              d="m 369.6,293.04 59.52,0 0,63.36 -59.52,0 0,-63.36"
              clip-path="url(#p2e5fde638b)"
              inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="text_12"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 6.9 -->
-          <defs
-             id="defs4341">
-            <path
-               id="BitstreamVeraSerif-Roman-39"
-               d="M 46.7812,32.6719 Q 43.5,29 39.25,27.1875 q -4.2344,-1.7969 -9.5625,-1.7969 -10.8437,0 -17.125,6.5469 -6.26562,6.5469 -6.26562,17.875 0,11.0781 6.81252,17.7344 6.8125,6.6719 18.1875,6.6719 12.3593,0 18.9687,-9.2032 6.625,-9.2031 6.625,-26.2968 0,-19.1407 -7.875,-29.64068 -7.8594,-10.5 -22.1094,-10.5 -3.8593,0 -8.1093,0.73438 -4.25,0.734375 -8.6875,2.20312 l 0,12.10938 5.4687,0 q 0.6407,-4.9375 3.8125,-7.57812 3.1719,-2.625 8.4844,-2.625 9.4844,0 14.1094,7.14062 4.6406,7.1563 4.7968,22.1094 m -15.875,36.7187 q -6.9374,0 -10.625,-5.0625 -3.6718,-5.0469 -3.6718,-14.5156 0,-9.4844 3.6718,-14.5625 3.6876,-5.0781 10.625,-5.0781 6.9376,0 10.625,4.9062 3.6876,4.9063 3.6876,14.1407 0,9.7187 -3.7188,14.9374 -3.7031,5.2344 -10.5938,5.2344"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-            <path
-               id="BitstreamVeraSerif-Roman-36"
-               d="m 32.7188,3.42188 q 6.875,0 10.5781,5.04687 3.7187,5.06245 3.7187,14.53125 0,9.4688 -3.7187,14.5156 -3.7031,5.0625 -10.5781,5.0625 -6.9844,0 -10.6563,-4.8906 -3.6563,-4.875 -3.6563,-14.1094 0,-9.7031 3.7032,-14.93748 3.7187,-5.21874 10.6094,-5.21874 M 16.7969,40.1406 q 3.3281,3.6563 7.5156,5.4532 4.2031,1.8124 9.4844,1.8124 10.875,0 17.2031,-6.5468 6.3281,-6.5313 6.3281,-17.8594 0,-11.0781 -6.8125,-17.75 -6.8125,-6.67188 -18.1875,-6.67188 -12.3593,0 -19,9.20313 Q 6.6875,17 6.6875,34.0781 q 0,19.1407 7.8594,29.6407 7.8593,10.5 22.1719,10.5 3.8593,0 8.1093,-0.7344 4.25,-0.7344 8.6875,-2.1875 l 0,-12.0157 -5.5156,0 q -0.5938,4.9219 -3.7656,7.5157 -3.1719,2.5937 -8.5469,2.5937 -9.4687,0 -14.1094,-7.1875 -4.6406,-7.1719 -4.7812,-22.0625"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-            <path
-               id="BitstreamVeraSerif-Roman-2e"
-               d="m 9.42188,5.07812 q 0,2.73438 1.85932,4.64063 1.8594,1.90625 4.6407,1.90625 2.6875,0 4.5781,-1.90625 1.9062,-1.90625 1.9062,-4.64063 0,-2.6875 -1.9062,-4.593745 -1.8906,-1.906255 -4.5781,-1.906255 -2.7813,0 -4.6407,1.875005 Q 9.42188,2.34375 9.42188,5.07812"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-          </defs>
-          <g
-             id="g4346"
-             transform="matrix(0.06,0,0,-0.06,97.391719,72.935625)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4348"
-               xlink:href="#BitstreamVeraSerif-Roman-36"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4350"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4352"
-               xlink:href="#BitstreamVeraSerif-Roman-39"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_13"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 3.1 -->
-          <defs
-             id="defs4355">
-            <path
-               id="BitstreamVeraSerif-Roman-33"
-               d="m 9.71875,69.8281 q 5.71875,2.1407 10.95315,3.2657 5.25,1.125 9.8437,1.125 10.7032,0 16.7032,-4.625 6,-4.6094 6,-12.8126 0,-6.5781 -4.1563,-11 -4.1406,-4.4218 -11.75,-5.9843 8.9844,-1.2657 13.9375,-6.5157 4.9531,-5.25 4.9531,-13.6093 0,-10.20315 -6.8593,-15.65628 -6.8594,-5.4375 -19.75,-5.4375 -5.7188,0 -11.1719,1.23438 Q 12.9844,1.03125 7.625,3.51562 l 0,14.15628 5.4688,0 q 0.4843,-7.0313 4.7343,-10.64065 4.25,-3.60937 11.9531,-3.60937 7.4688,0 11.7969,4.3125 4.3281,4.32812 4.3281,11.84372 0,8.5938 -4.4531,13.0157 -4.4375,4.4218 -13.0312,4.4218 l -4.6407,0 0,4.9844 2.4376,0 q 8.5468,0 12.8124,3.5312 4.2813,3.5469 4.2813,10.6719 0,6.3907 -3.5156,9.7813 -3.5157,3.4062 -10.1094,3.4062 -6.5937,0 -10.2344,-3.125 -3.625,-3.125 -4.2656,-9.2812 l -5.46875,0 z"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-            <path
-               id="BitstreamVeraSerif-Roman-31"
-               d="m 14.2031,0 0,5.17188 12.7031,0 0,60.65622 -14.7031,-9.5312 0,6.4062 17.7813,11.5157 6.7344,0 0,-69.04692 12.7031,0 0,-5.17188 z"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-          </defs>
-          <g
-             id="g4359"
-             transform="matrix(0.06,0,0,-0.06,157.16391,72.935625)"
-             style="fill:#ffffff;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4361"
-               xlink:href="#BitstreamVeraSerif-Roman-33"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4363"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4365"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_14"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 4.8 -->
-          <defs
-             id="defs4368">
-            <path
-               id="BitstreamVeraSerif-Roman-38"
-               d="m 46.5781,19.9219 q 0,7.8125 -3.8906,12.125 -3.875,4.3281 -10.9063,4.3281 -7.0312,0 -10.9062,-4.3281 Q 17,27.7344 17,19.9219 q 0,-7.8594 3.875,-12.18752 3.875,-4.3125 10.9062,-4.3125 7.0313,0 10.9063,4.3125 3.8906,4.32812 3.8906,12.18752 m -2,35.4062 q 0,6.6407 -3.375,10.3438 -3.3593,3.7187 -9.4219,3.7187 -6,0 -9.3906,-3.7187 Q 19,61.9688 19,55.3281 q 0,-6.6875 3.3906,-10.4062 3.3906,-3.7031 9.3906,-3.7031 6.0626,0 9.4219,3.7031 3.375,3.7187 3.375,10.4062 M 39.3125,38.8125 q 8.2969,-1.1094 12.9375,-6.125 4.6406,-5 4.6406,-12.7656 0,-10.25002 -6.5,-15.7969 -6.5,-5.54688 -18.6094,-5.54688 -12.0468,0 -18.5781,5.54688 -6.5156,5.54688 -6.5156,15.7969 0,7.7656 4.6406,12.7656 4.6407,5.0156 12.9844,6.125 -7.375,1.3281 -11.3125,5.5937 -3.92188,4.2813 -3.92188,10.9219 0,8.7813 6.04688,13.8281 6.0625,5.0626 16.6562,5.0626 10.6094,0 16.6563,-5.0626 Q 54.5,64.1094 54.5,55.3281 q 0,-6.6406 -3.9375,-10.9219 -3.9375,-4.2656 -11.25,-5.5937"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-            <path
-               id="BitstreamVeraSerif-Roman-34"
-               d="m 34.9062,24.7031 0,38.7813 L 10.0156,24.7031 Z M 56.3906,0 23.1875,0 l 0,5.17188 11.7187,0 0,14.31252 -31.82808,0 0,5.3281 31.93748,49.4063 9.6563,0 0,-49.5157 13.9219,0 0,-5.2187 -13.9219,0 0,-14.31252 11.7187,0 z"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-          </defs>
-          <g
-             id="g4372"
-             transform="matrix(0.06,0,0,-0.06,216.32344,72.935625)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4374"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4376"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4378"
-               xlink:href="#BitstreamVeraSerif-Roman-38"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_15"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 5.0 -->
-          <defs
-             id="defs4381">
-            <path
-               id="BitstreamVeraSerif-Roman-30"
-               d="m 31.7812,3.42188 q 7.4844,0 11.1876,8.20312 3.7187,8.2031 3.7187,24.75 0,16.6094 -3.7187,24.8125 -3.7032,8.2031 -11.1876,8.2031 -7.4687,0 -11.1874,-8.2031 -3.7032,-8.2031 -3.7032,-24.8125 0,-16.5469 3.7032,-24.75 3.7187,-8.20312 11.1874,-8.20312 m 0,-4.84376 q -11.8593,0 -18.5312,9.95313 Q 6.59375,18.5 6.59375,36.375 q 0,17.9219 6.65625,27.875 6.6719,9.9688 18.5312,9.9688 11.9219,0 18.5626,-9.9688 6.6406,-9.9531 6.6406,-27.875 0,-17.875 -6.6406,-27.84375 -6.6407,-9.95313 -18.5626,-9.95313"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-            <path
-               id="BitstreamVeraSerif-Roman-35"
-               d="m 50.2969,72.9062 0,-8.0156 -33.4063,0 0,-20.8906 q 2.5469,1.75 5.9375,2.625 3.3907,0.8906 7.5938,0.8906 11.8125,0 18.6406,-6.5468 6.8437,-6.5469 6.8437,-17.875 0,-11.5626 -6.9062,-18.04692 -6.9062,-6.46876 -19.4062,-6.46876 -5.0313,0 -10.3126,1.23438 Q 14.0156,1.03125 8.5,3.51562 l 0,14.15628 5.5156,0 Q 14.4531,10.75 18.4219,7.07812 22.4062,3.42188 29.5938,3.42188 q 7.7187,0 11.8593,5.07812 4.1563,5.0781 4.1563,14.5938 0,9.4687 -4.125,14.5156 -4.125,5.0625 -11.8906,5.0625 -4.3907,0 -7.75,-1.5625 Q 18.5,39.5469 15.9219,36.2812 l -4.2031,0 0,36.625 z"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-          </defs>
-          <g
-             id="g4385"
-             transform="matrix(0.06,0,0,-0.06,276.00328,72.935625)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4387"
-               xlink:href="#BitstreamVeraSerif-Roman-35"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4389"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4391"
-               xlink:href="#BitstreamVeraSerif-Roman-30"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_16"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 9.1 -->
-          <g
-             id="g4394"
-             transform="matrix(0.06,0,0,-0.06,335.68406,72.935625)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4396"
-               xlink:href="#BitstreamVeraSerif-Roman-39"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4398"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4400"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_17"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 11.4 -->
-          <g
-             id="g4403"
-             transform="matrix(0.06,0,0,-0.06,393.19734,72.935625)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4405"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4407"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4409"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="127.24609"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4411"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               x="159.0332"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_18"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 4.4 -->
-          <g
-             id="g4414"
-             transform="matrix(0.06,0,0,-0.06,97.232344,136.29562)"
-             style="fill:#ffffff;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4416"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4418"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4420"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_19"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 7.3 -->
-          <defs
-             id="defs4423">
-            <path
-               id="BitstreamVeraSerif-Roman-37"
-               d="M 56.3906,67.9219 27.875,0 l -7.2656,0 27.1875,64.8906 -33.6875,0 0,-8.9844 -5.70315,0 0,17 47.98435,0 z"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-          </defs>
-          <g
-             id="g4426"
-             transform="matrix(0.06,0,0,-0.06,156.98391,136.29562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4428"
-               xlink:href="#BitstreamVeraSerif-Roman-37"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4430"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4432"
-               xlink:href="#BitstreamVeraSerif-Roman-33"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_20"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 7.5 -->
-          <g
-             id="g4435"
-             transform="matrix(0.06,0,0,-0.06,216.51281,136.29562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4437"
-               xlink:href="#BitstreamVeraSerif-Roman-37"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4439"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4441"
-               xlink:href="#BitstreamVeraSerif-Roman-35"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_21"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 4.8 -->
-          <g
-             id="g4444"
-             transform="matrix(0.06,0,0,-0.06,275.84344,136.29562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4446"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4448"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4450"
-               xlink:href="#BitstreamVeraSerif-Roman-38"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_22"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 8.5 -->
-          <g
-             id="g4453"
-             transform="matrix(0.06,0,0,-0.06,335.50125,136.29562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4455"
-               xlink:href="#BitstreamVeraSerif-Roman-38"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4457"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4459"
-               xlink:href="#BitstreamVeraSerif-Roman-35"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_23"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 9.1 -->
-          <g
-             id="g4462"
-             transform="matrix(0.06,0,0,-0.06,395.20406,136.29562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4464"
-               xlink:href="#BitstreamVeraSerif-Roman-39"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4466"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4468"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="-421.09427"
+             y="-559.59039"
+             id="text7893"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan7895"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+               x="-421.09427"
+               y="-559.59039">A</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             x="-421.53427"
+             y="17.086617"
+             id="text7893-5"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan7895-2"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+               x="-421.53427"
+               y="17.086617">B</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             x="26.465786"
+             y="16.406616"
+             id="text7893-8"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan7895-3"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+               x="26.465786"
+               y="16.406616">C</tspan></text>
         </g>
         <g
            id="text_24"
            style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
           <!-- 0.0 -->
-          <g
-             id="g4471"
-             transform="matrix(0.06,0,0,-0.06,97.386094,199.65562)"
-             style="fill:#ffffff;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4473"
-               xlink:href="#BitstreamVeraSerif-Roman-30"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4475"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4477"
-               xlink:href="#BitstreamVeraSerif-Roman-30"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
         </g>
-        <g
-           id="text_25"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 9.4 -->
-          <g
-             id="g4480"
-             transform="matrix(0.06,0,0,-0.06,156.84891,199.65562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4482"
-               xlink:href="#BitstreamVeraSerif-Roman-39"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4484"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4486"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_26"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 7.3 -->
-          <g
-             id="g4489"
-             transform="matrix(0.06,0,0,-0.06,216.50391,199.65562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4491"
-               xlink:href="#BitstreamVeraSerif-Roman-37"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4493"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4495"
-               xlink:href="#BitstreamVeraSerif-Roman-33"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_27"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 3.1 -->
-          <g
-             id="g4498"
-             transform="matrix(0.06,0,0,-0.06,276.20391,199.65562)"
-             style="fill:#ffffff;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4500"
-               xlink:href="#BitstreamVeraSerif-Roman-33"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4502"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4504"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_28"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 4.8 -->
-          <g
-             id="g4507"
-             transform="matrix(0.06,0,0,-0.06,335.36344,199.65562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4509"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4511"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4513"
-               xlink:href="#BitstreamVeraSerif-Roman-38"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_29"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 5.0 -->
-          <g
-             id="g4516"
-             transform="matrix(0.06,0,0,-0.06,395.04328,199.65562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4518"
-               xlink:href="#BitstreamVeraSerif-Roman-35"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4520"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4522"
-               xlink:href="#BitstreamVeraSerif-Roman-30"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_30"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 4.4 -->
-          <g
-             id="g4525"
-             transform="matrix(0.06,0,0,-0.06,97.232344,263.01562)"
-             style="fill:#ffffff;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4527"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4529"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4531"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_31"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 13.2 -->
-          <defs
-             id="defs4534">
-            <path
-               id="BitstreamVeraSerif-Roman-32"
-               d="m 12.7969,55.5156 -5.46878,0 0,12.9844 q 5.21878,2.7969 10.51568,4.25 5.2968,1.4688 10.375,1.4688 11.375,0 17.9687,-5.5157 6.5937,-5.5156 6.5937,-14.9843 0,-10.7032 -14.9374,-25.5938 Q 36.6719,27 36.0781,26.4219 L 17.6719,8.01562 l 30.4219,0 0,8.98438 5.7187,0 0,-17 -47.03125,0 0,5.32812 22.12495,22.06248 q 7.3282,7.3282 10.4532,13.4532 3.125,6.125 3.125,12.875 0,7.3593 -3.8438,11.5156 -3.8281,4.1562 -10.5625,4.1562 -6.9843,0 -10.7969,-3.4687 -3.7968,-3.4688 -4.4843,-10.4063"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-          </defs>
-          <g
-             id="g4537"
-             transform="matrix(0.06,0,0,-0.06,155.26078,263.01562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4539"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4541"
-               xlink:href="#BitstreamVeraSerif-Roman-33"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4543"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="127.24609"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4545"
-               xlink:href="#BitstreamVeraSerif-Roman-32"
-               x="159.0332"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_32"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 11.2 -->
-          <g
-             id="g4548"
-             transform="matrix(0.06,0,0,-0.06,214.78078,263.01562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4550"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4552"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4554"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="127.24609"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4556"
-               xlink:href="#BitstreamVeraSerif-Roman-32"
-               x="159.0332"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_33"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 7.3 -->
-          <g
-             id="g4559"
-             transform="matrix(0.06,0,0,-0.06,276.02391,263.01562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4561"
-               xlink:href="#BitstreamVeraSerif-Roman-37"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4563"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4565"
-               xlink:href="#BitstreamVeraSerif-Roman-33"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_34"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 7.5 -->
-          <g
-             id="g4568"
-             transform="matrix(0.06,0,0,-0.06,335.55281,263.01562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4570"
-               xlink:href="#BitstreamVeraSerif-Roman-37"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4572"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4574"
-               xlink:href="#BitstreamVeraSerif-Roman-35"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_35"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 4.8 -->
-          <g
-             id="g4577"
-             transform="matrix(0.06,0,0,-0.06,394.88344,263.01562)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4579"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4581"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4583"
-               xlink:href="#BitstreamVeraSerif-Roman-38"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_36"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 6.9 -->
-          <g
-             id="g4586"
-             transform="matrix(0.06,0,0,-0.06,97.391719,326.37563)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4588"
-               xlink:href="#BitstreamVeraSerif-Roman-36"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4590"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4592"
-               xlink:href="#BitstreamVeraSerif-Roman-39"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_37"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 16.0 -->
-          <g
-             id="g4595"
-             transform="matrix(0.06,0,0,-0.06,155.16562,326.37563)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4597"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4599"
-               xlink:href="#BitstreamVeraSerif-Roman-36"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4601"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="127.24609"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4603"
-               xlink:href="#BitstreamVeraSerif-Roman-30"
-               x="159.0332"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_38"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 13.2 -->
-          <g
-             id="g4606"
-             transform="matrix(0.06,0,0,-0.06,214.78078,326.37563)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4608"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4610"
-               xlink:href="#BitstreamVeraSerif-Roman-33"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4612"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="127.24609"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4614"
-               xlink:href="#BitstreamVeraSerif-Roman-32"
-               x="159.0332"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_39"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 9.4 -->
-          <g
-             id="g4617"
-             transform="matrix(0.06,0,0,-0.06,275.88891,326.37563)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4619"
-               xlink:href="#BitstreamVeraSerif-Roman-39"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4621"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4623"
-               xlink:href="#BitstreamVeraSerif-Roman-34"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_40"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 7.3 -->
-          <g
-             id="g4626"
-             transform="matrix(0.06,0,0,-0.06,335.54391,326.37563)"
-             style="fill:#262626;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4628"
-               xlink:href="#BitstreamVeraSerif-Roman-37"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4630"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4632"
-               xlink:href="#BitstreamVeraSerif-Roman-33"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-        <g
-           id="text_41"
-           style="stroke-width:0.80320001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-          <!-- 3.1 -->
-          <g
-             id="g4635"
-             transform="matrix(0.06,0,0,-0.06,395.24391,326.37563)"
-             style="fill:#ffffff;stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-            <use
-               id="use4637"
-               xlink:href="#BitstreamVeraSerif-Roman-33"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4639"
-               xlink:href="#BitstreamVeraSerif-Roman-2e"
-               x="63.623047"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               id="use4641"
-               xlink:href="#BitstreamVeraSerif-Roman-31"
-               x="95.410156"
-               style="stroke-width:13.3866663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="89.370003"
+           y="77.970001"
+           id="text7405"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="89.370003"
+             y="77.970001">6.9</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="149.45"
+           y="78.019997"
+           id="text7405-8"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#ffffff;stroke-linecap:butt;stroke-linejoin:round"
+             x="149.45"
+             y="78.019997">3.1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="208.64"
+           y="78.019997"
+           id="text7405-2"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="208.64"
+             y="78.019997">4.8</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="268.04001"
+           y="77.970001"
+           id="text7405-1"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="268.04001"
+             y="77.970001">5.0</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="327.95999"
+           y="78.019997"
+           id="text7405-7"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="327.95999"
+             y="78.019997">9.1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="381.54001"
+           y="78.169998"
+           id="text7405-9"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-4"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="381.54001"
+             y="78.169998">11.4</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="268.16"
+           y="141.38"
+           id="text7405-2-1"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-1-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="268.16"
+             y="141.38">4.8</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="327.67999"
+           y="204.74001"
+           id="text7405-2-17"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-1-9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="327.67999"
+             y="204.74001">4.8</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="387.20001"
+           y="268.10001"
+           id="text7405-2-3"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-1-0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="387.20001"
+             y="268.10001">4.8</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="268.48999"
+           y="204.74001"
+           id="text7405-8-8"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-0-2"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#ffffff;stroke-linecap:butt;stroke-linejoin:round"
+             x="268.48999"
+             y="204.74001">3.1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="387.53"
+           y="331.45999"
+           id="text7405-8-81"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-0-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#ffffff;stroke-linecap:butt;stroke-linejoin:round"
+             x="387.53"
+             y="331.45999">3.1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="387.07999"
+           y="204.69"
+           id="text7405-1-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-7-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="387.07999"
+             y="204.69">5.0</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="327.45001"
+           y="141.33"
+           id="text7405-1-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-7-2"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="327.45001"
+             y="141.33">8.5</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="387.48001"
+           y="141.38"
+           id="text7405-7-4"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-2"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="387.48001"
+             y="141.38">9.1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="208.27"
+           y="141.33"
+           id="text7405-7-2"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="208.27"
+             y="141.33">7.5</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="327.31"
+           y="268.04999"
+           id="text7405-7-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="327.31"
+             y="268.04999">7.5</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="148.72"
+           y="141.33"
+           id="text7405-7-7"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="148.72"
+             y="141.33">7.3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="208.24001"
+           y="204.69"
+           id="text7405-7-7-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="208.24001"
+             y="204.69">7.3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="267.76001"
+           y="268.04999"
+           id="text7405-7-7-2"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="267.76001"
+             y="268.04999">7.3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="327.28"
+           y="331.41"
+           id="text7405-7-7-63"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="327.28"
+             y="331.41">7.3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="148.86"
+           y="204.74001"
+           id="text7405-7-7-9"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="148.86"
+             y="204.74001">9.4</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="203.02"
+           y="268.25"
+           id="text7405-7-7-1"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="203.02"
+             y="268.25">11.2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="267.89999"
+           y="331.45999"
+           id="text7405-7-7-9-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-0-0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="267.89999"
+             y="331.45999">9.4</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="143.5"
+           y="268.10001"
+           id="text7405-7-7-9-8"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-0-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="143.5"
+             y="268.10001">13.2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="203.02"
+           y="331.45999"
+           id="text7405-7-7-9-8-8"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-0-6-0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="203.02"
+             y="331.45999">13.2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="143.53"
+           y="331.45999"
+           id="text7405-7-7-9-8-3"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-0-6-04"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="143.53"
+             y="331.45999">16.0</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="89.519997"
+           y="141.53"
+           id="text7405-7-7-9-8-5"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-0-6-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="89.519997"
+             y="141.53">4.4</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="89.519997"
+           y="268.25"
+           id="text7405-7-7-9-8-5-3"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-3-3-0-6-5-8"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="89.519997"
+             y="268.25">4.4</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="89.370003"
+           y="331.41"
+           id="text7405-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-03"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round"
+             x="89.370003"
+             y="331.41">6.9</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="89.32"
+           y="204.69"
+           id="text7405-8-8-7"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan7407-0-2-0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#ffffff;stroke-linecap:butt;stroke-linejoin:round"
+             x="89.32"
+             y="204.69">0.0</tspan></text>
       </g>
       <g
          id="axes_2"
@@ -14928,14 +14196,11 @@
                  id="g4656"
                  transform="matrix(0.1,0,0,-0.1,474.28,359.15937)"
                  style="fill:#262626;stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-                <use
-                   id="use4658"
-                   xlink:href="#BitstreamVeraSerif-Roman-30"
+                <path
                    style="stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-                   x="0"
-                   y="0"
-                   width="100%"
-                   height="100%" />
+                   inkscape:connector-curvature="0"
+                   d="m 31.7812,3.42188 q 7.4844,0 11.1876,8.20312 3.7187,8.2031 3.7187,24.75 0,16.6094 -3.7187,24.8125 -3.7032,8.2031 -11.1876,8.2031 -7.4687,0 -11.1874,-8.2031 -3.7032,-8.2031 -3.7032,-24.8125 0,-16.5469 3.7032,-24.75 3.7187,-8.20312 11.1874,-8.20312 m 0,-4.84376 q -11.8593,0 -18.5312,9.95313 Q 6.59375,18.5 6.59375,36.375 q 0,17.9219 6.65625,27.875 6.6719,9.9688 18.5312,9.9688 11.9219,0 18.5626,-9.9688 6.6406,-9.9531 6.6406,-27.875 0,-17.875 -6.6406,-27.84375 -6.6407,-9.95313 -18.5626,-9.95313"
+                   id="use4658" />
               </g>
             </g>
           </g>
@@ -14966,14 +14231,11 @@
                  id="g4667"
                  transform="matrix(0.1,0,0,-0.1,474.28,299.65372)"
                  style="fill:#262626;stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-                <use
-                   id="use4669"
-                   xlink:href="#BitstreamVeraSerif-Roman-33"
+                <path
                    style="stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-                   x="0"
-                   y="0"
-                   width="100%"
-                   height="100%" />
+                   inkscape:connector-curvature="0"
+                   d="m 9.71875,69.8281 q 5.71875,2.1407 10.95315,3.2657 5.25,1.125 9.8437,1.125 10.7032,0 16.7032,-4.625 6,-4.6094 6,-12.8126 0,-6.5781 -4.1563,-11 -4.1406,-4.4218 -11.75,-5.9843 8.9844,-1.2657 13.9375,-6.5157 4.9531,-5.25 4.9531,-13.6093 0,-10.20315 -6.8593,-15.65628 -6.8594,-5.4375 -19.75,-5.4375 -5.7188,0 -11.1719,1.23438 Q 12.9844,1.03125 7.625,3.51562 l 0,14.15628 5.4688,0 q 0.4843,-7.0313 4.7343,-10.64065 4.25,-3.60937 11.9531,-3.60937 7.4688,0 11.7969,4.3125 4.3281,4.32812 4.3281,11.84372 0,8.5938 -4.4531,13.0157 -4.4375,4.4218 -13.0312,4.4218 l -4.6407,0 0,4.9844 2.4376,0 q 8.5468,0 12.8124,3.5312 4.2813,3.5469 4.2813,10.6719 0,6.3907 -3.5156,9.7813 -3.5157,3.4062 -10.1094,3.4062 -6.5937,0 -10.2344,-3.125 -3.625,-3.125 -4.2656,-9.2812 l -5.46875,0 z"
+                   id="use4669" />
               </g>
             </g>
           </g>
@@ -15004,14 +14266,11 @@
                  id="g4678"
                  transform="matrix(0.1,0,0,-0.1,474.28,240.14806)"
                  style="fill:#262626;stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-                <use
-                   id="use4680"
-                   xlink:href="#BitstreamVeraSerif-Roman-36"
+                <path
                    style="stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-                   x="0"
-                   y="0"
-                   width="100%"
-                   height="100%" />
+                   inkscape:connector-curvature="0"
+                   d="m 32.7188,3.42188 q 6.875,0 10.5781,5.04687 3.7187,5.06245 3.7187,14.53125 0,9.4688 -3.7187,14.5156 -3.7031,5.0625 -10.5781,5.0625 -6.9844,0 -10.6563,-4.8906 -3.6563,-4.875 -3.6563,-14.1094 0,-9.7031 3.7032,-14.93748 3.7187,-5.21874 10.6094,-5.21874 M 16.7969,40.1406 q 3.3281,3.6563 7.5156,5.4532 4.2031,1.8124 9.4844,1.8124 10.875,0 17.2031,-6.5468 6.3281,-6.5313 6.3281,-17.8594 0,-11.0781 -6.8125,-17.75 -6.8125,-6.67188 -18.1875,-6.67188 -12.3593,0 -19,9.20313 Q 6.6875,17 6.6875,34.0781 q 0,19.1407 7.8594,29.6407 7.8593,10.5 22.1719,10.5 3.8593,0 8.1093,-0.7344 4.25,-0.7344 8.6875,-2.1875 l 0,-12.0157 -5.5156,0 q -0.5938,4.9219 -3.7656,7.5157 -3.1719,2.5937 -8.5469,2.5937 -9.4687,0 -14.1094,-7.1875 -4.6406,-7.1719 -4.7812,-22.0625"
+                   id="use4680" />
               </g>
             </g>
           </g>
@@ -15042,14 +14301,11 @@
                  id="g4689"
                  transform="matrix(0.1,0,0,-0.1,474.28,180.64241)"
                  style="fill:#262626;stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-                <use
-                   id="use4691"
-                   xlink:href="#BitstreamVeraSerif-Roman-39"
+                <path
                    style="stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-                   x="0"
-                   y="0"
-                   width="100%"
-                   height="100%" />
+                   inkscape:connector-curvature="0"
+                   d="M 46.7812,32.6719 Q 43.5,29 39.25,27.1875 q -4.2344,-1.7969 -9.5625,-1.7969 -10.8437,0 -17.125,6.5469 -6.26562,6.5469 -6.26562,17.875 0,11.0781 6.81252,17.7344 6.8125,6.6719 18.1875,6.6719 12.3593,0 18.9687,-9.2032 6.625,-9.2031 6.625,-26.2968 0,-19.1407 -7.875,-29.64068 -7.8594,-10.5 -22.1094,-10.5 -3.8593,0 -8.1093,0.73438 -4.25,0.734375 -8.6875,2.20312 l 0,12.10938 5.4687,0 q 0.6407,-4.9375 3.8125,-7.57812 3.1719,-2.625 8.4844,-2.625 9.4844,0 14.1094,7.14062 4.6406,7.1563 4.7968,22.1094 m -15.875,36.7187 q -6.9374,0 -10.625,-5.0625 -3.6718,-5.0469 -3.6718,-14.5156 0,-9.4844 3.6718,-14.5625 3.6876,-5.0781 10.625,-5.0781 6.9376,0 10.625,4.9062 3.6876,4.9063 3.6876,14.1407 0,9.7187 -3.7188,14.9374 -3.7031,5.2344 -10.5938,5.2344"
+                   id="use4691" />
               </g>
             </g>
           </g>
@@ -15080,22 +14336,16 @@
                  id="g4700"
                  transform="matrix(0.1,0,0,-0.1,474.28,121.13675)"
                  style="fill:#262626;stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-                <use
-                   id="use4702"
-                   xlink:href="#BitstreamVeraSerif-Roman-31"
+                <path
                    style="stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-                   x="0"
-                   y="0"
-                   width="100%"
-                   height="100%" />
-                <use
-                   id="use4704"
-                   xlink:href="#BitstreamVeraSerif-Roman-32"
-                   x="63.623047"
+                   inkscape:connector-curvature="0"
+                   d="m 14.2031,0 0,5.17188 12.7031,0 0,60.65622 -14.7031,-9.5312 0,6.4062 17.7813,11.5157 6.7344,0 0,-69.04692 12.7031,0 0,-5.17188 z"
+                   id="use4702" />
+                <path
                    style="stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-                   y="0"
-                   width="100%"
-                   height="100%" />
+                   inkscape:connector-curvature="0"
+                   d="m 76.419947,55.5156 -5.46878,0 0,12.9844 q 5.21878,2.7969 10.51568,4.25 5.2968,1.4688 10.375,1.4688 11.375003,0 17.968703,-5.5157 6.5937,-5.5156 6.5937,-14.9843 0,-10.7032 -14.9374,-25.5938 -1.1719,-1.125 -1.765703,-1.7031 l -18.4062,-18.40628 30.421903,0 0,8.98438 5.7187,0 0,-17 -47.031253,0 0,5.32812 22.12495,22.06248 q 7.3282,7.3282 10.453203,13.4532 3.125,6.125 3.125,12.875 0,7.3593 -3.8438,11.5156 -3.828103,4.1562 -10.562503,4.1562 -6.9843,0 -10.7969,-3.4687 -3.7968,-3.4688 -4.4843,-10.4063"
+                   id="use4704" />
               </g>
             </g>
           </g>
@@ -15126,22 +14376,16 @@
                  id="g4713"
                  transform="matrix(0.1,0,0,-0.1,474.28,61.631095)"
                  style="fill:#262626;stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none">
-                <use
-                   id="use4715"
-                   xlink:href="#BitstreamVeraSerif-Roman-31"
+                <path
                    style="stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-                   x="0"
-                   y="0"
-                   width="100%"
-                   height="100%" />
-                <use
-                   id="use4717"
-                   xlink:href="#BitstreamVeraSerif-Roman-35"
-                   x="63.623047"
+                   inkscape:connector-curvature="0"
+                   d="m 14.2031,0 0,5.17188 12.7031,0 0,60.65622 -14.7031,-9.5312 0,6.4062 17.7813,11.5157 6.7344,0 0,-69.04692 12.7031,0 0,-5.17188 z"
+                   id="use4715" />
+                <path
                    style="stroke-width:8.03199959;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-                   y="0"
-                   width="100%"
-                   height="100%" />
+                   inkscape:connector-curvature="0"
+                   d="m 113.91995,72.9062 0,-8.0156 -33.406303,0 0,-20.8906 q 2.5469,1.75 5.9375,2.625 3.3907,0.8906 7.5938,0.8906 11.812503,0 18.640603,-6.5468 6.8437,-6.5469 6.8437,-17.875 0,-11.5626 -6.9062,-18.04692 -6.9062,-6.46876 -19.406203,-6.46876 -5.0313,0 -10.3126,1.23438 -5.2656,1.21875 -10.7812,3.70312 l 0,14.15628 5.5156,0 q 0.4375,-6.9219 4.4063,-10.59378 3.9843,-3.65624 11.1719,-3.65624 7.718703,0 11.859303,5.07812 4.1563,5.0781 4.1563,14.5938 0,9.4687 -4.125,14.5156 -4.125,5.0625 -11.890603,5.0625 -4.3907,0 -7.75,-1.5625 -3.3438,-1.5625 -5.9219,-4.8282 l -4.2031,0 0,36.625 z"
+                   id="use4717" />
               </g>
             </g>
           </g>
@@ -16970,7 +16214,7 @@
            sodipodi:role="line">i</tspan></text>
     </g>
     <g
-       transform="matrix(0.30526483,0,0,0.28407485,1176.8567,-2336.576)"
+       transform="matrix(0.41623323,0,0,0.38734037,1582.6597,-3263.2443)"
        id="g32681"
        style="stroke-linecap:butt;stroke-linejoin:round">
       <g
@@ -17175,7 +16419,7 @@
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                  xml:space="preserve"><tspan
                    id="tspan29013-8"
-                   y="0"
+                   y="0.662"
                    x="629.83765"
                    sodipodi:role="line"
                    style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -17286,7 +16530,7 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                id="tspan28983-8"
-               y="0.65899998"
+               y="-0.003"
                x="822.30981"
                sodipodi:role="line"
                style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -17486,7 +16730,7 @@
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                  xml:space="preserve"><tspan
                    id="tspan28953-9"
-                   y="0"
+                   y="-388.50262"
                    x="388.86301"
                    sodipodi:role="line"
                    style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -17667,7 +16911,7 @@
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                xml:space="preserve"><tspan
                  id="tspan28929-7"
-                 y="inf"
+                 y="0"
                  x="253.995"
                  sodipodi:role="line"
                  style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -17742,7 +16986,7 @@
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                  xml:space="preserve"><tspan
                    id="tspan28921-6"
-                   y="inf"
+                   y="0"
                    x="629.83765"
                    sodipodi:role="line"
                    style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -17806,7 +17050,7 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                id="tspan28905-3"
-               y="inf"
+               y="0"
                x="390.86301"
                sodipodi:role="line"
                style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -17853,7 +17097,7 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                id="tspan28891-3"
-               y="inf"
+               y="0"
                x="822.30981"
                sodipodi:role="line"
                style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -18480,7 +17724,7 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                id="tspan28789-7"
-               y="0"
+               y="inf"
                x="2984.1675"
                sodipodi:role="line"
                style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -18899,7 +18143,7 @@
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
              x="384.87317"
-             y="0"
+             y="136.35928"
              id="tspan28705-1"
              style="stroke-linecap:butt;stroke-linejoin:round"><tspan
                x="371.87317"
@@ -19065,7 +18309,7 @@
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                  xml:space="preserve"><tspan
                    id="tspan29013-8-3"
-                   y="inf"
+                   y="0"
                    x="629.83765"
                    sodipodi:role="line"
                    style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -19359,7 +18603,7 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                id="tspan28953-9-5"
-               y="inf"
+               y="0"
                x="388.86301"
                sodipodi:role="line"
                style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -19715,7 +18959,7 @@
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                xml:space="preserve"><tspan
                  id="tspan28775-34-0"
-                 y="-256.83701"
+                 y="0"
                  x="822.30981"
                  sodipodi:role="line"
                  style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -19889,7 +19133,7 @@
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                  xml:space="preserve"><tspan
                    id="tspan28759-5-5"
-                   y="inf"
+                   y="0"
                    x="629.83765"
                    sodipodi:role="line"
                    style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -20002,7 +19246,7 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                id="tspan28729-6-3"
-               y="0.28618938"
+               y="0"
                x="822.30981"
                sodipodi:role="line"
                style="stroke-linecap:butt;stroke-linejoin:round"><tspan
@@ -20065,15 +19309,15 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:45px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="166.02872"
-       y="-627.50281"
+       x="144.02872"
+       y="-643.50281"
        id="text13844"
        sodipodi:linespacing="125%"
        transform="matrix(0,1,-1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan13848"
-         x="166.02872"
-         y="-627.50281"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round">distance / Å</tspan></text>
+         x="144.02872"
+         y="-643.50281"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-linecap:butt;stroke-linejoin:round">distance / Å</tspan></text>
   </g>
 </svg>

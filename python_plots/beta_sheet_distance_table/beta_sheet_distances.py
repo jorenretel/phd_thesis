@@ -14,11 +14,12 @@ OmpA_beta_sheet_pairs = [(8, 42), (10, 40), (12, 38), (14, 36), (16, 34),
 parser = PDBParser()
 
 #structure = parser.get_structure('OmpA', '/homes/retel/qj/pdb1qjp.ent')
-structure = parser.get_structure('OmpA', '/homes/retel/ge/pdb2ge4.ent')
+structure = parser.get_structure('OmpA', 'pdb2ge4.ent')
 
 
 
-nuclei = ['CA', 'CB', 'C', 'HA', 'H']
+#nuclei = ['CA', 'CB', 'C', 'HA', 'H']
+nuclei = ['H']
 
 def calculate_distances():
     #nuclei = ['CA', 'CB', 'C']
