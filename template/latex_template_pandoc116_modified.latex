@@ -71,6 +71,9 @@ $endif$
 \fancyhead[LO]{\leftmark}
 \usepackage{placeins}
 \usepackage{csquotes}
+\usepackage{lscape}
+\newcommand{\beginlandscape}{\begin{landscape}}
+\newcommand{\finishlandscape}{\end{landscape}}
 %Joren modifications end
 
 
