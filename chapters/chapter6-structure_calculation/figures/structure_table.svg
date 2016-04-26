@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="423.26191"
-     inkscape:cy="432.75237"
+     inkscape:zoom="1.979899"
+     inkscape:cx="130.48956"
+     inkscape:cy="403.81611"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -352,12 +352,12 @@
          x="4.8326073"
          y="356.58752"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
-         id="tspan5281">    medium-range</tspan><tspan
+         id="tspan5281">    medium-range (2 ≤|i-j|&lt;5)</tspan><tspan
          sodipodi:role="line"
          x="4.8326073"
          y="375.33752"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
-         id="tspan5283">    long-range</tspan><tspan
+         id="tspan4530">    long-range (|i-j|≥ 5)</tspan><tspan
          sodipodi:role="line"
          x="4.8326073"
          y="394.08752"
@@ -1800,24 +1800,29 @@
          id="tspan4785">rmsd 	                   0.880 ± 0.098</tspan><tspan
          sodipodi:role="line"
          x="4.7426071"
-         y="619.13135"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
-         id="tspan4609">violations &gt; 1°	    373</tspan><tspan
+         y="619.30341"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Bold'"
+         id="tspan4501">violation count per model</tspan><tspan
          sodipodi:role="line"
          x="4.7426071"
          y="637.88135"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
-         id="tspan4779">violations &gt; 3°	      87</tspan><tspan
+         id="tspan4609">    violations &gt; 1°	    24.9 ±3.8 </tspan><tspan
          sodipodi:role="line"
          x="4.7426071"
          y="656.63135"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
-         id="tspan4781">violations &gt; 5°	      23</tspan><tspan
+         id="tspan4779">    violations &gt; 3°	      5.8 ±2.0 </tspan><tspan
          sodipodi:role="line"
          x="4.7426071"
          y="675.38135"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
-         id="tspan4783">violations &gt; 10°	      0</tspan></text>
+         id="tspan4781">    violations &gt; 5°	      1.5 ±0.7 </tspan><tspan
+         sodipodi:role="line"
+         x="4.7426071"
+         y="694.13135"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
+         id="tspan4783">    violations &gt; 10°	       0</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
