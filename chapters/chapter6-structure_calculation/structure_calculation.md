@@ -110,6 +110,9 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 ![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8C_compact.svg){#fig:ambiguity_it8C}
 
 
+![Ambiguity in the restraints in the ^13^-detected dataset after disambiguation by ARIA. Restraints with one item are unambiguous.](figures/left_over_C_ambiguity.svg){#fig:left_over_C_ambiguity}
+
+
 ![Crystal structure of OmpG with surrounding unit cells. One unit cell contains four OmpG molecules. On of the unit cells is depicted in red.](figures/crystal_structure_with_surrounding_unit_cells.png){#fig:crystal_structure_with_surrounding_unit_cells}
 
 
