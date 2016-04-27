@@ -165,6 +165,15 @@ A structure with a backbone rmsd of 1.6 in the β-sheet region could be calculat
 ![Statistics on the restraints and quality metrics on the 15 lowest energy structures. All quality measures correspond to the structure refined in DMSO. Structure validation was performed using the iCing server [@doreleijers_nrgcing_2012] from which the PROCHECK [@laskowski_aqua_1996] and WHATIF [@vriend_what_1990] were obtained. More precise counts for specific restraint subsets were obtained using a CCPNMR Analysis macro. a) Numbers are over the complete ensemble. 1 violation was present in 1 of the 15 models. b)Alignment of models within the ensemble and with structures 2IWW and 2IWV [@yildiz_structure_2006], 2F1C [@subbarao_crystal_2006] and 2JQY [@liang_structure_2007] were calculated using biopython [@cock_biopython_2009]. β-sheet residues are 8-16, 34-41, 44-51, 70-78, 85-95, 110-122, 127-139, 151-161, 167-175, 194-202, 205-211, 238-244, 249-255 and 274-280. Turn residues are 42-43, 79-84, 123-126, 162-166, 203-204 and 245-248.](figures/structure_table.svg){#fig:structure_table}
 
 
+
+![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8H_compact.svg){#fig:ambiguity_it8H}
+
+
+![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8C_compact.svg){#fig:ambiguity_it8C}
+
+
+
+
 ### Remaining ambiguity of the ^13^C-^13^C restraints
 
 ![Ambiguity in the restraints in of the 5 ^13^-detected restraint sets after disambiguation by ARIA. Restraints with one item are unambiguous.](figures/left_over_C_ambiguity.svg){#fig:left_over_C_ambiguity}
@@ -179,11 +188,8 @@ A structure with a backbone rmsd of 1.6 in the β-sheet region could be calculat
 
 
 
-![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8H_compact.svg){#fig:ambiguity_it8H}
 
-
-![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8C_compact.svg){#fig:ambiguity_it8C}
-
+![Overlay of aligned average solid-state (blue) and solution (red) NMR structures. The largest difference between the two structures is shown in the foreground. The beta-sheet is extended further in the solution model. An additional two long range hydrogen bonds are present in the solution structure. A stretch of three residues (191 Thr, 192 Gln, 193 Glu) showing these connections to the preceding strand in the solution spectra could not be assigned in the solid state.](figures/solid_vs_solution2.png){#fig:solid_vs_solution}
 
 
 

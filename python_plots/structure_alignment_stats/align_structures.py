@@ -152,3 +152,4 @@ if __name__ == '__main__':
     allign('fitted_ompg_dmso.pdb', '2f1c.pdb', BETA_SHEET, index_diff=-1)
     #allign('2jqy.pdb', '2iwv.pdb', index_diff=0)
     allign('fitted_ompg_dmso.pdb', '2jqy_average.pdb', BETA_SHEET, index_diff=-1)
+    allign('fitted_ompg_dmso_average.pdb', '2jqy_average.pdb', BETA_SHEET, index_diff=-1)
