@@ -59,7 +59,7 @@ In the dipolar based transfer experiments used in solid-state NMR distances can 
 
 ## Restraints based on ^13^C-detected through-space correlation experiments
 
-Another set of distance restraints was based on a set of 5 ^13^C-detected experiments that were also used during the assignment phase of the project. All spectra were 2D 13^C^-^13^C correlations with 400 ms DARR mixing. Several spectra with good dispersion and signal to noise where selected to create distance restraints. Peaks were picked in the aliphatic region. The reason for this is that the chemical shift assignment for this region is relatively high in comparison to other regions of the spectra at least for the resonances within assigned residues (91%), see table {@tbl:extend_of_assignment_table}. This is important since the biggest bottle-neck in structure calculation is incomplete resonance assignment. It has been shown in solution NMR studies that the resonance assignment should be at least 90% complete to produce reliable structures using automated NOE assignment [@jee_influence_2003]. The completeness of assignment over the whole sequence is far below that (57%) but, as argued before, inter-residual cross-peaks are expected to be absent for the unassigned parts of the sequence. Intra-residual peaks were avoided in the peak picking. This was done by overlaying the spectra with spectra that were recorded using a shorter mixing time complemented by knowlegde of which regions in the spectra simply can not contain intra-residual cross-peaks, see figures {@fig:picked_peaks_13glycerol} and {@fig:picked_peaks_2glycerol}. As discussed weak intra-residual signals are present in the ^13^C-^13^C correlations corresponding to unassigned spin systems. By not picking the intra-residual signal set it is avoided that incorrect ADRs are generated based on these peaks.
+Another set of distance restraints was based on a set of 5 ^13^C-detected experiments that were also used during the assignment phase of the project. All spectra were 2D 13^C^-^13^C correlations with 400 ms DARR mixing. Several spectra with good dispersion and signal to noise were selected to create distance restraints. Only peaks in the aliphatic region of the spectra were picked. The reason for this is that the chemical shift assignment for this region is relatively high in comparison to other regions of the spectra at least for the resonances within assigned residues (91%), see table {@tbl:extend_of_assignment_table}. This is important since the biggest bottle-neck in structure calculation is incomplete resonance assignment. It has been shown in solution NMR studies that the resonance assignment should be at least 90% complete to produce reliable structures using automated NOE assignment [@jee_influence_2003]. The completeness of assignment over the whole sequence is far below that (57%) but, as argued before, inter-residual cross-peaks are expected to be absent for the unassigned parts of the sequence. Intra-residual peaks were avoided in the peak picking. This was done by overlaying the spectra with spectra that were recorded using a shorter mixing time complemented by knowlegde of which regions in the spectra simply can not contain intra-residual cross-peaks, see figures {@fig:picked_peaks_13glycerol} and {@fig:picked_peaks_2glycerol}. As discussed weak intra-residual signals are present in the ^13^C-^13^C correlations corresponding to unassigned spin systems. By not picking the intra-residual signal set it is avoided that incorrect ADRs are generated based on these peaks.
 
 ARIA can use either lists of ADRs as input or peak lists accompanied by a chemical shift list. In the last case ARIA performs the shift-matching itself. Here lists of ADRs were produced using CCPNMR Analysis because of the build-in support for labeling schemes. Restraints were produced by shift-matching with a tolerance of 0.4 ppm in both dimensions and only assignment possibilities were generating for which the co-labeling fraction of the two correlated carbons exceeded 0.1. All ADRs based on the ^13^C-detected spectra were put in a single distance class with a lower bound of 1.5 Å and an upper bound of 8.0 Å.
 
@@ -75,33 +75,108 @@ ARIA can use either lists of ADRs as input or peak lists accompanied by a chemic
 
 ## Structure calculation protocol
 
-For the structure calculation and disambiguation of the ADRs the standard ARIA protocol was used with a few alterations. 192 structures were calculated in each iteration and the 15 lowest energy subset of those structures was used to disambiguate the assignment of the ADRs for the next iteration.
+For the structure calculation and disambiguation of the ADRs the standard ARIA protocol was used with a few alterations. 192 structures were calculated in each iteration and the 15 lowest energy subset of those structures was used to disambiguate the assignment of the ADRs for the next iteration. The new ramachandran potential included in new distributions of ARIA was employed to generate the structures using both torsion angle dynamics and cartesian dynamics. The important settings for the ARIA protocol and the stucture generation steps that were used are shown in table {@tbl:aria_settings}.
 
 The most challenging part of this structure calculation was to reduce the effect of ADRs where a correct item is not present. These type of restraints can be generated if noise or artifacts are present in the peak lists the ADRs are based on. In the case of this structure calculation, the most likely source of these restraints is the incompleteness of the resonance assignment. For instance, when a cross-peak is present to a nucleus that is not assigned but at that same frequency there are one or more other, incorrect, assignment possibilities, an ADR will be generated with several items except for the correct one. One such a distance restraint can cause the calculation to converge to a completely wrong structure. This was not a large problem in the ^1^H detected spectra, since the not a lot of unassigned ^15^N-^1^H combinations were left unassigned. Because the amount of peaks in the proton detected spectra is a lot smaller and there is a basic mapping of one strip per residue it is more straight-forward to estimate the extend of the assignment. There are some unassigned side-chain protons left at exchangeable sides. However, their chemical shifts are often distinct and not overlapped by other chemical shifts. Therefor cross-peaks to these nuclei could be easily recognized and removed from the peak list, or in some cases the resonance could be assigned.
 
 In the ^13^C-detected spectra however, this problem is more severe. First of all, the amount of peaks in these spectra is larger. And second, there are missing ^13^C assignments even in the parts of the protein that are structured. In these cases the lack of assignment is not caused by missing signals but by the ambiguity in the spectra. The unassigned shifts do not differ in any way from the assigned ones, making it hard to remove the peaks giving rise to incorrect ADRs before the structure calculation.
 
-Two distinct approaches can be taken to calculate this structure. One is to first calculate the structure based solely on the ^1^H-detected restraints and perform a second calculation starting from the previously calculated ensemble but adding the carbon restraints. In the case of a beta-barrel structure like OmpG this is actually possible since most of the structure is defined by the backbone. In the second structure calculation the violation tolerance and the partial assignment p should already be set to a small value in the first iteration so that all erroneous ADRs get rejected immediately and do not take part in the structure calculation. Another approach is to apply restraint combination to the ^13^C-detected restraints.
+Because the ^1^H-detected restraints between amide protons are very appropriate for constraining the backbone conformation of a protein that is almost entirely β-sheet the first 4 iterations (0-3) of the protocol solely rely on these restraints. Already in the first iteration the lowest energy structures clearly show the the shape of the β-barrel, see figure {@fig:structures_per_aria_iteration}. Only in iteration 6 the ^13^C-^13^C distance restraints were added. All incorrect ADRs that not fit within the violation tolerance to at least half of the lowest energy structures in the previously calculated ensemble are then rejected by ARIA's violation analysis. In iteration 4 this violation tolerance is set to 1.0 Å.
 
-Both restraint combination and network anchoring were first introduced in CYANA [@herrmann_protein_2002] and are implemented in ARIA as well. The basic idea behind restraint combination is to combine the restraint items of the two ADRs stemming from two unrelated peaks into one new ADR. As the amount of erroneous ADRs is small compared to the amount of correct ADRs the chance that the newly generated ADR still does not contain at least one correct item is decreased. Two strategies for the combination of restraints are implemented in both CYANA and ARIA: combining two ADRs to create one new ADR, or combining four ADRs to create four new combined ADRs. The last option was chosen because it keeps the amount of restraints the same and it is the most widely used strategy of the two. Restraint combination on the ^13^C-detected restraints was performed on the restraints based on the ^13^C detected spectra from iteration 0 to 6.
+In addition restraint combination was employed to reduce the destructive effect of the presence of incorrect ADRs. Restraint combination was first introduced in CYANA and is implemented in ARIA as well [@herrmann_protein_2002]. The basic idea behind this strategy is to combine the restraint items of the two ADRs stemming from two unrelated peaks into one new ADR. Because the amount of erroneous ADRs is normally small compared to the amount of correct ADRs the chance that the newly generated ADR still does not contain at least one correct item is decreased. Two strategies for the combination of restraints are implemented in both CYANA and ARIA: combining two ADRs to create one new ADR, or combining four ADRs to create four new combined ADRs. The last option was chosen because it keeps the amount of restraints the same and it is the most widely used of the strategies. Restraint combination was only applied to the ^13^C-detected restraints and was enabled from the moment they enter the calculation (iteration 4) until iteration 6. In the last iterations the violation tolerance is small by default (0.1 Å) effectively removing any of the restraints that do still not fit the previously calculated ensemble.
 
-Network anchoring is an algorithm that aims to disambiguate ADRs and keep erroneous ADRs out of the structure calculation. The idea behind the algorithm is that the correct assignment of a crosspeak should be confirmed by a network of other assignments. For each restraint item connecting two nuclei α and β, lists of other nuclei γ are created that are close to either α or β based on the covalent connectivity. In ARIA these list where generated on forehand by extensively sampling possible conformations TODO:find out where I read this. These nuclei are located either in the same residues as α or β, or in a neighboring residue. The network anchoring score N~αβ~ is determined by the amount of indirect connections between α and β through γ. To be more specific, by the partial volumes of all restraint items α-γ and β-γ of all nulcei γ in the list mentioned before [@herrmann_protein_2002]. Using these atom-wise network anchoring scores, also a residue-wise network anchoring score can be calculated, which is just the sum over all scores of nuclei α in residue A to nuclei β in residue B. To determine whether a restraint item should enter the calculation, three different threshold values can be set in ARIA: the high residue threshold, minimum residue threshold and minimum atom threshold. A restraint item will be retained if either the high residue threshold or both the minimum residue and atom threshold are exceeded. If an ADR does not have any items that meet these criteria it will not enter the structure calculation. The network anchoring procedure can be ran before every new iteration of ARIA.
+Because the structure already converged quite well in the very first iteration, the structure does not notably improve until iteration 7, see figure {@fig:structures_per_aria_iteration}. Because the partial assignment threshold is reduced slowly only in the last iterations of the protocol the algorithm becomes more discriminatory between restraint items with similar average distances in the structural ensemble. The influence on the convergence of the OmpG structure of both the moment at which the ^13^C-^13^C restraints enter the protocol and the number of iterations in which restraint combination is applied should still be thoroughly studied.
 
-Network anchoring was used on the ^13^C-detected restraints in iterations 0 to 6. The ^1^H detected restraints where used to create the network as well, but where not filtered by the network anchoring. Since the presence of erroneous ADRs was problematic in the structure calculation of OmpG, the minimal residue threshold was set to a really high value of 4 to prevent them from being used. In the very first iteration, this leads to hardly any of the ^13^C restraints meeting the criteria to enter the calculation. However, as the structure converges, the ADRs become less ambiguous and thereby partial volumes of some of the restraint items become larger, allowing more and more restraint items to reach the threshold and enter the calculation. In the last two iterations no network anchoring is used, since the structure is close to convergence and the violation threshold is very small. Therefor no restraints that do absolutely not fit the structural ensemble from the last iteration will be retained.
+\footnotesize
 
+------------------------------------------- --------------
+**structure generation**
 
-## Hydrogen Bond Restraints
+    structure engine                                   CNS
 
-The structure of OmpG was first calculated as described before. No hydrogen bond restraints were added in these initial calculations. This was done because no experiments were performed to directly observe the hydrogen bonds. However, after an initial structure is calculated, the hydrogen bonding pattern in the β-sheet is clear and these type of restraints can be added. Co-linear hydrogen bond restraints were created between every two residues were the predicted dihedral angles indicated beta-sheet and good cross-peaks appear in the spectra. Co-linear hydrogen bond restraints are basically distance restraints, one between the H and O and one between the N and the O. This makes these restraints very powerful, as they effectively constraint the HN bond vector. Every two residues facing each other from opposite strands interact in two hydrogen bonds. For both of these bonds such a co-linear hydrogen bond restraint is introduced. These restraints can be produced in CCPN Analysis. The default values were used.
+    potential                                 ramachandran
 
+    TAD high temperature                          20,000 K
 
-![Statistics on the structural Ensemble](figures/structure_table.svg)
+    TAD time step factor                               9.0
+
+    cartesian high temperature                      3000 K
+
+    time step                                        0.003
+
+    final temperature cool stage 1                  1000 K
+
+    steps in cool stage 1                          100,000
+
+    final temperature cool stage 2                    50 K
+
+    steps in cool stage 2                          100,000
+
+    high temperature steps                          20,000
+
+    refine steps                                      8000
+
+**protocol**
+
+    number of iterations                                 9
+
+    number of structures calculated                    192
+    per iteration
+
+    number of lowest energy                             15
+    structures used
+
+    ^1^H-^1^H restraints first iteration                 0
+
+    ^13^C-^13^C restraints first iteration               4
+
+    4 to 4 restraint combination on                    4-6
+    ^13^C-^13^C restraints in iterations
+
+    Merging method all other                      standard
+    restraints/iterations
+
+    final refinement                                  DMSO
+------------------------------------------- --------------
+
+Table: Settings used in ARIA for the structure calculation of OmpG. for a detailed overview of the used restraints see figure @fig:structure_table. {#tbl:aria_settings}
+
+\normalsize
 
 
 ![The 15 lowest energy structures at the end of every second ARIA iteration.](figures/structures_per_aria_iteration.svg){#fig:structures_per_aria_iteration}
 
 
+
+## Hydrogen Bond Restraints
+
+The structure of OmpG was first calculated as described before. No hydrogen bond restraints were added in these initial calculations. This was done because no experiments were performed to directly observe the hydrogen bonds. However, after an initial structure is calculated, the hydrogen bonding pattern in the β-sheet is clear and these type of restraints can be added. Co-linear hydrogen bond restraints were created between every two residues were the predicted dihedral angles indicated beta-sheet and good cross-peaks appear in the ^1^H-detected spectra. Co-linear hydrogen bond restraints are basically distance restraints, one between the H and O and one between the N and the O. This makes these restraints very powerful, as they effectively constraint the HN bond vector. Every two residues facing each other from opposite strands interact in two hydrogen bonds. For both of these bonds such a co-linear hydrogen bond restraint is introduced. These restraints were produced using CCPN Analysis. The lower and upper bound for the H-O bound is 1.73 and 2.7 respectively. For the N-O distances these were 2.516 and 3.927. These are the default values.
+
+
+
+## Structure
+
+A structure with a backbone rmsd of 1.6 in the β-sheet region could be calculated. In figure {@fig:structure_table} a full overview is presented of the final assignment of the ADRs by ARIA and quality measures on the resulting structural ensemble of 15 structures.
+
+
 ![The 15 lowest energy structures in iteration 8 of the ARIA procedure when adding hydrogen bond restraints and using the ramachandran potential.](figures/ompg_structure_hbonds_ramachandran_potential.svg){#fig:ompg_structure_hbonds_ramachandran_potential}
+
+
+![Statistics on the restraints and quality metrics on the 15 lowest energy structures. All quality measures correspond to the structure refined in DMSO. Structure validation was performed using the iCing server [@doreleijers_nrgcing_2012] from which the PROCHECK [@laskowski_aqua_1996] and WHATIF [@vriend_what_1990] were obtained. More precise counts for specific restraint subsets were obtained using a CCPNMR Analysis macro. a) Numbers are over the complete ensemble. 1 violation was present in 1 of the 15 models. b)Alignment of models within the ensemble and with structures 2IWW and 2IWV [@yildiz_structure_2006], 2F1C [@subbarao_crystal_2006] and 2JQY [@liang_structure_2007] were calculated using biopython [@cock_biopython_2009]. β-sheet residues are 8-16, 34-41, 44-51, 70-78, 85-95, 110-122, 127-139, 151-161, 167-175, 194-202, 205-211, 238-244, 249-255 and 274-280. Turn residues are 42-43, 79-84, 123-126, 162-166, 203-204 and 245-248.](figures/structure_table.svg){#fig:structure_table}
+
+
+### Remaining ambiguity of the ^13^C-^13^C restraints
+
+![Ambiguity in the restraints in of the 5 ^13^-detected restraint sets after disambiguation by ARIA. Restraints with one item are unambiguous.](figures/left_over_C_ambiguity.svg){#fig:left_over_C_ambiguity}
+
+### Rejected restraints
+
+
+![Residue interaction matrix for rejected restraints.](figures/rejected_interaction_plot.svg){#fig:rejected_interaction_plot}
+
+
+### Comparison to crystal and solution NMR structures
+
 
 
 ![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8H_compact.svg){#fig:ambiguity_it8H}
@@ -110,12 +185,7 @@ The structure of OmpG was first calculated as described before. No hydrogen bond
 ![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8C_compact.svg){#fig:ambiguity_it8C}
 
 
-![Residue interaction matrix for rejected restraints.](figures/rejected_interaction_plot.svg){#fig:rejected_interaction_plot}
 
-
-
-
-![Ambiguity in the restraints in of the 5 ^13^-detected restraint sets after disambiguation by ARIA. Restraints with one item are unambiguous.](figures/left_over_C_ambiguity.svg){#fig:left_over_C_ambiguity}
 
 
 ![Crystal structure of OmpG with surrounding unit cells. One unit cell contains four OmpG molecules. On of the unit cells is depicted in red.](figures/crystal_structure_with_surrounding_unit_cells.png){#fig:crystal_structure_with_surrounding_unit_cells}
