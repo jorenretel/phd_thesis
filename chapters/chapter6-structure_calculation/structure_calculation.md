@@ -150,31 +150,40 @@ Table: Settings used in ARIA for the structure calculation of OmpG. for a detail
 
 ## Hydrogen Bond Restraints
 
-The structure of OmpG was first calculated as described before. No hydrogen bond restraints were added in these initial calculations. This was done because no experiments were performed to directly observe the hydrogen bonds. However, after an initial structure is calculated, the hydrogen bonding pattern in the β-sheet is clear and these type of restraints can be added. Co-linear hydrogen bond restraints were created between every two residues were the predicted dihedral angles indicated beta-sheet and good cross-peaks appear in the ^1^H-detected spectra. Co-linear hydrogen bond restraints are basically distance restraints, one between the H and O and one between the N and the O. This makes these restraints very powerful, as they effectively constraint the HN bond vector. Every two residues facing each other from opposite strands interact in two hydrogen bonds. For both of these bonds such a co-linear hydrogen bond restraint is introduced. These restraints were produced using CCPN Analysis. The lower and upper bound for the H-O bound is 1.73 and 2.7 respectively. For the N-O distances these were 2.516 and 3.927. These are the default values.
+The structure of OmpG was first calculated as described before. No hydrogen bond restraints were added in these initial calculations. This was done because no experiments were performed to directly observe the hydrogen bonds. However, after an initial structure is calculated, the hydrogen bonding pattern in the β-sheet is clear and these type of restraints can be added. Co-linear hydrogen bond restraints were created between every two residues were the predicted dihedral angles indicated beta-sheet and good cross-peaks appear in the ^1^H-detected spectra. Co-linear hydrogen bond restraints are basically distance restraints, one between the H and O and one between the N and the O. This makes these restraints very powerful, as they effectively constraint the HN bond vector. Every two residues facing each other from opposite strands interact in two hydrogen bonds. For both of these two bonds such a co-linear hydrogen bond restraint is introduced. 92 co-linear restraints (184 restraints in total) were produced using CCPN Analysis. The lower and upper bound for the H-O bound is 1.73 and 2.7 respectively. For the N-O distances these were 2.516 and 3.927. These are the default values.
 
 
 
 ## Structure
 
-A structure with a backbone rmsd of 1.6 in the β-sheet region could be calculated. In figure {@fig:structure_table} a full overview is presented of the final assignment of the ADRs by ARIA and quality measures on the resulting structural ensemble of 15 structures.
+The calculated structure shows the expected 14-strand β-barrel, figure {@fig:structures_per_aria_iteration}. The backbone rmsd of this structure was 1.6 in the β-sheet region and 4.9 Å for all residues. As there are no restraints present for a large parts of the extra-cellular residues they form unstructured loops in this model. In figure {@fig:structure_table} a full overview is presented of the final assignment of the ADRs by ARIA and quality measures on the resulting ensemble of 15 structures. Almost all peaks in the ^1^H-detected spectra were unambiguously assigned by ARIA, while a large part of the ^13^C-^13^C restraints stay ambiguous. Exact counts for restraints stemming from different spectra are shown in this table. Because there are identical peaks on both sides of the diagonal and peaks in different spectra correlating the same nulcei (for instance the 2-glycerol and 2-TEMPQANDSG spectra) a count is given for the amount of unique restraints in the set. Over the whole dataset there are 196 unique long-range distance restraints from which 131 could be assigned unambiguously by ARIA. The classification of ambiguous restraints into distance ranges was based on the restraint item with the shortest range. Therefor there are also long-range contributions present for some of the restraints classified as medium and sequential restraints. In order not to over-represent certain restraints ARIA merges restraints that are identical, containing the same set of restraint items. Therefor the amount of unique restraints is the true set of restraints the structural models are based on. Some of the restraints in the ^13^C detected data were assigned to intra-residual correlations although the peak picking was performed in such a way to avoid intra-residual peaks. These peaks that were assigned as intra-residual were close to an intra-residual peak and therefor the shift-matching included this as on of the possibilities. To prevent this an extra filter could be applied during the shift-matching. Although a few restraints were lost, the quality of the structure is likely not degraded by these restraints as intra-residual distances are mostly well below the 8 Å upper bound independent of the local geometry.
+
+Structure validation has been performed using the iCing server which analyses violations and runs several programs that check the normality of the structure [@doreleijers_nrgcing_2012]. One violation over 0.3 Å (0.31Å) was present in one of the 15 structures of the ensemble. It should be noted that the PROCHECK results, indicating how well the torsion angles in the structures fit to different regions in the ramachandran plot, are naturally almost perfect because a ramachandran potential has been used for the calculation of this structure. Therefor these results are not very interesting. They have been included for completeness though. The WHATIF RMS Z-scores show that there is a lower variability in the bond angles, side-chain planarity and amount of cis-conformations of the peptide bond (ω angles) than is expected from a database of high resolution x.ray structures. These are general problems in NMR structures and are caused by the way force-field used for structure calculation operate and not so much by the dataset of this particular structure [@spronk_validation_2004]. The unusual inside/outside distribution can be explained by the fact OmpG is a membrane protein.
 
 
-![The 15 lowest energy structures in iteration 8 of the ARIA procedure when adding hydrogen bond restraints and using the ramachandran potential.](figures/ompg_structure_hbonds_ramachandran_potential.svg){#fig:ompg_structure_hbonds_ramachandran_potential}
+
+![The 15 lowest energy structures in iteration 8 of the ARIA procedure when adding hydrogen bond restraints and using the ramachandran potential. Figure produced using pymol [@delano_pymol_2002].](figures/ompg_structure_hbonds_ramachandran_potential.svg){#fig:ompg_structure_hbonds_ramachandran_potential}
 
 
 ![Statistics on the restraints and quality metrics on the 15 lowest energy structures. All quality measures correspond to the structure refined in DMSO. Structure validation was performed using the iCing server [@doreleijers_nrgcing_2012] from which the PROCHECK [@laskowski_aqua_1996] and WHATIF [@vriend_what_1990] were obtained. More precise counts for specific restraint subsets were obtained using a CCPNMR Analysis macro. a) Numbers are over the complete ensemble. 1 violation was present in 1 of the 15 models. b)Alignment of models within the ensemble and with structures 2IWW and 2IWV [@yildiz_structure_2006], 2F1C [@subbarao_crystal_2006] and 2JQY [@liang_structure_2007] were calculated using biopython [@cock_biopython_2009]. β-sheet residues are 8-16, 34-41, 44-51, 70-78, 85-95, 110-122, 127-139, 151-161, 167-175, 194-202, 205-211, 238-244, 249-255 and 274-280. Turn residues are 42-43, 79-84, 123-126, 162-166, 203-204 and 245-248.](figures/structure_table.svg){#fig:structure_table}
 
 
 
-![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8H_compact.svg){#fig:ambiguity_it8H}
+
+![Assignment of ^1^H-^1^H ADRs in iteration 8 of the ARIA protocol. The color indicates the ambiguity of the least ambiguous restraint present for the interaction between two residues. Interactions between two residues for which an unambiguous restraint is present are colored red. A clear alternating pattern can be seen for the β-sheets. 11 restraints in the ^1^H-^1^H restraint set were left unambiguous at the end of the ARIA procedure.](figures/ambiguity_it8H_compact.svg){#fig:ambiguity_it8H}
 
 
-![Restraints in iteration 8 of the ARIA protocol.](figures/ambiguity_it8C_compact.svg){#fig:ambiguity_it8C}
+
+
+![Assignment of ^13^C-^13^C ADRs in iteration 8 of the ARIA protocol. The color indicates the ambiguity of the least ambiguous restraint present for the interaction between two residues. Interactions between two residues for which an unambiguous restraint is present are colored red. 488 restraints in the ^13^C-^13^C restraint set were left unambiguous at the end of the ARIA procedure.](figures/ambiguity_it8C_compact.svg){#fig:ambiguity_it8C}
 
 
 
 
 ### Remaining ambiguity of the ^13^C-^13^C restraints
+
+488 of the restraints based on the peaks in the ^13^C-^13^C correlation spectra remained unambiguous at the end of ARIA protocol. This is of course a lot of peaks
+
 
 ![Ambiguity in the restraints in of the 5 ^13^-detected restraint sets after disambiguation by ARIA. Restraints with one item are unambiguous.](figures/left_over_C_ambiguity.svg){#fig:left_over_C_ambiguity}
 
@@ -189,12 +198,12 @@ A structure with a backbone rmsd of 1.6 in the β-sheet region could be calculat
 
 
 
-![Overlay of aligned average solid-state (blue) and solution (red) NMR structures. The largest difference between the two structures is shown in the foreground. The beta-sheet is extended further in the solution model. An additional two long range hydrogen bonds are present in the solution structure. A stretch of three residues (191 Thr, 192 Gln, 193 Glu) showing these connections to the preceding strand in the solution spectra could not be assigned in the solid state.](figures/solid_vs_solution2.png){#fig:solid_vs_solution}
+![Overlay of aligned average solid-state (blue) and solution (red) NMR structures. The largest difference between the two structures is shown in the foreground. The beta-sheet is extended further in the solution model. An additional two long range hydrogen bonds are present in the solution structure. A stretch of three residues (191 Thr, 192 Gln, 193 Glu) showing these connections to the preceding strand in the solution spectra could not be assigned in the solid state. Figure produced using pymol [@delano_pymol_2002].](figures/solid_vs_solution2.png){#fig:solid_vs_solution}
 
 
 
 
-![Crystal structure of OmpG with surrounding unit cells. One unit cell contains four OmpG molecules. On of the unit cells is depicted in red.](figures/crystal_structure_with_surrounding_unit_cells.png){#fig:crystal_structure_with_surrounding_unit_cells}
+![Crystal structure of OmpG with surrounding unit cells. One unit cell contains four OmpG molecules. On of the unit cells is depicted in red. Figure produced using pymol [@delano_pymol_2002].](figures/crystal_structure_with_surrounding_unit_cells.png){#fig:crystal_structure_with_surrounding_unit_cells}
 
 
 

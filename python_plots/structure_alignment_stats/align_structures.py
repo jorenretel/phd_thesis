@@ -10,12 +10,15 @@ BETA_SHEET = range(8, 17)
 BETA_SHEET.extend(range(34, 42))
 BETA_SHEET.extend(range(44, 52))
 BETA_SHEET.extend(range(70, 79))   # 1 res shorter as solution structure
+#BETA_SHEET.extend(range(70, 80))   # solution
 BETA_SHEET.extend(range(85, 96))
 BETA_SHEET.extend(range(110, 123))
 BETA_SHEET.extend(range(127, 140))
 BETA_SHEET.extend(range(151, 162))
 BETA_SHEET.extend(range(167, 176))  # 1 res shorter
+#BETA_SHEET.extend(range(167, 176))  # solution
 BETA_SHEET.extend(range(194, 203))  # lacking 3 residues at the start
+#BETA_SHEET.extend(range(191, 203))  # solution
 BETA_SHEET.extend(range(205, 212))
 BETA_SHEET.extend(range(238, 245))
 BETA_SHEET.extend(range(249, 256))
@@ -32,7 +35,7 @@ TURN.extend(range(245, 249))
 
 
 
-def allign(ensemble_pdb_file, ref_pdb_file, residues=None, index_diff=0):
+def allign(ensemble_pdb_file, ref_pdb_file, residues=None, index_diff_ensemble=0, index_diff_ref=0, chain_id=0):
 
     #print ensemble_pdb_file, ' compared to ', ref_pdb_file
 
@@ -41,10 +44,10 @@ def allign(ensemble_pdb_file, ref_pdb_file, residues=None, index_diff=0):
 
     rmsds = []
 
-    residues_to_be_aligned = residues
+    residues_to_be_aligned = [res + index_diff_ensemble for res in residues]
     #print residues_to_be_aligned
 
-    residues_to_be_aligned_ref = [res + index_diff for res in residues_to_be_aligned]
+    residues_to_be_aligned_ref = [res + index_diff_ref for res in residues]
 
     # ARIA 'Ordered Resdidues'
     # residues_to_be_aligned.extend(range(32, 52))
@@ -72,20 +75,25 @@ def allign(ensemble_pdb_file, ref_pdb_file, residues=None, index_diff=0):
     ref_structure = pdb_parser.get_structure("reference", ref_pdb_file)
     ref_model = ref_structure[0]
 
+
     # Make a list of the atoms (in the structures) you wish to align.
     # In this case we use CA atoms whose index is in the specified range
     ref_atoms = []
 
-    ensemble = pdb_parser.get_structure('ensemble', ensemble_pdb_file)
+    if ensemble_pdb_file == ref_pdb_file:
+        ensemble = ref_structure
+    else:
+        ensemble = pdb_parser.get_structure('ensemble', ensemble_pdb_file)
     #average = pdb_parser.get_structure('average', 'fitted_ompg_dmso_average.pdb')
     #ref_model = average[0]
 
-    for ref_chain in ref_model:
+    #for ref_chain in ref_model:
+    for ref_chain in [list(ref_model)[chain_id]]:
         for ref_res in ref_chain:
           if ref_res.get_id()[1] in residues_to_be_aligned_ref:
-
               ref_atoms.extend([ref_res[a] for a in ('N', 'CA', 'C', 'O')])
         break
+
 
 
     io = Bio.PDB.PDBIO()
@@ -94,6 +102,10 @@ def allign(ensemble_pdb_file, ref_pdb_file, residues=None, index_diff=0):
     i = 1
     #for pdb_file in pdb_files[1:]:
     for sample_model in ensemble:
+
+        if sample_model == ref_model:
+            print 'skipping the same model'
+            continue
 
         sample_atoms = []
 
@@ -114,16 +126,17 @@ def allign(ensemble_pdb_file, ref_pdb_file, residues=None, index_diff=0):
         io.structure.add(sample_model)
         rmsds.append(super_imposer.rms)
 
-
+    #print rmsds
     new_file_name = 'alligned_{}_{}.pdb'.format(ensemble_pdb_file[:-4], ref_pdb_file[:-4])
 
-    io.save(new_file_name, write_end=False)
+    #io.save(new_file_name, write_end=False)
 
     #print 'mean: ', np.mean(rmsds)
     #print 'standard deviation: ', np.std(rmsds)
+    #print rmsds
 
     print '{} vs. {} {} (±{})'.format(ensemble_pdb_file, ref_pdb_file, round(np.mean(rmsds),2), round(np.std(rmsds),2))
-
+    print rmsds
 
 
 def get_energy(pdb_file):
@@ -147,9 +160,23 @@ if __name__ == '__main__':
     allign('fitted_ompg_dmso.pdb', 'fitted_ompg_dmso_average.pdb', BETA_SHEET)
     print 'sheet + turn'
     allign('fitted_ompg_dmso.pdb', 'fitted_ompg_dmso_average.pdb', BETA_SHEET+TURN)
-    allign('fitted_ompg_dmso.pdb', '2iww.pdb', BETA_SHEET, index_diff=-1)
-    allign('fitted_ompg_dmso.pdb', '2iwv.pdb', BETA_SHEET, index_diff=-1)
-    allign('fitted_ompg_dmso.pdb', '2f1c.pdb', BETA_SHEET, index_diff=-1)
+    allign('fitted_ompg_dmso.pdb', '2iww.pdb', BETA_SHEET, index_diff_ref=-1)
+    allign('fitted_ompg_dmso.pdb', '2iwv.pdb', BETA_SHEET, index_diff_ref=-1)
+    allign('fitted_ompg_dmso.pdb', '2f1c.pdb', BETA_SHEET, index_diff_ref=-1)
     #allign('2jqy.pdb', '2iwv.pdb', index_diff=0)
-    allign('fitted_ompg_dmso.pdb', '2jqy_average.pdb', BETA_SHEET, index_diff=-1)
-    allign('fitted_ompg_dmso_average.pdb', '2jqy_average.pdb', BETA_SHEET, index_diff=-1)
+    allign('fitted_ompg_dmso.pdb', '2jqy_average.pdb', BETA_SHEET, index_diff_ref=-1)
+    allign('2jqy.pdb', 'fitted_ompg_dmso_average.pdb', BETA_SHEET, index_diff_ensemble=-1)
+
+    print 'deviation of average'
+    allign('fitted_ompg_dmso_average.pdb', '2jqy_average.pdb', BETA_SHEET, index_diff_ref=-1)
+    allign('fitted_ompg_dmso_average.pdb', '2iww.pdb', BETA_SHEET, index_diff_ref=-1)
+
+    print 'solution vs. crystal'
+    allign('2jqy.pdb', '2jqy_average.pdb', BETA_SHEET, index_diff_ensemble=-1, index_diff_ref=-1)
+    allign('2jqy.pdb', '2jqy.pdb', BETA_SHEET, index_diff_ensemble=-1, index_diff_ref=-1)
+    allign('2jqy.pdb', '2iww.pdb', BETA_SHEET, index_diff_ensemble=-1, index_diff_ref=-1)
+    allign('2jqy.pdb', '2iwv.pdb', BETA_SHEET, index_diff_ensemble=-1, index_diff_ref=-1)
+    allign('2jqy.pdb', '2f1c.pdb', BETA_SHEET, index_diff_ensemble=-1, index_diff_ref=-1)
+    allign('2jqy_average.pdb', '2iww.pdb', BETA_SHEET, index_diff_ensemble=-1, index_diff_ref=-1)
+    #allign('2jqy_average.pdb', '2iww.pdb', BETA_SHEET)
+
