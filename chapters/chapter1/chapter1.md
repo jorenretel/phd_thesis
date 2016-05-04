@@ -18,34 +18,49 @@ Some form of compartmentalization is essential for the existence of life. In a s
 
 Membranes form the barrier between the inside and the outside of cells. In eukaryotes membranes are also present within the cell dividing it in different compartments such as the nucleus, mitochondria, golgi apparatus and in the case of plants the chloroplasts. Membranes do not only function purely as separators but play an active role determining the cell's shape, locomotion, interaction with other organisms or neighboring cells and the extracellular matrix in the case of multicellular organisms. Proton gradients over the membranes of mitochondria and chloroplasts drive the synthesis of ATP and ion gradients over the membranes of our neurons allow them to fire.
 
-Because of these various different roles lipid composition in biological membranes is very diverse and differs widely between organisms and cell types. An interesting divide in the type of phospholipids that make up the membrane is between bacteria and eukaryotes versus archaea [@kates_phytanyl_1977][@pereto_ancestral_2004]. The most important distinction here is that in archaea the opposite glycerol stereoisomer is used to synthesize the phospholipid backbone in comparison to the other two branches of life.
+The lipids in membranes are arranged to form a bilayer. The hydrophobic tails are pointing towards the center of the bilayer while the the hydrophilic head groups point towards the aqueous solution. Because of the various different roles lipid composition in biological membranes is very diverse and differs widely between organisms and cell types [@dowhan_molecular_1997].
 
-The mix of components making up the membrane directly influences properties such as its flexibility and curvature. The lipids in the two leaflets that compose the lipid bilayer are often distinct. This is also the case in the outer membrane of E. coli. The outer leaflet is composed of lipopolysaccharides (LPS), and the inner leaflet of the more usual phospholipids of which the majority is phosphatidylethanolamine [@dowhan_molecular_1997][@nikaido_molecular_2003][@gidden_lipid_2009][@garrett_quantification_2012]. This influences the membrane thickness, which is with 24 Å a little thinner than would be expected.
+In general the main lipid component of membranes are phospholipids. In addition eukaryotic membranes also contain sterols influenceing rigidity and permeability [@haines_sterols_2001]. Furthermore membranes of plant cells contain large amounts of glycolipids. Knowledge about the exact chemical composition of different lipids in cells is mostly obtained by a combination of a combination of mass spectroscopy and liquid chromatography and generated its own omics field logically called lipidonomics [@dennis_lipidomics_2009][@ivanova_lipidomics_2009]. In eukaryotes thousands of different lipids can be present based on the combination of different head groups and chain lengths [@sud_lmsd_2007][@vanmeer_membrane_2008]. An interesting divide in the type of phospholipids that make up the membrane is between bacteria and eukaryotes versus archaea [@kates_phytanyl_1977][@pereto_ancestral_2004]. The most important distinction here is that in archaea the opposite glycerol stereoisomer is used to synthesize the phospholipid backbone in comparison to the other two branches of life.
+
+The combination of lipids does not only vary between different membranes but also between the two leaflets that compose the lipid bilayer. This is also the case in the outer membrane of E. coli. The outer leaflet is composed of lipopolysaccharides (LPS), and the inner leaflet of the more usual phospholipids of which the majority is phosphatidylethanolamine (PE) (75%) and phosphatidylglycerol (PG) (20%) [@nikaido_molecular_2003][@gidden_lipid_2009][@garrett_quantification_2012][@sohlenkamp_bacterial_2016].
+
+The fact that there is such a variety of lipids and organisms spend expensive resources to create this variety indicates its relevance. The mix of lipids making up the membrane directly influences properties such as its flexibility, curvature, permeability and interaction with membrane proteins [@kimura_roles_2016].
 
 
 
 ## Membrane Proteins
 
-Besides phospholipids the membrane consists for a large part of membrane proteins.
+Besides lipids the membrane consists for a large part of membrane proteins. In mouse liver the fraction of protein by weight is about 45% and in E. coli this is 75% [@lehninger_lehninger_2008]. Some membrane proteins are mostly outside of membrane only being anchored to the membrane with a covalently bound lipid tag or hydrophobic α-helix. These proteins are known as peripheral or monotopic membrane proteins. Others span the entier bilayer and have parts of the proteins stick out on both sides of the membrane. These proteins are called integral membrane proteins. In turn there are two large classes of integral membrane proteins: proteins largely consistent of multiple membrane spanning α-helices and β-barrels.
 
-The membrane is very crowded with membrane proteins, often the amount of protein (in terms of weight) is larger than the amount of lipids. In E. coli membranes 75 weight percent can be attributed to proteins (Lehninger).
+In most organisms 20-30% of genes code for membrane proteins [@krogh_predicting_2001]. Membrane proteins play a role in numerous important biological events. Receptors transmit information from the outside of the cell to the inside. Transporters enable the flux of molecules and ions. Membrane proteins catalyze reaction such as the before mentioned synthesis of ATP. Almost the entier photosynthesis machinery consists of membrane proteins. The flagellar motor that lets some bacteria swim is membrane embedded. Of course membrane proteins are also active in processes during which the shape of the membrane has to be transformed such as endocytosis and cell division. Furthermore over 60% of all approved drugs target a membrane protein [@overington_how_2006][@yildirim_drugtarget_2007].
 
-The number of unique proteins in the database of membrane proteins of known 3D structure is at the moment (2.5.2016) 609 from which 22 are porins [@membrane-protein-db].
-
-In most organisms 20-30% of genes code for membrane proteins [@krogh_predicting_2001].
-
-Over 60% of all targets of approved drugs target a membrane protein [@overington_how_2006][@yildirim_drugtarget_2007].
+For these reasons it is important to gather a detailed understanding of how these membrane proteins work. However, the number of unique proteins in the database of membrane proteins of known 3D structure is at the moment (4.5.2016) 612 from which 22 are porins, like OmpG [@membrane-protein-db]. The reason for this underrepresentation is actually quite simple. The two major work horses for the structure elucidation at atomic length scales, x-ray crystallography and solution NMR spectroscopy, work very well with soluble protein but less so with large insoluble membrane proteins [@lacapere_determining_2007]. Although recent advances in both techniques have enabled the structure determination of most the membrane proteins in the protein data band (PDB), see table {@tbl:pdb_count_table}, the growth in the number of deposited membrane protein structures still lags behind. The most used technique to grow crystals for x-ray crystallography is the hanging drop method. This method relies on proteins being free in solution. To accomplish for membrane proteins detergents have to be added. As the volume of the drop shrinks and the concentration of both protein and detergent rises often a phase separation takes place negatively influencing the formation of crystals [@lacapere_determining_2007]. An alternative method to produce crystals is to employ a lipid cubic phase which is a complex but ordered matrix of lipid bilayers [@caffrey_comprehensive_2015]. For solution NMR studies membrane proteins are often introduced in micelles or nanodisks [@sanders_reconstitution_1995][@gluck_integral_2009]. Recently cryo-electron microscopy has made impressive progress and can be applied to membrane proteins [@zorzi_singleparticle_2015].
 
 
+|                       | α-helical | β-barrel | monotopic |
+|-----------------------|-----------|----------|-----------|
+| total unique          | 463       | 133      | 46        |
+| x-ray crystallography | 398       | 124      | 46        |
+| electron microscopy   | 34        | 5        | 1         |
+| solution NMR          | 55        | 16       | 1         |
+| solid-state NMR       | 9         | 1        | -         |
+
+Table: membrane proteins protein data bank (PDB) for four structure determination methods. To prevent over-representation of the amount of protein entries for each method have been filtered for 95% sequence similarity. Note that the numbers of structures determined by individual methods does not add up to the total number of unique structures because the structure of several proteins has been determined by more than one method. Also the total number of structures is slightly higher than the number reported in the database of membrane proteins of known 3D structure.{#tbl:pdb_count_table}
 
 
-In general membrane proteins can be divided in several classes, 7 transmembrane, beta-barrel....
 
 The topology of membrane proteins can often be predicted based on the residue sequence. For instance, 20 or more hydrofobic residues is a row is quite likely to form a transmembrane helix. Also other types of residues give a hint to the topology of a membrane protein. For instance tryptophan residues are often found at the interface between the transmembrane and the non-transmembrane part of the protein since they have a large flat aromatic ring system....
 
 
 
 ![Distribution of sequence lengths of all proteins in the uniProt database tagged as membrane protein. The amount of proteins with sequence lengths similar to OmpG, 281 residues, is very large, making OmpG a relevant model system.](figures/membrane_protein_sequence_lenth_distribution.svg){#fig:membrane_protein_sequence_lenth_distribution}
+
+
+## Protein-lipid interactions
+
+
+
+
 
 
 ### Outer membrane proteins (Omps)
