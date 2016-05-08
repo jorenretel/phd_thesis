@@ -63,13 +63,71 @@ Besides from bulk mechanical properties induced by the lipids composition of the
 
 
 
+## Outer membrane protein G
 
-### Outer membrane proteins (Omps)
 
-#### OmpG
 
 
 ![Distribution of sequence lengths of all proteins in the uniProt database tagged as membrane protein. The amount of proteins with sequence lengths similar to OmpG, 281 residues, is very large, making OmpG a relevant model system.](figures/membrane_protein_sequence_lenth_distribution.svg){#fig:membrane_protein_sequence_lenth_distribution}
+
+
+
+Outer membrane protein G (OmpG) is a β-barrel protein found in the outer membrane of E. coli. Besides Gram-negative bacteria like E. coli also mitochondria and chloroplasts have outer membranes. The outer membranes of Gram-negative bacteria are exclusively populated by proteins with a β-barrel topology while in mitochondria and chloroplasts also some α-helical Omps are found [@wimley_versatile_2003]. In the case of Gram-negative bacteria outer membrane proteins are produced in the cytoplasm and moved into the periplasm were they are inserted into the outer membrane by the β-barrel assembly machinery (BAM) complex of which one of the proteins, BamA, itself contains a membrane embedded β-barrel subunit [@gu_structural_2016]. Outer membrane proteins perform a host of different functions that are needed on the interface between the inside and outside of the cell/organel [@fairman_structural_2011]. They can act as enzymes, transporters and receptors. Many are autotransporters that translocate one of their domains to the extracellular space often acting as adhesins helping with the invasion of other cells and therefor linked to infectious decease [@shahid_membraneprotein_2012]. OmpG belongs to a class of outer membrane proteins known as porins. These proteins act as pores allowing the passive but selective uptake and secretion of nutrients, ions and proteins. In general porins in Gram-negative bacteria have short turns on the periplasmic side and long loops on the extracellular side [@wimley_versatile_2003].
+
+The main porins for the uptake of sugars in the outer membrane of Gram-negative bacteria are LamB and OmpF. When genes for LamB and OmpF were deleted and a selection procedure was carried out to generate phenotypes that were able to grow on a maltodextrin medium a number of different mutations were found. One of those mutations allowed the otherwise not expressed OmpG to come to expression [@misra_novel_1989]. Interestingly low levels of OmpG expression were found in Salmonella and Shigella bacteria [@fajardo_biochemistry_1998]. Further biochemical analysis showed that OmpG is able to import mono-, di- and trisacharides [@fajardo_biochemistry_1998]. Furthermore it was discovered that OmpG seems to only exist as a monomer, which is exceptional since most porins are trimers. No evidence of a oligomeric form could be found in native/denaturing PAGE analysis and cross-linking experiments [@fajardo_biochemistry_1998]. Further evidence from electrophysiology studies confirmed the monomeric nature of OmpG [@conlan_biochemical_2000]. The OmpG gene codes for 301 amino acids of which the first 20 are a signal sequence that gets cleaved off upon arrival in the periplasm [@fajardo_biochemistry_1998].
+
+An cryo electron microsopy projection map at 6 Å confirmed the β-barrel structure of OmpG and its observed diameter of 2.5 nm agreed with earlier made predictions that OmpG is composed of 14 strands [@behlau_projection_2001][@conlan_biochemical_2000]. In 2006 and 2007 crystal structures and a solution NMR structures were published [@subbarao_crystal_2006][@yildiz_structure_2006][@liang_structure_2007]. The studies of Yildiz et al. hint at a pH-dependent opening and closing mechanism [@yildiz_structure_2006]. For these studies OmpG was crystallized at pH 7.5 and pH 5.6. The structure at pH 7.5 showed an open conformation while in the structure at pH 5.6 the longest extra-cellular loop (loop 6) was folded into the pore closing it off, see figure {@fig:ompg_crystal_and_solution_structures}. The crystal structure of Subbarao and van den Berg was crystallized at pH 5.5 and misses part of the residues in loop 6 (220-231) but seems to resemble the pH 7.5 stucture of Yildiz et al., which is surprising [@subbarao_crystal_2006]. The solution NMR studies were performed at pH 6.3 which is between the conditions of the structures of Yildiz et al [@liang_structure_2007]. The entire loop 6 and parts of loop 7 could not be assigned. In general almost no long-range restraints could be found for most of the extra-cellular loops indicating motional inhomogeneity. Therefor the β-barrel in the solution NMR structure is a lot shorter on the extra-cellular side. The motion of the extra-cellular loops was confirmed by heteronuclear NOESY experiments.
+
+Although a simple explanation for the pH-dependent opening and closing of OmpG seems to be present the exact mechanism remains unclear.
+
+
+
+
+
+some epitope labeling [@visudtiphole_determining_2006]
+
+
+--@qu_trimeric_2007
+
+
+--@anbazhagan_incorporation_2008
+
+
+
+
+AFM on OmpG [@sapra_one_2009]
+AFM pH dependence in native lipids [@mari_phinduced_2010]
+single-molecule force spectroscopy pH dependence [@damaghi_phdependent_2010]
+more biosensor engeneering attaching a modulator [@grosse_structural_2010]
+
+Fourier transform infrared spectroscopy FTIR on opening closing...thermostability higher in lipids. Open form is more rigid at higher temperatures. Higher pH increases betasheet content. Deleting 9 residues in loop 6 shows similar pH-induced differences as wild type. OmpGala and OmpGcys were histidines 231/261 are mutated are always in open state  [@korkmaz-ozkan_correlation_2010]
+
+
+more FTIR [@korkmaz_situ_2012]
+solution guys with pH dependence [@zhuang_nmrbased_2013]
+cut off all loops still pH-dependent gating [@grosse_structurebased_2014]
+
+
+biosensor:
+biosensor idea, not OmpG [@gu_stochastic_1999]
+biopsensor explanation [@bayley_stochastic_2001]
+-- nanopore sequencing [@rhee_nanopore_2007]
+About how ompg insert and orients in the bilayer [@chen_orientation_2008]
+using OmpG as biosensor some engeneering to stop spontanuous closing: G231 and D262 mutated to cysteines to form disulfide bond. Deletion of D215 to get rid of beta bulge. Combination of the two removed 95% of spontaneous gating [@chen_outer_2008]
+
+
+we:
+[@hiller_solidstate_2005]
+[@hiller_2313clabeling_2008]
+[@higman_assigning_2009]
+
+
+
+
+![Crystal structures by Yildiz et al. and solution NMR structure by Liang and Tamm.](figures/ompg_crystal_and_solution_structures.svg){#fig:ompg_crystal_and_solution_structures}
+
+
+
 
 
 
