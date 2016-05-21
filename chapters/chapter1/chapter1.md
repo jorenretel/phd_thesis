@@ -97,7 +97,7 @@ Besides that there are some unresolved biological questions surrounding OmpG, it
 
 
 
-![Distribution of sequence lengths of all proteins in the uniProt database tagged as a transmembrane protein. The amount of proteins with sequence lengths similar to or smaller than OmpG, 281 residues, is very large, making OmpG a relevant model system.](figures/membrane_protein_sequence_lenth_distribution.svg){#fig:membrane_protein_sequence_lenth_distribution}
+![Distribution of sequence lengths of all proteins in the uniProt database tagged as a transmembrane protein. The bin in which OmpG (281 residues) falls is highlighted in orange. The amount of proteins with sequence lengths similar to or smaller than OmpG is very large, making OmpG a relevant model system.](figures/membrane_protein_sequence_lenth_distribution.svg){#fig:membrane_protein_sequence_lenth_distribution}
 
 
 
