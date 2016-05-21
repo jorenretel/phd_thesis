@@ -122,7 +122,7 @@ $endif$
 $if(biblatex)$
 %Joren modifications begin
 %\usepackage$if(biblio-style)$[style=$biblio-style$]$endif${biblatex}
-\usepackage[backend=biber, refsection=chapter, maxnames=99, isbn=false, sorting=none]{biblatex}
+\usepackage[backend=biber, refsection=chapter, maxnames=99, firstinits=true, isbn=false, sorting=none]{biblatex}
 \AtBeginBibliography{\footnotesize}
 \renewbibmacro{in:}{}
 \AtEveryBibitem{\clearlist{language} \clearfield{urlyear}}
