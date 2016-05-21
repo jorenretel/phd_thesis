@@ -86,9 +86,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="1699.7732"
-     inkscape:cy="326.10751"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="864.17337"
+     inkscape:cy="577.28331"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -115,7 +115,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -231,7 +231,7 @@
          sodipodi:role="line"
          id="tspan5398"
          x="760"
-         y="1895.2194"></tspan></text>
+         y="1895.2194" /></text>
     <circle
        style="opacity:1;fill:#fdbf6f;fill-opacity:1;stroke:none;stroke-width:7.15600014;stroke-miterlimit:4;stroke-dasharray:3.57800007, 3.57800007;stroke-dashoffset:0"
        id="path7788-7-1-7-5"
@@ -1696,7 +1696,7 @@
        r="26.060915" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-3278.7512"
        y="2558.3621"
        id="text11602"
@@ -1705,81 +1705,81 @@
          id="tspan11604"
          x="-3278.7512"
          y="2558.3621"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#000000;">outward facing Trp and Tyr</tspan></text>
-    <circle
-       style="opacity:1;fill:#1f78b4;fill-opacity:1;stroke:none;stroke-width:7.15600014;stroke-miterlimit:4;stroke-dasharray:3.57800007, 3.57800007;stroke-dashoffset:0"
-       id="path7788-84"
-       cx="-3328.2751"
-       cy="2623.7639"
-       r="26.060915" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="-3278.7512"
-       y="2632.624"
-       id="text11602-0"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan11604-5"
-         x="-3278.7512"
-         y="2632.624"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#000000;">His involved in opening/closing, mutated to Cys/Ala (Chen et al. 2008)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#000000">outward facing Trp and Tyr</tspan></text>
     <circle
        style="opacity:1;fill:#33a02c;fill-opacity:1;stroke:none;stroke-width:7.15600014;stroke-miterlimit:4;stroke-dasharray:3.57800007, 3.57800007;stroke-dashoffset:0"
        id="path7788-7-1-1-7"
        cx="-3328.2751"
-       cy="2772.2478"
+       cy="2623.7241"
        r="26.060915" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'TeX Gyre Pagella';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-3278.7512"
-       y="2781.1477"
+       y="2632.624"
        id="text11602-0-3"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan12145"
          x="-3278.7512"
-         y="2781.1477">mutated to Cys to create disulfide bond (Kormaz-Özkan et al. 2010)</tspan></text>
+         y="2632.624">mutated to Cys to create disulfide bond (Chen et al. 2008)</tspan></text>
+    <circle
+       style="opacity:1;fill:#1f78b4;fill-opacity:1;stroke:none;stroke-width:7.15600014;stroke-miterlimit:4;stroke-dasharray:3.57800007, 3.57800007;stroke-dashoffset:0"
+       id="path7788-84"
+       cx="-3328.2751"
+       cy="2772.2478"
+       r="26.060915" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-3278.7512"
+       y="2783.9678"
+       id="text11602-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan11604-5"
+         x="-3278.7512"
+         y="2783.9678"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#000000">His involved in opening/closing, mutated to Cys/Ala  (Kormaz-Özkan et al. 2010)</tspan></text>
     <circle
        style="opacity:1;fill:#a6cee3;fill-opacity:1;stroke:none;stroke-width:7.15600014;stroke-miterlimit:4;stroke-dasharray:3.57800007, 3.57800007;stroke-dashoffset:0"
        id="path7788-7-59-7"
        cx="-3328.2751"
-       cy="2696.666"
+       cy="2846.5098"
        r="26.060915" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-3278.7512"
-       y="2706.886"
+       y="2859.5898"
        id="text11602-0-3-6"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan11604-5-6-0"
          x="-3278.7512"
-         y="2706.886"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#000000;">deleted (Chen et al. 2008)</tspan></text>
+         y="2859.5898"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#000000">deleted  (Kormaz-Özkan et al. 2010)</tspan></text>
     <circle
        style="opacity:1;fill:#b2df8a;fill-opacity:1;stroke:none;stroke-width:7.15600014;stroke-miterlimit:4;stroke-dasharray:3.57800007, 3.57800007;stroke-dashoffset:0"
        id="path7788-7-1-4-0"
        cx="-3328.2751"
-       cy="2846.5496"
+       cy="2697.9861"
        r="26.060915" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-3278.7512"
-       y="2855.4097"
+       y="2706.8462"
        id="text11602-0-3-6-3"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan11740"
          x="-3278.7512"
-         y="2855.4097"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#000000;">deleted to remove β-bulge (Kormaz-Özkan at al. 2010)</tspan></text>
+         y="2706.8462"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#000000">deleted to remove β-bulge (Chen et al. 2008)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-3278.7512"
        y="2929.6716"
        id="text11602-0-3-6-3-5"
@@ -1788,7 +1788,7 @@
          id="tspan11740-1"
          x="-3278.7512"
          y="2929.6716"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#000000;fill-opacity:1;">deleted to create minimal pore, additional mutations not shown (Grosse et al. 2014)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#000000;fill-opacity:1">deleted to create minimal pore, additional mutations not shown (Grosse et al. 2014)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:125%;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
