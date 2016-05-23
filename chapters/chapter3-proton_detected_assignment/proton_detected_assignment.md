@@ -80,7 +80,7 @@ In figure {@fig:strip_plots_37_52_B} a representative stretch of strips is shown
 In table {@tbl:T2_times_proton_detected} linewidth and measured T2 relaxation times are listed....
 
 
-| nucleus | **LW (Hz)** | T2* (ms)  | **T2~hom~(Hz)** | T2~inhom~ (ms) | LW~nat~ (Hz) |
+| nucleus | **LW (Hz)** | T2* (ms)  | **T2~hom~(ms)** | T2~inhom~ (ms) | LW~nat~ (Hz) |
 |---------|------------:|----------:|----------------:|---------------:|-------------:|
 | ^1^H    | 60 - 90     | 5.3 - 3.5 | 8               | 15.7 - 6.3     | 20 - 50      |
 | ^15^N   | 30 - 50     | 10.0 - 6.3| 19              | 24.0 - 9.5     | 13 - 33      |
