@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="52.617325cm"
-   height="32.343918cm"
-   viewBox="0 0 1864.3934 1146.0443"
-   id="svg2"
+   width="104.02071mm"
+   height="100.08047mm"
+   viewBox="0 0 368.57733 354.61583"
+   id="svg4249"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="round_tolerance.svg">
   <defs
-     id="defs4">
+     id="defs4251">
     <marker
        inkscape:stockid="TriangleInL"
        orient="auto"
@@ -87,23 +87,22 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="930.06506"
-     inkscape:cy="561.59405"
+     inkscape:cx="-349.41741"
+     inkscape:cy="-152.69207"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
-     fit-margin-left="12"
-     fit-margin-right="7"
+     fit-margin-left="0"
+     fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
      inkscape:window-height="704"
-     inkscape:window-x="255"
-     inkscape:window-y="1107"
-     inkscape:window-maximized="1"
-     units="cm" />
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
   <metadata
-     id="metadata7">
+     id="metadata4254">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -118,9 +117,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(720.77935,160.65993)">
+     transform="translate(-135.84598,-25.054315)">
     <g
-       transform="translate(-8778.701,-9846.1408)"
+       transform="matrix(0.3094259,0,0,0.3094259,-2489.0506,-2971.8843)"
        id="g33657">
       <rect
          y="9696.1123"
