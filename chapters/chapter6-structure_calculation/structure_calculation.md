@@ -224,7 +224,5 @@ The solid state NMR structure is very similar to the solution NMR structure. The
 
 
 
-![Crystal structure 2IWV of OmpG with surrounding unit cells [@yildiz_structure_2006]. One unit cell contains four OmpG molecules. One of the unit cells is depicted in red. The individual OmpG molecules are stacked to form an quasi infinite barrel with several crystal contact stabilizing this conformation. Figure produced using pymol [@delano_pymol_2002].](figures/crystal_structure_with_surrounding_unit_cells.png){#fig:crystal_structure_with_surrounding_unit_cells}
-
 
 
