@@ -253,7 +253,7 @@ $if(title)$
               of Freie Universität Berlin%
           \end{center}%
           \vfil%
-          \begin{center}\Large%
+          \begin{center}\large%
               by%
           \end{center}%
           \begin{center}\large $author$ \end{center}%
@@ -273,8 +273,8 @@ $if(title)$
 Doctorate studies where conducted from 2010 untill 2016 under the supervision of Hartmut Oschkinat at the Department of NMR-Supported Structural Biology of the Leibniz-Intitut für Molekulare Pharmakologie.\\%
 \\%
 \\%
-\textbf{1\textsuperscript{st} reviewer: } prof. dr. Hartmut Oschkinat \\%
-\textbf{2\textsuperscript{nd} reviewer: } prof. dr. Bernd Reif \\%
+\textbf{1\textsuperscript{st} reviewer: } Prof. Dr. Hartmut Oschkinat \\%
+\textbf{2\textsuperscript{nd} reviewer: } Prof. Dr. Bernd Reif \\%
 \\%
 \\%
 Date of defence: \\%
