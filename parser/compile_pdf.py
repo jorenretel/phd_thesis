@@ -21,7 +21,8 @@ normal_chapters = []
 chapterDirs = sorted([os.path.join(pathToChapters, directory) for directory in os.listdir(pathToChapters) if directory.startswith('chapter')])
 normal_chapters.extend([True]*(len(chapterDirs)-len(normal_chapters)))
 chapterDirs.extend([os.path.join(pathToChapters, 'appendixA'),
-                    os.path.join(pathToChapters, 'summaries')])
+                    os.path.join(pathToChapters, 'summaries'),
+                    os.path.join(pathToChapters, 'CV')])
                     #os.path.join(pathToChapters, 'acknowledgements'),
                     #os.path.join(pathToChapters, 'references')])
 normal_chapters.extend([False]*(len(chapterDirs)-len(normal_chapters) + 1))
