@@ -1,9 +1,8 @@
 \mainmatter
-\part{Introduction}
 \fancyhead[RE]{CHAPTER \thechapter}
 
-Structural Biology of Membrane Proteins
-=======================================
+Introduction: Structural Biology of Membrane Proteins
+=====================================================
 
 This thesis revolves around the determination of the three-dimensional structure of the outer membrane protein G (OmpG) from the *E. coli* bacterium using solid-state nuclear magnetic resonance (NMR) spectroscopy. Knowledge about the three-dimensional structure of biomolecules such as nucleic acids and proteins is of great interest for understanding the function and mechanism of these molecules. Therefore the field of structural biology is a central part of biochemistry and molecular biology, and for years almost every single edition of the leading scientific journals features at least one article concerning the structure and function of a biomolecular system.
 

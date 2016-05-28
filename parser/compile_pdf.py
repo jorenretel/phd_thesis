@@ -20,9 +20,9 @@ normal_chapters = []
 
 chapterDirs = sorted([os.path.join(pathToChapters, directory) for directory in os.listdir(pathToChapters) if directory.startswith('chapter')])
 normal_chapters.extend([True]*(len(chapterDirs)-len(normal_chapters)))
-chapterDirs.extend([os.path.join(pathToChapters, 'appendixA'),
-                    os.path.join(pathToChapters, 'acknowledgements'),
-                    os.path.join(pathToChapters, 'references')])
+chapterDirs.extend([os.path.join(pathToChapters, 'appendixA')])
+                    #os.path.join(pathToChapters, 'acknowledgements'),
+                    #os.path.join(pathToChapters, 'references')])
 normal_chapters.extend([False]*(len(chapterDirs)-len(normal_chapters)))
 figureDirs = [os.path.join(chapterDir, 'figures/') for chapterDir in chapterDirs if os.path.exists(os.path.join(chapterDir, 'figures/'))]
 markdownFiles = getMarkDownFilePaths(chapterDirs)
@@ -65,7 +65,7 @@ def compile_document(biber=False, docx=False, html=False):
     if not biber:
         call(['pandoc', '-s', '--toc', '--chapters', '--smart', preParsedMarkdownPath, '../metadata.yaml', '-o', outfile, '--filter', 'pandoc-eqnos', '--filter','pandoc-fignos', '--filter', 'pandoc-tablenos', '--bibliography=' + bibtex_file, '--csl', csl_file, '--latex-engine=xelatex', '--template=../template/latex_template_pandoc116_modified.latex'])
     else:
-        call(['pandoc', '-s', '--toc', '--chapters', '--smart', '--biblatex', preParsedMarkdownPath, '../metadata.yaml', '-o', outfile, '--filter', 'pandoc-eqnos', '--filter','pandoc-fignos', '--filter', 'pandoc-tablenos', '--bibliography=' + bibtex_file, '--csl', csl_file, '--latex-engine=xelatex', '--template=../template/latex_template_pandoc116_modified.latex'])
+        call(['pandoc', '-s', '--toc', '--chapters', '--smart', '--biblatex', preParsedMarkdownPath, '../metadata.yaml', '-o', outfile, '-B', '../chapters/acknowledgements/acknowledgements.tex', '--filter', 'pandoc-eqnos', '--filter','pandoc-fignos', '--filter', 'pandoc-tablenos', '--bibliography=' + bibtex_file, '--csl', csl_file, '--latex-engine=xelatex', '--template=../template/latex_template_pandoc116_modified.latex'])
         call(['xelatex', 'thesis'], cwd='../compiled')
         call(['biber', 'thesis'], cwd='../compiled')
         call(['xelatex', 'thesis'], cwd='../compiled')
