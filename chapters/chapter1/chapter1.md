@@ -304,6 +304,9 @@ Radio frequency driven recoupling (RFDR) is a homonuclear magnetization transfer
 
 #### Scalar transfers
 
+The scalar coupling can be used for homonuclear and heteronuclear magnetization transfers. Insensitive nuclei enhanced by polarization transfer (INEPT) is a heteronuclear transfer method and is one of the main building blocks of solution NMR experiments and is sometimes used in experiments in the solid state aswell. In these studies, scalar coupling based ^13^C-^13^C transfer steps are used in the proton detected pulse sequences described in chapter 3 and illustrated in figure {@fig:assignment_experiments_proton_detected}. Such homonuclear scalar coupling based transfers basically employ the same pulse sequence as INEPT, with the only difference that all pulses are applied to the same isotope.
+
+To transfer magnetization from spin I to spin S, first the magnetization of I in brought into the transverse plane. This can be done by applying a 90°-pulse to spin I. In the case of the homonuclear ^13^C-^13^C transfers in chapter 3, this is done by a ^1^H-^13^C CP step. Subsequently a delay of duration 1/(2J) is given (where J is the scalar coupling constant) with a 180°-pulse on both spins I and S in the middle of this period. During the delay, the scalar coupling evolves. The 180°-pulse on I refocuses the chemical shift evolution, while the simultaneous 180°-pulse on S prevents the scalar coupling to be refocused as well. At the end of the delay a antiphase spin state 2I~x~S~z~. By two simultaneous 90°-pulses on I and S, the state 2 2I~z~S~y~ is created.
 
 ### Sequential Assignment of solid state NMR spectra
 
