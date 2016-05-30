@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="1082.0458"
-     inkscape:cy="1292.3113"
+     inkscape:zoom="0.35"
+     inkscape:cx="723.51228"
+     inkscape:cy="1345.7879"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -36,9 +36,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="702"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="704"
+     inkscape:window-x="148"
+     inkscape:window-y="1077"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,7 +78,7 @@
          x="147.23538"
          y="407.1947"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle"
-         id="tspan23307">that can be assigned to eachsequential pair A,B.</tspan></text>
+         id="tspan23307">that can be assigned to each sequential pair A,B.</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:60px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
