@@ -107,24 +107,25 @@ The expression protocol is nearly the same as described above with the following
 ## Results and Discussion
 
 
-| labeling scheme              | pairs in the OmpG sequence |
-|------------------------------|---------------------------:|
-| **forward labeled**          |                            |
-| GAF~2,3~Y~2,3~(S)            |                         33 |
-| GAVLS(W~1,2,3~)              |                         32 |
-| RIGA(S)                      |                         17 |
-| GANDSH(LV)                   |                         70 |
-| GENDQPASR                    |                         74 |
-| GAF~2,3~Y~2,3~SHVL(W~1,2,3~) |                         76 |
-|                              |                            |
-| **reverse labeled**          |                            |
-| 2-TEMPQANDSG                 |                         84 |
-| 1,3-TEMPQANDSG               |                         84 |
-| 2-SHLYGWAFV(QENDT)           |                        201 |
-| 1,3-SHLYGWAFV                |                         76 |
-| 1,3-MKINDT                   |                         23 |
+| labeling scheme              | labeled residues | sequential pairs |
+|------------------------------|-----------------:|-----------------:|
+| **forward labeled**          |                  |                  |
+| GAF~2,3~Y~2,3~(S)            |               94 |               33 |
+| GAVLS(W~1,2,3~)              |               97 |               32 |
+| RIGA(S)                      |               77 |               17 |
+| GANDSH(LV)                   |              142 |               70 |
+| GENDQPASR                    |              157 |               74 |
+| GAF~2,3~Y~2,3~SHVL(W~1,2,3~) |              144 |               76 |
+|                              |                  |                  |
+| **reverse labeled**          |                  |                  |
+| 2-TEMPQANDSG                 |              162 |               84 |
+| 1,3-TEMPQANDSG               |              162 |               84 |
+| 2-SHLYGWAFV(QENDT)           |              238 |              201 |
+| 1,3-SHLYGWAFV                |              144 |               76 |
+| 1,3-MKINDT                   |               82 |               23 |
 
 Table: Amino acid selectively ^13^C labeled samples produced for the assignment of OmpG. Amino acids between brackets were not intended to be labeled (in the case of the forward labeled schemes these amino acids were not added labeled to the growth medium. In the case of the reverse labeled schemes, these amino acids were added unlabeled to the growth medium). In all labeling schemes, all residues in the sequence are ^15^N labeled.
+
 
 
 ### Forward labeled schemes
