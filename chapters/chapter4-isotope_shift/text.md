@@ -1,6 +1,7 @@
 
-Connecting Assignments in ^13^C- and ^1^H-detected Spectra
-==========================================================
+
+Combining Information Obtained from ^13^C- and ^1^H-detected Experiments
+========================================================================
 
 ## Access to side-chain chemical shifts in perdeuterated proteins
 

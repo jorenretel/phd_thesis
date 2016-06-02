@@ -1,6 +1,6 @@
 
-Assignment Using ^1^H-detected Spectra
-======================================
+Assignment Using ^1^H-detected Experiments
+==========================================
 
 ## Introduction
 

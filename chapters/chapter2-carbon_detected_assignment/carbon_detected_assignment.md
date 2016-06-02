@@ -1,6 +1,6 @@
 
-Assignment Using ^13^C-detected Spectra
-=======================================
+Assignment Using ^13^C-detected Experiments
+===========================================
 
 ## Introduction
 
