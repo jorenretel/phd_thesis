@@ -1,0 +1,13 @@
+
+
+General Discussion and Outlook
+==============================
+
+The goal of these studies is to develop new methods for the structure determination of membrane proteins. OmpG serves as a good system for the
+
+Different labeling strategies were explored to be able to make assignments using ^13^C-detected experiments. This strategy worked until a certain degree, as a starting assignment could be made. However, the use of ^1^H-detected experiments were absolutely necessary to make a complete assignment. The assignment strategy based on ^1^H-detected experiments is much more robust. The successful application of ^1^H-detection on a variety of systems, among which OmpG, already caused ^1^H-detection to become more common and will undoubtedly become the standard detection method in solid-state NMR within the next few years. Whereas 3 years ago only a few labs in the world owned a ultra fast spinning probe, the field is quickly adapting. Because more spectrometers are equipped with ultra fast spinning probes, experiment time on these devices will become slightly less scarce and therefore it will be feasible to systematically explore which type of experiments work best for systems like OmpG. Now, only a few experiments were done that were repeated several before spectra were obtained of sufficient quality to perform the sequential assignment and structure determination. However, it would be very interesting to compare the effectiveness of different pulse sequences on the OmpG sample. For instance, it would be interesting to compare different ^13^C-^13^C transfer methods as it seems that a lot of signal is lost during the scalar based method used so far in this project. Also ^1^H-detected experiments that give access to sidechain chemical shifts should be tested. Although it was possible to assign OmpG ^13^C sidechain chemical shifts with the aid of ^13^C-detected experiments, a completely different set of isotope labeled samples was used to do this. It would be favorable to only use one sample to obtain the spectra necessary for the sequential assignment and the assignment of sidechain chemical shifts. As discussed in chapter 4, a number of different ^1^H-detected approaches have been developed to access sidechain chemical shifts but it should be assessed which approach would be most effective on a membrane protein preparation like OmpG.
+
+
+Furthermore, it is more clear in these spectra how many residues contribute to the signal set. The signal to noise and dispersion of the ^1^H-detected experiments here is at the limit of being useful.
+
+It would be interesting to compare different ^13^C-^13^C transfer methods as it seems that a lot of signal is lost during the scalar transferred used so far.
