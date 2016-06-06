@@ -49,6 +49,10 @@ As detailed before there are in principle four cross-peaks forming a network tha
 
 
 
+![ The color indicates the ambiguity of the least ambiguous restraint present for the interaction between two residues. Interactions between two residues for which an unambiguous restraint is present are colored red.](figures/ambiguity_it0H.svg){#fig:ambiguity_it0H}
+
+
+
 ### Distance classes
 
 In the dipolar-based transfer experiments used in solid-state NMR distances can not be extracted from peak volumes with the same amount of precision as in solution NMR [TODO:cite who?]. Therefor a very crude division into two upper bound distance classes was done. Peaks were sorted from high to low intensity. Starting from the most intense peaks in the list, peaks were classified to correspond to a short distance (3.5 Å) until the first peak was encountered that was not the largest in its strip (and therefore not corresponding to the shortest over-the-strand distance). All peaks with a intensity equal or lower to this peak are given a more generous upper bound of 5.5 Å. Lower bounds were set to 1.0 Å in both cases.
