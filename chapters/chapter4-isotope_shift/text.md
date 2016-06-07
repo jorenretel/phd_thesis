@@ -45,10 +45,6 @@ The most straight-forward approach to sequential assignment might seem to first 
 
 
 
-However, if the Cα-Cβ combination in a strip of the deuterated sample corresponds to a very crowded area of the uniformly labeled ^13^C-^13^C correlation, it can sometimes be easier to sequentially assign the spin system purely based on matching strips in the ^1^H-detected spectra first. The reason why the crowding in the uniformly labeled sample matters here is that for a degenerate Cα-Cβ combination it is not known yet to which residue-specifically labeled sample it belongs. Therefore the peaks from different residue-specifically virtually still overlap.
-Of course finding the i+1 strip is also harder for very degenerate Cα-Cβ combinations, but at least the peak positions in the ^13^C-dimensions of the matching strips should fit almost perfectly because of the lack of isotope shift within spectra recorded using the same sample. Also, when the hcaCBcacoNH and hcoCAcoNH peaks in the strip correspond to a less degenerate Cα-Cβ combination the assignment can be easily extended in the N-terminal direction. After the sequential assignment of a particular spin system is done, it is a lot easier to find the corresponding ^13^C-detected spin system since now the residue type is known, which limits the choice between possible spin systems and it is clear which of the residue specific labeled ^13^C-^13^C correlations to use to find the matching Cα-Cβ peak. If it is still not clear which Cα-Cβ peak should be chosen, the exact resonance frequencies in the protonated samples can be found by looking at sequential cross-peaks instead of just at the Cα-Cβ peaks. When the strip has already been sequentially assigned, this becomes a lot more trivial since often the correct ^13^C chemical shifts of the neighboring spin system in the protonated sample are already known.
-In practice, there is no sharp distinction between the two strategies, since they can basically be used at the same time. In solution NMR the situation is similar. Often the entire backbone is assigned first before the TOCSY spectra are used to find the side-chain chemical shifts. However, in many cases, they are consulted already during the sequential assignment process to aid residue typing.
-
 \footnotesize
 
 
@@ -74,6 +70,15 @@ In practice, there is no sharp distinction between the two strategies, since the
 Table: For every amino acid there is a labeled sample where the intra-residual peaks are best resolved. For some residue types, multiple spectra could be used as a reference spectrum in which case the one specifically used in this study is listed. For methionine, there is no labeling scheme in which the Cα-Cβ is separated well from other peaks. Therefore the Cα-Cγ peak is used. The Cγ chemical shift can not be observed in ^1^H-detected spectra and only the Cα shift can be used directly. Further support for the assignment is given by sequential cross peaks.{#tbl:prefered_samples}
 
 \normalsize
+
+
+
+
+However, if the Cα-Cβ combination in a strip of the deuterated sample corresponds to a very crowded area of the uniformly labeled ^13^C-^13^C correlation, it can sometimes be easier to sequentially assign the spin system purely based on matching strips in the ^1^H-detected spectra first. The reason why the crowding in the uniformly labeled sample matters here is that for a degenerate Cα-Cβ combination it is not known yet to which residue-specifically labeled sample it belongs. Therefore the peaks from different residue-specifically virtually still overlap.
+Of course finding the i+1 strip is also harder for very degenerate Cα-Cβ combinations, but at least the peak positions in the ^13^C-dimensions of the matching strips should fit almost perfectly because of the lack of isotope shift within spectra recorded using the same sample. Also, when the hcaCBcacoNH and hcoCAcoNH peaks in the strip correspond to a less degenerate Cα-Cβ combination the assignment can be easily extended in the N-terminal direction. After the sequential assignment of a particular spin system is done, it is a lot easier to find the corresponding ^13^C-detected spin system since now the residue type is known, which limits the choice between possible spin systems and it is clear which of the residue specific labeled ^13^C-^13^C correlations to use to find the matching Cα-Cβ peak. If it is still not clear which Cα-Cβ peak should be chosen, the exact resonance frequencies in the protonated samples can be found by looking at sequential cross-peaks instead of just at the Cα-Cβ peaks. When the strip has already been sequentially assigned, this becomes a lot more trivial since often the correct ^13^C chemical shifts of the neighboring spin system in the protonated sample are already known.
+In practice, there is no sharp distinction between the two strategies, since they can basically be used at the same time. In solution NMR the situation is similar. Often the entire backbone is assigned first before the TOCSY spectra are used to find the side-chain chemical shifts. However, in many cases, they are consulted already during the sequential assignment process to aid residue typing.
+
+
 
 
 ## Final extent of the assignment

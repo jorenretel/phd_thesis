@@ -111,6 +111,8 @@ CCPNMR Analysis has very good support for configuring custom labeling schemes [@
 
 ## Results and Discussion
 
+Most of the labeled samples were already made by Matthias Hiller before I joined the project. The GAF~α,β~Y~α,β~SHVL and GENDQPASR samples were produced by Gregorio Guiseppe de Palma while I was already involved in this project. The TEMPQANDSG and SHLYGWAFV samples were expressed by Matthias Hiller and reconstituted into lipids by me. Additionally, an initial assignment was already made based on the spectra recorded on the GAF~α,β~Y~α,β~(S), GAVLS(W~α,β,γ~), RIGA(S), GANDSH(LV) and uniformly 2- and 1,3-glycerol labeled samples [@hiller_2313clabeling_2008][@higman_assigning_2009]. They are briefly reviewed in this chapter, because they form the basis for further assignments made in this work. All names of labeling schemes directly reflect the amino acids are labeled. Between brackets are amino acids that were unintentionally labeled due to metabolic scrambling. In table {@tbl:labeling_scheme_table} all amino acid selective labeling schemes produced for the assignment of OmpG listed.
+
 
 | labeling scheme              | labeled residues | sequential pairs |
 |------------------------------|-----------------:|-----------------:|
@@ -129,13 +131,13 @@ CCPNMR Analysis has very good support for configuring custom labeling schemes [@
 | 1,3-SHLYGWAFV                |              144 |               76 |
 | 1,3-MKINDT                   |               82 |               23 |
 
-Table: Amino acid selective ^13^C labeled samples produced for the assignment of OmpG. Amino acids between brackets were not intended to be labeled (in the case of the forward labeled schemes these amino acids were not added labeled to the growth medium. In the case of the reverse labeled schemes, these amino acids were added unlabeled to the growth medium). In all labeling schemes, all residues in the sequence are ^15^N labeled.
+Table: Amino acid selective ^13^C labeled samples produced for the assignment of OmpG. Amino acids between brackets were not intended to be labeled (in the case of the forward labeled schemes these amino acids were not added labeled to the growth medium. In the case of the reverse labeled schemes, these amino acids were added unlabeled to the growth medium). In all labeling schemes, all residues in the sequence are ^15^N labeled.{#tbl:labeling_scheme_table}
 
 
 
 ### Forward labeled schemes
 
-Most of the forward labeled samples were already made by Matthias Hiller before I joined the project. The GAF~α,β~Y~α,β~SHVL and GENDQPASR samples were produced by Gregorio Guiseppe de Palma while I was already involved in this project. Additionally, an initial assignment was already made based on these spectra in combination with spectra of the uniformly 2- and 1,3-glycerol labeled samples [@higman_assigning_2009]. They are briefly reviewed in this chapter, because they form the basis for further assignments made in this work. All names of labeling schemes reflect the amino acids that added labeled to the feedstock. Between brackets are amino acids that were unintentionally labeled due to metabolic scrambling. All these samples contain labeled glycine and alanine. Furthermore, labeled serine is present in all samples, including GAF~α,β~Y~α,β~(S) and RIGA(S) for which serine was not added labeled to the feedstock, because serine is metabolically closely related to glycine. Alanine and serine Cα-Cβ peaks are well resolved in uniformly labeled OmpG and therefor obviously also in residue selective labeled samples.
+All these samples contain labeled glycine and alanine. Furthermore, labeled serine is present in all samples, including GAF~α,β~Y~α,β~(S) and RIGA(S) for which serine was not added labeled to the feedstock, because serine is metabolically closely related to glycine. Alanine and serine Cα-Cβ peaks are well resolved in uniformly labeled OmpG and therefor obviously also in residue selective labeled samples.
 
 
 #### GAF~α,β~Y~α,β~(S)
