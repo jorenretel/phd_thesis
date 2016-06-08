@@ -42,6 +42,9 @@ Samples were prepared in the same way as the fully protonated samples used for t
 
 ### NMR experiments
 
+Experiments were recorded on an Bruker Avance III 800 MHz ^1^H larmor frequency spectrometer at 60 kHz MAS using a triple-resonance HCN 1.3 mm probe. The temperature of the VT gas flow was set to 230 K, which roughly corresponds to a sample temperature of 300 K. 90°-pulses were 2.33 μs (107 kHz) for ^1^H, 2.75 μs (90 kHz) for ^13^C and 6.3 μs (40 kHz) for ^15^N.
+
+
 
 | experiment  | ^13^C aq (ms) | ^15^N aq (ms) | scans | duration |
 |-------------|--------------:|--------------:|------:|---------:|
