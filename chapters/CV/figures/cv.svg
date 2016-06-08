@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="156.55211mm"
-   height="140.30417mm"
-   viewBox="0 0 554.7122 497.14076"
+   height="144.25528mm"
+   viewBox="0 0 554.7122 511.14076"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -25,14 +25,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="114.43199"
-     inkscape:cy="354.83996"
+     inkscape:zoom="2.8"
+     inkscape:cx="159.6756"
+     inkscape:cy="129.57158"
      inkscape:document-units="px"
-     inkscape:current-layer="g4750"
+     inkscape:current-layer="g4779"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1043"
+     inkscape:window-width="1680"
+     inkscape:window-height="1013"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -129,7 +129,7 @@
          id="tspan4144-6">Education</tspan></text>
     <g
        id="g4738"
-       transform="matrix(0.93200258,0,0,0.93200258,0.8581913,-44.586344)">
+       transform="matrix(0.93200258,0,0,0.93200258,0.8581913,-30.586344)">
       <text
          sodipodi:linespacing="125%"
          id="text4136-4-8"
@@ -191,18 +191,25 @@
            y="198.71684"
            x="213.62454"
            sodipodi:role="line"><tspan
-   id="tspan4445"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Bold'">Ph.D. project</tspan><tspan
-   id="tspan4439"
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic'"> Final Title </tspan>in the group of</tspan><tspan
-           id="tspan4443"
+             id="tspan4445"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Bold'">Ph.D. project</tspan><tspan
+             id="tspan4439"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic'"> Structure Determination of Outer Membrane Protein G</tspan></tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
            y="214.34184"
+           x="213.62454"
+           sodipodi:role="line"
+           id="tspan4207"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Italic'"
+   id="tspan4209">    in Native Lipids by Solid-State NMR </tspan>in the group of</tspan><tspan
+           id="tspan4443"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
+           y="229.96684"
            x="213.62454"
            sodipodi:role="line">    Prof. Dr. Hartmut Oschkinat at the Leibniz-Institut für </tspan><tspan
            id="tspan4364-3"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
-           y="229.96684"
+           y="245.59184"
            x="213.62454"
            sodipodi:role="line">    Moleculare Pharmakologie (Berlin, Germany)</tspan></text>
       <text
@@ -220,7 +227,7 @@
     </g>
     <g
        id="g4750"
-       transform="matrix(0.93200258,0,0,0.93200258,0.8581913,-67.590971)">
+       transform="matrix(0.93200258,0,0,0.93200258,0.8581913,-53.590971)">
       <text
          sodipodi:linespacing="125%"
          id="text4136-1-7-3"
@@ -252,22 +259,22 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:11.65003204px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="12.795691"
-       y="313.32877"
+       y="327.32877"
        id="text4136-1-9"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="12.795691"
-         y="313.32877"
+         y="327.32877"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Bold'"
          id="tspan4144-6-0">Research Interships</tspan><tspan
          sodipodi:role="line"
          x="12.795691"
-         y="327.8913"
+         y="341.8913"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella Bold'"
          id="tspan4533">during studies</tspan></text>
     <g
        id="g4757"
-       transform="matrix(0.93200258,0,0,0.93200258,0.8581913,-109.85096)">
+       transform="matrix(0.93200258,0,0,0.93200258,0.8581913,-95.85096)">
       <text
          sodipodi:linespacing="125%"
          id="text4136-4-8-3-5"
@@ -314,7 +321,7 @@
     </g>
     <g
        id="g4768"
-       transform="matrix(0.93200258,0,0,0.93200258,0.8581913,-130.60485)">
+       transform="matrix(0.93200258,0,0,0.93200258,0.8581913,-116.60485)">
       <text
          sodipodi:linespacing="125%"
          id="text4136-4-8-3-5-1"
@@ -361,7 +368,7 @@
     </g>
     <g
        id="g4779"
-       transform="matrix(0.93200258,0,0,0.93200258,0.8581913,-151.33543)">
+       transform="matrix(0.93200258,0,0,0.93200258,0.8581913,-137.33543)">
       <text
          sodipodi:linespacing="125%"
          id="text4136-1-7-8-2-9"
@@ -373,7 +380,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella'"
            y="679.53607"
            x="12.80844"
-           sodipodi:role="line">October 2007 - January 2008</tspan></text>
+           sodipodi:role="line">February 2006 - April 2006</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text4136-4-8-3-5-1-0"
