@@ -227,7 +227,15 @@ The solid state NMR structure is very similar to the solution NMR structure. The
 ![Overlay of aligned average solid-state (blue) and solution (red) NMR structures. The largest difference between the two structures is shown in the foreground. The beta-sheet is extended further in the solution model. An additional two long range hydrogen bonds are present in the solution structure. A stretch of three residues (191 Thr, 192 Gln, 193 Glu) showing these connections to the preceding strand in the solution spectra could not be assigned in the solid state. Figure produced using pymol [@delano_pymol_2002].](figures/solid_vs_solution2.png){#fig:solid_vs_solution}
 
 
+## Materials and Methods
 
+### Sample preparation
+
+The sample used was prepared as described in chapter 3 at pH 6.3 with 100% back-exchanged protons, with the only exception that the polar lipid extract (Avanti Polar Lipids) was used instead of the total lipid extract. No differences were observed between the ^1^H-^15^N and hCANH spectra recorded on this new sample and the sample used for the assignment experiments. 
+
+### NMR experiments
+
+Experiments were recorded on an Bruker Avance III 1000 MHz ^1^H larmor frequency spectrometer at 60 kHz MAS using a triple-resonance HCN 1.3 mm probe. The temperature of the VT gas flow was set to 230 K, which roughly corresponds to a sample temperature of 300 K. 90°-pulses were 2.5 μs (100 kHz) for ^1^H, 3.5 μs (71 kHz) for ^13^C and 5.5 μs (45 kHz) for ^15^N. CP steps from ^1^H to ^15^N had a duration of 700 μs. The ^1^H spin lock field amplitude was centered on 8 kHz with a 30° linear ramp. The ^15^N spin lock field had a constant amplitude of 32 kHz. The CP steps from ^15^N to ^1^H had a duration of 300 μs. The ^1^H spin lock field amplitude was centered on 5 kHz with a 30° linear ramp. The ^15^N spin lock field had a constant amplitude of 34 kHz. Water suppresion was achieved usingthe MISSISSIPI sequence without homospoil gradients. Swept-low-power TPPM was used for ^1^H decoupling and WALTZ-16 for ^15^N and ^13^C decoupling duing ^1^H-detection. All spectra were acquired using the States-TPPI in the direct dimensions to obtain pure-phase line shapes and phase discrimination. For the hNHH experiment the acquisition times in the indirect dimensions were set to 4.7 and 12.1 ms for ^1^H and ^15^N, respectively, with 8 scans per increment and a total experiment time of 3 days. For the hNhhNH experiment, the aquisition time for the ^15^N dimension aqcuired before the through-space transfer, the acquisition time was set to 15.4 ms. The aqcuisition time of the second ^15^N dimension, that corresponds to the ^15^N in the same amide group as the correlated ^1^H, was set to 10.7 ms. The number of scans per increment was 16 and the total experiment time 7 days. The hCANH measured for calibration of the chemical shifts was recorded in the same fasion as descried in chapter 3.
 
 
 
