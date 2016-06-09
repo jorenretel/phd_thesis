@@ -29,7 +29,7 @@ The combination of lipids does not only vary between different membranes but als
 
 Besides lipids, the membrane consists for a large part of membrane proteins. In mouse liver the fraction of protein by weight is about 45% and in *E. coli* this is 75% [@lehninger_lehninger_2008]. Some membrane proteins are outside of membrane and are anchored to the membrane with a covalently bound lipid tag or hydrophobic α-helix. These proteins are known as peripheral or monotopic membrane proteins. Others span the entire bilayer and have parts of the proteins stick out on both sides of the membrane. These proteins are called integral membrane proteins. In turn, there are two large classes of integral membrane proteins: proteins consistent of multiple membrane spanning α-helices and proteins that form β-barrels. The reason that all integral membrane proteins have one of these two topologies is that it minimizes the number of unfulfilled hydrogen bonds. This is very important, because for membrane proteins there is a high energy penalty for unfulfilled hydrogen bonds within the protein, since there are virtually no hydrogen bond partners present in the non-polar part of the membrane [@white_how_2001]. Therefore all CO and NH pairs in the protein backbone should hydrogen bond within the protein itself, leaving only these two basic topologies. β-sheets naturally roll up into closed barrels, otherwise non-hydrogen bonded residues would be present on both extremes of the sheet.
 
-![Biological membrane with embedded proteins.](figures/membrane_illustration.png){#fig:membrane_illustration}
+![Biological membrane with embedded proteins. Figure provided by Dr. Barth-Jan van Rossum.](figures/membrane_illustration.png){#fig:membrane_illustration}
 
 
 
