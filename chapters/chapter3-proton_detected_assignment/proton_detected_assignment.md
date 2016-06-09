@@ -34,29 +34,6 @@ This set of spectra is conceptually very similar to the basic set of spectra use
 
 In comparison to ^13^C-detected experiments, the assignment strategy is enormously simplified. As discussed before, in the 3-dimensional ^13^C detected experiments NCACX and NCOCX, the pivot along which a strip representing one spin system is connected to its sequential neighbor is the backbone ^15^N chemical shift. In the set of ^1^H-detected experiments, this pivot is dispersed by the chemical shift of its directly bound proton. Therefore, it is in most cases clear which peaks from the 6 experiments belong to one ^1^H-^15^N combination. As a results, before any strips have been matched, the possible amino acid types of two sequential spin systems can be deduced. In the ^13^C-detected 3D experiments at least two strips have to be matched to do the same. When considering a strip in the NCACX one can not tell just on the basis of the ^15^N chemical shift which NCOCX strip is connecting to its N-terminal neighbor. The two strips have to match based on corresponding peaks in both strips. Only after this match has been done, the possible residue types of two sequential spin systems can be deduced. Because of the reduced overlap in the ^1^H-detected strips, it is often possible for multiple strips to be matched with a relatively high degree of certainty before the stretch of connected spin systems has been matched to a specific sequence of the protein.
 
-## Materials and methods
-
-### Sample preparation
-
-Samples were prepared in the same way as the fully protonated samples used for the ^13^C-detected experiments described in previous chapter, with a few exceptions [@hiller_solidstate_2005]. The M9 minimal medium was perdeuterated. For the samples used to record the hCANH and hcoCAcoNH shown here the refolding buffer contained a mixture of 70:30 H~2~O:D~2~O. For the samples used in all other experiments, the refolding buffer did not contain D~2~O. Reconstitution in lipid bilayers of all samples was performed in buffer containing H~2~O. After reconstitution, the samples were pelleted and incubated in an MES buffer with pH 6.3. In the case of the hCANH and hcoCAcoNH samples, this buffer contained a mixture of 70:30 H~2~O:D~2~O. All samples were reconstituted in total lipid extract (Avanti Polar Lipids), except for the sample used to measure distance restraints (see chapter 6). For this sample, the polar lipid extract (Avanti Polar Lipids) was used. No differences where observed in ^1^H-^15^N and hCANH spectra recorded on this sample and the other samples.
-
-### NMR experiments
-
-Experiments were recorded on an Bruker Avance III 800 MHz ^1^H larmor frequency spectrometer at 60 kHz MAS using a triple-resonance HCN 1.3 mm probe. The temperature of the VT gas flow was set to 230 K, which roughly corresponds to a sample temperature of 300 K. 90°-pulses were 2.33 μs (107 kHz) for ^1^H, 2.75 μs (90 kHz) for ^13^C and 6.3 μs (40 kHz) for ^15^N. H-CO and H-CO CP conditions were equal with a contact time of 2250 μs, the ^1^H spin lock pulse was centered at 87 kHz with a 30° ramp and the ^13^C spin lock pulse had a constant amplitude of 29 kHz. Also CO-N and CA-N CP conditions were identical with a contact time of 12 ms and a constant amplitude spin lock pulse of 14 kHz on ^13^C and a tangent-modulated amplitude spin lock centered at 14 kHz on ^15^N.  ^15^N-^^1^H CP was achieved using a contact time of 900 μs. The ^1^H spin lock pulse was centered at 81 kHz with a 30° ramp. The spin lock pulse on ^15^N had a constant amplitude of 39 kHz. Half echo delays τ were set to 4.7 ms for scalar transfers between Cα and CO and 7.2 ms for scalar transfers between Cα and Cβ. Selective π-pulses used during the second half of the Cα-CO in the hcaCBcacoNH and hCOcaNH experiments were Gaussian-cascade Q3 pulses. The pulses on CO were 350 μs with an amplitude of 1.25 kHz. The pulse on Cα was 1 ms with an amplitude of 0.14 kHz. Selective Q3 pulses during the indirect aquisition of ^13^C in the hCANH, hCONH, hCOcaNH an hcoCAcoNH had a duration of 350 μs and an amplitude of 1.01 kHz, both for CO- and Cα-selective pulses. Selective Q3 π-pulses on the entire aliphatic region during the Cα-Cβ scalar transfer blocks in the hcaCBcaNH and hcaCBcacoNH experiments were 200 μs with an amplitude of 3.37 kHz. Water suppresion was achieved usingthe MISSISSIPI sequence without homospoil gradients. Swept-low-power TPPM was used for ^1^H decoupling and WALTZ-16 for ^15^N and ^13^C decoupling duing ^1^H-detection. All spectra were acquired using the States-TPPI in the direct dimensionsto obtain pure-phase line shapes and phase discrimination. Table {@tbl:proton_detected_aquisition_times} lists aquisition times the indirect ^13^C and ^15^N dimensions and total duration of the experiments.
-
-
-
-| experiment  | ^13^C aq (ms) | ^15^N aq (ms) | scans | duration |
-|-------------|--------------:|--------------:|------:|---------:|
-| hCANH       |  8.6          | 14.4          | 12    | 1d15h    |
-| hcoCAcoNH   |  6.6          | 14.4          | 36    | 3d18h    |
-| hcaCBcaNH   |  3.0          |  5.           | 64    | 2d20h    |
-| hcaCBcacoNH |  3.0          |  5.4          | 128   | 5d23h    |
-| hCONH       | 10.0          | 14.0          | 8     |   16h    |
-| hCOcaNH     | 10.0          |  9.8          | 64    | 3d15h    |
-
-Table: Acquisition parameters for the six ^1^H-detected experiments used for the assignment of OmpG.{#tbl:proton_detected_aquisition_times}
-
 
 
 ## Results and discussion
@@ -114,3 +91,29 @@ Another interesting observation that can be made by looking plots in figure {@fi
 ## Conclusion
 
 The introduction of ^1^H-detected experiments highly simplified the assignment procedure for OmpG. The addition of the ^1^H dimension adds enough dispersion to generate unique strips for most residues. The strip based approach is intuitive and because there is one strip per residue it is easier to estimate how much of the total residue sequence is represented by the spectra than in ^13^C-^13^C correlations. It became clear that the signals for a large part of the sequence are missing. Whereas there is sufficient signal intensity in the middle of the assigned stretches, the signal intensity decreases towards the extremities of these stretches. A correlation between the intensities of the peaks in the hcaCBcaNH and hcaCBcacoNH measuring the same Cβ chemical shift (but other ^1^H and ^15^N chemical shifts) indicates that most signal is lost during the evolution of the scalar coupling in the ^13^C-^13^C transfer steps and not during the CP steps.
+
+
+
+## Materials and methods
+
+### Sample preparation
+
+Samples were prepared in the same way as the fully protonated samples used for the ^13^C-detected experiments described in previous chapter, with a few exceptions [@hiller_solidstate_2005]. The M9 minimal medium was perdeuterated. For the samples used to record the hCANH and hcoCAcoNH shown here the refolding buffer contained a mixture of 70:30 H~2~O:D~2~O. For the samples used in all other experiments, the refolding buffer did not contain D~2~O. Reconstitution in lipid bilayers of all samples was performed in buffer containing H~2~O. After reconstitution, the samples were pelleted and incubated in an MES buffer with pH 6.3. In the case of the hCANH and hcoCAcoNH samples, this buffer contained a mixture of 70:30 H~2~O:D~2~O. All samples were reconstituted in total lipid extract (Avanti Polar Lipids), except for the sample used to measure distance restraints (see chapter 6). For this sample, the polar lipid extract (Avanti Polar Lipids) was used. No differences where observed in ^1^H-^15^N and hCANH spectra recorded on this sample and the other samples.
+
+### NMR experiments
+
+Experiments were recorded on an Bruker Avance III 800 MHz ^1^H larmor frequency spectrometer at 60 kHz MAS using a triple-resonance HCN 1.3 mm probe. The temperature of the VT gas flow was set to 230 K, which roughly corresponds to a sample temperature of 300 K. 90°-pulses were 2.33 μs (107 kHz) for ^1^H, 2.75 μs (90 kHz) for ^13^C and 6.3 μs (40 kHz) for ^15^N. H-Cα and H-CO CP conditions had a contact time of 2250 μs, with the ^1^H spin lock centered at 87 kHz with a 30% ramp and the ^13^C spin lock at a constant amplitude of 29 kHz. CO-N and CA-N CP conditions had a contact time of 12 ms and a constant amplitude spin lock of 14 kHz on ^13^C and a tangent-modulated amplitude spin lock centered at 14 kHz on ^15^N.  ^15^N-^1^H CP was achieved using a contact time of 900 μs. The ^1^H spin lock was centered at 81 kHz with a 30° ramp. The spin lock on ^15^N had a constant amplitude of 39 kHz. Half echo delays τ were set to 4.7 ms for scalar transfers between Cα and CO and 7.2 ms for scalar transfers between Cα and Cβ. Selective π-pulses used during the second half of the Cα-CO in the hcaCBcacoNH and hCOcaNH experiments were Gaussian-cascade Q3 pulses [@emsley_gaussian_1990]. The pulses on CO were 350 μs with an amplitude of 1.25 kHz. The pulse on Cα was 1 ms with an amplitude of 0.14 kHz. Selective Q3 pulses during the indirect acquisition of ^13^C in the hCANH, hCONH, hCOcaNH an hcoCAcoNH had a duration of 350 μs and an amplitude of 1.01 kHz, for both CO- and Cα-selective pulses. Selective Q3 π-pulses on the entire aliphatic region during the Cα-Cβ scalar transfer blocks in the hcaCBcaNH and hcaCBcacoNH experiments were 200 μs with an amplitude of 3.37 kHz. Water suppression was achieved using the MISSISSIPI sequence without homospoil gradients [@zhou_highperformance_2008]. Swept-low-power TPPM was used for ^1^H decoupling and WALTZ-16 for ^15^N and ^13^C decoupling duing ^1^H-detection [@lewandowski_anisotropic_2010][@shaka_improved_1983]. All spectra were acquired using States-TPPI in the direct dimensions to obtain pure-phase line shapes and phase discrimination [@marion_rapid_1989]. Table {@tbl:proton_detected_aquisition_times} lists acquisition times in the indirect ^13^C and ^15^N dimensions and total duration of the experiments.
+
+
+
+| experiment  | ^13^C aq (ms) | ^15^N aq (ms) | scans | duration |
+|-------------|--------------:|--------------:|------:|---------:|
+| hCANH       |  8.6          | 14.4          | 12    | 1d15h    |
+| hcoCAcoNH   |  6.6          | 14.4          | 36    | 3d18h    |
+| hcaCBcaNH   |  3.0          |  5.0          | 64    | 2d20h    |
+| hcaCBcacoNH |  3.0          |  5.4          | 128   | 5d23h    |
+| hCONH       | 10.0          | 14.0          | 8     |   16h    |
+| hCOcaNH     | 10.0          |  9.8          | 64    | 3d15h    |
+
+Table: Acquisition parameters for the six ^1^H-detected experiments used for the assignment of OmpG.{#tbl:proton_detected_aquisition_times}
+
