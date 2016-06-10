@@ -3,7 +3,7 @@
 \appendix
 \phantomsection
 \addcontentsline{toc}{part}{Appendices}
-\newgeometry{left=1cm, right=1cm}
+\newgeometry{left=2cm, right=2cm}
 \fancyhead[RE]{APPENDIX \thechapter}
 
 Chemical Shifts

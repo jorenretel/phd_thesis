@@ -279,13 +279,7 @@ Doctorate studies where conducted from 2010 untill 2016 under the supervision of
 \\%
 Date of defence: \\%
 
-\cleardoublepage
-\thispagestyle{empty}
-    \null\vspace{\stretch {4}}
-        \begin{flushright}
-                for Beatriz
-        \end{flushright}
-\vspace{\stretch{2}}\null
+
 
 %\maketitle
 $endif$
