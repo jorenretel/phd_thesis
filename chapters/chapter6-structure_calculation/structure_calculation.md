@@ -64,7 +64,7 @@ As detailed before there are in principle four cross-peaks forming a network tha
 
 ### Distance classes
 
-In the dipolar-based transfer experiments used in solid-state NMR distances can not be extracted from peak volumes with the same amount of precision as in solution NMR [TODO:cite who?]. Therefor a very crude division into two upper bound distance classes was done. Peaks were sorted from high to low intensity. Starting from the most intense peaks in the list, peaks were classified to correspond to a short distance (3.5 Å) until the first peak was encountered that was not the largest in its strip (and therefore not corresponding to the shortest over-the-strand distance). All peaks with a intensity equal or lower to this peak are given a more generous upper bound of 5.5 Å. Lower bounds were set to 1.0 Å in both cases.
+In the dipolar-based transfer experiments used in solid-state NMR distances can not be extracted from peak volumes with the same amount of precision as in solution NMR. Therefor a very crude division into two upper bound distance classes was done. Peaks were sorted from high to low intensity. Starting from the most intense peaks in the list, peaks were classified to correspond to a short distance (3.5 Å) until the first peak was encountered that was not the largest in its strip (and therefore not corresponding to the shortest over-the-strand distance). All peaks with a intensity equal or lower to this peak are given a more generous upper bound of 5.5 Å. Lower bounds were set to 1.0 Å in both cases.
 
 
 
